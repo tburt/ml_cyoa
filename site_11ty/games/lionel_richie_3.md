@@ -1,5 +1,5 @@
 ---
-title: Lionel Richie Adventure III - Mayhem
+title: Lionel Richie Adventure III - Choice
 description: The following is a table of data for a choose-your-own-adventure book set in a town where your are desperately trying to buy the new Lionel Richie CD, but every shop seems to be sold out.
 date: 2022-08-11
 tags: 

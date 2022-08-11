@@ -21,7 +21,7 @@
 	</entry>
 	
 	<entry>
-		<title>Lionel Richie Adventure III - Mayhem</title>
+		<title>Lionel Richie Adventure III - Choice</title>
 		<link href="https://example.com/ml_cyoa/games/lionel_richie_3/"/>
 		<updated>2022-08-11T00:00:00Z</updated>
 		<id>https://example.com/ml_cyoa/games/lionel_richie_3/</id>
@@ -41,6 +41,14 @@
 		<link href="https://example.com/ml_cyoa/games/lionel_richie_1/"/>
 		<updated>2022-08-11T00:00:00Z</updated>
 		<id>https://example.com/ml_cyoa/games/lionel_richie_1/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>The Winter Squirrel</title>
+		<link href="https://example.com/ml_cyoa/games/squirrel/"/>
+		<updated>2022-08-10T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/squirrel/</id>
 		<content type="html"></content>
 	</entry>
 	

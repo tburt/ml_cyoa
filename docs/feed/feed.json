@@ -18,7 +18,7 @@
     },{
       "id": "https://example.com/ml_cyoa/games/lionel_richie_3/",
       "url": "https://example.com/ml_cyoa/games/lionel_richie_3/",
-      "title": "Lionel Richie Adventure III - Mayhem",
+      "title": "Lionel Richie Adventure III - Choice",
       "content_html": "",
       "date_published": "2022-08-11T00:00:00Z"
     },{
@@ -33,6 +33,12 @@
       "title": "Lionel Richie Adventure I - Taking Part",
       "content_html": "",
       "date_published": "2022-08-11T00:00:00Z"
+    },{
+      "id": "https://example.com/ml_cyoa/games/squirrel/",
+      "url": "https://example.com/ml_cyoa/games/squirrel/",
+      "title": "The Winter Squirrel",
+      "content_html": "",
+      "date_published": "2022-08-10T00:00:00Z"
     },{
       "id": "https://example.com/ml_cyoa/games/sandwich_2/",
       "url": "https://example.com/ml_cyoa/games/sandwich_2/",

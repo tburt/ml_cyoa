@@ -30,6 +30,10 @@ code {
     line-height: 1.8;
 }
 
+.game_play_button:hover {
+    cursor: pointer;
+}
+
 .game_num_entries {
     display: inline-flex;
     justify-content: center;
@@ -98,4 +102,8 @@ code {
     border-radius: 0.25em; /* 3px /12 */
     text-decoration: none;
     line-height: 1.8;
+}
+
+.game_raw_button:hover {
+    cursor: pointer;
 }

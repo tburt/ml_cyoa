@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Winter Squirrel</title>
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
+    <meta name="description" content="The following is a table of data for an ambitious choose-your-own-adventure book where a sad squirrel is making a last attempt to find a legendary nut before he dies.">
+    <link rel="stylesheet" href="/ml_cyoa/css/index.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/game_player.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.xml" type="application/atom+xml" title="Machine Adventures">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.json" type="application/json" title="Machine Adventures">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/ml_cyoa/js/game_player.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/ml_cyoa/">Machine Adventures</a></h1>
+      <ul class="nav">
+        <li class="nav-item "><a href="/ml_cyoa/">Home</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/tags/">Tags</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/about/">About</a></li>
+      </ul>
+    </header>
+
+    <main  class="tmpl-post">
+      <h1>The Winter Squirrel</h1>
+
+<time datetime="2022-08-10">10 Aug 2022</time><a href="/ml_cyoa/tags/games/" class="post-tag animated-rainbow-hover">games</a>
+
+<p class="prompt_text"><b>GPT-3 Prompt: </b>The following is a table of data for an ambitious choose-your-own-adventure book where a sad squirrel is making a last attempt to find a legendary nut before he dies. Each row represents one page. Each page has two or three different choices with complex decisions to be made. The game is won when either the legendary nut is found, or lost if you die. In the book the text is very descriptive and full of hyperbole. It should not be possible to get stuck in a loop. The choices can involve interacting with items, navigating or talking to characters. All the pages should be very different to each other. At least one page ends with the reader winning. If a page has no choices that link to its page number it should be empty and have no choices. The book is around 20 pages long.</p>
+
+
+
+<div id="game-content"></div>
+<script>
+    game = new CYOAPlayer($("#game-content"));
+    game.set_game(parse_text_game('|1|The Quest Begins|You are a sad squirrel. Winter is coming and you have not found a single nut. You are getting weaker by the day and know that you must find a nut soon or you will die. You have heard rumours of a legendary nut that is so big it could feed you for a whole winter. The legend says that the nut is hidden somewhere in the forest. You decide to go on one last quest to find the nut before you die. As you enter the forest you see a path leading through the trees. To your left is a small stream. Do you follow the path or go to the stream?|Follow the path|2|Go to the stream|3|^|2|The Path|You follow the path through the forest. After walking for a while you come to a crossroads. One path leads uphill and the other downhill. Do you take the path uphill or downhill?|Up hill|4|Down hill|5|^|3|The Stream|You follow the stream through the forest. After walking for a while you come to a crossroads. One path leads uphill and the other downhill. Do you take the path uphill or downhill?|Up hill|4|Down hill|5|^|4|The Cave|You take the path uphill and come to a cave. You enter the cave and see a big bear sleeping in the middle of the cave. Do you try to steal the bear\'s food or run away?|Try to steal the food|6|Run away|7|^|5|The Clearing|You take the path downhill and come to a clearing. In the clearing is a small hut. Do you go into the hut or stay in the clearing? |Go into hut|8|Stay in clearing|9|^|6|The Bear wakes up|You try to steal the bear\'s food and he wakes up. The bear is angry and attacks you. You die.|^|7|You escape the cave|You run away from the bear and escape the cave. You find yourself back at the crossroads. Do you take the path uphill or downhill? |Up hill|4|Down hill|5|^|8|Inside the hut|You go into the hut and see an old woman sitting by the fire. do you talk to the woman or leave the hut? |Talk to the woman|10|Leave the hut|11|^|9|You hear a noise|You stay in the clearing and hear a noise from the other side of the clearing. do you investigate the noise or ignore it? |Investigate the noise|12|Ignore it|13|^|10|The old woman is friendly|The old woman is friendly and tells you that she has not seen a nut like that for many years. she tells you to go east if you want to find the nut. You leave the hut and find yourself back at the crossroads. Do you take the path uphill or downhill? |Up hill|4|Down hill|5|^|11|You leave the hut|You leave the hut and find yourself back at the crossroads. Do you take the path uphill or downhill? |Up hill|4|Down hill|5|^|12|You find a nut!|You investigate the noise and find the legendary nut! You have enough food to last the winter. You win!|^|13|You see a snake|You ignore the noise and see a snake. The snake bites you and you die.|'));
+</script>
+<hr>
+<div class="post-footer">
+  <div class="prev-post">&#9194; <a class="animated-rainbow-hover" href="/ml_cyoa/games/sandwich_2/">Sandwich Shop Adventure II</a></div>
+  <div class="next-post"><a class="animated-rainbow-hover" href="/ml_cyoa/games/lionel_richie_1/">Lionel Richie Adventure I - Taking Part</a> &#9193;</div>
+</div>
+
+    </main>
+
+    <footer>
+      <div>Machine Adventures</div>
+      <div class="footer-text">
+        © 2022 Machine Adventures, All rights reserved
+      </div>
+                    
+    
+            
+    </footer>
+
+  </body>
+</html>

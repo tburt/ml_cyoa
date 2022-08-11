@@ -32,6 +32,11 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/games/squirrel/</loc>
+    <lastmod>2022-08-10</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/games/lionel_richie_1/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
@@ -92,17 +97,17 @@
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/tags/theme-park/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/ml_cyoa/tags/raw-experience/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/ml_cyoa/tags/infinite-loop/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/theme-park/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
   
