@@ -1,0 +1,101 @@
+code {
+    word-wrap: break-word;
+}
+
+.game_container {
+    margin: 0em;
+}
+
+.prompt_text {
+    color: #cce;
+}
+
+.game_play_button {
+    /* display: inline-block; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.4em; /* 12px /16 */
+    padding: 0.08333333333333em 0.66em;
+    margin-top: 0.5em; /* 6px /12 */
+    margin-bottom: 0.5em; /* 6px /12 */
+    color: var(--white);
+    /* border: 1px solid var(--gray); */
+    background-color: orange;
+    border-radius: 0.25em; /* 3px /12 */
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.game_num_entries {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.entry {
+    margin: 20px;
+}
+
+.entry_id {
+    margin: 1em 0em 1em 0em;
+    display: inline;
+}
+
+.entry_content {
+   margin: 1em;
+   letter-spacing: .05rem;
+   color: #cce;
+}
+
+.entry_title {
+    margin: 1em 0em 1em 0.5em;
+    display: inline;
+    /* font-size: 1.4em; */
+    /* font-weight:  bold; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+.entry_actions_text {
+    margin: 1em;
+    font-weight: bold;
+    color: #bbe;
+}
+
+.entry_action {
+    margin: 1em 1em 1em 2em;
+    color: #ddd;
+}
+
+.entry_action:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.end_of_game {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.game_raw_button {
+    /* display: inline-block; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.0em; /* 12px /16 */
+    padding: 0.08333333333333em 0.66em;
+    margin-top: 3em; /* 6px /12 */
+    margin-bottom: 0.5em; /* 6px /12 */
+    color: var(--white);
+    /* border: 1px solid var(--gray); */
+    background-color: var(--darkgray);
+    border-radius: 0.25em; /* 3px /12 */
+    text-decoration: none;
+    line-height: 1.8;
+}

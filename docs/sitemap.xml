@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2022-08-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/games/chocolate/</loc>
+    <lastmod>2022-08-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/games/sandwich_1/</loc>
+    <lastmod>2022-08-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/games/sandwich_2/</loc>
+    <lastmod>2022-08-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/games/shitulator/</loc>
+    <lastmod>2022-08-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page-list/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/games/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/wrong/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/theme-park/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+</urlset>

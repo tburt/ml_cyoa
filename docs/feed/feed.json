@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Machine Adventures",
+  "language": "en",
+  "home_page_url": "https://example.com/",
+  "feed_url": "https://example.com/feed/feed.json",
+  "description": "GPT-3 Generated Choose Your Own Adventures",
+  "author": {
+    "name": "Thep Burt",
+    "url": "https://theoburt.com"
+  },
+  "items": [{
+      "id": "https://example.com/games/shitulator/",
+      "url": "https://example.com/games/shitulator/",
+      "title": "Riding the Shitulator",
+      "content_html": "",
+      "date_published": "2022-08-10T00:00:00Z"
+    },{
+      "id": "https://example.com/games/sandwich_2/",
+      "url": "https://example.com/games/sandwich_2/",
+      "title": "Sandwich Shop Adventure II",
+      "content_html": "",
+      "date_published": "2022-08-10T00:00:00Z"
+    },{
+      "id": "https://example.com/games/sandwich_1/",
+      "url": "https://example.com/games/sandwich_1/",
+      "title": "Sandwich Shop Adventure I",
+      "content_html": "",
+      "date_published": "2022-08-10T00:00:00Z"
+    },{
+      "id": "https://example.com/games/chocolate/",
+      "url": "https://example.com/games/chocolate/",
+      "title": "The Chocolate Factory",
+      "content_html": "",
+      "date_published": "2022-08-10T00:00:00Z"
+    }
+  ]
+}

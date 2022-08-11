@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Machine Adventures</title>
+	<subtitle>GPT-3 Generated Choose Your Own Adventures</subtitle>
+	
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
+	<updated>2022-08-10T00:00:00Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Thep Burt</name>
+		<email>na@na.com</email>
+	</author>
+	
+	<entry>
+		<title>Riding the Shitulator</title>
+		<link href="https://example.com/games/shitulator/"/>
+		<updated>2022-08-10T00:00:00Z</updated>
+		<id>https://example.com/games/shitulator/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Sandwich Shop Adventure II</title>
+		<link href="https://example.com/games/sandwich_2/"/>
+		<updated>2022-08-10T00:00:00Z</updated>
+		<id>https://example.com/games/sandwich_2/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Sandwich Shop Adventure I</title>
+		<link href="https://example.com/games/sandwich_1/"/>
+		<updated>2022-08-10T00:00:00Z</updated>
+		<id>https://example.com/games/sandwich_1/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>The Chocolate Factory</title>
+		<link href="https://example.com/games/chocolate/"/>
+		<updated>2022-08-10T00:00:00Z</updated>
+		<id>https://example.com/games/chocolate/</id>
+		<content type="html"></content>
+	</entry>
+</feed>

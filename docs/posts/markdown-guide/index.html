@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Guide</title>
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
+    <meta name="description" content="Sample markdown syntax">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/game_player.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Machine Adventures">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Machine Adventures">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/game_player.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Machine Adventures</a></h1>
+      <ul class="nav">
+        <li class="nav-item "><a href="/">Home</a></li>
+        <li class="nav-item "><a href="/tags/">Tags</a></li>
+        <li class="nav-item "><a href="/about/">About</a></li>
+      </ul>
+    </header>
+
+    <main  class="tmpl-post">
+      <h1>Markdown Guide</h1>
+
+<time datetime="2021-08-05">05 Aug 2021</time><a href="/tags/guide/" class="post-tag animated-rainbow-hover">guide</a>
+
+<h1 id="h1-heading" tabindex="-1">h1 Heading <a class="direct-link" href="#h1-heading" aria-hidden="true">#</a></h1>
+<h2 id="h2-heading" tabindex="-1">h2 Heading <a class="direct-link" href="#h2-heading" aria-hidden="true">#</a></h2>
+<h3 id="h3-heading" tabindex="-1">h3 Heading <a class="direct-link" href="#h3-heading" aria-hidden="true">#</a></h3>
+<h4 id="h4-heading" tabindex="-1">h4 Heading <a class="direct-link" href="#h4-heading" aria-hidden="true">#</a></h4>
+<h5 id="h5-heading" tabindex="-1">h5 Heading <a class="direct-link" href="#h5-heading" aria-hidden="true">#</a></h5>
+<h6 id="h6-heading" tabindex="-1">h6 Heading <a class="direct-link" href="#h6-heading" aria-hidden="true">#</a></h6>
+<h2 id="horizontal-rules" tabindex="-1">Horizontal Rules <a class="direct-link" href="#horizontal-rules" aria-hidden="true">#</a></h2>
+<hr>
+<hr>
+<hr>
+<h2 id="emphasis" tabindex="-1">Emphasis <a class="direct-link" href="#emphasis" aria-hidden="true">#</a></h2>
+<p><em>This text will be italic</em><br>
+<em>This will also be italic</em></p>
+<p><strong>This text will be bold</strong><br>
+<strong>This will also be bold</strong></p>
+<p><em>You <strong>can</strong> combine them</em></p>
+<p><s>Strikethrough</s></p>
+<h2 id="blockquotes" tabindex="-1">Blockquotes <a class="direct-link" href="#blockquotes" aria-hidden="true">#</a></h2>
+<blockquote>
+<p>Blockquotes can be written like this</p>
+</blockquote>
+<h2 id="lists" tabindex="-1">Lists <a class="direct-link" href="#lists" aria-hidden="true">#</a></h2>
+<p>Sometimes you want numbered lists:</p>
+<ol>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ol>
+<p>Sometimes you want bullet points:</p>
+<ul>
+<li>Start a line with a star</li>
+<li>Profit!</li>
+</ul>
+<p>Alternatively,</p>
+<ul>
+<li>Dashes work just as well</li>
+<li>And if you have sub points, put two spaces before the dash or star:
+<ul>
+<li>Like this</li>
+<li>And this</li>
+</ul>
+</li>
+</ul>
+<h2 id="code" tabindex="-1">Code <a class="direct-link" href="#code" aria-hidden="true">#</a></h2>
+<p>Single line <code>var example = true</code></p>
+<p>Multiple lines</p>
+<pre><code>if (isAwesome){
+  return true
+}
+</code></pre>
+<p>And if you'd like to use syntax highlighting, include the language:</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">if</span> <span class="token punctuation">(</span>isAwesome<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<h2 id="tables" tabindex="-1">Tables <a class="direct-link" href="#tables" aria-hidden="true">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>row 1</td>
+<td>Lorem ipsum</td>
+</tr>
+<tr>
+<td>row 2</td>
+<td>Hello World</td>
+</tr>
+<tr>
+<td>row 3</td>
+<td>Markdown syntax</td>
+</tr>
+</tbody>
+</table>
+<p>Right aligned columns</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Option</th>
+<th style="text-align:right">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">row 1</td>
+<td style="text-align:right">Lorem ipsum</td>
+</tr>
+<tr>
+<td style="text-align:right">row 2</td>
+<td style="text-align:right">Hello World</td>
+</tr>
+<tr>
+<td style="text-align:right">row 3</td>
+<td style="text-align:right">Markdown syntax</td>
+</tr>
+</tbody>
+</table>
+<h2 id="links" tabindex="-1">Links <a class="direct-link" href="#links" aria-hidden="true">#</a></h2>
+<p><a href="https://github.com">Github</a></p>
+<h2 id="images" tabindex="-1">Images <a class="direct-link" href="#images" aria-hidden="true">#</a></h2>
+<p><img src="https://octodex.github.com/images/stormtroopocat.png" alt="stormtroopocat"></p>
+
+<hr>
+<div class="post-footer">
+  <div class="prev-post">&#9194; <a class="animated-rainbow-hover" href="/posts/fourthpost/">This is my fourth post.</a></div>
+  <div class="next-post"><a class="animated-rainbow-hover" href="/posts/features/">Features</a> &#9193;</div>
+</div>
+
+    </main>
+
+    <footer>
+      <div>Machine Adventures</div>
+      <div class="footer-text">
+        © 2022 Machine Adventures, All rights reserved
+      </div>
+                    
+    
+            
+    </footer>
+
+  </body>
+</html>
