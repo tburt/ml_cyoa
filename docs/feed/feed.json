@@ -10,26 +10,26 @@
     "url": "https://theoburt.com"
   },
   "items": [{
-      "id": "https://example.com/games/shitulator/",
-      "url": "https://example.com/games/shitulator/",
+      "id": "https://example.com/ml_cyoa/games/shitulator/",
+      "url": "https://example.com/ml_cyoa/games/shitulator/",
       "title": "Riding the Shitulator",
       "content_html": "",
       "date_published": "2022-08-10T00:00:00Z"
     },{
-      "id": "https://example.com/games/sandwich_2/",
-      "url": "https://example.com/games/sandwich_2/",
+      "id": "https://example.com/ml_cyoa/games/sandwich_2/",
+      "url": "https://example.com/ml_cyoa/games/sandwich_2/",
       "title": "Sandwich Shop Adventure II",
       "content_html": "",
       "date_published": "2022-08-10T00:00:00Z"
     },{
-      "id": "https://example.com/games/sandwich_1/",
-      "url": "https://example.com/games/sandwich_1/",
+      "id": "https://example.com/ml_cyoa/games/sandwich_1/",
+      "url": "https://example.com/ml_cyoa/games/sandwich_1/",
       "title": "Sandwich Shop Adventure I",
       "content_html": "",
       "date_published": "2022-08-10T00:00:00Z"
     },{
-      "id": "https://example.com/games/chocolate/",
-      "url": "https://example.com/games/chocolate/",
+      "id": "https://example.com/ml_cyoa/games/chocolate/",
+      "url": "https://example.com/ml_cyoa/games/chocolate/",
       "title": "The Chocolate Factory",
       "content_html": "",
       "date_published": "2022-08-10T00:00:00Z"
