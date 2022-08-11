@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Middleman’s Party</title>
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
+    <meta name="description" content="The following is a table of data for a choose-your-own-adventure book set in high school. Chris Middleman the most popular kid in school is having a crazy party at the weekend which you really want to get invited to...">
+    <link rel="stylesheet" href="/ml_cyoa/css/index.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/game_player.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.xml" type="application/atom+xml" title="Machine Adventures">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.json" type="application/json" title="Machine Adventures">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/ml_cyoa/js/game_player.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/ml_cyoa/">Machine Adventures</a></h1>
+      <ul class="nav">
+        <li class="nav-item "><a href="/ml_cyoa/">Home</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/tags/">Tags</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/about/">About</a></li>
+      </ul>
+    </header>
+
+    <main  class="tmpl-post">
+      <h1>Chris Middleman’s Party</h1>
+
+<time datetime="2022-08-10">10 Aug 2022</time><a href="/ml_cyoa/tags/games/" class="post-tag animated-rainbow-hover">games</a><a href="/ml_cyoa/tags/party/" class="post-tag animated-rainbow-hover">party</a>
+
+<p class="prompt_text"><b>GPT-3 Prompt: </b>The following is a table of data for a choose-your-own-adventure book set in high school. Chris Middleman the most popular kid in school is having a crazy party at the weekend which you really want to get invited to. Each row represents one page. Each page has two or three different choices. The game is won when you are invited to the party, or lost when Chris tells you that you can&#39;t come. In the book the text is very descriptive and written in exciting language. It should not be possible to get stuck in a loop. The choices can involve interacting with items, navigating or talking to characters. No page should have similar long page text to another page. At least one page ends with the reader winning. If a page has no choices that link to its page number it should be empty and have no choices.</p>
+
+
+
+<div id="game-content"></div>
+<script>
+    game = new CYOAPlayer($("#game-content"));
+    game.set_game(parse_text_game('|1|The Party|You hear that Chris Middleman is having a party this weekend and you really want to go. You know that if you don\'t get an invite you won\'t be able to get in. What do you do?|Call Chris|2|Wait by his locker|3|Start a petition|4|^|2|Asking Chris|You nervously approach Chris as he talks to his friends by his locker. You clear your throat to get his attention. He looks at you with a raised eyebrow. What do you say?|I heard you\'re having a party this weekend. Can I come?|5|Can I borrow your notes from last period?|6|Your breath smells bad. Have you been eating garlic again?|7|^|3|Waiting by the Locker|You wait by Chris\'s locker for a while but he doesn\'t show up. You start to feel a bit silly. What do you do?|Go home|8|Wait a bit longer|9|^|4|Starting a Petition|You start a petition to try and get Chris to let everyone into his party. You get lots of signatures. What do you do next?|Give the petition to Chris|10|Post it online|11|^|5|Chris\'s Response|Chris looks surprised that you would ask him such a thing. He looks you up and down then speaks.|You\'re not cool enough to come to my party.|12|^|6|Chris\'s Response|Chris looks at you like you\'re an idiot.|I don\'t have time for this.|13|^|7|Chris\'s Response|Chris steps away from you and holds his nose.|Ew, gross! No way!|14|^|8|The End|You go home and sulk. You lose.| | | | | |^|9|Chris\'s Response|Chris finally shows up and looks at you.|What are you doing here?|15|^|10|Chris\'s Response|Chris looks at the petition and then looks at you. He seems touched.|Okay, you can come.|16|^|11|Chris\'s Response|Chris sees the petition online and gets mad. He calls you.|You\'re not invited anymore!|17|^|12|The End|You go home and sulk. You lose.| | | | | |^|13|The End|You go home and sulk. You lose.| | | | | |^|14|The End|You go home and sulk. You lose.| | | | | |^|15|Chris\'s Response|Chris looks at you for a minute then sighs.|Fine, you can come.|18|^|16|The End|You win! You\'re invited to the party!| | | | | |^|17|The End|You go home and sulk. You lose.| | | | | |^|18|The End|You win! You\'re invited to the party!|'));
+</script>
+<hr>
+<div class="post-footer">
+  <div class="prev-post">&#9194; <a class="animated-rainbow-hover" href="/ml_cyoa/games/chocolate/">The Chocolate Factory</a></div>
+  <div class="next-post"><a class="animated-rainbow-hover" href="/ml_cyoa/games/sandwich_1/">Sandwich Shop Adventure I</a> &#9193;</div>
+</div>
+
+    </main>
+
+    <footer>
+      <div>Machine Adventures</div>
+      <div class="footer-text">
+        © 2022 Machine Adventures, All rights reserved
+      </div>
+                    
+    
+            
+    </footer>
+
+  </body>
+</html>

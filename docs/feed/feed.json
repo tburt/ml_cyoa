@@ -28,6 +28,12 @@
       "content_html": "",
       "date_published": "2022-08-10T00:00:00Z"
     },{
+      "id": "https://example.com/ml_cyoa/games/party_1/",
+      "url": "https://example.com/ml_cyoa/games/party_1/",
+      "title": "Chris Middleman’s Party",
+      "content_html": "",
+      "date_published": "2022-08-10T00:00:00Z"
+    },{
       "id": "https://example.com/ml_cyoa/games/chocolate/",
       "url": "https://example.com/ml_cyoa/games/chocolate/",
       "title": "The Chocolate Factory",
