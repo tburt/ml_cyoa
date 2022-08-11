@@ -2,9 +2,9 @@
   "title": "Machine Adventures",
   "url": "https://example.com/",
   "language": "en",
-  "description": "GPT-3 Generated Choose Your Own Adventures",
+  "description": "ML Generated Choose Your Own Adventures",
   "feed": {
-    "subtitle": "GPT-3 Generated Choose Your Own Adventures",
+    "subtitle": "ML Generated Choose Your Own Adventures",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
