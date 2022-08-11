@@ -10,6 +10,36 @@
     "url": "https://theoburt.com"
   },
   "items": [{
+      "id": "https://example.com/ml_cyoa/games/time_travel_1/",
+      "url": "https://example.com/ml_cyoa/games/time_travel_1/",
+      "title": "John Wanknot is Unstuck In Time",
+      "content_html": "",
+      "date_published": "2022-08-11T00:00:00Z"
+    },{
+      "id": "https://example.com/ml_cyoa/games/lionel_richie_4/",
+      "url": "https://example.com/ml_cyoa/games/lionel_richie_4/",
+      "title": "Lionel Richie Adventure IV - Mayhem",
+      "content_html": "",
+      "date_published": "2022-08-11T00:00:00Z"
+    },{
+      "id": "https://example.com/ml_cyoa/games/lionel_richie_3/",
+      "url": "https://example.com/ml_cyoa/games/lionel_richie_3/",
+      "title": "Lionel Richie Adventure III",
+      "content_html": "",
+      "date_published": "2022-08-11T00:00:00Z"
+    },{
+      "id": "https://example.com/ml_cyoa/games/lionel_richie_2/",
+      "url": "https://example.com/ml_cyoa/games/lionel_richie_2/",
+      "title": "Lionel Richie Adventure II - Taking Part",
+      "content_html": "",
+      "date_published": "2022-08-11T00:00:00Z"
+    },{
+      "id": "https://example.com/ml_cyoa/games/lionel_richie_1/",
+      "url": "https://example.com/ml_cyoa/games/lionel_richie_1/",
+      "title": "Lionel Richie Adventure I - The Twist",
+      "content_html": "",
+      "date_published": "2022-08-11T00:00:00Z"
+    },{
       "id": "https://example.com/ml_cyoa/games/shitulator/",
       "url": "https://example.com/ml_cyoa/games/shitulator/",
       "title": "Riding the Shitulator",

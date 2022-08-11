@@ -1,6 +1,6 @@
 ---
 title: The Chocolate Factory
-description: The following is a table of data for a choose-your-own-adventure book set in a chocolate factory...
+description: The following is a table of data for a choose-your-own-adventure book set in a chocolate factory.
 date: 2022-08-10
 order: 1000
 tags: 

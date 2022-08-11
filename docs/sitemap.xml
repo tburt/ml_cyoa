@@ -32,6 +32,31 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/games/lionel_richie_1/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/lionel_richie_2/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/lionel_richie_3/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/lionel_richie_4/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/time_travel_1/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/posts/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
@@ -57,6 +82,26 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/tags/lionel-richie/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/short/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/repetition/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/party/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/tags/wrong/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
@@ -72,7 +117,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/tags/party/</loc>
+    <loc>https://example.com/ml_cyoa/tags/time-travel/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
 </urlset>

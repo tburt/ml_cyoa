@@ -1,6 +1,6 @@
 ---
 title: Riding the Shitulator
-description: The following is a table of data for a choose-your-own-adventure book set in a theme park where you are trying to go on an exciting new ride called the Shitulator, but need to avoid the huge queues...
+description: The following is a table of data for a choose-your-own-adventure book set in a theme park where you are trying to go on an exciting new ride called the Shitulator, but need to avoid the huge queues.
 date: 2022-08-10
 tags: 
 - theme park

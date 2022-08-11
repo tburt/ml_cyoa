@@ -1,6 +1,6 @@
 ---
 title: Sandwich Shop Adventure I
-description: The following is a table of data for a choose-your-own-adventure book set in a sandwich shop. ...
+description: The following is a table of data for a choose-your-own-adventure book set in a sandwich shop.
 date: 2022-08-10
 order: 999
 tags: 

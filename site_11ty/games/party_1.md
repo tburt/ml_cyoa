@@ -1,6 +1,6 @@
 ---
 title: Chris Middleman’s Party
-description: The following is a table of data for a choose-your-own-adventure book set in high school. Chris Middleman the most popular kid in school is having a crazy party at the weekend which you really want to get invited to...
+description: The following is a table of data for a choose-your-own-adventure book set in high school. Chris Middleman the most popular kid in school is having a crazy party at the weekend which you really want to get invited to.
 date: 2022-08-10
 tags: 
 - party

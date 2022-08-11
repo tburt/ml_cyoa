@@ -5,12 +5,52 @@
 	
 	<link href="https://example.com/ml_cyoa/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2022-08-10T00:00:00Z</updated>
+	<updated>2022-08-11T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Thep Burt</name>
 		<email>na@na.com</email>
 	</author>
+	
+	<entry>
+		<title>John Wanknot is Unstuck In Time</title>
+		<link href="https://example.com/ml_cyoa/games/time_travel_1/"/>
+		<updated>2022-08-11T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/time_travel_1/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Lionel Richie Adventure IV - Mayhem</title>
+		<link href="https://example.com/ml_cyoa/games/lionel_richie_4/"/>
+		<updated>2022-08-11T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/lionel_richie_4/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Lionel Richie Adventure III</title>
+		<link href="https://example.com/ml_cyoa/games/lionel_richie_3/"/>
+		<updated>2022-08-11T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/lionel_richie_3/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Lionel Richie Adventure II - Taking Part</title>
+		<link href="https://example.com/ml_cyoa/games/lionel_richie_2/"/>
+		<updated>2022-08-11T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/lionel_richie_2/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Lionel Richie Adventure I - The Twist</title>
+		<link href="https://example.com/ml_cyoa/games/lionel_richie_1/"/>
+		<updated>2022-08-11T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/lionel_richie_1/</id>
+		<content type="html"></content>
+	</entry>
 	
 	<entry>
 		<title>Riding the Shitulator</title>
