@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    min-width: 300px;
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+#wrapper {
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: #eee;
+}
+
+#content {
+    padding: 2em 2em 2em 2em;
+}
+
+#side {
+    float: right;
+    width: 180px;
+    margin: 0;
+}
+
+#side .inner {
+    padding-top: 1px;
+    margin: 0 10px 10px 10px;
+}
+
+#footer {
+    margin-top: 10px;
+    clear: both;
+}
+
+#footer .inner {
+    margin: 10px;
+}
+
+.game_title {
+    font-size: 1.6em;
+    font-weight:  bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.game_date {
+margin: 0.5em 0 0.5em 0;
+}
+.game_description {
+    margin: 0.5em 0 1em 0;
+}
+
+.entry {
+    margin: 20px;
+}
+
+.entry_id {
+    margin: 1em 0em 1em 0em;
+    display: inline;
+}
+
+.entry_content {
+   margin: 1em;
+}
+
+.entry_title {
+    margin: 1em 0em 1em 0.5em;
+    display: inline;
+    font-size: 1.4em;
+    font-weight:  bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.entry_actions_text {
+    margin: 1em;
+    font-weight: bold;
+}
+
+.entry_action {
+    margin: 1em 1em 1em 2em;
+    color: darkslategrey;
+}
+
+.entry_action:hover {
+    color: orange;
+    cursor: pointer;
+}

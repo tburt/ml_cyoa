@@ -1,0 +1,21 @@
+{
+  "title": "Machine Adventures",
+  "url": "https://example.com/",
+  "language": "en",
+  "description": "GPT-3 Generated Choose Your Own Adventures",
+  "feed": {
+    "subtitle": "GPT-3 Generated Choose Your Own Adventures",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Thep Burt",
+    "email": "na@na.com",
+    "url": "https://theoburt.com"
+  }
+}

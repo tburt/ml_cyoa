@@ -1,0 +1,4 @@
+site_11ty/_site
+site_11ty/node_modules
+site_11ty/.vscode	
+.DS_Store
