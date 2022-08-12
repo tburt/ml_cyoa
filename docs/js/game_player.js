@@ -1,8 +1,9 @@
 'use strict';
 
 class CYOAPlayer {
-    constructor(container_div) {
+    constructor(container_div, hide_choices_prompt) {
         this.container = container_div;
+        this.hide_choices_prompt = hide_choices_prompt;
         this.game = null
     }
 
@@ -86,6 +87,8 @@ class CYOAPlayer {
         this.area_container.append(this.raw_button);
 
         this.container.append(this.area_container);
+
+        this.play_button[0].click();
     }
 
     set_game(json_game) {
@@ -137,7 +140,7 @@ class CYOAPlayer {
 
         const this_entry = this;
 
-        if (entry_data.actions.length > 0) {
+        if (entry_data.actions.length > 0 && !this.hide_choices_prompt) {
             var actions_text = $('<div class="entry_actions_text">');
             actions_text.text("You may:");
             entry_div.append(actions_text);

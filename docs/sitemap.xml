@@ -82,6 +82,16 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/tags/raw-experience/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/nihilism/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/tags/lionel-richie/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
@@ -97,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/tags/raw-experience/</loc>
+    <loc>https://example.com/ml_cyoa/tags/theme-park/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
   
@@ -107,12 +117,22 @@
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/tags/theme-park/</loc>
+    <loc>https://example.com/ml_cyoa/tags/time-travel/</loc>
     <lastmod>2022-08-11</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/tags/time-travel/</loc>
+    <loc>https://example.com/ml_cyoa/tags/dream/</loc>
     <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/chasing_apples/</loc>
+    <lastmod>2022-08-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/nightmares_1/</loc>
+    <lastmod>2022-08-12</lastmod>
   </url>
 </urlset>

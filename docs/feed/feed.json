@@ -10,6 +10,18 @@
     "url": "https://theoburt.com"
   },
   "items": [{
+      "id": "https://example.com/ml_cyoa/games/nightmares_1/",
+      "url": "https://example.com/ml_cyoa/games/nightmares_1/",
+      "title": "Nightmares",
+      "content_html": "",
+      "date_published": "2022-08-12T00:00:00Z"
+    },{
+      "id": "https://example.com/ml_cyoa/games/chasing_apples/",
+      "url": "https://example.com/ml_cyoa/games/chasing_apples/",
+      "title": "Chasing Apples",
+      "content_html": "",
+      "date_published": "2022-08-12T00:00:00Z"
+    },{
       "id": "https://example.com/ml_cyoa/games/time_travel_1/",
       "url": "https://example.com/ml_cyoa/games/time_travel_1/",
       "title": "John Wanknot is Unstuck In Time",
