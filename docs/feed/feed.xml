@@ -21,6 +21,14 @@
 	</entry>
 	
 	<entry>
+		<title>The Old Bookshop</title>
+		<link href="https://example.com/ml_cyoa/games/old_bookshop_1/"/>
+		<updated>2022-08-12T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/old_bookshop_1/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
 		<title>Nightmares</title>
 		<link href="https://example.com/ml_cyoa/games/nightmares_1/"/>
 		<updated>2022-08-12T00:00:00Z</updated>

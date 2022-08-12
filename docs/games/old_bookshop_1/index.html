@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Old Bookshop</title>
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
+    <meta name="description" content="The following is a table of data for a choose-your-own-adventure story set in a vast second-hand bookshop where you are searching for an ancient tome of erotic art.">
+    <link rel="stylesheet" href="/ml_cyoa/css/index.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/game_player.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.xml" type="application/atom+xml" title="Machine Adventures">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.json" type="application/json" title="Machine Adventures">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/ml_cyoa/js/game_player.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/ml_cyoa/">Machine Adventures</a></h1>
+      <ul class="nav">
+        <li class="nav-item "><a href="/ml_cyoa/">Home</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/tags/">Tags</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/about/">About</a></li>
+      </ul>
+    </header>
+
+    <main  class="tmpl-post">
+      <h1>The Old Bookshop</h1>
+
+<time datetime="2022-08-12">12 Aug 2022</time><a href="/ml_cyoa/tags/games/" class="post-tag animated-rainbow-hover">games</a>
+
+<p class="prompt_text"><b>GPT-3 Prompt: </b>The following is a table of data for a choose-your-own-adventure story set in a vast second-hand bookshop where you are searching for an ancient tome of erotic art. Each row represents one page. Each page has two or three different choices. The game is won when you find the tome or is lost if the shop closes. In the story the text is very descriptive and written in evocative language. It should not be possible to get stuck in a loop. The choices can involve interacting with items, navigating or talking to characters. The first page describes your quest.</p>
+
+
+
+<div id="game-content"></div>
+<script>
+    game = new CYOAPlayer($("#game-content"), 'hide' == 'hide');
+    game.set_game(parse_text_game('|1|The Bookshop|You are in a dusty old bookshop. It smells of paper and ink. You are looking for a specific book, an ancient tome of erotic art. You hope to find it among the stacks of musty old books.|Search the stacks|2|Leave the shop|10|Talk to the shopkeeper|5|^|2|Searching the Stacks|You search through the stacks of books, looking for the ancient tome. You find many interesting books, but not the one you are looking for. You hear a noise from the front of the shop.|Keep searching|3|Investigate the noise|4|Leave the shop|10|^|3|Keep Searching|You keep searching through the stacks, but you do not find the book you are looking for. You hear a noise from the front of the shop.|Investigate the noise|4|Leave the shop|10|^|4|Investigating the Noise|You head towards the noise and find that it is coming from the shopkeeper. He is muttering to himself and looks up as you approach.|Talk to the shopkeeper|5|Leave the shop|10|^|5|Talking to the Shopkeeper|The shopkeeper looks at you with a knowing smile. He seems to know why you are really here.|Tell him you are looking for the ancient tome of erotic art|6|Tell him you are just browsing|7|Leave the shop|10|^|6|Looking for the Tome|The shopkeeper nods and leads you to the back of the shop. He shows you a stack of books, all of them ancient tomes of erotic art.|Pick up one of the tomes|8|Leave the shop|10|^|7|Just Browsing|The shopkeeper nods and leaves you to browse. You find many interesting books, but not the one you are looking for. You hear a noise from the front of the shop.|Investigate the noise|4|Leave the shop|10|^|8|Picking up a Tome|You pick up one of the tomes and leaf through it. The illustrations are beautiful and the text is quite explicit. You hear a noise from the front of the shop.|Investigate the noise|9|Leave the shop|11|^|9|Investigating the Noise|You head towards the noise and find that it is coming from the shopkeeper. He is on the phone and looks up as you approach.|Talk to the shopkeeper|5|Leave the shop|10|^|10|The End|You leave the shop and head home, empty-handed.|-|-|-|-|^|11|The End|You leave the shop with the ancient tome of erotic art in hand. You head home and spend the night leafing through its pages.|-|-|-|-'));
+</script>
+<hr>
+<div class="post-footer">
+  <div class="prev-post">&#9194; <a class="animated-rainbow-hover" href="/ml_cyoa/games/nightmares_1/">Nightmares</a></div>
+  <div class="next-post"><a class="animated-rainbow-hover" href="/ml_cyoa/games/rock_balancing_1/">Rock Balancing I</a> &#9193;</div>
+</div>
+
+    </main>
+
+    <footer>
+      <div>Machine Adventures</div>
+      <div class="footer-text">
+        © 2022 Machine Adventures, All rights reserved
+      </div>
+                    
+    
+            
+    </footer>
+
+  </body>
+</html>
