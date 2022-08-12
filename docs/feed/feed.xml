@@ -13,6 +13,14 @@
 	</author>
 	
 	<entry>
+		<title>Rock Balancing I</title>
+		<link href="https://example.com/ml_cyoa/games/rock_balancing_1/"/>
+		<updated>2022-08-12T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/rock_balancing_1/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
 		<title>Nightmares</title>
 		<link href="https://example.com/ml_cyoa/games/nightmares_1/"/>
 		<updated>2022-08-12T00:00:00Z</updated>
