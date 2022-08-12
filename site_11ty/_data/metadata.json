@@ -2,9 +2,9 @@
   "title": "Machine Adventures",
   "url": "https://example.com/",
   "language": "en",
-  "description": "ML Generated Choose Your Own Adventures",
+  "description": "Machine Generated Choose-Your-Own-Adventure Stories",
   "feed": {
-    "subtitle": "ML Generated Choose Your Own Adventures",
+    "subtitle": "Machine Generated Choose-Your-Own-Adventure Stories",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"

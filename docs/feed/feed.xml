@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Machine Adventures</title>
-	<subtitle>ML Generated Choose Your Own Adventures</subtitle>
+	<subtitle>Machine Generated Choose-Your-Own-Adventure Stories</subtitle>
 	
 	<link href="https://example.com/ml_cyoa/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
