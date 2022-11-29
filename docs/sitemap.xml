@@ -57,81 +57,6 @@
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/posts/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/page-list/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/games/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/raw-experience/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/nihilism/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/dream/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/lionel-richie/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/short/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/party/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/theme-park/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/unwinnable/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/infinite-loop/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/time-travel/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/ml_cyoa/games/chasing_apples/</loc>
     <lastmod>2022-08-12</lastmod>
   </url>
@@ -149,5 +74,85 @@
   <url>
     <loc>https://example.com/ml_cyoa/games/rock_balancing_1/</loc>
     <lastmod>2022-08-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/barbara_and_kenneth/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/posts/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/page-list/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/games/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/raw-experience/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/nihilism/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/lionel-richie/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/short/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/dream/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/party/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/theme-park/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/unwinnable/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/infinite-loop/</loc>
+    <lastmod>2022-11-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/time-travel/</loc>
+    <lastmod>2022-11-29</lastmod>
   </url>
 </urlset>
