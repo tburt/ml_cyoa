@@ -1,21 +1,15 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Machine Adventures",
+  "title": "AI Choose Your Own Adventure",
   "language": "en",
   "home_page_url": "https://example.com/",
   "feed_url": "https://example.com/feed/feed.json",
-  "description": "Machine Generated Choose-Your-Own-Adventure Stories",
+  "description": "AI Choose-Your-Own-Adventure",
   "author": {
     "name": "Thep Burt",
     "url": "https://theoburt.com"
   },
   "items": [{
-      "id": "https://example.com/ml_cyoa/games/barbara_and_kenneth/",
-      "url": "https://example.com/ml_cyoa/games/barbara_and_kenneth/",
-      "title": "Barbara and Kenneth",
-      "content_html": "",
-      "date_published": "2022-11-29T00:00:00Z"
-    },{
       "id": "https://example.com/ml_cyoa/games/rock_balancing_1/",
       "url": "https://example.com/ml_cyoa/games/rock_balancing_1/",
       "title": "Rock Balancing I",
@@ -28,12 +22,6 @@
       "content_html": "",
       "date_published": "2022-08-12T00:00:00Z"
     },{
-      "id": "https://example.com/ml_cyoa/games/nightmares_1/",
-      "url": "https://example.com/ml_cyoa/games/nightmares_1/",
-      "title": "Nightmares",
-      "content_html": "",
-      "date_published": "2022-08-12T00:00:00Z"
-    },{
       "id": "https://example.com/ml_cyoa/games/chasing_apples/",
       "url": "https://example.com/ml_cyoa/games/chasing_apples/",
       "title": "Chasing Apples",
@@ -42,33 +30,9 @@
     },{
       "id": "https://example.com/ml_cyoa/games/time_travel_1/",
       "url": "https://example.com/ml_cyoa/games/time_travel_1/",
-      "title": "John Wanknot is Unstuck In Time",
+      "title": "John Pringle, Unstuck In Time",
       "content_html": "",
       "date_published": "2022-08-11T00:00:00Z"
-    },{
-      "id": "https://example.com/ml_cyoa/games/lionel_richie_3/",
-      "url": "https://example.com/ml_cyoa/games/lionel_richie_3/",
-      "title": "Lionel Richie Adventure III - Choice",
-      "content_html": "",
-      "date_published": "2022-08-11T00:00:00Z"
-    },{
-      "id": "https://example.com/ml_cyoa/games/lionel_richie_2/",
-      "url": "https://example.com/ml_cyoa/games/lionel_richie_2/",
-      "title": "Lionel Richie Adventure II - The Twist",
-      "content_html": "",
-      "date_published": "2022-08-11T00:00:00Z"
-    },{
-      "id": "https://example.com/ml_cyoa/games/lionel_richie_1/",
-      "url": "https://example.com/ml_cyoa/games/lionel_richie_1/",
-      "title": "Lionel Richie Adventure I - Taking Part",
-      "content_html": "",
-      "date_published": "2022-08-11T00:00:00Z"
-    },{
-      "id": "https://example.com/ml_cyoa/games/squirrel/",
-      "url": "https://example.com/ml_cyoa/games/squirrel/",
-      "title": "The Winter Squirrel",
-      "content_html": "",
-      "date_published": "2022-08-10T00:00:00Z"
     },{
       "id": "https://example.com/ml_cyoa/games/sandwich_2/",
       "url": "https://example.com/ml_cyoa/games/sandwich_2/",
@@ -79,24 +43,6 @@
       "id": "https://example.com/ml_cyoa/games/sandwich_1/",
       "url": "https://example.com/ml_cyoa/games/sandwich_1/",
       "title": "Sandwich Shop Adventure I",
-      "content_html": "",
-      "date_published": "2022-08-10T00:00:00Z"
-    },{
-      "id": "https://example.com/ml_cyoa/games/recapitator/",
-      "url": "https://example.com/ml_cyoa/games/recapitator/",
-      "title": "Riding the Recapitator",
-      "content_html": "",
-      "date_published": "2022-08-10T00:00:00Z"
-    },{
-      "id": "https://example.com/ml_cyoa/games/party_1/",
-      "url": "https://example.com/ml_cyoa/games/party_1/",
-      "title": "Chris Middleman’s Party",
-      "content_html": "",
-      "date_published": "2022-08-10T00:00:00Z"
-    },{
-      "id": "https://example.com/ml_cyoa/games/chocolate/",
-      "url": "https://example.com/ml_cyoa/games/chocolate/",
-      "title": "The Chocolate Factory",
       "content_html": "",
       "date_published": "2022-08-10T00:00:00Z"
     }

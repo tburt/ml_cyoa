@@ -3,6 +3,7 @@ title: Barbara and Kenneth
 description: Below is a table of data for an exciting choose your own adventure book where you play Kenneth, a man who is begging his wife, Barbara, not to leave him.
 date: 2022-11-29
 tags:
+- GPT-3
 layout: layouts/game.njk
 prompt: Below is a table of data for an exciting choose your own adventure book where you play Kenneth, a man who is begging his wife, Barbara, not to leave him. Each row either ends the game or contains text and two or three choices of what you may say next to Barbara, each of which leads to a different page. On some pages Kenneth manages to persuade Barbara to stay with him and Kenneth wins, on some pages she leaves and he loses.
 choices_prompt: hide

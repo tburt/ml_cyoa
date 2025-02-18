@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Machine Learning Generated Choose Your Own Adventure Stories
+title: AI Choose Your Own Adventure Stories
 templateClass: tmpl-post
 date: 2022-08-08
 eleventyNavigation:
@@ -8,11 +8,11 @@ eleventyNavigation:
   order: 3
 ---
 
-All games are entirely pre-generated using OpenAI's [GPT-3 Playground](https://beta.openai.com/playground). The results are loosely cherry-picked and unedited.
+All games are pre-generated using LLMs (early ones with GPT-3). The results are loosely cherry-picked but unedited.
 
-Each game is created by giving GPT-3 a prompt requesting a particular theme or plot, for which it then generates an entire structure and text for a short CYOA story in table form.
+These early ones were generated back in the day of LLM basic completion (rather than a chat with roles etc) in one shot, and worked best with GPT-3 writing the game as a markdown table.
 
-Example prompt:
+Example prompt (GPT3):
 > The following is a table of data for a choose-your-own-adventure book set in a sandwich shop. Each row represents one page, and the book is between twenty and thirty pages long. Each page has a maximum of three choices. Each choice either leads to another page or ends the book by winning or losing. In the book there are different locations, characters to meet and things to find. Choices can involve examining things in more detail, navigating the shop, interacting with items in the shop or talking to characters. Two pages should not have very similar page text. There is at least one way to win.<br>
 |Page Number|Page Title|Page Text|Choice 1 Text|Choice 1 Page Number|Choice 2 Text|Choice 2|Page Number|Choice 3 Text|Choice 3 Page Number|
 
@@ -26,4 +26,4 @@ Example output by GPT-3:
 ..........
 ..........
 
-Thep Burt, 2022
+Thep Burt 2022-

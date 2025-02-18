@@ -5,6 +5,7 @@ date: 2022-08-12
 tags:
 - raw experience
 - nihilism
+- GPT-3
 layout: layouts/game.njk
 prompt: Below is a table of data for a choose your own adventure book set in  fruit factory. Each page either wins or loses the game of has two or three choices which lead to another page.
 choices_prompt: hide

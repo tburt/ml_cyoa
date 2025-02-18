@@ -6,6 +6,7 @@ order: 999
 tags: 
 - raw experience
 - infinite loop
+- GPT-3
 layout: layouts/game.njk
 prompt: The following is a table of data for a choose-your-own-adventure book set in a sandwich shop. Each row represents one page, and the book is between twenty and thirty pages long. Each page has a maximum of three choices. Each choice either leads to another page or ends the book by winning or losing. In the book there are different locations, characters to meet and things to find. Choices can involve examining things in more detail, navigating the shop, interacting with items in the shop or talking to characters. Two pages should not have very similar page text. There is at least one way to win.
 raw_output: '|1|Start|You are in a sandwich shop. You can see a sandwich on the counter.|Examine sandwich|2|Examine counter|3|Leave shop|4|^

@@ -3,6 +3,7 @@ title: The Old Bookshop
 description: The following is a table of data for a choose-your-own-adventure story set in a vast second-hand bookshop where you are searching for an ancient tome of erotic art. 
 date: 2022-08-12
 tags:
+- GPT-3
 layout: layouts/game.njk
 prompt: The following is a table of data for a choose-your-own-adventure story set in a vast second-hand bookshop where you are searching for an ancient tome of erotic art. Each row represents one page. Each page has two or three different choices. The game is won when you find the tome or is lost if the shop closes. In the story the text is very descriptive and written in evocative language. It should not be possible to get stuck in a loop. The choices can involve interacting with items, navigating or talking to characters. The first page describes your quest.
 choices_prompt: hide

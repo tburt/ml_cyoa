@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Machine Adventures</title>
-	<subtitle>Machine Generated Choose-Your-Own-Adventure Stories</subtitle>
+	<title>AI Choose Your Own Adventure</title>
+	<subtitle>AI Choose-Your-Own-Adventure</subtitle>
 	
 	<link href="https://example.com/ml_cyoa/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2022-11-29T00:00:00Z</updated>
+	<updated>2022-08-12T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Thep Burt</name>
 		<email>na@na.com</email>
 	</author>
-	
-	<entry>
-		<title>Barbara and Kenneth</title>
-		<link href="https://example.com/ml_cyoa/games/barbara_and_kenneth/"/>
-		<updated>2022-11-29T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/barbara_and_kenneth/</id>
-		<content type="html"></content>
-	</entry>
 	
 	<entry>
 		<title>Rock Balancing I</title>
@@ -37,14 +29,6 @@
 	</entry>
 	
 	<entry>
-		<title>Nightmares</title>
-		<link href="https://example.com/ml_cyoa/games/nightmares_1/"/>
-		<updated>2022-08-12T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/nightmares_1/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
 		<title>Chasing Apples</title>
 		<link href="https://example.com/ml_cyoa/games/chasing_apples/"/>
 		<updated>2022-08-12T00:00:00Z</updated>
@@ -53,42 +37,10 @@
 	</entry>
 	
 	<entry>
-		<title>John Wanknot is Unstuck In Time</title>
+		<title>John Pringle, Unstuck In Time</title>
 		<link href="https://example.com/ml_cyoa/games/time_travel_1/"/>
 		<updated>2022-08-11T00:00:00Z</updated>
 		<id>https://example.com/ml_cyoa/games/time_travel_1/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Lionel Richie Adventure III - Choice</title>
-		<link href="https://example.com/ml_cyoa/games/lionel_richie_3/"/>
-		<updated>2022-08-11T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/lionel_richie_3/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Lionel Richie Adventure II - The Twist</title>
-		<link href="https://example.com/ml_cyoa/games/lionel_richie_2/"/>
-		<updated>2022-08-11T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/lionel_richie_2/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Lionel Richie Adventure I - Taking Part</title>
-		<link href="https://example.com/ml_cyoa/games/lionel_richie_1/"/>
-		<updated>2022-08-11T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/lionel_richie_1/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>The Winter Squirrel</title>
-		<link href="https://example.com/ml_cyoa/games/squirrel/"/>
-		<updated>2022-08-10T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/squirrel/</id>
 		<content type="html"></content>
 	</entry>
 	
@@ -105,30 +57,6 @@
 		<link href="https://example.com/ml_cyoa/games/sandwich_1/"/>
 		<updated>2022-08-10T00:00:00Z</updated>
 		<id>https://example.com/ml_cyoa/games/sandwich_1/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Riding the Recapitator</title>
-		<link href="https://example.com/ml_cyoa/games/recapitator/"/>
-		<updated>2022-08-10T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/recapitator/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Chris Middleman’s Party</title>
-		<link href="https://example.com/ml_cyoa/games/party_1/"/>
-		<updated>2022-08-10T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/party_1/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>The Chocolate Factory</title>
-		<link href="https://example.com/ml_cyoa/games/chocolate/"/>
-		<updated>2022-08-10T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/chocolate/</id>
 		<content type="html"></content>
 	</entry>
 </feed>

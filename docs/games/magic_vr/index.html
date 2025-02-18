@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Magic of VR</title>
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
+    <meta name="description" content="The following is a table of data for a choose-your-own-adventure story where you have just bought an incredible new VR headset which is going to blow your mind.">
+    <link rel="stylesheet" href="/ml_cyoa/css/index.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/game_player.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.xml" type="application/atom+xml" title="AI Choose Your Own Adventure">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.json" type="application/json" title="AI Choose Your Own Adventure">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/ml_cyoa/js/game_player.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/ml_cyoa/">AI Choose Your Own Adventure</a></h1>
+      <ul class="nav">
+        <li class="nav-item "><a href="/ml_cyoa/">Home</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/tags/">Tags</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/about/">About</a></li>
+      </ul>
+    </header>
+
+    <main  class="tmpl-post">
+      <h1>The Magic of VR</h1>
+
+<time datetime="2022-08-10">10 Aug 2022</time><a href="/ml_cyoa/tags/games/" class="post-tag animated-rainbow-hover">games</a><a href="/ml_cyoa/tags/vr/" class="post-tag animated-rainbow-hover">VR</a><a href="/ml_cyoa/tags/gpt-3/" class="post-tag animated-rainbow-hover">GPT-3</a>
+
+<p class="prompt_text"><b>GPT-3 Prompt: </b>The following is a table of data for a choose-your-own-adventure story where you have just bought an incredible new VR headset which is going to blow your mind. Each row represents one page. Each page has two or three different choices. The game is won when you finally get the headset to work, or lost if it breaks. In the story the text is very descriptive and written in evocative language. It should not be possible to get stuck in a loop. The choices can involve interacting with items, navigating or talking to characters. The first page describes your quest. The story is around 20 pages long.</p>
+
+
+
+<div id="game-content"></div>
+<script>
+    game = new CYOAPlayer($("#game-content"), '' == 'hide');
+    game.set_game(parse_text_game('|1||You\'ve just bought an incredible new VR headset which is going to blow your mind. You can\'t wait to get it home and try it out. However, when you open the box and start to set it up, you realize that you have no idea what you\'re doing. You look at the instructions, but they\'re confusing and you can\'t make sense of them. You start to feel a little frustrated. What do you do?|Read the instructions again|2|Try to figure it out without the instructions|3|Give up and put it back in the box|4|^|2||You spend the next half an hour reading the instructions over and over, but you still don\'t understand them. You start to feel a little frustrated. What do you do?|Try to figure it out without the instructions|3|Give up and put it back in the box|4|^|3||You spend the next hour trying to figure out how to set up the headset, but you still can\'t do it. You\'re starting to get a headache from the strain. What do you do?|Give up and put it back in the box|4|Try and phone your friend to get help|5|^|4||You give up and put the headset back in the box. You have lost|^|5||Your friend is able to talk you through the setup process and soon enough you\'re ready to go. You put on the headset and adjust the straps but it won\'t quite fit on you. You try to adjust it but it\'s still not comfortable. You start to feel a little frustrated. What do you do?|Take a break and come back later|6|Keep trying to adjust it|7|^|6||You take a break and come back later. You\'re able to put on the headset and adjust the straps. You\'re finally ready to try it out. You put on the headset and are transported into a magical world. You\'re standing in front of a castle. In front of you is a bridge that spans a deep gorge. To your left is a dark forest. What do you do?|Explore the castle|8|Cross the bridge|9|Go into the forest|10|^|7||You keep trying to adjust the headset but it\'s still not comfortable. You start to feel a little frustrated. What do you do?|Take a break and come back later|6|Give up and take it off|4|^|8||You explore the castle and find a secret room. Inside the room is a treasure chest. What do you do?|Open the chest|12|Leave the room and explore the rest of the castle|11|^|9||You cross the bridge and are attacked by a dragon. You have lost.|^|10||You go into the forest and are immediately surrounded by a group of menacing-looking goblins. What do you do?|Run away|13|^|11||You leave the room and explore the rest of the castle. You find a secret passage. What do you do?|Explore the passage|14|^|12||You open the chest and find a treasure. You have won!|^|13||You run away and are able to lose the goblins but you are now in the middle of a mazelike forest. What do you do?|Try to find your way out of the forest|15|^|14||You explore the passage and find a secret room. Inside the room is a treasure chest. What do you do?|Open the chest|12|^|15||You spend hours trying to find your way out of the forest but you\'re going in circles. You\'re starting to get tired and hungry. What do you do?|Keep trying to find your way out of the Forest|16|^|16||You keep trying to find your way out of the forest but you\'re getting more and more lost. You\'re starting to feel scared. What do you do?|Give up and sit down|17|Take off your VR headset|18|^|17||You sit down and cry. You have lost.|^|18||You take off your VR headset and find that you\'re still in your living room. You have won!'));
+</script>
+<hr>
+<div class="post-footer">
+  <div class="prev-post">&#9194; <a class="animated-rainbow-hover" href="/ml_cyoa/games/chocolate/">The Chocolate Factory</a></div>
+  <div class="next-post"><a class="animated-rainbow-hover" href="/ml_cyoa/games/party_1/">Chris Middleman’s Party</a> &#9193;</div>
+</div>
+
+    </main>
+
+    <footer>
+      <div>AI Choose Your Own Adventure</div>
+      <div class="footer-text">
+        © 2022 AI Choose Your Own Adventure, All rights reserved
+      </div>
+                    
+    
+            
+    </footer>
+
+  </body>
+</html>

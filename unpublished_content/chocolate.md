@@ -4,6 +4,7 @@ description: The following is a table of data for a choose-your-own-adventure bo
 date: 2022-08-10
 order: 1000
 tags: 
+- GPT-3
 layout: layouts/game.njk
 prompt: The following is a table of data for a choose-your-own-adventure book set in a chocolate factory. Each row represents one page, and the book is between twenty and thirty pages long. Each page has a maximum of three choices. Each choice either leads to another page or ends the book by winning or losing. In the book there are different locations, characters to meet and things to find. Choices can involve examining things in more detail, navigating the factory, interacting with items in the factory or talking to characters. Two pages should not have very similar page text. There is at least one way to win.
 raw_output: '|1|The Chocolate Factory|You find yourself in a chocolate factory. You see a chocolate river and a conveyor belt with chocolate bars on it. You also see a sign that says "Do not touch the chocolate." What do you do?|Investigate the conveyor belt|2|Investigate the chocolate river|3|Read the sign|4|^

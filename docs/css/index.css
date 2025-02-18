@@ -55,7 +55,8 @@ a[href] {
 }
 
 a[href]:hover {
-  color: var(--yellowgreen);
+  /* color: var(--yellowgreen); */
+  color: black;
 }
 
 main {
@@ -78,11 +79,12 @@ header:after {
 
 .hero {
   padding: 2em;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(238deg, #0080ff, #00f, #8000ff);
+  background: #FF0088;
+  /* background: linear-gradient(238deg, #0080ff, #00f, #8000ff); */
   border-radius: 5px;
-  color: var(--white);
-  box-shadow: black 5px 5px 2px;
+  /* color: var(--white); */
+  color: black;
+  /* box-shadow: black 5px 5px 2px; */
 }
 
 .hero > h2 {
@@ -232,7 +234,7 @@ blockquote {
   border-radius: 5px;
 }
 a.postlist-link:hover {
-  color: var(--white);
+  /* color: var(--white); */
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
@@ -277,7 +279,7 @@ a.postlist-link:hover {
 }
 a[href].post-tag,
 a[href].post-tag:visited {
-  color: inherit;
+  /* color: inherit; */
 }
 
 .postlist-item > .post-tag {
@@ -428,7 +430,8 @@ footer {
 .animated-rainbow-hover:hover,
 .animated-rainbow-hover:focus {
   color: var(--white);
-  background: linear-gradient(
+  color: black;
+  /* background: linear-gradient(
     238deg,
     red,
     #ff8000,
@@ -440,10 +443,11 @@ footer {
     #00f,
     #8000ff,
     #ff0080
-  );
+  ); */
+  background: #A0ff00;
   background-size: 1200% 1200%;
-  -webkit-animation: rainbow 16s ease infinite;
-  -z-animation: rainbow 16s ease infinite;
-  -o-animation: rainbow 16s ease infinite;
-  animation: rainbow 16s ease infinite;
+  /* -webkit-animation: rainbow 16s ease infinite; */
+  /* -z-animation: rainbow 16s ease infinite; */
+  /* -o-animation: rainbow 16s ease infinite; */
+  /* animation: rainbow 16s ease infinite; */
 }
