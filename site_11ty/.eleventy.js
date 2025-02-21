@@ -113,6 +113,7 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid

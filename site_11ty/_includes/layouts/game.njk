@@ -17,7 +17,14 @@ templateClass: tmpl-post
 <div id="game-content"></div>
 <script>
     game = new CYOAPlayer($("#game-content"), '{{choices_prompt}}' == 'hide');
-    game.set_game(parse_text_game('{{raw_output|safe}}'));
+   {% if raw_output %}
+        game.set_game(parse_text_game('{{ raw_output | safe }}'));
+    {% else %}
+        game.set_game({
+          "entries": {{ entries | dump | safe }},
+          "start_entry_id": "{{ start_entry_id }}"
+        });
+    {% endif %}
 </script>
 
 {%- if collections.posts %}
