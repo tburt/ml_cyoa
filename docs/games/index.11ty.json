@@ -1,0 +1,7 @@
+{
+  "title": "New Game",
+  "layout": "base.njk",
+  "tags": ["games"],
+  "permalink": "/games/new-game/",
+  "content": "This is a new game page."
+}

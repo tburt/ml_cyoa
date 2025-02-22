@@ -77,6 +77,21 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/tags/geminigemini-2.0-flash/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/bus_stop/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/mystery/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/games/chasing_apples/</loc>
     <lastmod>2022-08-12</lastmod>
   </url>
@@ -89,5 +104,25 @@
   <url>
     <loc>https://example.com/ml_cyoa/games/rock_balancing_1/</loc>
     <lastmod>2022-08-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/interrogation/</loc>
+    <lastmod>2025-02-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/russian_sleep_gemini/</loc>
+    <lastmod>2025-02-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/time_machine_gemini/</loc>
+    <lastmod>2025-02-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/the_last_bus_0a19/</loc>
+    <lastmod>2025-02-21</lastmod>
   </url>
 </urlset>
