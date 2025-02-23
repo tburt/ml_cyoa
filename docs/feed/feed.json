@@ -10,6 +10,12 @@
     "url": "https://theoburt.com"
   },
   "items": [{
+      "id": "https://example.com/ml_cyoa/games/the_washing_machine_1bf6/",
+      "url": "https://example.com/ml_cyoa/games/the_washing_machine_1bf6/",
+      "title": "The Washing Machine",
+      "content_html": "",
+      "date_published": "2025-02-23T00:00:00Z"
+    },{
       "id": "https://example.com/ml_cyoa/games/the_chimney_2848/",
       "url": "https://example.com/ml_cyoa/games/the_chimney_2848/",
       "title": "The Chimney",
