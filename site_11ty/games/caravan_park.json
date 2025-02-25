@@ -1,0 +1,1952 @@
+{
+  "notes": "",
+  "start_entry_id": "arrival_e000",
+  "entries": {
+    "arrival_e000": {
+      "entry_id": "arrival_e000",
+      "content": "You pull into Sandy Shores Caravan Park, the tires of your Vauxhall crunching noisily on the gravel. It's exactly as you remembered, and just as Aunt Mari described in her letters, though those stopped some time ago. Rows of identical caravans stretch out before you, each a little faded, a little forlorn. It's well into the off-season and the park is almost deserted; most of the caravans are boarded up. A cold wind whips in off the sea, carrying the scent of salt and damp. You see a figure standing by the perimeter fence, far in the distance.",
+      "choices": [
+        {
+          "content": "Take a moment to gather yourself; breathe in the salty air before doing anything else.",
+          "entry_id": "arrival_e001"
+        },
+        {
+          "content": "Head straight to Caravan 42, Mari's old caravan, and get started.",
+          "entry_id": "arrival_e002"
+        },
+        {
+          "content": "Approach the figure standing by the far fence; see if they know anything.",
+          "entry_id": "arrival_e003"
+        }
+      ],
+      "end": null
+    },
+    "arrival_e001": {
+      "entry_id": "arrival_e001",
+      "content": "You sit for a moment longer, the engine ticking quietly. Memories of Mari \u2013 her sharp laugh, the smell of her pipe tobacco, the endless stories \u2013 swirl around you. There\u2019s a knot of anxiety in your stomach, but also a sense of purpose.",
+      "choices": [
+        {
+          "content": "Head straight to Caravan 42 and get started.",
+          "entry_id": "arrival_e002"
+        },
+        {
+          "content": "Approach the figure by the fence; ask if he knows anything about Aunt Mari or the park.",
+          "entry_id": "arrival_e003"
+        }
+      ],
+      "end": null
+    },
+    "arrival_e002": {
+      "entry_id": "arrival_e002",
+      "content": "You walk towards Caravan 42, the gravel crunching underfoot. The once-bright paint is faded, and weeds sprout around the steps. It feels like stepping into a forgotten photograph. You reach under the chipped blue flowerpot by the door, and the cold metal of the key is there.",
+      "choices": [
+        {
+          "content": "Unlock the caravan door; step inside and begin the task.",
+          "entry_id": "explore_caravan_e000"
+        },
+        {
+          "content": "Pause; take another look around the deserted park before entering.",
+          "entry_id": "arrival_e004"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e000": {
+      "entry_id": "explore_caravan_e000",
+      "content": "You turn the key and push open the door. A wave of musty air hits you, a mixture of damp, old paper, and something indefinably floral. Dust motes dance in the weak sunlight filtering through the net curtains. The silence is heavy, broken only by the wind whistling outside.",
+      "choices": [
+        {
+          "content": "Start in the living area; look over the furniture and shelves.",
+          "entry_id": "explore_caravan_e001"
+        },
+        {
+          "content": "Go straight to the bedroom; perhaps Mari's personal effects are there.",
+          "entry_id": "explore_caravan_e002"
+        },
+        {
+          "content": "Check the kitchen first; see if there's anything useful, or any food.",
+          "entry_id": "explore_caravan_e003"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e002": {
+      "entry_id": "explore_caravan_e002",
+      "content": "The bedroom is small and feels even smaller with the double bed taking up most of the space. The air is heavy with the scent of lavender. A dressing table is crowded with small, personal items \u2013 sea shells, faded photographs, and small glass bottles. The wardrobe door hangs slightly open, a sliver of darkness visible within.",
+      "choices": [
+        {
+          "content": "Examine the trinkets on the dressing table; perhaps something will stand out.",
+          "entry_id": "explore_caravan_e006"
+        },
+        {
+          "content": "Open the wardrobe fully; see what Mari left behind.",
+          "entry_id": "explore_caravan_e007"
+        },
+        {
+          "content": "Leave the bedroom; return to the main living area.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e007": {
+      "entry_id": "explore_caravan_e007",
+      "content": "Opening the wardrobe fully, you see a collection of Mari's clothes, neatly hung and smelling faintly of mothballs and lavender. There are coats, dresses, and blouses, many of them old-fashioned. As you move some of the clothes aside, you hear a faint but distinct creak from the back of the wardrobe, as if something is shifting.",
+      "choices": [
+        {
+          "content": "Carefully investigate the source of the creak behind the wardrobe.",
+          "entry_id": "hidden_room_e000"
+        },
+        {
+          "content": "Ignore the creak; continue looking through the clothes in the wardrobe.",
+          "entry_id": "explore_caravan_e002"
+        }
+      ],
+      "end": null
+    },
+    "arrival_e003": {
+      "entry_id": "arrival_e003",
+      "content": "You walk closer and the figure straightens up from his leaning position. It's an older man, face weathered and lined, holding a shovel. As you approach, he watches you carefully, expression unreadable. He has a slight limp as he moves.",
+      "choices": [
+        {
+          "content": "Introduce yourself.",
+          "entry_id": "meet_pritchard_e000"
+        },
+        {
+          "content": "Head towards the caravan; you're not sure you're ready to talk to anyone yet.",
+          "entry_id": "arrival_e002"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e000": {
+      "entry_id": "meet_pritchard_e000",
+      "content": "Mr. Pritchard shuffles a little closer, the gravel scattering under his worn boots. He stops a few feet away, regarding you with narrowed eyes. \"You must be Mari's [relation],\" he says, his voice a low rasp, like dry leaves skittering across pavement.",
+      "choices": [
+        {
+          "content": "\"Yes, I am. Good to meet you, Mr. Pritchard.\"",
+          "entry_id": "meet_pritchard_e001"
+        },
+        {
+          "content": "\"I'm here to clear out Mari's caravan. Number 42.\"",
+          "entry_id": "meet_pritchard_e002"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e001": {
+      "entry_id": "meet_pritchard_e001",
+      "content": "\"Pritchard will do. I looked after her, you know. Funny woman, but harmless.\" He pauses, his gaze drifting towards the boarded-up arcade. \"This place...it gets to people.\"",
+      "choices": [
+        {
+          "content": "\"What do you mean, 'it gets to people'?\"",
+          "entry_id": "meet_pritchard_e003"
+        },
+        {
+          "content": "\"She always seemed happy enough when she talked about it in her letters, although that was a while ago.\"",
+          "entry_id": "meet_pritchard_e004"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e003": {
+      "entry_id": "meet_pritchard_e003",
+      "content": "\"Secrets best left sleeping,\" he replies, looking past you towards the distant sea. \"Especially Mari's. Some things you're better off not digging up.\"",
+      "choices": [
+        {
+          "content": "\"What secrets are you talking about?\"",
+          "entry_id": "meet_pritchard_e005"
+        },
+        {
+          "content": "\"I'm not sure I want to know anything about her secrets.\"",
+          "entry_id": "meet_pritchard_e006"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e005": {
+      "entry_id": "meet_pritchard_e005",
+      "content": "He shakes his head slightly. \"Nothing I can say outright. You'll find out soon enough, one way or another.\" He gestures vaguely towards the sea. \"The sea whispers to those who listen.\"",
+      "choices": [
+        {
+          "content": "Head down to the beach; maybe the sea holds some answers.",
+          "entry_id": "desolate_beach_beach001"
+        },
+        {
+          "content": "Ask him about Aunt Mari's diary; you know she kept one.",
+          "entry_id": "meet_pritchard_e009"
+        }
+      ],
+      "end": null
+    },
+    "arrival_e004": {
+      "entry_id": "arrival_e004",
+      "content": "You linger outside the caravan, key in hand. The wind picks up, whistling through the gaps around the window frames, sounding almost like a mournful sigh. A shiver runs down your spine as a sense of unease settles over you; the air feels heavy with memories, both yours and perhaps someone else's.",
+      "choices": [
+        {
+          "content": "Go inside. It\u2019s time to face this.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e003": {
+      "entry_id": "explore_caravan_e003",
+      "content": "The kitchen is small, cramped and outdated, barely more than a corridor. Mismatched floral teacups, faded and chipped, line the shelves like forgotten relics. A faint, metallic odor lingers in the air, hinting at disuse and decay.",
+      "choices": [
+        {
+          "content": "Examine the teacups on the shelf.",
+          "entry_id": "explore_caravan_e008"
+        },
+        {
+          "content": "Try to turn on the ancient appliances.",
+          "entry_id": "explore_caravan_e009"
+        },
+        {
+          "content": "Go back to the entrance.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e009": {
+      "entry_id": "explore_caravan_e009",
+      "content": "The appliances are old and look mostly non-functional. You tentatively try the kettle, but it only sputters weakly, threatening to give up entirely. The oven smells faintly of burnt dust. As you stand there, you hear a faint melody drift on the wind, as if children are singing.",
+      "choices": [
+        {
+          "content": "Follow the sound of the children's singing.",
+          "entry_id": "children_sightings_e000"
+        },
+        {
+          "content": "Decide that the appliances are probably dangerous and go back to the kitchen shelves.",
+          "entry_id": "explore_caravan_e003"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e000": {
+      "entry_id": "children_sightings_e000",
+      "content": "You step outside and look between the rows of caravans. You think you hear small figures moving in the distance, flitting between the shadows of the boarded-up windows. It sounds like children\u2019s voices, singing a song that seems somehow old, and out of time.",
+      "choices": [
+        {
+          "content": "Dismiss the sound as your imagination and head back to the caravan.",
+          "entry_id": "children_sightings_e002"
+        },
+        {
+          "content": "Follow the sound of the singing.",
+          "entry_id": "children_sightings_e001"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e001": {
+      "entry_id": "children_sightings_e001",
+      "content": "The singing grows louder, drawing you deeper into the maze of caravans. As you get closer, the figures become clearer \u2013 they are definitely children, dressed in strange, old-fashioned clothes, playing some kind of game amongst themselves. They seem unaware of you, or perhaps simply unconcerned by your presence.",
+      "choices": [
+        {
+          "content": "Approach the children. You can see them clearly now.",
+          "entry_id": "children_sightings_e003"
+        },
+        {
+          "content": "Observe from a distance.",
+          "entry_id": "children_sightings_e004"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e001": {
+      "entry_id": "explore_caravan_e001",
+      "content": "The living area is small and cramped. Faded floral wallpaper, patterned with roses and now peeling away at the corners, covers the walls. A dusty sofa sits against one wall, and a small Formica table is cluttered with old magazines and a half-finished jigsaw puzzle.",
+      "choices": [
+        {
+          "content": "Leaf through the magazines on the table.",
+          "entry_id": "explore_caravan_e004"
+        },
+        {
+          "content": "Inspect the floral sofa.",
+          "entry_id": "explore_caravan_e005"
+        },
+        {
+          "content": "Return to the entrance.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e004": {
+      "entry_id": "explore_caravan_e004",
+      "content": "The magazines are mostly copies of 'Coast' and 'North Wales Weekly News', dating back several years. Tucked between the pages of one, you find a hardback diary, bound in faded blue cloth. It feels heavier than it should.",
+      "choices": [
+        {
+          "content": "Put down the magazines and look around the living area.",
+          "entry_id": "explore_caravan_e001"
+        },
+        {
+          "content": "Read the diary.",
+          "entry_id": "explore_caravan_e010"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e010": {
+      "entry_id": "explore_caravan_e010",
+      "content": "The diary is filled with Mari's distinctive, looping handwriting. She details her research into local folklore and legends, particularly the Tylwyth Teg, the fairy folk of Wales. One passage is underlined in thick, dark ink: 'The Children...they are drawn to the sea, and the sea is drawn to them.' You feel a chill despite the caravan's heating.",
+      "choices": [
+        {
+          "content": "Put the diary down and look around the living area.",
+          "entry_id": "explore_caravan_e001"
+        },
+        {
+          "content": "Continue reading the diary.",
+          "entry_id": "explore_caravan_e010"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e005": {
+      "entry_id": "explore_caravan_e005",
+      "content": "The sofa cushions are worn, the floral pattern almost completely faded. As you sink into the sofa, your hand brushes against something nestled between the cushions. You pull out a small, grey, smooth stone. It fits perfectly in your palm and radiates a gentle warmth.",
+      "choices": [
+        {
+          "content": "Keep the stone; it feels right.",
+          "entry_id": "explore_caravan_e011"
+        },
+        {
+          "content": "Leave the stone; it could be important to Mari.",
+          "entry_id": "explore_caravan_e001"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e011": {
+      "entry_id": "explore_caravan_e011",
+      "content": "The stone is cool and smooth against your skin as you hold it. You experience a wave of calm; the anxiety that has been building since you arrived at Sandy Shores seems to lessen, if only for a moment.",
+      "choices": [
+        {
+          "content": "Continue exploring the caravan.",
+          "entry_id": "explore_caravan_e001"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e006": {
+      "entry_id": "explore_caravan_e006",
+      "content": "An assortment of trinkets are laid out on the dressing table. Each one looks like it has been carefully placed. There are some tarnished rings, glass animal figurines, and a number of seashells.",
+      "choices": [
+        {
+          "content": "Examine the seashells more carefully.",
+          "entry_id": "explore_caravan_e012"
+        },
+        {
+          "content": "Turn away from the dressing table.",
+          "entry_id": "explore_caravan_e002"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e012": {
+      "entry_id": "explore_caravan_e012",
+      "content": "The seashells are all shapes, sizes and colours. One, a white shell that spirals to a sharp point, has a faint pattern of engraved symbols. They look vaguely familiar, as if you once knew what they meant, but the memory is just beyond your grasp.",
+      "choices": [
+        {
+          "content": "Stop examining the shells.",
+          "entry_id": "explore_caravan_e002"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e000": {
+      "entry_id": "hidden_room_e000",
+      "content": "You push against the back of the wardrobe, feeling for anything that gives way. Your fingers brush against a small, almost imperceptible crack in the wood panelling. With a firmer push, the panel swings inwards, revealing a dark space beyond.",
+      "choices": [
+        {
+          "content": "Carefully enter the hidden room.",
+          "entry_id": "hidden_room_e001"
+        },
+        {
+          "content": "Return to sorting through Aunt Mari's belongings.",
+          "entry_id": "hidden_room_e015"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e008": {
+      "entry_id": "explore_caravan_e008",
+      "content": "The teacups are a hotchpotch, no two the same. Each is a little faded and cracked. One catches your attention; on its side is painted an engraved symbol of a triple spiral, etched in faded blue.",
+      "choices": [
+        {
+          "content": "Examine the intricate pattern on the cup in more detail.",
+          "entry_id": "explore_caravan_e013"
+        },
+        {
+          "content": "Look around the kitchen.",
+          "entry_id": "explore_caravan_e003"
+        }
+      ],
+      "end": null
+    },
+    "explore_caravan_e013": {
+      "entry_id": "explore_caravan_e013",
+      "content": "You study the triple spiral carefully, tracing the curves with your finger. The symbol looks similar to those you've seen in books about Celtic history and mythology, filled with tales of ancient druids, powerful magic, and standing stones.",
+      "choices": [
+        {
+          "content": "Turn away from the cup.",
+          "entry_id": "explore_caravan_e003"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e002": {
+      "entry_id": "children_sightings_e002",
+      "content": "Back inside the caravan, the silence is heavy and oppressive. You try to shake off the unsettling feeling.",
+      "choices": [
+        {
+          "content": "Look through Aunt Mari\u2019s diaries, searching for any reference to the children or their strange song.",
+          "entry_id": "children_sightings_e005"
+        },
+        {
+          "content": "Try to put it out of your mind and focus on the original task, clearing out the caravan, when suddenly a teacup falls from the shelf.",
+          "entry_id": "caravan_phenomena_e000"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e000": {
+      "entry_id": "caravan_phenomena_e000",
+      "content": "Suddenly, a teacup falls from the shelf, shattering on the floor. You jump, heart pounding. The cup was right at the back; there's no logical reason for it to fall.",
+      "choices": [
+        {
+          "content": "Clear up the mess.",
+          "entry_id": "caravan_phenomena_e001"
+        },
+        {
+          "content": "Inspect the shelf and surrounding area carefully.",
+          "entry_id": "caravan_phenomena_e002"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e001": {
+      "entry_id": "caravan_phenomena_e001",
+      "content": "You carefully clear up the broken teacup, trying to tell yourself that it was an accident. As you sweep up the pieces, you notice a faint, icy breeze.",
+      "choices": [
+        {
+          "content": "Check around the windows and doors to see if you can feel a draft.",
+          "entry_id": "caravan_phenomena_e003"
+        },
+        {
+          "content": "Tell yourself it was nothing, and try to calm down.",
+          "entry_id": "caravan_phenomena_e004"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e002": {
+      "entry_id": "meet_pritchard_e002",
+      "content": "He nods slowly. \"Aye. That's what they all say. But this place...it holds onto things. Especially Mari's caravan.\"",
+      "choices": [
+        {
+          "content": "\"Secrets? What kind of secrets?\"",
+          "entry_id": "meet_pritchard_e003"
+        },
+        {
+          "content": "\"I just want to get this done.\"",
+          "entry_id": "meet_pritchard_e008"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e008": {
+      "entry_id": "meet_pritchard_e008",
+      "content": "You leave Pritchard to his own thoughts and the shovel resting on his shoulder. The silence is unnerving as you approach the caravan. All you can hear is the wind whistling through gaps in the window frames.",
+      "choices": [
+        {
+          "content": "Unlock the caravan and step inside.",
+          "entry_id": "meet_pritchard_e011"
+        },
+        {
+          "content": "Walk along the beach to clear your head.",
+          "entry_id": "desolate_beach_beach001"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e011": {
+      "entry_id": "meet_pritchard_e011",
+      "content": "The interior of the caravan is colder than outside, and smells damp. A thick layer of dust coats every surface. The floral wallpaper is peeling in places, revealing bare plasterboard beneath.",
+      "choices": [
+        {
+          "content": "Search for Aunt Mari's diary.",
+          "entry_id": "diary_secret_d001"
+        },
+        {
+          "content": "Start sorting through her belongings.",
+          "entry_id": "meet_pritchard_e012"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d001": {
+      "entry_id": "diary_secret_d001",
+      "content": "You open Aunt Mari\u2019s diary. Her handwriting changes from neat cursive to an increasingly erratic scrawl. The more recent entries are filled with disturbing imagery and strange references.",
+      "choices": [
+        {
+          "content": "Continue reading, focusing on the most recent entries.",
+          "entry_id": "diary_secret_d002"
+        },
+        {
+          "content": "Flip back to earlier entries, hoping for a clearer understanding.",
+          "entry_id": "diary_secret_d003"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d002": {
+      "entry_id": "diary_secret_d002",
+      "content": "The recent entries mention 'the children' and their increasing presence. She describes them leading her to a 'place between worlds', a place from which she feels she can't return. Her writing is frantic and paranoid.",
+      "choices": [
+        {
+          "content": "Try to decipher the meaning of 'the place between worlds'.",
+          "entry_id": "diary_secret_d004"
+        },
+        {
+          "content": "Dismiss the entries as the ramblings of a troubled mind.",
+          "entry_id": "diary_secret_d005"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e004": {
+      "entry_id": "meet_pritchard_e004",
+      "content": "Pritchard sighs. \"Suit yourself. But don't say I didn't warn you. This park...it has a way of getting under your skin.\"",
+      "choices": [
+        {
+          "content": "\"Ways? What ways are those?\"",
+          "entry_id": "meet_pritchard_e007"
+        },
+        {
+          "content": "Decide to politely head towards the caravan, despite his words.",
+          "entry_id": "meet_pritchard_e008"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e007": {
+      "entry_id": "meet_pritchard_e007",
+      "content": "\"It's hard to explain. You'll see. The children know, though,\" Pritchard says, scratching his chin with a dirt-stained finger.",
+      "choices": [
+        {
+          "content": "\"Children? What children?\"",
+          "entry_id": "meet_pritchard_e010"
+        },
+        {
+          "content": "Leave him to his strange ramblings and head for the caravan.",
+          "entry_id": "meet_pritchard_e008"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e010": {
+      "entry_id": "meet_pritchard_e010",
+      "content": "Pritchard smiles sadly. \"You'll see them soon enough. They like to play by the shore, near the old tower. But don't get too close. They don't like strangers.\"",
+      "choices": [
+        {
+          "content": "Head to the beach to look for the children, as Pritchard suggested.",
+          "entry_id": "desolate_beach_beach001"
+        },
+        {
+          "content": "Decide Pritchard is crazy and proceed to the caravan, ignoring what he said.",
+          "entry_id": "meet_pritchard_e008"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach001": {
+      "entry_id": "desolate_beach_beach001",
+      "content": "You step onto the beach. The wind whips your hair. The sea stretches out before you, grey and turbulent. You hear a faint whisper on the breeze, like a sigh.",
+      "choices": [
+        {
+          "content": "Listen to the whispers, trying to make out what they are saying.",
+          "entry_id": "desolate_beach_beach002"
+        },
+        {
+          "content": "Ignore the strange sounds and return to the caravan; this place is already getting to you.",
+          "entry_id": "desolate_beach_beach003"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach002": {
+      "entry_id": "desolate_beach_beach002",
+      "content": "The whispers seem to speak of a tragedy, a village swallowed by the sea. The wind intensifies, and a chill runs down your spine.",
+      "choices": [
+        {
+          "content": "Search for the source of the whispers, hoping to understand them.",
+          "entry_id": "desolate_beach_beach004"
+        },
+        {
+          "content": "Retreat, unnerved by the intensity of the wind and the whispers, back to the caravan.",
+          "entry_id": "desolate_beach_beach005"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e006": {
+      "entry_id": "meet_pritchard_e006",
+      "content": "Pritchard nods slowly. \"Best that way, perhaps. Some things are better left undisturbed.\"",
+      "choices": [
+        {
+          "content": "Head towards the caravan, Mari's old home.",
+          "entry_id": "meet_pritchard_e008"
+        },
+        {
+          "content": "Walk along the beach to clear your head; the sea air might help.",
+          "entry_id": "desolate_beach_beach001"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach004": {
+      "entry_id": "desolate_beach_beach004",
+      "content": "Following the whispers, you stumble upon a crumbling stone tower at the far end of the beach. The wind howls around it, and the whispers are loudest here, almost deafening.",
+      "choices": [
+        {
+          "content": "Enter the tower; perhaps the whispers are coming from inside.",
+          "entry_id": "desolate_beach_beach007"
+        },
+        {
+          "content": "Examine the base of the tower; look for an entrance or markings.",
+          "entry_id": "desolate_beach_beach008"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach007": {
+      "entry_id": "desolate_beach_beach007",
+      "content": "Inside the tower, the air is heavy with the smell of salt and decay. A single shaft of light illuminates a crude carving on the damp wall. It looks like it was made a long time ago. ",
+      "choices": [
+        {
+          "content": "Examine the carving closely; try to understand what it means.",
+          "entry_id": "desolate_beach_beach012"
+        },
+        {
+          "content": "Climb to the top of the tower; see if the view offers any clues.",
+          "entry_id": "desolate_beach_beach013"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach012": {
+      "entry_id": "desolate_beach_beach012",
+      "content": "The carving depicts a group of stick figures with startled faces being overwhelmed by a huge wave. The final figure at the bottom is just a cross shape. It's a chilling reminder of the village's fate.",
+      "choices": [
+        {
+          "content": "Leave the tower; the carving is disturbing.",
+          "entry_id": "desolate_beach_beach005"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach005": {
+      "entry_id": "desolate_beach_beach005",
+      "content": "Overwhelmed by the carving, you quicken your pace back towards the caravan. The whispers fade as you distance yourself from the sea and the tower.",
+      "choices": [
+        {
+          "content": "Check the caravan is locked, just to be sure.",
+          "entry_id": "desolate_beach_beach009"
+        },
+        {
+          "content": "Try to forget what you heard; block it out of your mind.",
+          "entry_id": "desolate_beach_beach010"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e009": {
+      "entry_id": "meet_pritchard_e009",
+      "content": "\"Ah, the diary,\" Pritchard says, a flicker of something unreadable in his eyes. \"Mari was always scribbling in that thing. Said it helped her make sense of things. Called it her 'Book of Shadows'.\"",
+      "choices": [
+        {
+          "content": "\"I'll take a look at it then.\"",
+          "entry_id": "diary_secret_d001"
+        },
+        {
+          "content": "Thank him for his time and head towards the caravan.",
+          "entry_id": "meet_pritchard_e008"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d003": {
+      "entry_id": "diary_secret_d003",
+      "content": "Earlier entries are more like research notes. Mari details her study of local folklore, especially the Tylwyth Teg - the fairy folk of Wales. She seems convinced they're linked to the old fishing village that was here before the park.",
+      "choices": [
+        {
+          "content": "Delve deeper into the Tylwyth Teg research, looking for specific locations mentioned.",
+          "entry_id": "diary_secret_d006"
+        },
+        {
+          "content": "Focus on the information about the fishing village and its tragic history.",
+          "entry_id": "diary_secret_d007"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d006": {
+      "entry_id": "diary_secret_d006",
+      "content": "Mari's research suggests the Tylwyth Teg are drawn to places where strong emotions have been felt. She highlights a grove of trees near the park's entrance, marking it with a question mark and the words 'possible portal'.",
+      "choices": [
+        {
+          "content": "Investigate the grove of trees near the entrance.",
+          "entry_id": "diary_secret_d010"
+        },
+        {
+          "content": "Focus on the information about the fishing village and its history; see if you can find a map of the original village.",
+          "entry_id": "diary_secret_d007"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d010": {
+      "entry_id": "diary_secret_d010",
+      "content": "The grove feels wrong. The air is still, heavier than elsewhere. You have the distinct feeling that you're being watched. Carved into the bark of several trees are symbols - spirals within circles, interconnected by lines.",
+      "choices": [
+        {
+          "content": "Examine the symbols on the trees more closely.",
+          "entry_id": "diary_secret_d014"
+        },
+        {
+          "content": "Head back to the caravan; try to find more about the fishing village's history.",
+          "entry_id": "diary_secret_d007"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d014": {
+      "entry_id": "diary_secret_d014",
+      "content": "The symbols are alien; you've never seen anything like them. They seem to shimmer in the dim light, and as you reach out to touch one, a jolt of static electricity zips up your arm. A low, resonant hum vibrates through the ground.",
+      "choices": [
+        {
+          "content": "The symbols are too unsettling. You need to leave this place.",
+          "entry_id": "final_choice_f000"
+        },
+        {
+          "content": "Leave the grove, unnerved by the carvings and the heavy atmosphere.",
+          "entry_id": "diary_secret_d007"
+        }
+      ],
+      "end": null
+    },
+    "meet_pritchard_e012": {
+      "entry_id": "meet_pritchard_e012",
+      "content": "Beginning to sort through the personal belongings, you notice a distinct coldness in the air. You have the nagging feeling you're being watched, and your skin prickles.",
+      "choices": [
+        {
+          "content": "Search for Aunt Mari's diary; she always wrote down her feelings.",
+          "entry_id": "diary_secret_d001"
+        },
+        {
+          "content": "Decide that it's too much; go for a walk along the beach to clear your head.",
+          "entry_id": "desolate_beach_beach001"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d004": {
+      "entry_id": "diary_secret_d004",
+      "content": "Mari's interpretation of the place between worlds seems to correlate with times she spent near the shore. She mentions a constant, nagging pull towards the sea. The diary entries are confusing, yet the mention of the sea feels significant.",
+      "choices": [
+        {
+          "content": "Go to the beach, hoping to find some answers among the sand and sea.",
+          "entry_id": "diary_secret_d013"
+        },
+        {
+          "content": "Dismiss the diary entries as the ramblings of a troubled mind; she was always eccentric.",
+          "entry_id": "diary_secret_d005"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d013": {
+      "entry_id": "diary_secret_d013",
+      "content": "Standing on the beach, you feel a strange, almost magnetic pull towards the water. The whispers Mari wrote about seem to echo in your mind, growing louder. You glimpse movement in your peripheral vision, and a moment later it has gone.",
+      "choices": [
+        {
+          "content": "The whispers are too insistent. You must escape this place.",
+          "entry_id": "final_choice_f000"
+        },
+        {
+          "content": "Dismiss the diary's whispers and return to the caravan, deciding it's all stress-induced.",
+          "entry_id": "diary_secret_d005"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f000": {
+      "entry_id": "final_choice_f000",
+      "content": "Every fibre of your being is screaming for you to flee Sandy Shores and its secrets. But a quieter voice whispers of something unresolved. Your grief is overwhelming, mixed with a strange sense of purpose. ",
+      "choices": [
+        {
+          "content": "Stay and confront the mysteries of Sandy Shores. Perhaps Mr. Pritchard can explain.",
+          "entry_id": "final_choice_f001"
+        },
+        {
+          "content": "Leave this place behind. Pack up your things and try to get back to a normal life.",
+          "entry_id": "final_choice_f002"
+        },
+        {
+          "content": "Give in to the dread; you're losing your mind.",
+          "entry_id": "final_choice_f003"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f001": {
+      "entry_id": "final_choice_f001",
+      "content": "You feel an undeniable pull towards the park. The air crackles with an unseen energy. You look up to see Mr. Pritchard watching you from the shadows at the edge of the park. He gives a slow, knowing nod.",
+      "choices": [
+        {
+          "content": "Stay at Sandy Shores and embrace the park's mysteries.",
+          "entry_id": "acceptance_e000"
+        },
+        {
+          "content": "Ignore Mr. Pritchard and try to leave anyway; you don't need his permission.",
+          "entry_id": "final_choice_f004"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e008": {
+      "entry_id": "children_sightings_e008",
+      "content": "The ground is bare and exposed to the wind. It looks as though it hasn't been used in a long time. Apart from a worn path heading towards the sea, there's nothing here.",
+      "choices": [
+        {
+          "content": "Investigate the path towards the beach.",
+          "entry_id": "desolate_beach_beach001"
+        },
+        {
+          "content": "Go back to the caravan, unsettled.",
+          "entry_id": "children_sightings_e002"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach003": {
+      "entry_id": "desolate_beach_beach003",
+      "content": "You turn away from the sea, the wind making you feel uneasy as you head back towards the caravan park.",
+      "choices": [
+        {
+          "content": "Turn around and walk back to the caravan.",
+          "entry_id": "explore_caravan_e000"
+        },
+        {
+          "content": "Go over to the arcade; see if there's anything to see.",
+          "entry_id": "desolate_beach_beach006"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach006": {
+      "entry_id": "desolate_beach_beach006",
+      "content": "The doors to the arcade are locked and secured with bars. Dust covers the windows and you can't see inside. A faded sign reading 'Open' hangs askew.",
+      "choices": [
+        {
+          "content": "Try the handle anyway.",
+          "entry_id": "desolate_beach_beach011"
+        },
+        {
+          "content": "Head back to the caravan.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e007": {
+      "entry_id": "children_sightings_e007",
+      "content": "You take a step back, suddenly overwhelmed. The children\u2019s laughter seems to fill your ears, echoing unnaturally around you, growing fainter and higher pitched as they vanish into thin air between the caravans. It is as though they were never really there.",
+      "choices": [
+        {
+          "content": "Return to the caravan, shaken.",
+          "entry_id": "children_sightings_e002"
+        },
+        {
+          "content": "Search the immediate area where they disappeared, hoping to find some clue as to where they went.",
+          "entry_id": "children_sightings_e008"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e005": {
+      "entry_id": "children_sightings_e005",
+      "content": "The diaries contain numerous entries about the 'Tylwyth Teg', detailing legends of their connection to the sea and the park. The entries are interspersed with notes about children lost to the waves, and the 'Sea's Whisper', alongside a recurring local legend of children who haunt the park after dark. The dates on these entries span the entire time Mari lived at the park.",
+      "choices": [
+        {
+          "content": "Ask Mr. Pritchard about the legend.",
+          "entry_id": "children_sightings_e009"
+        },
+        {
+          "content": "Close the diary and try to focus on clearing out the caravan, disturbed.",
+          "entry_id": "children_sightings_e002"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e009": {
+      "entry_id": "children_sightings_e009",
+      "content": "You find Mr. Pritchard near the entrance to the caravan park, tinkering with the barrier. You ask him about the children. He pauses, looking out towards the sea, and then shrugs, his expression unreadable. 'Some say they're the spirits of children lost at sea during a storm, others say they're just figments of imagination brought on by the loneliness. But either way, best not to dwell on it, or you'll start seeing them too.' He turns back to the barrier and coughs.",
+      "choices": [
+        {
+          "content": "Decide that you are letting your imagination run away with you, and return to your work in the caravan.",
+          "entry_id": "children_sightings_e002"
+        },
+        {
+          "content": "Search the area for any trace of the children or clues related to the legend.",
+          "entry_id": "children_sightings_e008"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e002": {
+      "entry_id": "caravan_phenomena_e002",
+      "content": "The shelf seems stable, and there's no sign of what could have made the teacup fall. As you are looking, you think you can hear a faint whispering sound, like someone speaking just out of earshot. The sound appears to be coming from behind the floral wallpaper behind the shelf.",
+      "choices": [
+        {
+          "content": "Carefully peel back the floral wallpaper to see what is behind it.",
+          "entry_id": "caravan_phenomena_e005"
+        },
+        {
+          "content": "Decide it's probably just the wind, and carry on with what you're doing.",
+          "entry_id": "caravan_phenomena_e006"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e001": {
+      "entry_id": "hidden_room_e001",
+      "content": "Dust hangs thick in the single shaft of light illuminating the room. It's small, but crammed full. Shelves overflow with books, strange artifacts, and rolled-up maps. A musty scent fills the air. Where do you turn your attention first?",
+      "choices": [
+        {
+          "content": "Take a closer look at the strange map on the wall.",
+          "entry_id": "hidden_room_e002"
+        },
+        {
+          "content": "Browse the collection of old, leather-bound books.",
+          "entry_id": "hidden_room_e003"
+        },
+        {
+          "content": "Quickly look around the room, then return to the main caravan area.",
+          "entry_id": "hidden_room_e016"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e002": {
+      "entry_id": "hidden_room_e002",
+      "content": "The map is old, the parchment yellowed and brittle with age. It depicts the coastline around Sandy Shores, but with details missing from modern maps. Faded ink marks the land, but there are also symbols etched in what looks like dried blood. You recognise the location of the old fishing village marked clearly.",
+      "choices": [
+        {
+          "content": "Trace the jagged Welsh coastline with your finger.",
+          "entry_id": "hidden_room_e004"
+        },
+        {
+          "content": "Examine the crude symbols and strange markings on the map.",
+          "entry_id": "hidden_room_e005"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e004": {
+      "entry_id": "hidden_room_e004",
+      "content": "The log is written in a rushed, barely legible hand. It seems to detail the daily life of a fisherman from the abandoned village. Amongst the mundane entries about the daily catch and weather, you find references to strange rituals performed on the beach and symbols resembling those on the map. They seem to be related to appeasing 'the dwellers below'.",
+      "choices": [
+        {
+          "content": "Attempt to decipher the fisherman's log relating to the strange symbols *on the map*.",
+          "entry_id": "hidden_room_e008"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e008": {
+      "entry_id": "hidden_room_e008",
+      "content": "The map seems to confirm something ancient lies beneath the park. You notice a specific marking - a series of concentric circles near to where the old village stood, almost like a summoning sigil. This could be a key to understanding the events that took place, and perhaps explain some of Mari's research.",
+      "choices": [
+        {
+          "content": "Decide to investigate the park's history, using Mari's research.",
+          "entry_id": "investigate_history_ih000"
+        },
+        {
+          "content": "Put the map down and look at something else in the hidden room.",
+          "entry_id": "hidden_room_e012"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih000": {
+      "entry_id": "investigate_history_ih000",
+      "content": "With the mystery of Mari's diary still unsolved, and the thought of the abandoned village echoing in your mind, you decide to investigate the caravan park's history and perhaps uncover what it is that makes this place feel so strange.",
+      "choices": [
+        {
+          "content": "Head to the local library in Porthmadog; maybe they have some local history books.",
+          "entry_id": "investigate_history_ih001"
+        },
+        {
+          "content": "Talk to Mr. Pritchard again and ask him about the park's history and the fishing village of old.",
+          "entry_id": "investigate_history_ih002"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e003": {
+      "entry_id": "hidden_room_e003",
+      "content": "The shelves are packed tight. The books' cracked leather covers feel dry to the touch. The spines bear symbols, crude drawings of what might be stars or standing stones. The diagrams look like old maps - or possibly constellations. Some books look ancient, the paper browned with age, while others are newer, perhaps placed here by Mari.",
+      "choices": [
+        {
+          "content": "Delve into a book about Welsh folklore; discover more about the Fair Folk.",
+          "entry_id": "hidden_room_e006"
+        },
+        {
+          "content": "Look for information about the caravan park and its history.",
+          "entry_id": "hidden_room_e007"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e006": {
+      "entry_id": "hidden_room_e006",
+      "content": "You find a thick volume dedicated to Welsh folklore. Inside, a chapter details the Tylwyth Teg \u2013 the Fair Folk. The writing describes them as both beautiful and cruel. They are said to lure mortals with gifts, but demand a heavy price in return. It speaks of glamour, enchantment, and the dangers of accepting their hospitality.",
+      "choices": [
+        {
+          "content": "Read about the Tylwyth Teg; learn of their powers and weaknesses.",
+          "entry_id": "hidden_room_e009"
+        },
+        {
+          "content": "Search the folklore book for any mentions of Sandy Shores Caravan Park.",
+          "entry_id": "hidden_room_e010"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e009": {
+      "entry_id": "hidden_room_e009",
+      "content": "These aren't the friendly fairies of children's stories. The book describes changelings, fairy children left in place of human ones. They are said to bring sickness and misfortune. There's a story of a village that gave offerings of milk to the Tylwyth Teg, to keep them from stealing their children.",
+      "choices": [
+        {
+          "content": "Try to connect what you've seen with these tales.",
+          "entry_id": "hidden_room_e013"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e013": {
+      "entry_id": "hidden_room_e013",
+      "content": "The pale faces of the children keep replaying in your mind. Their eyes seemed empty, not like children at all. You try to dismiss it, blaming the stories and the strange atmosphere. You can't shake the feeling that something isn't right.",
+      "choices": [
+        {
+          "content": "Leave this hidden place; return to the main caravan.",
+          "entry_id": "hidden_room_e017"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e017": {
+      "entry_id": "hidden_room_e017",
+      "content": "You slide the panel back into place, hiding the room once more. It's like burying a secret. The caravan feels brighter, more normal now - or perhaps you're just imagining it.",
+      "choices": [
+        {
+          "content": "Go back and sort through Mari's items.",
+          "entry_id": "hidden_room_e018"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e005": {
+      "entry_id": "hidden_room_e005",
+      "content": "The symbols are peculiar. Spiraling lines interweave with shapes that suggest monstrous fish and distorted seashells. One symbol, repeated several times, looks like an eye weeping a tear of blood. The ink seems to pulse with a dark energy. You recall similar images in Mari's diary.",
+      "choices": [
+        {
+          "content": "Relate the symbols *on the map* to the drawings in Mari's diary; see if you can find a match.",
+          "entry_id": "hidden_room_e008"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih001": {
+      "entry_id": "investigate_history_ih001",
+      "content": "The library smells of old paper and dust. The librarian, a kind-faced woman with a warm smile, directs you to the local history section. She suggests the newspaper archives and a collection of books about the region.",
+      "choices": [
+        {
+          "content": "Delve into the local newspaper archives, hoping for some insight.",
+          "entry_id": "investigate_history_ih003"
+        },
+        {
+          "content": "Browse the local history books; maybe a forgotten story is captured in print.",
+          "entry_id": "investigate_history_ih004"
+        },
+        {
+          "content": "Return to the caravan park and consider your next steps.",
+          "entry_id": "investigate_history_ih005"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih003": {
+      "entry_id": "investigate_history_ih003",
+      "content": "The newspaper archives are filled with stories of a brutal storm that decimated the fishing village in the early 1900s. The waves breached the sea defences and claimed the lives of many. The village was quickly abandoned, its inhabitants forced to relocate inland.",
+      "choices": [
+        {
+          "content": "Look for any articles that specifically mention Aunt Mari or her research into local folklore.",
+          "entry_id": "investigate_history_ih008"
+        },
+        {
+          "content": "Decide you know enough about the village tragedy; return to the caravan and consider your next move.",
+          "entry_id": "investigate_history_ih005"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih008": {
+      "entry_id": "investigate_history_ih008",
+      "content": "Scanning through the archives, you come across some mentions of Mari. She had been a frequent visitor to the library in her youth, always asking questions about the old village. One article mentions her 'unconventional theories about the village's demise and a connection to ancient Welsh folklore'. She was clearly interested in something more than just historical facts.",
+      "choices": [
+        {
+          "content": "Consider what you have discovered, and what it might mean; it is time to make a decision.",
+          "entry_id": "investigate_history_ih013"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih013": {
+      "entry_id": "investigate_history_ih013",
+      "content": "You sit at Mari's small writing desk, the diary and maps spread out before you. You know about the drowned village, Mari's fascination with the folklore, and the strange sightings of the children around the park. The pieces of the puzzle are there, waiting to be assembled, and among them you find a single, iridescent seashell. Will you complete the picture? You feel a growing need to decide on your next step.",
+      "choices": [
+        {
+          "content": "Leave Sandy Shores behind; try to forget everything you've discovered here.",
+          "entry_id": "final_choice_f000"
+        },
+        {
+          "content": "Attempt to piece together the threads of the story you've uncovered; find out the truth.",
+          "entry_id": "revelation_e000"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e007": {
+      "entry_id": "hidden_room_e007",
+      "content": "Many of the books chronicle local history. Turning to a particularly heavy tome, you find references to a fishing village that once stood where the caravan park is now. They suggest the village suffered some cataclysmic event that forced the residents to flee. One passage describes a 'winter storm' that devastated the coast, but other accounts whisper of darker things: 'a debt owed' and 'ancient bargains'.",
+      "choices": [
+        {
+          "content": "Look for mentions of the tragedy that befell the fishing village; perhaps it offers some clue.",
+          "entry_id": "hidden_room_e011"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e011": {
+      "entry_id": "hidden_room_e011",
+      "content": "The details surrounding the village's demise are murky and contradictory. Some texts claim a sudden tsunami wiped it out, while others hint at a more sinister cause. You read disturbing tales of villagers making pacts with entities from the sea, of children disappearing on moonless nights, and unsettling rituals performed on the beach.",
+      "choices": [
+        {
+          "content": "Wonder if this tragedy could explain the presence of the pale children you've seen.",
+          "entry_id": "hidden_room_e014"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e014": {
+      "entry_id": "hidden_room_e014",
+      "content": "You feel a creeping unease as you piece together the fragments of information. The map's cryptic symbols, the Tylwyth Teg folklore, and the stories of the village's end - the children, always the children... A darkness seems to emanate from the very walls of this hidden room.",
+      "choices": [
+        {
+          "content": "Decide whether to remain in the caravan park, or leave it behind you.",
+          "entry_id": "final_choice_f000"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f002": {
+      "entry_id": "final_choice_f002",
+      "content": "With shaking hands, you pack the final box. Each photograph, each trinket, each faded dress, feels heavy with unspoken stories. As you close the caravan door, a faint, childlike melody drifts on the wind. The children are singing.",
+      "choices": [
+        {
+          "content": "Ignore the ethereal singing and drive away, desperate to escape this place.",
+          "entry_id": "final_choice_f005"
+        },
+        {
+          "content": "Compelled by an unknown force, follow the sound of the singing.",
+          "entry_id": "final_choice_f006"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f005": {
+      "entry_id": "final_choice_f005",
+      "content": "You slam the car into gear and speed away from Sandy Shores. The children's singing fades behind you, replaced by the roar of the engine and the pounding of your heart. As you glance in the rearview mirror, the caravan park shrinks into the distance. You can't shake the feeling that you're leaving something important behind.",
+      "choices": [
+        {
+          "content": "Drive away without looking back.",
+          "entry_id": "escape_e001"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e010": {
+      "entry_id": "hidden_room_e010",
+      "content": "There is a tantalisingly small entry on Sandy Shores. It mentions something about a great tragedy that befell the old fishing village on which the caravan park now stands, adding that the village's inhabitants are now 'those that walk between the worlds', implying a connection between the mortal realm and somewhere else, something\u2026other. It's not much to go on.",
+      "choices": [
+        {
+          "content": "Focus on what the book says about children and the Tylwyth Teg.",
+          "entry_id": "hidden_room_e013"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e018": {
+      "entry_id": "hidden_room_e018",
+      "content": "Now that you've hidden the room again, you have one last chance to decide whether to stay and unravel the mysteries of the park, and especially the children, or leave and never return. Will you delve deeper into the history of Sandy Shores and confront whatever darkness lies beneath, or will you prioritize your own well-being and escape this unsettling place?",
+      "choices": [
+        {
+          "content": "Determine whether you want to face your fears about the children, or run from them.",
+          "entry_id": "final_choice_f000"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f003": {
+      "entry_id": "final_choice_f003",
+      "content": "You succumb to the oppressive atmosphere of Sandy Shores, your grip on reality loosening. Shadows dance in the corners of your eyes, and whispers echo in your ears. You feel yourself sinking into a dark abyss.",
+      "choices": [
+        {
+          "content": "Let the darkness consume you, and your sanity.",
+          "entry_id": "madness_e000"
+        }
+      ],
+      "end": null
+    },
+    "madness_e000": {
+      "entry_id": "madness_e000",
+      "content": "Your mind shatters, reality and illusion blurring into one. You're lost, trapped within the park's nightmare; the wind howls like a banshee, and the shadows lengthen into grotesque shapes. You hear the faint sound of children giggling, beckoning you further into the park's embrace.",
+      "choices": [
+        {
+          "content": "Follow the sound of children giggling, deeper into the park. They're calling to you.",
+          "entry_id": "madness_e001"
+        },
+        {
+          "content": "Try to find Mr. Pritchard, the caretaker. He might be able to help in the chaos.",
+          "entry_id": "madness_e002"
+        }
+      ],
+      "end": null
+    },
+    "madness_e001": {
+      "entry_id": "madness_e001",
+      "content": "The giggling leads you towards the beach. The 'Children' are there, but their eyes are empty sockets. They beckon you to join them, their voices a chorus of whispers that promise oblivion. The sea roars a song of madness, and you can hear a faint, childlike melody carried on the wind.",
+      "choices": [
+        {
+          "content": "Join the children, accepting their invitation, and whatever happens next.",
+          "entry_id": "madness_e003"
+        },
+        {
+          "content": "Run from the beach, trying to find some semblance of reality before it's too late.",
+          "entry_id": "madness_e004"
+        }
+      ],
+      "end": null
+    },
+    "hidden_room_e012": {
+      "entry_id": "hidden_room_e012",
+      "content": "With a sigh, you close the map and return it to its place. Your gaze drifts to the nearby shelves. Maybe a different approach is needed.",
+      "choices": [
+        {
+          "content": "Browse the collection of rare books.",
+          "entry_id": "hidden_room_e003"
+        },
+        {
+          "content": "Quietly leave the hidden room, putting what you've discovered about the park to one side, closing the panel behind you.",
+          "entry_id": "hidden_room_e017"
+        }
+      ],
+      "end": null
+    },
+    "acceptance_e000": {
+      "entry_id": "acceptance_e000",
+      "content": "A sense of familiarity washes over you; an undeniable connection to the park. You are compelled to stay, and the caravan, with all its baggage, fades in importance. The children's laughter drifts on the wind, and you realise that you're no longer afraid.",
+      "choices": [
+        {
+          "content": "Stay at Sandy Shores and succumb to the park's pull; embrace its secrets.",
+          "entry_id": "acceptance_e001"
+        }
+      ],
+      "end": null
+    },
+    "acceptance_e001": {
+      "entry_id": "acceptance_e001",
+      "content": "Time loses all meaning. You spend your days exploring the park, walking the deserted beach, and listening to Mr. Pritchard's cryptic stories. The 'children' appear more often now, beckoning you to join their games. Your old life becomes a distant memory as you integrate into the park's strange existence. You have found your place here, amidst the whispers of the wind and the secrets of the shore.",
+      "choices": [],
+      "end": "win"
+    },
+    "hidden_room_e015": {
+      "entry_id": "hidden_room_e015",
+      "content": "You decide the hidden room is a distraction from the task at hand. Better to just concentrate on clearing out the caravan, and leave any unnerving thoughts buried along with the secrets in the small room. You push the panel closed, returning the wardrobe to its original state.",
+      "choices": [
+        {
+          "content": "Concentrate on sorting the objects and trying to leave this place; decide to close the hidden room again.",
+          "entry_id": "hidden_room_e018"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f006": {
+      "entry_id": "final_choice_f006",
+      "content": "Drawn by the ethereal singing, you venture towards the beach. The wind whips your hair, stinging your eyes. You see the children, pale and shimmering, playing near the crumbling stone tower at the far end of the beach. As you approach, they turn towards you, their eyes dark, and then fade into the mist, leaving behind only a single, iridescent seashell nestled in the sand.",
+      "choices": [
+        {
+          "content": "Pick up the shell; perhaps you can understand the song.",
+          "entry_id": "revelation_e000"
+        },
+        {
+          "content": "Run away, back to the Vauxhall; you want no part of this place.",
+          "entry_id": "final_choice_f008"
+        }
+      ],
+      "end": null
+    },
+    "revelation_e000": {
+      "entry_id": "revelation_e000",
+      "content": "You pick up the iridescent seashell. It's cool to the touch, and as you hold it to your ear, you hear not the ocean, but faint children's voices, singing a mournful melody. The pieces fall into place, revealing the truth about Aunt Mari and the park's past. You begin to understand why this place was so important to her. She always felt responsible for something that happened here long ago.",
+      "choices": [
+        {
+          "content": "Reflect on Aunt Mari\u2019s life and the caravan park\u2019s history; try to find peace in this place.",
+          "entry_id": "revelation_e001"
+        }
+      ],
+      "end": null
+    },
+    "revelation_e001": {
+      "entry_id": "revelation_e001",
+      "content": "Sitting on the beach, the seashell still in your hand, you feel a sense of closure. You understand Mari's connection to the park and its history; her sadness, her secrets, and her desire to atone for something she never did. The grief begins to lift, replaced by a sense of peace. You are ready to leave, carrying Mari's memory with you, and the knowledge that she has finally found rest.",
+      "choices": [],
+      "end": "win"
+    },
+    "hidden_room_e016": {
+      "entry_id": "hidden_room_e016",
+      "content": "It's all too much. The strange atmosphere and the room's odd contents overwhelm you. You want to get out of the caravan park and never come back. You feel like this place is starting to affect you.",
+      "choices": [
+        {
+          "content": "Just leave the room and try to forget about what you've seen.",
+          "entry_id": "hidden_room_e018"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f004": {
+      "entry_id": "final_choice_f004",
+      "content": "Ignoring the park's strange pull, you try to drive away. You start the engine, but the car sputters and dies. A sense of dread washes over you as you see Mr. Pritchard blocking the exit with his truck.",
+      "choices": [
+        {
+          "content": "Confront Mr. Pritchard and demand that he let you leave.",
+          "entry_id": "final_choice_f007"
+        },
+        {
+          "content": "Acknowledge the pull towards the park and head there.",
+          "entry_id": "final_choice_f001"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f007": {
+      "entry_id": "final_choice_f007",
+      "content": "You march up to Mr. Pritchard and demand to leave, but he simply smiles sadly, handing you a faded photograph of Aunt Mari as a young girl. 'She never truly left,' he says. 'And neither will you.' You feel yourself drawn to the park.",
+      "choices": [
+        {
+          "content": "Accept that your fate is intertwined with the park's.",
+          "entry_id": "acceptance_e000"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach008": {
+      "entry_id": "desolate_beach_beach008",
+      "content": "At the base of the tower, half-buried in the sand, you see a small, weathered wooden box. It's plain, save for a single rusted hinge, and looks like it's been there a long time.",
+      "choices": [
+        {
+          "content": "Open the box; you're intrigued by what might be inside.",
+          "entry_id": "desolate_beach_beach014"
+        },
+        {
+          "content": "Enter the tower instead, leaving the box behind.",
+          "entry_id": "desolate_beach_beach007"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach013": {
+      "entry_id": "desolate_beach_beach013",
+      "content": "The view from the top is bleak. The sea is vast and grey, the beach a ribbon of sand. Nothing but the wind and the waves.",
+      "choices": [
+        {
+          "content": "Descend, feeling a chill that has nothing to do with the wind.",
+          "entry_id": "desolate_beach_beach005"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach009": {
+      "entry_id": "desolate_beach_beach009",
+      "content": "The door to the caravan is unlocked. A wave of unease washes over you. Had you left it open? You're sure you'd locked it...",
+      "choices": [
+        {
+          "content": "Step inside; the chill is getting to you, and as you do a teacup falls from the shelf.",
+          "entry_id": "caravan_phenomena_e000"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e003": {
+      "entry_id": "caravan_phenomena_e003",
+      "content": "You check all the windows and doors. They're tightly shut, but the icy breeze persists. The temperature seems to be dropping.",
+      "choices": [
+        {
+          "content": "Turn up the heating; it's freezing in here.",
+          "entry_id": "caravan_phenomena_e007"
+        },
+        {
+          "content": "Check around the caravan for draughts; there must be one.",
+          "entry_id": "caravan_phenomena_e008"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e008": {
+      "entry_id": "caravan_phenomena_e008",
+      "content": "You check the insulation around the windows, finding nothing amiss. A floorboard creaks loudly behind you.",
+      "choices": [
+        {
+          "content": "Carefully lift the floorboard and see what's hidden beneath.",
+          "entry_id": "caravan_phenomena_e017"
+        },
+        {
+          "content": "Decide it's just an old caravan settling; try to ignore it.",
+          "entry_id": "caravan_phenomena_e004"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach010": {
+      "entry_id": "desolate_beach_beach010",
+      "content": "You try to shake it off, but those whispers won't leave you alone, the rise and fall of the waves somehow turning into a dark and unsettling memory.",
+      "choices": [
+        {
+          "content": "Head back to the caravan and hope to find some peace amongst Mari's things.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach011": {
+      "entry_id": "desolate_beach_beach011",
+      "content": "The arcade door is firmly locked. You rattle the handle, but it doesn't budge. Peering through the dusty windows, you can just make out the faint outlines of arcade machines, silent and still.",
+      "choices": [
+        {
+          "content": "Go back to the caravan.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "desolate_beach_beach014": {
+      "entry_id": "desolate_beach_beach014",
+      "content": "The box is full of old photographs, stuck together with damp. They show a small fishing village nestled by the coast. There are people laughing, boats bobbing in the harbour, nets being hauled in. The last few are dark, almost black, as if taken in a storm.",
+      "choices": [
+        {
+          "content": "Take the photographs back to the caravan; try to piece together the village's story.",
+          "entry_id": "explore_caravan_e000"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e004": {
+      "entry_id": "caravan_phenomena_e004",
+      "content": "You try to relax, but the feeling of eyes on you is intense. Out of the corner of your eye, you catch a fleeting movement.",
+      "choices": [
+        {
+          "content": "Whip around to face whatever made the sound.",
+          "entry_id": "caravan_phenomena_e009"
+        },
+        {
+          "content": "Ignore it, telling yourself you're just imagining things from the stress.",
+          "entry_id": "caravan_phenomena_e010"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e009": {
+      "entry_id": "caravan_phenomena_e009",
+      "content": "There's nothing there. You feel foolish and paranoid, but the feeling lingers.",
+      "choices": [
+        {
+          "content": "Try to distract yourself by washing the dishes.",
+          "entry_id": "caravan_phenomena_e001"
+        },
+        {
+          "content": "Put the kettle on, hoping a hot drink will help calm your nerves.",
+          "entry_id": "caravan_phenomena_e016"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e016": {
+      "entry_id": "caravan_phenomena_e016",
+      "content": "The tea does little to calm your nerves. The broken teacup, the cold air, the feeling of being watched... It's all too much to dismiss. A sense of unease settles deep in your stomach. ",
+      "choices": [
+        {
+          "content": "Take a look at Aunt Mari's diary; maybe she wrote something about these strange feelings.",
+          "entry_id": "diary_secret_d001"
+        },
+        {
+          "content": "You've had enough of this place. You're packing and leaving first thing in the morning.",
+          "entry_id": "final_choice_f000"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d005": {
+      "entry_id": "diary_secret_d005",
+      "content": "You almost dismiss the diary entirely, thinking it's nonsense. But the writing is so intense, it gives you pause. There might be a truth in here somewhere, or it might be a distraction.",
+      "choices": [
+        {
+          "content": "Put the diary aside and try to get on with sorting through things.",
+          "entry_id": "diary_secret_d008"
+        },
+        {
+          "content": "Read on, you need to see if there's anything useful in the diary.",
+          "entry_id": "diary_secret_d009"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d008": {
+      "entry_id": "diary_secret_d008",
+      "content": "You try to concentrate on the job, but the diary's contents keep popping into your head. You can't shake the feeling that you're running away from something.",
+      "choices": [
+        {
+          "content": "Pick up the diary again; you need to know what it says.",
+          "entry_id": "diary_secret_d009"
+        },
+        {
+          "content": "Leave, you don't want to know any more. Pack the car.",
+          "entry_id": "final_choice_f000"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e005": {
+      "entry_id": "caravan_phenomena_e005",
+      "content": "Behind the floral wallpaper is a square cut-out in the caravan wall, about a foot across. In the centre of the square is a small, crudely drawn symbol etched into the wood - a single spiral, leading inwards to a central point.",
+      "choices": [
+        {
+          "content": "Try to find information about the spiral symbol among Aunt Mari's belongings.",
+          "entry_id": "caravan_phenomena_e011"
+        },
+        {
+          "content": "Quickly cover it back up; it's probably nothing, and perhaps best left undisturbed.",
+          "entry_id": "caravan_phenomena_e012"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e011": {
+      "entry_id": "caravan_phenomena_e011",
+      "content": "With the unsettling symbol fresh in your mind, you decide to search Aunt Mari's caravan for any reference to it or similar symbols. Your first thought is her diary.",
+      "choices": [
+        {
+          "content": "Locate and read Aunt Mari's diary, searching for any mention of spirals or related symbols.",
+          "entry_id": "diary_secret_d001"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d007": {
+      "entry_id": "diary_secret_d007",
+      "content": "The diary entry reveals that the fishing village of old was abandoned due to some sickness that swept through the population - though Mari notes 'the exact nature of which remains unclear'. She also writes of rituals supposedly performed by the villagers to appease the sea, and refers to the carvings that can still be seen at the beach nearby.",
+      "choices": [
+        {
+          "content": "Delve into the fishing village's history, and see if the ritual is mentioned.",
+          "entry_id": "investigate_history_ih000"
+        },
+        {
+          "content": "Look for any further entries mentioning rituals in Mari's research.",
+          "entry_id": "diary_secret_d011"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d011": {
+      "entry_id": "diary_secret_d011",
+      "content": "According to the diary, one of the rituals involved seashells and an old stone tower located on the far end of the beach. Mari writes that it was meant to appease the sea and ensure a bountiful catch. She also wonders if it was related to the carvings on the beach itself.",
+      "choices": [
+        {
+          "content": "Go to the stone tower - see if it is as Mari described.",
+          "entry_id": "diary_secret_d012"
+        },
+        {
+          "content": "Delve into the fishing village's history, and see if the ritual is mentioned.",
+          "entry_id": "investigate_history_ih000"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d012": {
+      "entry_id": "diary_secret_d012",
+      "content": "You arrive at the stone tower, noting that it's as Mari described. It's crumbling and covered in graffiti, and there's a pervasive smell of salt and decay. Scattered around the base of the tower are seashells of various sizes and colours, just as the diary described.",
+      "choices": [
+        {
+          "content": "The ritual seems too dangerous. You should leave Sandy Shores now.",
+          "entry_id": "final_choice_f000"
+        },
+        {
+          "content": "Decide the whole thing is pointless and head back to the caravan.",
+          "entry_id": "diary_secret_d005"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e006": {
+      "entry_id": "caravan_phenomena_e006",
+      "content": "The whispering is quieter, but you still feel uneasy. You notice a small framed photograph of the beach hanging slightly crooked on the wall.",
+      "choices": [
+        {
+          "content": "Straighten the photograph, trying to ignore the unsettling events.",
+          "entry_id": "caravan_phenomena_e013"
+        },
+        {
+          "content": "Take the photograph down and examine it closely.",
+          "entry_id": "caravan_phenomena_e014"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e014": {
+      "entry_id": "caravan_phenomena_e014",
+      "content": "You pick up the photograph, noticing that it shows Mari standing in front of the caravan park sign. It must be 30 years old. You notice a strange blurring around the edges, like the emulsion has run.",
+      "choices": [
+        {
+          "content": "Search for answers in Aunt Mari's diary.",
+          "entry_id": "diary_secret_d001"
+        }
+      ],
+      "end": null
+    },
+    "diary_secret_d009": {
+      "entry_id": "diary_secret_d009",
+      "content": "Flipping through the diary, you see a page with a map crudely drawn in pencil. It shows the caravan park, with Caravan 42 circled. A large 'X' marks a spot down on the beach, near the old stone tower.",
+      "choices": [
+        {
+          "content": "Go to the spot marked with an 'X' on the beach by the tower.",
+          "entry_id": "diary_secret_d012"
+        },
+        {
+          "content": "Dismiss the map and entries, deciding they're the ramblings of a troubled mind.",
+          "entry_id": "diary_secret_d005"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e007": {
+      "entry_id": "caravan_phenomena_e007",
+      "content": "The tiny electric fire glows red, struggling to warm the caravan's damp air. You try to read Aunt Mari's book on local folklore, but the words on the page seem to blur and shift in the dim light. You can't concentrate at all.",
+      "choices": [
+        {
+          "content": "Give up reading and try to get some sleep.",
+          "entry_id": "caravan_phenomena_e015"
+        },
+        {
+          "content": "Make a cup of tea. Maybe the familiarity of the routine will bring some focus.",
+          "entry_id": "caravan_phenomena_e016"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e015": {
+      "entry_id": "caravan_phenomena_e015",
+      "content": "You try to sleep, but nightmares plague you. You see shadows dance across the faded floral wallpaper, and the whispering sound from outside grows louder. You think you can hear children singing.",
+      "choices": [
+        {
+          "content": "Get up and leave the caravan. This place is getting to you.",
+          "entry_id": "final_choice_f000"
+        }
+      ],
+      "end": null
+    },
+    "madness_e002": {
+      "entry_id": "madness_e002",
+      "content": "You stumble towards Pritchard's office, the only place where you can imagine finding any help. But the building seems wrong somehow, grotesque. The windows are dark and empty like eye sockets, and the door is hanging open. A crudely painted sign above the door reads: 'Nadolig Llawen'",
+      "choices": [
+        {
+          "content": "Drawn by the children's laughter, force your way inside, desperate for answers from Mr. Pritchard.",
+          "entry_id": "madness_e003"
+        },
+        {
+          "content": "Run. This is too much, even for you.",
+          "entry_id": "madness_e004"
+        }
+      ],
+      "end": null
+    },
+    "madness_e003": {
+      "entry_id": "madness_e003",
+      "content": "Drawn by the children, sanity has fled, replaced by a kaleidoscope of hallucinations. The caravan park has claimed you. You are now one of the 'Children' of Sandy Shores, forever trapped between worlds. The sounds of your sobbing turn into the sounds of their laughter.",
+      "choices": [],
+      "end": "lose"
+    },
+    "caravan_phenomena_e010": {
+      "entry_id": "caravan_phenomena_e010",
+      "content": "The feeling of being watched intensifies. A small, child-like giggle echoes faintly from the bedroom. You hear it clearly.",
+      "choices": [
+        {
+          "content": "After hearing the giggle, investigate the bedroom.",
+          "entry_id": "caravan_phenomena_e011"
+        },
+        {
+          "content": "Leave the caravan immediately, you can't take this.",
+          "entry_id": "final_choice_f000"
+        }
+      ],
+      "end": null
+    },
+    "escape_e001": {
+      "entry_id": "escape_e001",
+      "content": "You drive away, leaving Sandy Shores Caravan Park behind. You see the park recede in your rearview mirror. But the image of the children, and their unsettling song, will linger forever. You will never know what any of it meant.",
+      "choices": [],
+      "end": "win"
+    },
+    "caravan_phenomena_e012": {
+      "entry_id": "caravan_phenomena_e012",
+      "content": "A wave of unease washes over you as you quickly smooth the wallpaper back over the carving. You tell yourself it's probably nothing, just an oddity from a bygone era. The spiral, though... it felt significant, somehow. But you push the thought aside, not wanting to delve any deeper into Aunt Mari's secrets.",
+      "choices": [
+        {
+          "content": "Try to settle down with a book; anything to distract you from your unease.",
+          "entry_id": "caravan_phenomena_e007"
+        }
+      ],
+      "end": null
+    },
+    "final_choice_f008": {
+      "entry_id": "final_choice_f008",
+      "content": "Panic grips you as the line between reality and nightmare dissolves. The whispers grow louder, more insistent. The shadows lengthen and twist, taking on grotesque forms. You're trapped in your own mind.",
+      "choices": [
+        {
+          "content": "Succumb to the park's madness and end your personal torment.",
+          "entry_id": "madness_e000"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e013": {
+      "entry_id": "caravan_phenomena_e013",
+      "content": "The photograph shows Aunt Mari as a young woman, standing on the very beach you walked along earlier today. As you study the photo, the colours seem to fade. The whisper returns, louder now, like a voice just beyond hearing.",
+      "choices": [
+        {
+          "content": "The tea is weak, but the warmth is comforting. Close your eyes and try to ignore what's happening.",
+          "entry_id": "caravan_phenomena_e016"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih002": {
+      "entry_id": "investigate_history_ih002",
+      "content": "Mr. Pritchard is hesitant to talk, but eventually relents, shuffling his feet and looking out to the sea. He hints at a terrible tragedy that befell the old fishing village before the park was built, something the locals don't like to talk about.",
+      "choices": [
+        {
+          "content": "Press him for more details about the village's demise.",
+          "entry_id": "investigate_history_ih006"
+        },
+        {
+          "content": "Ask if he knows why Aunt Mari was so fascinated with local folklore and the Tylwyth Teg.",
+          "entry_id": "investigate_history_ih007"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih006": {
+      "entry_id": "investigate_history_ih006",
+      "content": "Mr. Pritchard avoids your gaze as he speaks of a sudden, violent storm that destroyed the fishing village. According to him, the villagers angered the sea; they didn't show it the respect it deserved. ",
+      "choices": [
+        {
+          "content": "Ask him if Aunt Mari ever mentioned anything about appeasing the sea.",
+          "entry_id": "investigate_history_ih011"
+        },
+        {
+          "content": "Thank him for his time. Head back to Mari's caravan.",
+          "entry_id": "investigate_history_ih005"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih005": {
+      "entry_id": "investigate_history_ih005",
+      "content": "You head back to the caravan. The wind howls around you, seeming to whisper secrets through the gaps in the walls. The sense of unease grows as the mystery deepens.",
+      "choices": [
+        {
+          "content": "Rummage through Aunt Mari\u2019s belongings again, looking for any clues related to the old fishing village. You may find something you missed before.",
+          "entry_id": "investigate_history_ih010"
+        },
+        {
+          "content": "Take some time to consider what you've discovered. Decide where to focus your efforts next.",
+          "entry_id": "investigate_history_ih013"
+        }
+      ],
+      "end": null
+    },
+    "caravan_phenomena_e017": {
+      "entry_id": "caravan_phenomena_e017",
+      "content": "You lift the floorboard to reveal a collection of porcelain dolls, nestled in the dirt. They're all antique, with painted faces and delicate clothes, but their eyes... their eyes are unsettling. Each doll has a small, spiralling symbol etched into its forehead, and they are all facing downwards, as if in silent supplication.",
+      "choices": [
+        {
+          "content": "Take the dolls and search the caravan for any mention of spirals or related symbols.",
+          "entry_id": "caravan_phenomena_e011"
+        },
+        {
+          "content": "Slam the floorboard shut and get as far away from this caravan as possible.",
+          "entry_id": "final_choice_f000"
+        }
+      ],
+      "end": null
+    },
+    "madness_e004": {
+      "entry_id": "madness_e004",
+      "content": "You turn from that nightmare, running through the caravan park, but it's no use - you're already contaminated. Though the images continue to twist and melt before your eyes, somehow, the raw edges of reality begins to return. You stumble blindly through the park gates, the gravel crunching underfoot, until the world snaps back into focus, but you know you are changed forever by what you have seen here.",
+      "choices": [],
+      "end": "win"
+    },
+    "investigate_history_ih004": {
+      "entry_id": "investigate_history_ih004",
+      "content": "The local history books do indeed confirm the fishing village was destroyed in a storm long ago. One book mentions a persistent local legend \u2013 children who drowned in the storm, their spirits now said to haunt the coastline. It's a chilling tale.",
+      "choices": [
+        {
+          "content": "Delve deeper into the legend of the drowned children.",
+          "entry_id": "investigate_history_ih009"
+        },
+        {
+          "content": "Return to the caravan park, feeling unsettled by your discoveries.",
+          "entry_id": "investigate_history_ih005"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih009": {
+      "entry_id": "investigate_history_ih009",
+      "content": "You dig deeper into the tale of the drowned children, feeling a strange connection to their fate. You find a passage stating that their bodies were never recovered from the raging sea.",
+      "choices": [
+        {
+          "content": "Consider the events you've pieced together, and decide what to do.",
+          "entry_id": "investigate_history_ih013"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih007": {
+      "entry_id": "investigate_history_ih007",
+      "content": "Mr. Pritchard rubs his chin thoughtfully. He remembers Aunt Mari spending hours down on the beach near the old stone tower. She said she felt a connection to something there, but he never understood what she meant.",
+      "choices": [
+        {
+          "content": "Go to the stone tower on the beach. It sounds like it may be important.",
+          "entry_id": "investigate_history_ih012"
+        },
+        {
+          "content": "Return to the caravan and continue searching through Aunt Mari's belongings. You might have missed something.",
+          "entry_id": "investigate_history_ih005"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih012": {
+      "entry_id": "investigate_history_ih012",
+      "content": "You walk across the sand, and reach the stone tower. It's cold and damp inside, and you can hear the wind whistling through the narrow window slits. The tower feels strangely still, as though it's waiting for something.",
+      "choices": [
+        {
+          "content": "Take some time to consider what you have discovered back at the caravan. You need to decide what your next step is.",
+          "entry_id": "investigate_history_ih013"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih010": {
+      "entry_id": "investigate_history_ih010",
+      "content": "Returning to Mari's caravan, you decide to look once more through her belongings, hoping to find something that might shed light on the village's history. Amongst her papers, you find a collection of notes on the local area, including some sketches of the stone tower on the beach, and scribbled comments about the 'Sea's Whisper' legend.",
+      "choices": [
+        {
+          "content": "Consider what you have discovered, ready to make a final decision regarding the park's mysteries.",
+          "entry_id": "investigate_history_ih013"
+        }
+      ],
+      "end": null
+    },
+    "investigate_history_ih011": {
+      "entry_id": "investigate_history_ih011",
+      "content": "Mr. Pritchard seems genuinely unnerved by the mention of Mari and appeasing sea gods. He insists she had some strange ideas about the old ways, but he is adamant that she meant no harm. He fidgets with the silver ring he always wears, avoiding your eyes.",
+      "choices": [
+        {
+          "content": "Consider what you have discovered about the village and Mari, ready to make a final decision.",
+          "entry_id": "investigate_history_ih013"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e003": {
+      "entry_id": "children_sightings_e003",
+      "content": "As you approach, the children suddenly stop their game. The smallest one drops a rag doll. They turn to face you, their eyes wide and unblinking. The singing ceases abruptly, leaving an unnerving silence. You can see their faces clearly now - pale and gaunt, with dark rings under their eyes.",
+      "choices": [
+        {
+          "content": "Ask them who they are. Their clothes... they're like something from a photograph.",
+          "entry_id": "children_sightings_e006"
+        },
+        {
+          "content": "Back away slowly. The silence is unnerving.",
+          "entry_id": "children_sightings_e007"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e004": {
+      "entry_id": "children_sightings_e004",
+      "content": "From the shadows between caravans, you watch the children playing. Their movements seem strange and jerky, like puppets with tangled strings. A shiver runs down your spine, as you wonder what game they are playing.",
+      "choices": [
+        {
+          "content": "Gather your courage and approach them. You can see them clearly now.",
+          "entry_id": "children_sightings_e003"
+        },
+        {
+          "content": "Leave them to their games and explore the muddy ground around the caravans.",
+          "entry_id": "children_sightings_e008"
+        }
+      ],
+      "end": null
+    },
+    "children_sightings_e006": {
+      "entry_id": "children_sightings_e006",
+      "content": "Before you can ask them anything, the children are gone. A gust of wind whips past, and there\u2019s just the empty space between the caravans. The silence is even more complete now. The smallest child dropped something though - a small rag doll.",
+      "choices": [
+        {
+          "content": "Search around for the rag doll the smallest child dropped.",
+          "entry_id": "children_sightings_e008"
+        },
+        {
+          "content": "Head back to the caravan, unnerved.",
+          "entry_id": "children_sightings_e002"
+        }
+      ],
+      "end": null
+    }
+  },
+  "title": "Caravan Park",
+  "description": "Clearing out a caravan in a deserted Welsh caravan park.",
+  "date": "2025-02-25",
+  "order": 999,
+  "tags": [
+    "gemini/gemini-2.0-flash",
+    "caravan_park",
+    "wales"
+  ],
+  "layout": "layouts/game.njk",
+  "prompt": "N/A"
+}
