@@ -1,0 +1,265 @@
+{
+  "notes": "",
+  "start_entry_id": "mall_entrance_e000",
+  "entries": {
+    "mall_entrance_e000": {
+      "entry_id": "mall_entrance_e000",
+      "content": "You wake up. A chill runs down your spine as you sit up, your head throbbing. The last thing you remember is being jostled in the throng of the Midnight Madness sale at Meadowbrook Mall, the press of bodies and the flashing lights of temporary sales signs overwhelming you. Now, the fluorescent lights are off, replaced by the faint, eerie glow of emergency exit signs. The once-bustling corridors are silent, and the air is thick with the smell of stale popcorn and something indefinably\u2026metallic. \n\nYou are alone. The heavy glass doors of the mall entrance loom ahead, but something feels off. The layout seems subtly different, stores appearing where you don't remember them being. A shiver of unease creeps up your neck. Your plan was simple: find that coffee machine Eleanor wanted at Kitchen Kingdom. But now, simply finding a way out seems a more pressing concern.\n\nYou stand and brush off your coat, the silence broken only by the distant hum of the mall's ventilation system. A sign above the darkened entrance reads 'Meadowbrook Mall - We've got it all!'. But right now, it seems to only have you.",
+      "choices": [
+        {
+          "content": "Try to find a familiar exit.",
+          "entry_id": "mall_entrance_e001"
+        },
+        {
+          "content": "Call out for help.",
+          "entry_id": "mall_entrance_e002"
+        }
+      ],
+      "end": null
+    },
+    "mall_entrance_e001": {
+      "entry_id": "mall_entrance_e001",
+      "content": "You attempt to retrace your steps from the mall entrance, back towards the main thoroughfare. The stores seem subtly wrong. A 'Foot Locker' is now where you remember 'The Gap' being. A poster in the window shows Michael Jordan in an ancient pair of sneakers. It feels like the mall is resisting your attempts to find a way out, twisting familiar landmarks into something unsettling and alien. The further you walk, the more disoriented you become.",
+      "choices": [
+        {
+          "content": "Head towards the mall lobby and food court, hoping to find an exit.",
+          "entry_id": "mall_lobby_and_food_court_e001"
+        }
+      ],
+      "end": null
+    },
+    "mall_lobby_and_food_court_e001": {
+      "entry_id": "mall_lobby_and_food_court_e001",
+      "content": "You find yourself in the mall lobby. The once-gleaming floor is now scuffed and littered with discarded flyers. Ahead is the entrance to the food court. The smell of old grease hangs heavy in the air. At the far end, near the defunct Vanity Fair counter, you see a woman. She is pale and seems to be frantically searching for something, her hands flitting nervously across the dusty surface. She is muttering to herself.",
+      "choices": [
+        {
+          "content": "Approach Clara and ask if she needs help.",
+          "entry_id": "mall_lobby_and_food_court_e002"
+        },
+        {
+          "content": "Ignore her and try to find Kitchen Kingdom.",
+          "entry_id": "mall_lobby_and_food_court_e003"
+        }
+      ],
+      "end": null
+    },
+    "mall_lobby_and_food_court_e002": {
+      "entry_id": "mall_lobby_and_food_court_e002",
+      "content": "The woman turns to you, her eyes wide and pleading. Her makeup is smeared and her hair is disheveled. \"Have you seen it?\" she asks, her voice trembling. \"Crimson Sunset! It's the only one that works!\" She clutches at your sleeve, her grip surprisingly strong. \"I need it. I just need it.\"",
+      "choices": [
+        {
+          "content": "Offer to help Clara search for the lipstick.",
+          "entry_id": "mall_lobby_and_food_court_e004"
+        },
+        {
+          "content": "Tell her it\u2019s just a lipstick and she should move on.",
+          "entry_id": "mall_lobby_and_food_court_e005"
+        }
+      ],
+      "end": null
+    },
+    "mall_lobby_and_food_court_e004": {
+      "entry_id": "mall_lobby_and_food_court_e004",
+      "content": "You tell Clara you'll help her. A flicker of hope ignites in her eyes, momentarily brightening her pallid face. \"Oh, thank you! Thank you! It was always near the department store entrance, I think. Please, hurry! I can't be without it for long.\"",
+      "choices": [
+        {
+          "content": "Head towards the old Vanity Fair location to begin the search.",
+          "entry_id": "vanity_fair_search_e001"
+        }
+      ],
+      "end": null
+    },
+    "vanity_fair_search_e001": {
+      "entry_id": "vanity_fair_search_e001",
+      "content": "You step into the darkened Vanity Fair. The air is thick with the scent of dust and stale perfume. Overturned displays are everywhere, coated in cobwebs. It feels like no one has been here in years. You see the remnants of the sales counter.",
+      "choices": [
+        {
+          "content": "Examine the old sales records behind the counter.",
+          "entry_id": "vanity_fair_search_e002"
+        },
+        {
+          "content": "Search for discarded promotional material.",
+          "entry_id": "vanity_fair_search_e003"
+        },
+        {
+          "content": "Try to find any remaining lipstick samples.",
+          "entry_id": "vanity_fair_search_e004"
+        }
+      ],
+      "end": null
+    },
+    "mall_entrance_e002": {
+      "entry_id": "mall_entrance_e002",
+      "content": "You call out, your voice echoing eerily through the empty mall. The sound bounces off the darkened storefronts and the deserted food court tables. Your voice cracks with the strain. There is no response. The silence returns, heavier now, pressing in on you from all sides. A flickering emergency light casts long, distorted shadows that dance on the walls. The metallic smell seems stronger now, almost like blood.",
+      "choices": [
+        {
+          "content": "Try to find a familiar exit, again.",
+          "entry_id": "mall_entrance_e001"
+        }
+      ],
+      "end": null
+    },
+    "mall_lobby_and_food_court_e003": {
+      "entry_id": "mall_lobby_and_food_court_e003",
+      "content": "You try to ignore Clara. You tell yourself it's none of your business, that you have your own problems to deal with. The fluorescent lights flicker erratically, casting long, distorted shadows. The air grows cold, and a low, mournful wail echoes from the deserted arcade. The silence becomes oppressive, and a feeling of profound despair washes over you. You realise the exits seem to have disappeared, replaced by endless corridors lined with identical, shuttered stores. You are trapped.",
+      "choices": [],
+      "end": "lose"
+    },
+    "mall_lobby_and_food_court_e005": {
+      "entry_id": "mall_lobby_and_food_court_e005",
+      "content": "Clara's face changes. She says you don't get it. The lipstick is all she has. She can't be her without it. She starts to fade. The food court gets darker. You smell makeup. Old makeup.",
+      "choices": [],
+      "end": "lose"
+    },
+    "vanity_fair_search_e002": {
+      "entry_id": "vanity_fair_search_e002",
+      "content": "The sales records are faded and disorganized, covered in dust. Most entries are illegible, but one is circled in red pen: a note mentioning a large order of \"Crimson Sunset\" lipstick placed by \"R.A.\" The delivery address is the mall management office. It looks like someone didn\",",
+      "choices": [
+        {
+          "content": "Investigate the mall management office.",
+          "entry_id": "ashland_office_e001"
+        }
+      ],
+      "end": null
+    },
+    "ashland_office_e001": {
+      "entry_id": "ashland_office_e001",
+      "content": "Following the clue from Vanity Fair, you find the mall management office hidden behind the dry fountain. The door is ajar. Inside, you see old blueprints scattered on a desk and a leather-bound journal. The cover reads: \"Robert Ashland - Private\". It looks like it hasn't been opened in years.",
+      "choices": [
+        {
+          "content": "Begin reading the journal.",
+          "entry_id": "ashland_office_e002"
+        },
+        {
+          "content": "Dismiss the journal as the ramblings of a madman.",
+          "entry_id": "ashland_office_e004"
+        }
+      ],
+      "end": null
+    },
+    "ashland_office_e002": {
+      "entry_id": "ashland_office_e002",
+      "content": "The journal speaks of the mall drawing power from strong feelings, especially grief and loss. Ashland writes about how the building can trap souls. He sees patterns in the layout, believing it mirrors the emotions of those trapped here. One entry mentions Agnes Plumtree, who worked at Vanity Fair, and a specific shade of crimson lipstick...",
+      "choices": [
+        {
+          "content": "Continue reading, searching for a connection to Eleanor.",
+          "entry_id": "ashland_office_e003"
+        }
+      ],
+      "end": null
+    },
+    "ashland_office_e003": {
+      "entry_id": "ashland_office_e003",
+      "content": "Ashland writes about the death of his family and his obsession with wealth, which he put before everything else. A later entry mentions a specific coffee machine in Kitchen Kingdom, calling it a reminder of a love he failed to appreciate. The last entry, scrawled in shaky handwriting, reads: \"The only way to escape this place is to face your own regret\".",
+      "choices": [
+        {
+          "content": "Focus on Ashland's words and confront your regret.",
+          "entry_id": "kitchen_kingdom_regret_e001"
+        }
+      ],
+      "end": null
+    },
+    "kitchen_kingdom_regret_e001": {
+      "entry_id": "kitchen_kingdom_regret_e001",
+      "content": "Drawn to Kitchen Kingdom, you see the coffee machine Eleanor wanted. It sits on a shelf, gleaming under the dim lights. You feel the weight of your grief. The possibility of finally escaping this place hangs in the balance.",
+      "choices": [
+        {
+          "content": "Buy the coffee machine, hoping it brings closure.",
+          "entry_id": "kitchen_kingdom_regret_e002"
+        },
+        {
+          "content": "Acknowledge your grief, but decide you're not ready for the coffee machine yet. Look for something else to distract you.",
+          "entry_id": "kitchen_kingdom_regret_e003"
+        }
+      ],
+      "end": null
+    },
+    "vanity_fair_search_e003": {
+      "entry_id": "vanity_fair_search_e003",
+      "content": "You sift through piles of old promotional flyers and posters. They advertise various beauty products: blushers, mascaras, nail polishes, but nothing about 'Crimson Sunset'. However, you find a crumpled memo on faded pink paper referencing a dispute. It's between Agnes Plumtree, the store manager, and the cosmetics company 'Bella France' over a discontinued ingredient. Apparently it was a special pearlescent agent that gave Crimson Sunset its unique shimmer.",
+      "choices": [
+        {
+          "content": "Continue searching the promotional materials.",
+          "entry_id": "vanity_fair_search_e005"
+        },
+        {
+          "content": "Accept that you are lost in Vanity Fair.",
+          "entry_id": "vanity_fair_search_e006"
+        }
+      ],
+      "end": null
+    },
+    "vanity_fair_search_e005": {
+      "entry_id": "vanity_fair_search_e005",
+      "content": "Among the piles of promotional material and old lipstick samples, you find a discarded letter. It\",",
+      "choices": [
+        {
+          "content": "Investigate the mall management office.",
+          "entry_id": "ashland_office_e001"
+        }
+      ],
+      "end": null
+    },
+    "ashland_office_e004": {
+      "entry_id": "ashland_office_e004",
+      "content": "Arthur refuses to believe Ashland\u2019s claims, dismissing the journal as the work of a delusional mind. He convinces himself that there must be a rational explanation for everything that has happened. You become another trapped soul, forever searching the mall's empty stores.",
+      "choices": [],
+      "end": "lose"
+    },
+    "vanity_fair_search_e004": {
+      "entry_id": "vanity_fair_search_e004",
+      "content": "The lipstick sample display is a chaotic mess of dried-up colors and broken containers. You find several shades of red, but none are quite right. The closest you find is a 'Ruby Tuesday' shade, but it's too bright and lacks the subtle shimmer Clara mentioned. The air is thick with the ghostly scent of cheap perfume and the faint, metallic tang of old lipstick. You feel a growing sense of unease; the mall feels like it's watching you.",
+      "choices": [
+        {
+          "content": "Search the back room for anything related to Agnes Plumtree.",
+          "entry_id": "vanity_fair_search_e007"
+        },
+        {
+          "content": "Accept that you are lost in Vanity Fair.",
+          "entry_id": "vanity_fair_search_e006"
+        }
+      ],
+      "end": null
+    },
+    "vanity_fair_search_e007": {
+      "entry_id": "vanity_fair_search_e007",
+      "content": "You find a dusty file labeled \",",
+      "choices": [
+        {
+          "content": "Investigate the mall management office.",
+          "entry_id": "ashland_office_e001"
+        }
+      ],
+      "end": null
+    },
+    "kitchen_kingdom_regret_e002": {
+      "entry_id": "kitchen_kingdom_regret_e002",
+      "content": "You carefully place the coffee machine on the counter and pay for it, your hands trembling slightly. The cashier's long-gone, but the till is working, somehow. As you pick up the machine, a sense of peace washes over you, a feeling that you\u2019ve finally honored Eleanor's memory. The mall around you flickers, like a bad TV signal. The hum of the ventilation system fades, replaced by a profound silence.",
+      "choices": [],
+      "end": "win"
+    },
+    "vanity_fair_search_e006": {
+      "entry_id": "vanity_fair_search_e006",
+      "content": "The once-glamorous Vanity Fair now feels like a stuffy room. The air is thick. It smells of old makeup. A bad feeling settles over you. You think you'll never leave. This is the end.",
+      "choices": [],
+      "end": "lose"
+    },
+    "kitchen_kingdom_regret_e003": {
+      "entry_id": "kitchen_kingdom_regret_e003",
+      "content": "You turn away from the coffee machine. The grief is too much. You walk deeper into the mall, looking for something else. But there is only empty space. The mall feels smaller now, like a prison closing around you.",
+      "choices": [],
+      "end": "lose"
+    }
+  },
+  "title": "The Last Shopper",
+  "description": "Trapped in a shopping mall after closing time, you must find a way out.",
+  "date": "2025-02-26",
+  "order": 999,
+  "tags": [
+    "gemini/gemini-2.0-flash",
+    "shopping_mall",
+    "liminal"
+  ],
+  "layout": "layouts/game.njk",
+  "prompt": "N/A"
+}

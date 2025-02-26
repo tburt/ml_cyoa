@@ -5,7 +5,7 @@
 	
 	<link href="https://example.com/ml_cyoa/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2025-02-25T00:00:00Z</updated>
+	<updated>2025-02-26T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Thep Burt</name>
@@ -13,9 +13,25 @@
 	</author>
 	
 	<entry>
+		<title>Cracked Paving</title>
+		<link href="https://example.com/ml_cyoa/games/tomato_heatwave_5070/"/>
+		<updated>2025-02-26T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/tomato_heatwave_5070/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>The Last Shopper</title>
+		<link href="https://example.com/ml_cyoa/games/shopping_mall_471f/"/>
+		<updated>2025-02-26T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/shopping_mall_471f/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
 		<title>The Garden Door</title>
 		<link href="https://example.com/ml_cyoa/games/garden_door_37b2/"/>
-		<updated>2025-02-25T00:00:00Z</updated>
+		<updated>2025-02-26T00:00:00Z</updated>
 		<id>https://example.com/ml_cyoa/games/garden_door_37b2/</id>
 		<content type="html"></content>
 	</entry>

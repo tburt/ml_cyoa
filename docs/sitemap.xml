@@ -57,11 +57,6 @@
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/games/garden_door_37b2/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/ml_cyoa/posts/</loc>
     <lastmod>2025-02-25</lastmod>
   </url>
@@ -142,6 +137,16 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/tags/shopping_mall/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/liminal/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/tags/slice-of-life/</loc>
     <lastmod>2025-02-25</lastmod>
   </url>
@@ -164,5 +169,30 @@
   <url>
     <loc>https://example.com/ml_cyoa/tags/domestic/</loc>
     <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/heatwave/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/garden/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/garden_door_37b2/</loc>
+    <lastmod>2025-02-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/shopping_mall_471f/</loc>
+    <lastmod>2025-02-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/tomato_heatwave_5070/</loc>
+    <lastmod>2025-02-26</lastmod>
   </url>
 </urlset>

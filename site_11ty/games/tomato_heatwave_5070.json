@@ -1,0 +1,2522 @@
+{
+  "start_entry_id": "scene_1_sunbaked_tomatoes_e001",
+  "entries": {
+    "scene_1_sunbaked_tomatoes_e001": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e001",
+      "content": "The heat shimmers off the cracked paving stones in your small garden. It's been like this for days; the sun relentless, the temperature stubbornly stuck above thirty. Even the air feels heavy, pressing down on you as you stand there. You're on Laburnum Street, and the garden, usually a refuge, offers little escape. The tomato plants, usually so vibrant, droop, their leaves curling at the edges. A constant, irritating buzzing grates on your nerves, seemingly coming from everywhere and nowhere at once. It's unsettling. You feel it in your chest, a tight knot of unease that's been growing since this heatwave began.",
+      "choices": [
+        {
+          "content": "Check on the tomato plants.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e002"
+        },
+        {
+          "content": "Take a closer look at the cracked paving.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e002": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e002",
+      "content": "The tomato plants are drooping in the heat. The buzzing seems louder here, near the warmth rising off the plants and the sun-baked paving. A bead of sweat trickles down your back, tracing a path between your shoulder blades. The air feels thick, almost suffocating.",
+      "choices": [
+        {
+          "content": "Go back to watering the tomatoes.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e003"
+        },
+        {
+          "content": "Leave the tomatoes and look around the garden, trying to find the source of the buzzing near the paving.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e003": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e003",
+      "content": "Watering the tomatoes feels futile. Each drop seems to evaporate before it hits the soil. The air shimmers above the cracked paving. The buzzing is a constant, irritating drone. Your head starts to feel a little light, and you sway slightly.",
+      "choices": [
+        {
+          "content": "Ignore the dizziness and keep watering the tomatoes, determined to save them.",
+          "entry_id": "scene_7_heatstroke_e701"
+        },
+        {
+          "content": "Decide the tomatoes can wait. Examine the cracked paving that's been drawing your attention.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e005": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e005",
+      "content": "Stepping away from the tomatoes, you survey the garden. The cracked paving is more noticeable now, a spiderweb of fissures underfoot. The buzzing seems to vibrate from the paving itself, rising up through your sandals. A prickle of unease deepens.",
+      "choices": [
+        {
+          "content": "Investigate the base of the Viburnum bush near the cracked paving.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e006"
+        },
+        {
+          "content": "Run a hand along the cracks in the paving, feeling the heat stored within the stone.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e008"
+        },
+        {
+          "content": "Look towards the neighbour\nYou glance towards the neighbour\u2019s garden over the hedge.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e010"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e006": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e006",
+      "content": "You crouch down, examining the cracked paving near the Viburnum bush. The heat radiates upwards, distorting your vision. The buzzing is almost painful now, a high-frequency whine drilling into your skull.",
+      "choices": [
+        {
+          "content": "Peer under the dense leaves of the Viburnum bush, trying to find the source of the buzzing and the glint.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e007"
+        },
+        {
+          "content": "Step back from the bush and examine the paving again, looking for any other clues.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e008"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e007": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e007",
+      "content": "Moving closer to the Viburnum bush, the buzzing intensifies, seemingly concentrated in this small space. The air is still and stifling, heavy with the scent of dry leaves and hot earth. Something glints within the shadows under the leaves. You can\nYou glance towards the neighbour\u2019s garden over the hedge.",
+      "choices": [
+        {
+          "content": "Reach into the shadows to investigate the glint.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e009"
+        },
+        {
+          "content": "Step back from the bush and examine the paving again, hoping for a clearer perspective.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e008"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e008": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e008",
+      "content": "You trace the cracks in the paving with your finger. They\nYou glance towards the neighbour\u2019s garden over the hedge.",
+      "choices": [
+        {
+          "content": "Return to the Viburnum bush \nThe buzzing intensifies, seemingly concentrated in this small space.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e007"
+        },
+        {
+          "content": "Look towards the neighbour\nYou glance towards the neighbour\u2019s garden again, trying to ignore the buzzing.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e010"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e010": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e010",
+      "content": "You glance towards the neighbour\u2019s garden over the hedge. The artificial lawn is vividly green, almost glowing. Even the air shimmers differently over there, less hazy, more\nstill. A shiver runs down your spine despite the heat.",
+      "choices": [
+        {
+          "content": "Go back to the buzzing in your own garden.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e005"
+        },
+        {
+          "content": "Try to focus on the neighbour\u2019s garden, noticing more details.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e011"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e011": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e011",
+      "content": "Squinting in the harsh sunlight, you try to make out the details in the neighbour\nYou return to your own garden and the buzzing.",
+      "choices": [
+        {
+          "content": "Turn away from the neighbour\nYou return to your own garden and the buzzing.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e005"
+        },
+        {
+          "content": "Go back to the empty space where Kevin usually stands \nYou return to your own garden and the buzzing.",
+          "entry_id": "scene_2_empty_space_e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e001": {
+      "entry_id": "scene_2_empty_space_e001",
+      "content": "You notice that Kevin, the garden gnome, is missing from his usual spot amongst the tomato plants. The empty space where he stood feels wrong, a hole in the familiar scene. The cracked paving around the spot seems hotter now, radiating the sun's heat back at you. The buzzing sound is definitely louder here, a persistent drone that vibrates in your teeth.",
+      "choices": [
+        {
+          "content": "Focus on the empty space, trying to understand why it's so disturbing.",
+          "entry_id": "scene_2_empty_space_e002"
+        },
+        {
+          "content": "Try to isolate the source of the buzzing sound.",
+          "entry_id": "scene_2_empty_space_e003"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e002": {
+      "entry_id": "scene_2_empty_space_e002",
+      "content": "The absence of Kevin is deeply unsettling. It\nsweat.",
+      "choices": [
+        {
+          "content": "Examine the cracked paving around the empty space more closely.",
+          "entry_id": "scene_2_empty_space_e004"
+        },
+        {
+          "content": "Look around the rest of the garden, hoping Kevin has just been moved.",
+          "entry_id": "scene_2_empty_space_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_1_sunbaked_tomatoes_e009": {
+      "entry_id": "scene_1_sunbaked_tomatoes_e009",
+      "content": "Reaching under the bush, your fingers brush against something cold and metallic. You pull it out.\nYou return to your own garden and the buzzing.",
+      "choices": [
+        {
+          "content": "Go check on Kevin\nYou return to your own garden and the buzzing.",
+          "entry_id": "scene_2_empty_space_e001"
+        },
+        {
+          "content": "Look over at the neighbour\nYou return to your own garden and the buzzing.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e010"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e003": {
+      "entry_id": "scene_2_empty_space_e003",
+      "content": "The buzzing is insistent, a high-pitched whine that seems to emanate from the very ground. It\nYou notice the paving around where Kevin usually stands is hotter than usual. The sound feels like it\ns vibrating up through the paving stones, tingling in your feet.",
+      "choices": [
+        {
+          "content": "Edge closer to where the buzzing is loudest, near the paving.",
+          "entry_id": "scene_2_empty_space_e006"
+        },
+        {
+          "content": "Scan the garden for any sign of insects, despite not seeing any so far.",
+          "entry_id": "scene_2_empty_space_e007"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e006": {
+      "entry_id": "scene_2_empty_space_e006",
+      "content": "Moving closer to the buzzing, you find yourself drawn back to the cracked paving around Kevin\nto touch for long.",
+      "choices": [
+        {
+          "content": "Get down and search the cracks in the paving more closely.",
+          "entry_id": "scene_2_empty_space_e008"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e008": {
+      "entry_id": "scene_2_empty_space_e008",
+      "content": "Examining the cracks, you find nothing but grit, dust, and the baked-hard remains of dead insects. There\nYou\nds no sign of Kevin, no disturbed earth, just the endless web of fissures. The buzzing is a physical presence now, a pressure against your eardrums. The heat rising from the paving makes you dizzy.",
+      "choices": [
+        {
+          "content": "Crawl towards the *Viburnum* bush to escape the heat.",
+          "entry_id": "scene_2_empty_space_e010"
+        },
+        {
+          "content": "Get up slowly, the heat is getting to you, and focus on where Kevin used to stand.",
+          "entry_id": "scene_2_empty_space_e012"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e010": {
+      "entry_id": "scene_2_empty_space_e010",
+      "content": "Feeling increasingly uneasy with Kevin\nCurrent Locationand the incessant buzzing, you decide to check under the large, overgrown *Viburnum* bush nearby. The buzzing does seem to be coming from that direction, and the cracked paving extends under the bush\nCurrent Locationshade.",
+      "choices": [
+        {
+          "content": "Push your way under the bush.",
+          "entry_id": "scene_4_under_the_bush_e400"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e400": {
+      "entry_id": "scene_4_under_the_bush_e400",
+      "content": "You push aside the *Viburnum* branches, finding more cracked paving hidden beneath the bush. The air here is still and heavy, thick with an earthy smell. Half-buried amongst the cracks, you spot a tarnished metal object.",
+      "choices": [
+        {
+          "content": "Pick up the tarnished object and examine it more closely.",
+          "entry_id": "scene_4_under_the_bush_e401"
+        },
+        {
+          "content": "Try to pinpoint the source of the buzzing sound coming from the bush.",
+          "entry_id": "scene_4_under_the_bush_e405"
+        },
+        {
+          "content": "Try to work out what is causing the decaying smell.",
+          "entry_id": "scene_4_under_the_bush_e410"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e004": {
+      "entry_id": "scene_2_empty_space_e004",
+      "content": "Sam kneels down, the heat rising sharply from the cracked paving. The cracks form an intricate maze, some barely visible, others wide enough to accept the pad of your finger. Dust and tiny weeds struggle to exist within them. The buzzing seems to intensify closer to the ground, almost vibrating through the paving itself.",
+      "choices": [
+        {
+          "content": "Trace the cracks with your fingertip, feeling the heat and vibration.",
+          "entry_id": "scene_2_empty_space_e008"
+        },
+        {
+          "content": "Stand up and try to discern a pattern from above.",
+          "entry_id": "scene_2_empty_space_e009"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e009": {
+      "entry_id": "scene_2_empty_space_e009",
+      "content": "Stepping back, you try to see if the cracked paving forms a pattern. They twist and turn randomly, reflecting the haphazard nature of the garden. Then you notice something. From this angle, one set of cracks radiates out towards the *Viburnum* bush. The buzzing hasn\u2019t let up. It is a piercing thrum in your ears.",
+      "choices": [
+        {
+          "content": "Follow the cracked paving pattern towards the bush.",
+          "entry_id": "scene_2_empty_space_e010"
+        },
+        {
+          "content": "Scan the rest of the garden - is Kevin anywhere else?",
+          "entry_id": "scene_2_empty_space_e011"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e401": {
+      "entry_id": "scene_4_under_the_bush_e401",
+      "content": "Sam bends for a closer look at the object. It\nYou see a loop at one end, and a shaft disappearing into the depths of the crack.",
+      "choices": [
+        {
+          "content": "Grip the loop tightly and try to wrench it free.",
+          "entry_id": "scene_4_under_the_bush_e401a"
+        },
+        {
+          "content": "Explore the cracked paving surrounding the object.",
+          "entry_id": "scene_4_under_the_bush_e403"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e401a": {
+      "entry_id": "scene_4_under_the_bush_e401a",
+      "content": "You grab the loop of metal, and pull. It doesn't budge.",
+      "choices": [
+        {
+          "content": "Use both hands and really yank it.",
+          "entry_id": "scene_4_under_the_bush_e401b"
+        },
+        {
+          "content": "Wiggle it gently from side to side.",
+          "entry_id": "scene_4_under_the_bush_e401c"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e401b": {
+      "entry_id": "scene_4_under_the_bush_e401b",
+      "content": "You pull harder, gritting your teeth. The metal remains stubbornly stuck fast. Your hand slips on the loop and you scrape your knuckles against the rough edge of the cracked paving. A bead of blood wells up.",
+      "choices": [
+        {
+          "content": "Give up on the metal object.",
+          "entry_id": "scene_4_under_the_bush_e403"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e005": {
+      "entry_id": "scene_2_empty_space_e005",
+      "content": "Sam straightens up, feeling a little dizzy from the heat radiating off the paving. Kevin isn\n\nKevin isn\nisn\nisn\nisn\nt immediately obvious anywhere else in the small garden. The tomato plants droop in the heat, offering little shade. The buzzing continues, a constant backdrop to your growing unease. It feels like something\n\nIt feels like something\n\nIt feels like something\n\nIt feels like something\n\nIt feels like something\ns watching you from the neighbor\n\ns window.",
+      "choices": [
+        {
+          "content": "Check under the *Viburnum* bush.",
+          "entry_id": "scene_2_empty_space_e010"
+        },
+        {
+          "content": "Continue searching the rest of the garden.",
+          "entry_id": "scene_2_empty_space_e011"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e007": {
+      "entry_id": "scene_2_empty_space_e007",
+      "content": "Sam scans the tomato plants, the beanpoles, the overgrown herbs, their leaves drooping in the heat. No sign of insects, and certainly no sign of Kevin. The buzzing seems to be everywhere, strongest near the paving where Kevin stood, adding to the disorienting heat and the gnawing feeling of wrongness.",
+      "choices": [
+        {
+          "content": "Focus intently on the buzzing near the paving.",
+          "entry_id": "scene_2_empty_space_e006"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e405": {
+      "entry_id": "scene_4_under_the_bush_e405",
+      "content": "You decide to focus on the buzzing. It\u2019s a high-pitched, insistent whine, almost insect-like, but you can\u2019t see any insects. The sound seems to vibrate in the air itself, strongest near the paving under the Viburnum bush. The air within the bush is stiflingly hot and still.",
+      "choices": [
+        {
+          "content": "Push further into the bush to find the buzzing\u2019s source.",
+          "entry_id": "scene_4_under_the_bush_e406"
+        },
+        {
+          "content": "Examine the cracked paving around the bush again.",
+          "entry_id": "scene_4_under_the_bush_e407"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e406": {
+      "entry_id": "scene_4_under_the_bush_e406",
+      "content": "You push further into the *Viburnum*, deeper under its branches. The buzzing intensifies, becoming almost overwhelming. Still no insects are visible. The cracked paving underfoot is now even more broken and uneven in the deeper shade. The air is thick and heavy, pressing in on you.",
+      "choices": [
+        {
+          "content": "Focus intently on listening for the buzzing.",
+          "entry_id": "scene_9_unseen_insects_e901"
+        },
+        {
+          "content": "Look towards the neighbor\ns house again.",
+          "entry_id": "scene_4_under_the_bush_e409"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e901": {
+      "entry_id": "scene_9_unseen_insects_e901",
+      "content": "You investigate the buzzing in the bush. There are no insects visible. The buzzing is very loud, everywhere and nowhere. The air in the bush is still and hotter. The cracked paving is more broken here.",
+      "choices": [
+        {
+          "content": "Push deeper into the bush to investigate the buzzing further.",
+          "entry_id": "scene_9_unseen_insects_e902"
+        },
+        {
+          "content": "Retreat from the bush and examine the area around it.",
+          "entry_id": "scene_9_unseen_insects_e906"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e902": {
+      "entry_id": "scene_9_unseen_insects_e902",
+      "content": "Deeper inside the viburnum, the air is stifling. The buzzing intensifies, almost a vibration now, resonating through the leaves and branches, though still nothing visible. The heat is oppressive, and you feel beads of sweat trickling down your back.",
+      "choices": [
+        {
+          "content": "Continue pushing further into the bush.",
+          "entry_id": "scene_9_unseen_insects_e903"
+        },
+        {
+          "content": "Turn back and examine the cracked paving at the base of the bush.",
+          "entry_id": "scene_9_unseen_insects_e910"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e011": {
+      "entry_id": "scene_2_empty_space_e011",
+      "content": "Sam widens the search, checking behind the tomato plants again, peering into the herbs, even glancing towards the neighbour's hedge. There's no sign of Kevin anywhere. The garden feels smaller, more confined, under the relentless sun and the constant buzzing. You feel like you're running out of places to look, but the *Viburnum* bush near where you found the key is really the only place left that hasn't been properly checked.",
+      "choices": [
+        {
+          "content": "Check under the bush - it's the only place left to properly search.",
+          "entry_id": "scene_2_empty_space_e010"
+        }
+      ],
+      "end": null
+    },
+    "scene_2_empty_space_e012": {
+      "entry_id": "scene_2_empty_space_e012",
+      "content": "Returning to the empty space, you feel a growing sense of frustration mixed with a deeper unease. Staring at the cracked paving again offers no new clues. It's just cracked paving. But the buzzing is still loud here, and the empty space where Kevin stood is intensely noticeable. The *Viburnum* bush remains unchecked, a dark, still point in the sun-baked garden.",
+      "choices": [
+        {
+          "content": "Check under the *Viburnum* bush - there's nowhere else obvious to look.",
+          "entry_id": "scene_2_empty_space_e010"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e410": {
+      "entry_id": "scene_4_under_the_bush_e410",
+      "content": "You sniff at the air around the bush, trying to isolate the source of the decaying smell. The heat seems to amplify the odor, making it almost cloying. It smells earthy, but with an unpleasant edge \u2013 like something rotting beneath the soil. The *Viburnum* leaves themselves seem to be browning at the edges.",
+      "choices": [
+        {
+          "content": "Try to dig into the soil to find the source.",
+          "entry_id": "scene_4_under_the_bush_e411"
+        },
+        {
+          "content": "Examine the cracked paving near the bush, to see if the smell is stronger there.",
+          "entry_id": "scene_4_under_the_bush_e403"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e411": {
+      "entry_id": "scene_4_under_the_bush_e411",
+      "content": "You sniff at the air around the bush, trying to isolate the source of the decaying smell. The heat seems to amplify the odor, making it almost cloying. It smells earthy, but with an unpleasant edge \nYou kneel down and start to dig at the soil near the base of the bush. The soil is dry and dusty, and the decaying smell becomes even stronger as you disturb it.",
+      "choices": [
+        {
+          "content": "Examine the cracked paving near the bush, to see if the smell is stronger there.",
+          "entry_id": "scene_4_under_the_bush_e403"
+        },
+        {
+          "content": "Look towards the neighbor\ns house again.",
+          "entry_id": "scene_4_under_the_bush_e409"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e403": {
+      "entry_id": "scene_4_under_the_bush_e403",
+      "content": "Instead of the key, you scan the cracked paving more closely. The cracks are more pronounced here, radiating outwards from under the bush. The decaying smell is stronger closer to the ground. You notice a very narrow, almost imperceptible seam running across one of the paving stones near where the key was half-buried.",
+      "choices": [
+        {
+          "content": "Focus attention on the narrow seam in the paving.",
+          "entry_id": "scene_4_under_the_bush_e404"
+        },
+        {
+          "content": "Go back to focusing on the buzzing.",
+          "entry_id": "scene_4_under_the_bush_e405"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e404": {
+      "entry_id": "scene_4_under_the_bush_e404",
+      "content": "You examine the seam. It\nYou examine the seam. It\ns incredibly fine, almost invisible unless you\nYou examine the seam. It\nre looking for it, but it\nYou examine the seam. It\ns definitely there, bisecting the paving stone. It\nYou examine the seam. It\ns located very close to where the tarnished key was found. Could they be connected?",
+      "choices": [
+        {
+          "content": "Try the key on the seam.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Look towards the neighbor\nYou examine the seam. It\ns house again.",
+          "entry_id": "scene_4_under_the_bush_e409"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e001": {
+      "entry_id": "scene_3_neighbors_window_e001",
+      "content": "You peer through the living room window, the heat distorting the view of the neighbor\n\n\n\n\n\n\ns house. It\n\n\n\n\n\n\ns like looking at the world through layers of rippling glass. The neighbor is standing at their own window, seemingly looking back. Their face is in shadow, making it impossible to read their expression. Beyond them, their garden is eerily still, the perfect green lawn a stark contrast to your wilting tomatoes. The buzzing in your ears seems to soften slightly as you step back from the door to the garden.",
+      "choices": [
+        {
+          "content": "Try to make out what the neighbor\n\n\n\n\n\n\ns face looks like, despite the shimmering heat.",
+          "entry_id": "scene_3_neighbors_window_e002"
+        },
+        {
+          "content": "Focus on the neighbor\n\n\n\n\n\n\ns garden, trying to find a point of clarity in the shimmering heat.",
+          "entry_id": "scene_3_neighbors_window_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e002": {
+      "entry_id": "scene_3_neighbors_window_e002",
+      "content": "You squint against the glare reflecting off the windowpane, trying to decipher the neighbor\n\n\n\n\n\n\ns expression. The heat intensifies the distortion. The light seems to bend and twist their features, turning them into an unreadable mask. The harder you stare, the less you seem to see. The buzzing in your ears intensifies.",
+      "choices": [
+        {
+          "content": "Strain your eyes to try and understand the neighbor\n\n\n\n\n\n\ns expression.",
+          "entry_id": "scene_3_neighbors_window_e003"
+        },
+        {
+          "content": "Give up on the neighbor\n\n\n\n\n\n\ns face and shift your attention to their garden.",
+          "entry_id": "scene_3_neighbors_window_e005"
+        },
+        {
+          "content": "Step back from the window to clear your head.",
+          "entry_id": "scene_3_neighbors_window_e012"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e003": {
+      "entry_id": "scene_3_neighbors_window_e003",
+      "content": "Even through the heat, the intensity of the neighbor\n\n\n\n\n\n\ns gaze is unmistakable. They remain still, an unsettling figure framed by the window. They haven\n\n\n\n\n\n\nt moved, haven\n\n\n\n\n\n\nt reacted to being watched. They just stand there, a silent sentinel. The stillness feels deliberate. The silence is broken only by the buzzing in your ears, which has an almost deafening quality here.",
+      "choices": [
+        {
+          "content": "Go directly to the neighbor\n\n\n\n\n\n\ns door and demand answers.",
+          "entry_id": "scene_3_neighbors_window_e004"
+        },
+        {
+          "content": "Turn your attention fully to the neighbor's garden.",
+          "entry_id": "scene_3_neighbors_window_e006"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e004": {
+      "entry_id": "scene_3_neighbors_window_e004",
+      "content": "A growing unease pushes you toward direct confrontation. The thought of breaking the neighbor\nYou need answers, and you need them now.",
+      "choices": [
+        {
+          "content": "Go to the neighbor\ndoor now.",
+          "entry_id": "scene_5_evasive_neighbor_e001"
+        },
+        {
+          "content": "Decide to investigate the neighbor\ns garden more thoroughly first.",
+          "entry_id": "scene_3_neighbors_window_e006"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e001": {
+      "entry_id": "scene_5_evasive_neighbor_e001",
+      "content": "The neighbor answers the door, but their eyes dart around, avoiding yours. A bead of sweat trickles down their temple. They seem flustered by the heat, or perhaps something else. They deny seeing anything and make a strange comment about the heat affecting minds. They pull the door slightly closed as they speak, making you feel unwelcome.",
+      "choices": [
+        {
+          "content": "Press the neighbor for more information.",
+          "entry_id": "scene_5_evasive_neighbor_e002"
+        },
+        {
+          "content": "Ask the neighbor directly about Kevin, your garden gnome.",
+          "entry_id": "scene_5_evasive_neighbor_e003"
+        },
+        {
+          "content": "Casually mention the cracked paving and compare it to their own.",
+          "entry_id": "scene_5_evasive_neighbor_e004"
+        },
+        {
+          "content": "Politely retreat and consider your next move back in your garden.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e006": {
+      "entry_id": "scene_3_neighbors_window_e006",
+      "content": "The neighbor's garden is intensely manicured, almost sterile in its perfection. There\u2019s not a weed in sight, not a single blade of grass out of place. Even the flowerbeds seem too precise, too geometrical. The cracked paving border that edges their property seems subtly different.\n\nYou feel a strange sense of violation from the pristine neatness.",
+      "choices": [
+        {
+          "content": "Move closer to the window, trying to discern details in the impossibly green lawn.",
+          "entry_id": "scene_3_neighbors_window_e007"
+        },
+        {
+          "content": "Take a closer look at the neighbor's cracked paving border.",
+          "entry_id": "scene_3_neighbors_window_e008"
+        },
+        {
+          "content": "Decide to abandon observation and confront the neighbor at their door directly.",
+          "entry_id": "scene_3_neighbors_window_e004"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e007": {
+      "entry_id": "scene_3_neighbors_window_e007",
+      "content": "The lawn is so uniformly green it almost looks artificial. There\\'s no natural variation in colour, no subtle shades, no sign of organic growth. It\\'s perfectly flat, perfectly edged, an unnerving expanse of synthetic green under the scorching sun.",
+      "choices": [
+        {
+          "content": "Inspect the neighbor\\'s cracked paving border in more detail from the window.",
+          "entry_id": "scene_3_neighbors_window_e008"
+        },
+        {
+          "content": "Decide to confront the neighbor at their front door instead of further observation.",
+          "entry_id": "scene_3_neighbors_window_e004"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e008": {
+      "entry_id": "scene_3_neighbors_window_e008",
+      "content": "The cracked paving in the neighbor's garden is different from your own. Here, the cracks seem intentionally placed, arranged in a deliberate, geometric pattern. The stones themselves are pristine, lacking the moss and dirt that fills the fissures in your garden. The buzzing in your ears intensifies. It's a strange match to the key's bit that you found in the bush.",
+      "choices": [
+        {
+          "content": "Look again at the unnaturally perfect lawn, to examine it more closely.",
+          "entry_id": "scene_3_neighbors_window_e007"
+        },
+        {
+          "content": "Decide to take decisive action and move beyond observation.",
+          "entry_id": "scene_3_neighbors_window_e009"
+        },
+        {
+          "content": "Go and confront the neighbor at their front door now.",
+          "entry_id": "scene_3_neighbors_window_e004"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e009": {
+      "entry_id": "scene_3_neighbors_window_e009",
+      "content": "A growing sense of unease settles deep within you. The neighbor's unwavering, silent gaze, the unnaturally perfect garden, the deliberate cracks in the paving... something is wrong. You need to understand what is happening.",
+      "choices": [
+        {
+          "content": "Decide that direct confrontation is the necessary next step and go to the neighbor's door.",
+          "entry_id": "scene_3_neighbors_window_e010"
+        },
+        {
+          "content": "Decide to investigate the neighbor's garden more closely, stepping outside.",
+          "entry_id": "scene_3_neighbors_window_e011"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e010": {
+      "entry_id": "scene_3_neighbors_window_e010",
+      "content": "The decision is made. Direct confrontation is the only path to clarity. You turn and head towards the front door.",
+      "choices": [
+        {
+          "content": "Proceed to the neighbor\ns door immediately.",
+          "entry_id": "scene_5_evasive_neighbor_e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e011": {
+      "entry_id": "scene_3_neighbors_window_e011",
+      "content": "Instead of direct confrontation, a powerful curiosity takes hold. You decide to investigate the source of your unease more directly, stepping out of the relative cool of the house and into the full, oppressive heat. The buzzing is louder here. You head towards the neighbor\nto take a closer look at the unnervingly perfect garden, the cracked paving underfoot radiating heat.",
+      "choices": [
+        {
+          "content": "Step outside and move towards the neighbor to take a closer look at the unnervingly perfect garden.",
+          "entry_id": "scene_6_perfect_lawn_e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e001": {
+      "entry_id": "scene_6_perfect_lawn_e001",
+      "content": "The neighbor's garden is laid out before you. It is unnaturally perfect \u2013 the green of the lawn is too uniform, the rigid order is unsettling, and there's a distinct lack of any buzzing or insects. The cracked paving borders the garden, clearly decorative. There is no sign of Kevin.",
+      "choices": [
+        {
+          "content": "Approach the neighbor's garden for a closer look, stepping onto the artificial lawn.",
+          "entry_id": "scene_6_perfect_lawn_e002"
+        },
+        {
+          "content": "Decide against entering the neighbor's space and remain in your own garden, the heat rising from the cracked paving.",
+          "entry_id": "scene_6_perfect_lawn_e003"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e002": {
+      "entry_id": "scene_6_perfect_lawn_e002",
+      "content": "Stepping closer to the dividing hedge, the unsettling perfection intensifies. The lawn is uniformly green, almost glowing under the intense sun. The flowerbeds are rigidly geometric. The air feels still and strangely scentless. The heat seems to intensify around you.",
+      "choices": [
+        {
+          "content": "Step fully into the neighbor's garden, crossing the boundary.",
+          "entry_id": "scene_6_perfect_lawn_e004"
+        },
+        {
+          "content": "Observe the garden more closely from the edge, without fully entering, feeling the artificial lawn crunch underfoot.",
+          "entry_id": "scene_6_perfect_lawn_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e004": {
+      "entry_id": "scene_6_perfect_lawn_e004",
+      "content": "You are now fully in the neighbor\nd\ns garden. The perfection is even more disturbing up close. The \n\n\ndlawn\n\n\nd crunches slightly underfoot \n\n\n\n\n\nplastic. The flowers, though vibrant, are utterly still. There is a sterile, almost chemical scent to the air. The cracked paving is meticulously arranged and decorative, and feels cool to the touch. There is no buzzing, only unnerving silence.",
+      "choices": [
+        {
+          "content": "Examine the strange, decorative paving more closely in the neighbor\ns garden, looking for any sign of Kevin.",
+          "entry_id": "scene_11_artificial_garden_e1101"
+        },
+        {
+          "content": "Take a wider look around the neighbor\ns garden, trying to understand its unnatural order and the unsettling lack of any insects.",
+          "entry_id": "scene_6_perfect_lawn_e008"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1101": {
+      "entry_id": "scene_11_artificial_garden_e1101",
+      "content": "You are now in the neighbor\u2019s garden, the oppressive heat strangely absent. The plastic lawn crunches underfoot, and the air smells sterile. The cracked paving is meticulously arranged and decorative, not organic, and cool to the touch. There is no buzzing, only unnerving silence.",
+      "choices": [
+        {
+          "content": "Examine the paving closely, kneeling down to inspect the unnatural cracks.",
+          "entry_id": "scene_11_artificial_garden_e1102"
+        },
+        {
+          "content": "Leave the neighbor's garden. It's too unsettling and the silence is deafening.",
+          "entry_id": "scene_11_artificial_garden_e1103"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e012": {
+      "entry_id": "scene_3_neighbors_window_e012",
+      "content": "Sam steps back from the window, blinking against the glare. For a moment, the heat haze seems to lessen slightly as eyes adjust to the bright light outside. The oppressive heat, however, remains unchanged, pressing down on everything. The neighbor's house remains in silent view.",
+      "choices": [
+        {
+          "content": "Try again to focus on the neighbor's face, now eyes have adjusted.",
+          "entry_id": "scene_3_neighbors_window_e002"
+        },
+        {
+          "content": "Return focus to the neighbor's garden, which is easier to see.",
+          "entry_id": "scene_3_neighbors_window_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e013": {
+      "entry_id": "scene_3_neighbors_window_e013",
+      "content": "Beyond the garden, you try to take in more details of the neighbor's house itself. The windows are all uniformly clean and reflect the harsh sunlight intensely, almost blindingly. There are no curtains or blinds visible, just blank, reflective panes. The house seems closed off, uninviting, almost like a facade.",
+      "choices": [
+        {
+          "content": "Observe the windows of the neighbor's house more closely.",
+          "entry_id": "scene_3_neighbors_window_e014"
+        },
+        {
+          "content": "Return focus to the garden, seeking more tangible details there.",
+          "entry_id": "scene_3_neighbors_window_e006"
+        }
+      ],
+      "end": null
+    },
+    "scene_3_neighbors_window_e014": {
+      "entry_id": "scene_3_neighbors_window_e014",
+      "content": "The uniform windows, the stark walls, the oppressive stillness... the neighbor\n's house exudes an unnatural calm, a sense of something deliberately concealed. The heat shimmers around it, adding to the distorted and unsettling atmosphere. Observation from afar can only reveal so much, and you consider a more direct approach.",
+      "choices": [
+        {
+          "content": "Confront the neighbor now.",
+          "entry_id": "scene_3_neighbors_window_e004"
+        },
+        {
+          "content": "Look back at the paving pattern one last time before deciding what to do.",
+          "entry_id": "scene_3_neighbors_window_e008"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e002": {
+      "entry_id": "scene_5_evasive_neighbor_e002",
+      "content": "You press the neighbor about their evasiveness. They become more agitated, their voice rising slightly. They repeat that they haven\n\nYou've seen anything, adding a pointed remark about the heat affecting judgment.",
+      "choices": [
+        {
+          "content": "Accuse them of hiding something.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Back down slightly, but emphasize your concern about Kevin\n\nS disappearance.",
+          "entry_id": "scene_5_evasive_neighbor_e007"
+        },
+        {
+          "content": "Ask if they\n\nYou've noticed anyone else acting strangely in the neighborhood.",
+          "entry_id": "scene_5_evasive_neighbor_e016"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e006": {
+      "entry_id": "scene_5_evasive_neighbor_e006",
+      "content": "You accuse them of hiding something. Their forced composure crumbles. Their eyes harden and they become subtly menacing. They say some things are best left undisturbed, then add with a strange smile, \", \", \"This heat makes people imagine things.\", \", The buzzing from your garden seems to disappear here, replaced by an unsettling silence.",
+      "choices": [
+        {
+          "content": "Keep pressing them, demanding the truth.",
+          "entry_id": "scene_10_veiled_threat_s10e001"
+        },
+        {
+          "content": "Back off, realizing you\nYou\nYou've gone too far, and leave before the situation escalates.",
+          "entry_id": "scene_5_evasive_neighbor_e012"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e401c": {
+      "entry_id": "scene_4_under_the_bush_e401c",
+      "content": "Sam gently eases the object free. It comes away with a soft sucking sound from the packed earth.",
+      "choices": [
+        {
+          "content": "Pick up the object.",
+          "entry_id": "scene_4_under_the_bush_e402"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e402": {
+      "entry_id": "scene_4_under_the_bush_e402",
+      "content": "Sam carefully pulls the object from the earth. It\nYou look around the immediate vicinity. It\nis a key, old and heavy. The bit is intricately cut with strange symbols, unlike any modern key you\nYou carefully place the key on the ground near where you found it.",
+      "choices": [
+        {
+          "content": "Examine the key.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Look around the area where you found the key, focusing on a seam in the paving.",
+          "entry_id": "scene_4_under_the_bush_e404"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e001": {
+      "entry_id": "scene_8_tarnished_key_s8e001",
+      "content": "Sam examines the tarnished key. It\u2019s old and out of place. It\u2019s also strangely cold to the touch. A seam in the cracked paving catches your eye, close to where the key was found. The buzzing feels like it\u2019s resonating from the paving itself now.",
+      "choices": [
+        {
+          "content": "Examine the key closely",
+          "entry_id": "scene_8_tarnished_key_s8e002"
+        },
+        {
+          "content": "Listen to the buzzing again",
+          "entry_id": "scene_8_tarnished_key_s8e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e002": {
+      "entry_id": "scene_8_tarnished_key_s8e002",
+      "content": "Sam examines the tarnished key. It\nYou decide to politely disengage, sensing the conversation is going nowhere. The neighbor seems relieved, offering a tight, insincere smile as you turn to leave. Back in your garden the sun beats down on the cracked paving, and you think you can hear the buzzing again, louder now. It\nt recognise them.",
+      "choices": [
+        {
+          "content": "Focus on the paving seam",
+          "entry_id": "scene_8_tarnished_key_s8e003"
+        },
+        {
+          "content": "Consider the initial observation again",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e003": {
+      "entry_id": "scene_8_tarnished_key_s8e003",
+      "content": "Sam kneels down, heat rising from the paving. The seam is hairline thin but runs noticeably along one edge of a paving stone, close to where the key was buried. It looks almost deliberate, like a join rather than a crack. The buzzing is louder near the seam.",
+      "choices": [
+        {
+          "content": "Try the key in the seam",
+          "entry_id": "scene_8_tarnished_key_s8e004"
+        },
+        {
+          "content": "Listen to the buzzing again, near the seam",
+          "entry_id": "scene_8_tarnished_key_s8e006"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e407": {
+      "entry_id": "scene_4_under_the_bush_e407",
+      "content": "Leaving the stifling interior of the bush, you look again at the cracked paving surrounding it. The decaying smell seems to be strongest right where the paving is most fractured, almost like rotting vegetation trapped underneath. The buzzing still permeates the air, a constant, unsettling drone. You notice that the cracks closer to the bush are filled with a dark, almost black, moss.",
+      "choices": [
+        {
+          "content": "Examine the cracked paving more closely.",
+          "entry_id": "scene_4_under_the_bush_e403"
+        },
+        {
+          "content": "Glance over at the neighbour\n's house again.",
+          "entry_id": "scene_4_under_the_bush_e409"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e005": {
+      "entry_id": "scene_8_tarnished_key_s8e005",
+      "content": "You focus on the buzzing. It's a high-pitched, almost metallic sound, and seems to be coming from the paving stones themselves, not just the surrounding air. The sound seems to vibrate up through the cracked concrete, making the hairs on your arms stand on end.",
+      "choices": [
+        {
+          "content": "Investigate the buzzing closely, concentrating on the paving stones near the seam.",
+          "entry_id": "scene_8_tarnished_key_s8e007"
+        },
+        {
+          "content": "Examine the key again, looking for clues.",
+          "entry_id": "scene_8_tarnished_key_s8e009"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e007": {
+      "entry_id": "scene_8_tarnished_key_s8e007",
+      "content": "You get closer to the paving, trying to pinpoint the buzzing. It\ns intense, a vibration you can feel as much as hear. No insects are visible anywhere, just the cracked, sun-baked paving radiating heat and sound. The buzzing feels localized, strongest in one particular area of the paving, right near the seam.",
+      "choices": [
+        {
+          "content": "Focus on the paving stone with the seam.",
+          "entry_id": "scene_8_tarnished_key_s8e008"
+        },
+        {
+          "content": "Investigate the buzzing in the Viburnum bush.",
+          "entry_id": "scene_9_unseen_insects_e901"
+        },
+        {
+          "content": "Step back and try to get a sense of where the buzzing is coming from generally.",
+          "entry_id": "scene_8_tarnished_key_s8e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e008": {
+      "entry_id": "scene_8_tarnished_key_s8e008",
+      "content": "You focus on the area of paving where the buzzing is loudest. Right there, running along the edge of a stone vibrating with the sound, is the seam you noticed earlier. It\ns almost as if the seam itself is humming. The seam and the buzzing are definitely connected. The heat rising from the paving is intense.",
+      "choices": [
+        {
+          "content": "Examine the paving seam closely again.",
+          "entry_id": "scene_8_tarnished_key_s8e003"
+        },
+        {
+          "content": "Venture back into the Viburnum bush to investigate the buzzing further.",
+          "entry_id": "scene_9_unseen_insects_e901"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e004": {
+      "entry_id": "scene_8_tarnished_key_s8e004",
+      "content": "The key feels like it might fit. The seam is intriguing, and the buzzing is definitely louder near it. It\u2019s a strange combination of elements, all focused on this one spot in the cracked paving. Maybe this is what the key is for.",
+      "choices": [
+        {
+          "content": "Use the key in the seam.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_4_under_the_bush_e409": {
+      "entry_id": "scene_4_under_the_bush_e409",
+      "content": "The unnerving feeling of being watched intensifies. Despite the unsettling discoveries in the garden \u2013 the missing gnome, the strange key \u2013 you can\nt shake the feeling of unseen eyes. Turning towards the boundary hedge, you glance at the neighbour\ns house. The window is dark, reflecting the harsh sunlight like a mirror, but you sense a presence behind it, a silent observation.",
+      "choices": [
+        {
+          "content": "Walk to the very edge of the garden, right up to the hedge, and stare directly at the neighbor\ns window.",
+          "entry_id": "scene_3_neighbors_window_e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e003": {
+      "entry_id": "scene_5_evasive_neighbor_e003",
+      "content": "You ask directly about Kevin. The neighbor\n\nS smile tightens, becoming brittle. For a moment, a flicker of something dark crosses their face \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n annoyance, or something more sinister? They deny seeing any gnome, but their voice is strained, too high-pitched.",
+      "choices": [
+        {
+          "content": "Recite details of Kevin\n\ne2\n\nt\ns appearance, carefully observing the neighbor for any flicker of recognition.",
+          "entry_id": "scene_5_evasive_neighbor_e008"
+        },
+        {
+          "content": "Ask about their seemingly perfect, almost artificial, garden, hinting at the effort required.",
+          "entry_id": "scene_5_evasive_neighbor_e009"
+        },
+        {
+          "content": "Casually inquire if they\n\ne2\n\nt\nve ever had a fondness for gnomes, deadpanning the question.",
+          "entry_id": "scene_5_evasive_neighbor_e017"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e004": {
+      "entry_id": "scene_5_evasive_neighbor_e004",
+      "content": "You mention the cracked paving, contrasting it with their pristine paving stones. The neighbor stiffens, their earlier cordiality vanishing. They avoid eye contact, a muscle twitching in their jaw. You notice their hands clenching. ",
+      "choices": [
+        {
+          "content": "Press them about their obsession with order.",
+          "entry_id": "scene_5_evasive_neighbor_e010"
+        },
+        {
+          "content": "Return to the subject of Kevin, stressing you are still looking for him.",
+          "entry_id": "scene_5_evasive_neighbor_e011"
+        },
+        {
+          "content": "Ask what could be buried underneath their paving.",
+          "entry_id": "scene_5_evasive_neighbor_e018"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e011": {
+      "entry_id": "scene_5_evasive_neighbor_e011",
+      "content": "Despite their dismissiveness, you try to circle back to Kevin. You describe him again, the bright red hat, the cheerful, slightly cracked smile, the way the paint had faded over the years. The neighbor sighs, their patience clearly wearing thin. They reiterate that they haven't seen it and imply you should look elsewhere. Their hand rests briefly on the doorknob.",
+      "choices": [
+        {
+          "content": "Mention how Aunt Joan gifted you Kevin, emphasizing the irreplaceable sentimental value.",
+          "entry_id": "scene_5_evasive_neighbor_e008"
+        },
+        {
+          "content": "Accept that you're getting nowhere and politely excuse yourself, retreating to your garden.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e008": {
+      "entry_id": "scene_5_evasive_neighbor_e008",
+      "content": "You describe Kevin in detail \u2013 red hat, cheerful expression, ceramic build \u2013 carefully watching their face. The neighbor listens impassively, then repeats they haven't seen it, their tone clipped. They shift their weight, eager to end the conversation. A drop of sweat trickles down their neck.",
+      "choices": [
+        {
+          "content": "Ask if they've noticed anyone else lurking around the gardens lately, anyone out of place.",
+          "entry_id": "scene_5_evasive_neighbor_e015"
+        },
+        {
+          "content": "Thank them for their time and return to your garden.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        },
+        {
+          "content": "Ask if they've recently seen gnomes for sale, hinting that one may have caught their eye.",
+          "entry_id": "scene_5_evasive_neighbor_e021"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e021": {
+      "entry_id": "scene_5_evasive_neighbor_e021",
+      "content": "You ask if they've seen any garden gnomes on sale. The neighbor pauses, a strange expression flickering across their face. They say they don't pay attention to such things, then quickly change the subject, pointing to their immaculate lawn. The buzzing in your ears gets louder.",
+      "choices": [
+        {
+          "content": "Accuse them of having bought Kevin, but then burying him out of spite.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Ignore their deflection and press them on the secrets to their unnaturally perfect lawn.",
+          "entry_id": "scene_5_evasive_neighbor_e009"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e009": {
+      "entry_id": "scene_5_evasive_neighbor_e009",
+      "content": "You shift the focus to their pristine garden, praising its order and perfection",
+      "choices": [
+        {
+          "content": "Compliment their paving stones, then pointedly ask if that perfection extends to what lies *beneath* them.",
+          "entry_id": "scene_5_evasive_neighbor_e010"
+        },
+        {
+          "content": "Gently steer the conversation back to Kevin, mentioning the gnome.",
+          "entry_id": "scene_5_evasive_neighbor_e011"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e005": {
+      "entry_id": "scene_5_evasive_neighbor_e005",
+      "content": "You decide to politely disengage, sensing the conversation is going nowhere. The neighbor seems relieved, offering a tight, insincere smile as you turn to leave. Back in your garden the sun beats down on the cracked paving, and you think you can hear the buzzing again, louder now. It\nYou decide to politely disengage, sensing the conversation is going nowhere. The neighbor seems relieved, offering a tight, insincere smile as you turn to leave. Back in your garden the sun beats down on the cracked paving, and you think you can hear the buzzing again, louder now. It\ns definitely coming from near the *Viburnum* bush.",
+      "choices": [
+        {
+          "content": "Return to the spot you found the tarnished key earlier.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Think again about the neighbor\nYou decide to politely disengage, sensing the conversation is going nowhere. The neighbor seems relieved, offering a tight, insincere smile as you turn to leave. Back in your garden the sun beats down on the cracked paving, and you think you can hear the buzzing again, louder now. It\ns words, trying to understand their meaning.",
+          "entry_id": "scene_5_evasive_neighbor_e019"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e009": {
+      "entry_id": "scene_8_tarnished_key_s8e009",
+      "content": "Holding the tarnished key, you consider the situation. The key, the barely visible seam in the paving, and the strange buzzing all seem to be connected somehow. You kneel down. The buzzing seems to be coming from the paving itself, right near the faint seam.",
+      "choices": [
+        {
+          "content": "Examine the paving seam closely, listening for the buzzing.",
+          "entry_id": "scene_8_tarnished_key_s8e010"
+        },
+        {
+          "content": "Try the key in the seam.",
+          "entry_id": "scene_8_tarnished_key_s8e004"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e010": {
+      "entry_id": "scene_8_tarnished_key_s8e010",
+      "content": "Kneeling again, you trace the seam with a finger. It's subtle, easy to miss in the cracked paving, but definitely there. You press your ear close. The buzzing is strongest right along this barely visible line. It feels less like a crack and more like something designed to be opened.",
+      "choices": [
+        {
+          "content": "Try the key in the seam now.",
+          "entry_id": "scene_8_tarnished_key_s8e011"
+        },
+        {
+          "content": "Listen to the buzzing again, even more carefully, near the seam.",
+          "entry_id": "scene_8_tarnished_key_s8e007"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e011": {
+      "entry_id": "scene_8_tarnished_key_s8e011",
+      "content": "A decision. The key is old and strange. The seam in the cracked paving is intriguing. The buzzing is focused right on this spot. It feels like the key is made for the seam somehow. Time to decide.",
+      "choices": [
+        {
+          "content": "Use the key in the seam.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        },
+        {
+          "content": "Hesitate, and take stock of the situation, focusing on the buzzing and the seam.",
+          "entry_id": "scene_8_tarnished_key_s8e012"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e020": {
+      "entry_id": "scene_12_unlocking_cracks_e020",
+      "content": "The heat shimmers off the cracked paving, making the garden look like a hallucination. Kevin is gone, and you still feel a lingering sense of loss. You still have the key.",
+      "choices": [
+        {
+          "content": "Use the tarnished key on the cracked paving seam now.",
+          "entry_id": "scene_12_unlocking_cracks_e021"
+        },
+        {
+          "content": "Confront the neighbor directly about their increasingly strange behaviour.",
+          "entry_id": "scene_12_unlocking_cracks_e030"
+        },
+        {
+          "content": "Examine the neighbor. You still have the key.",
+          "entry_id": "scene_12_unlocking_cracks_e034"
+        },
+        {
+          "content": "Give in to the oppressive heat and the growing unease and retreat back inside.",
+          "entry_id": "scene_12_unlocking_cracks_e050"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e007": {
+      "entry_id": "scene_5_evasive_neighbor_e007",
+      "content": "You soften your approach, reiterating your concern about Kevin. The neighbor remains evasive, but their body language shifts slightly \">\"\u2013 they seem almost\n\npitying? They suggest that maybe Kevin just wandered off.",
+      "choices": [
+        {
+          "content": "Ask if they\n\nve noticed the strange buzzing sound in your garden.",
+          "entry_id": "scene_5_evasive_neighbor_e013"
+        },
+        {
+          "content": "One last time, ask about the gnome.",
+          "entry_id": "scene_5_evasive_neighbor_e014"
+        },
+        {
+          "content": "Ask them if they have lost anything recently.",
+          "entry_id": "scene_5_evasive_neighbor_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e013": {
+      "entry_id": "scene_5_evasive_neighbor_e013",
+      "content": "You ask if they\nYou They\nYou've heard the buzzing sound in your garden. The neighbor dismisses it with a wave of their hand, attributing it to the heat and the lack of rain. They suggest the paving stones probably retain the heat, amplifying any natural sounds. Their tone is subtly condescending, and they seem keen to end the conversation.",
+      "choices": [
+        {
+          "content": "Accuse them of hiding something and that it seems to be coming from the paving.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Accept their explanation (or lack thereof) and politely leave, still feeling suspicious and uneasy.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e001": {
+      "entry_id": "scene_10_veiled_threat_s10e001",
+      "content": "Pressing the neighbor further, they become agitated and subtly threatening. They say, \", \", \"Some things are best buried,\", \", and their gaze drifts to your garden and the cracked paving stones. They add, \", \", \"This heat makes people see things,\", \", with a slight smile. The buzzing from your garden seems less distinct here.",
+      "choices": [
+        {
+          "content": "Accuse the neighbor directly of knowing more about the gnome than they're letting on.",
+          "entry_id": "scene_10_veiled_threat_s10e002"
+        },
+        {
+          "content": "Back down slightly and probe their behaviour in the heat, suggesting they seem more affected than most.",
+          "entry_id": "scene_10_veiled_threat_s10e014"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e002": {
+      "entry_id": "scene_10_veiled_threat_s10e002",
+      "content": "You accuse the neighbor of knowing more about the gnome than they\nYou\nYou're letting on. Their eyes narrow, and a muscle twitches in their jaw. The air thickens with unspoken tension. You feel a bead of sweat trickle down your neck.",
+      "choices": [
+        {
+          "content": "Press them harder, demanding the truth.",
+          "entry_id": "scene_10_veiled_threat_s10e003"
+        },
+        {
+          "content": "Soften the accusation, appealing to them as neighbors and asking them to level with you.",
+          "entry_id": "scene_10_veiled_threat_s10e004"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e003": {
+      "entry_id": "scene_10_veiled_threat_s10e003",
+      "content": "You push harder, demanding to know what they meant by \nYou\nYou're letting on. The neighbor\nYou\nYou's agitation is now palpable. They gesture vaguely towards their garden, the artificial lawn an unnatural green under the sun, but their gaze flickers back to you, sharp and assessing. The air is thick with the buzzing.",
+      "choices": [
+        {
+          "content": "Accuse them directly of burying the gnome.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        },
+        {
+          "content": "Mention the heat, trying to defuse the tension.",
+          "entry_id": "scene_10_veiled_threat_s10e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e010": {
+      "entry_id": "scene_5_evasive_neighbor_e010",
+      "content": "You pointedly ask if they\nhave buried anything under their pristine paving to keep it so perfect. The neighbor\nseems to struggle to maintain their forced smile. A flicker of something \nsomething crosses their face. They recover quickly, insisting it\nall comes down to hard work and meticulous cleaning. A faint buzzing sound, like trapped bees, seems to briefly fill the air around you.",
+      "choices": [
+        {
+          "content": "Press them harder, hinting that you suspect they\nare hiding something.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Thank them for their time and leave, sensing they are becoming increasingly uncomfortable. The heat is intense, and the encounter has left you feeling drained.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e014": {
+      "entry_id": "scene_10_veiled_threat_s10e014",
+      "content": "From across the low hedge, you persist, asking about the gnome. The neighbor\nThe neighbor\nThe neighbor's expression hardens, and their gaze flicks towards the cracked paving in your garden before returning to you. \", \", \"Some things are best left undisturbed,\", \", they say, their voice low, \", \", \"and this heat...it makes people imagine things.\", \", The buzzing in your ears seems to fade slightly.",
+      "choices": [
+        {
+          "content": "Accuse the neighbor directly of knowing something about the gnome.",
+          "entry_id": "scene_10_veiled_threat_s10e002"
+        },
+        {
+          "content": "Back down slightly, suggesting they seem more affected by the heat than most.",
+          "entry_id": "scene_10_veiled_threat_s10e006"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e006": {
+      "entry_id": "scene_10_veiled_threat_s10e006",
+      "content": "You attempt to steer the conversation away from direct accusations, hoping to catch them off guard. You bring up their garden, and how immaculate it is.",
+      "choices": [
+        {
+          "content": "Ask about their own garden, specifically the paving stones and their distinctive appearance.",
+          "entry_id": "scene_10_veiled_threat_s10e007"
+        },
+        {
+          "content": "Casually inquire if they've been feeling the heat lately.",
+          "entry_id": "scene_10_veiled_threat_s10e008"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e007": {
+      "entry_id": "scene_10_veiled_threat_s10e007",
+      "content": "You comment on how distinctive their paving stones are. The neighbor tenses, their eyes flicking to their own patio before returning to you with a guarded expression. The buzzing seems to grow louder again in the short silence.",
+      "choices": [
+        {
+          "content": "Casually mention the cracked paving stones.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        },
+        {
+          "content": "Change the subject to general garden maintenance.",
+          "entry_id": "scene_10_veiled_threat_s10e009"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e009": {
+      "entry_id": "scene_10_veiled_threat_s10e009",
+      "content": "The space beneath the paving is a stark, cool contrast to the sun-baked world above. It\nYou have the distinct impression that you\nYou grip the edge of the paving stone. It\nYou accuse them outright of burying Kevin under their paving. The neighbor\nLooking closer, you can see that the cracks are too uniform, too precise. They form a deliberate pattern across the porcelain tiles. It\nYou try to make small talk, hoping to diffuse the tension, but the neighbor\ns unsettling presence and veiled threats make it impossible. The buzzing from your garden seems distant now, almost completely faded.",
+      "choices": [
+        {
+          "content": "Thank them for their time and head back to your garden, feeling a deep sense of unease.",
+          "entry_id": "scene_10_veiled_threat_s10e010"
+        },
+        {
+          "content": "Suddenly accuse them of taking Kevin.",
+          "entry_id": "scene_10_veiled_threat_s10e012"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e012": {
+      "entry_id": "scene_5_evasive_neighbor_e012",
+      "content": "Sensing the veiled threat and the neighbor\u2019s clear unwillingness to cooperate, you decide to back down completely. You thank them for their time, though the words feel hollow. As you turn to leave, you notice a small porcelain gnome displayed on a shelf in their hallway. It seems to be smiling at you.",
+      "choices": [
+        {
+          "content": "Head back to Sam's garden, wondering what they might be hiding.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e019": {
+      "entry_id": "scene_5_evasive_neighbor_e019",
+      "content": "You reflect on the neighbor\ne2\nt\ns words and behavior, trying to decipher their meaning. Their evasiveness and strange comments are unsettling, but you can\ne2\nt\nst put your finger on what they\ne2\nt\nre hiding. ",
+      "choices": [
+        {
+          "content": "Return to Sam\ne2\nt\ns garden and focus on the tarnished key you found earlier.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Casually mention the cracked paving and compare it to their own.",
+          "entry_id": "scene_5_evasive_neighbor_e004"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e018": {
+      "entry_id": "scene_5_evasive_neighbor_e018",
+      "content": "You ask them how they keep their paving so clean. The neighbor gives you a detailed description of cleaning techniques, which seems rehearsed, and ends by staring intently at you. They clearly want you to leave.",
+      "choices": [
+        {
+          "content": "Tell them you don\nYou're not convinced.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Leave and look at their paving more closely later.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e004": {
+      "entry_id": "scene_10_veiled_threat_s10e004",
+      "content": "Trying a slightly softer approach, you suggest that perhaps they\nYou\nYou\u2019ve simply observed something unusual in the gardens recently. The neighbor doesn\u2019t relax, but their posture becomes less confrontational, more watchful. They glance at the *Viburnum* bush, then back at you.",
+      "choices": [
+        {
+          "content": "Suggest they might have seen someone near your garden recently, perhaps with a gnome.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        },
+        {
+          "content": "Shift the focus to the heat, commenting on how strange it makes everyone feel.",
+          "entry_id": "scene_10_veiled_threat_s10e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e005": {
+      "entry_id": "scene_10_veiled_threat_s10e005",
+      "content": "You attempt to defuse the situation, mentioning the oppressive heat and how it can make people imagine things. The neighbor stares at you for a long moment, a flicker of something unreadable in their eyes, before a slow, unsettling smile spreads across their face. They say nothing.",
+      "choices": [
+        {
+          "content": "End the conversation abruptly and retreat back to your garden.",
+          "entry_id": "scene_10_veiled_threat_s10e013a"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e014": {
+      "entry_id": "scene_5_evasive_neighbor_e014",
+      "content": "You try one last time to ask about Kevin. The neighbor\nYou can tell that they have had enough of this conversation and are trying to subtly get you to leave. They look at you intently and say that they haven\nYou are very clearly implying that you should leave now.",
+      "choices": [
+        {
+          "content": "Describe Kevin, emphasizing the red hat and cheerful grin, carefully watching the neighbor's reaction.",
+          "entry_id": "scene_5_evasive_neighbor_e008"
+        },
+        {
+          "content": "Decide to give up and leave, sensing their irritation.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e015": {
+      "entry_id": "scene_5_evasive_neighbor_e015",
+      "content": "You ask if they\n\nYou've seen anyone else lurking around Laburnum Street or in the gardens recently. The neighbor shakes their head but avoids eye contact. They seem agitated, wiping a bead of sweat from their forehead. They are definitely getting tired of this conversation.",
+      "choices": [
+        {
+          "content": "Press them on whether they\n\nYou've seen anyone suspicious.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Thank them and leave, sensing their growing discomfort.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e008": {
+      "entry_id": "scene_10_veiled_threat_s10e008",
+      "content": "Shifting the focus from the gnome, you ask if they\nYou ask if they\npause, their eyes narrowing slightly. They seem to consider your question before answering with unsettling intensity.",
+      "choices": [
+        {
+          "content": "Mention their perfect lawn, hinting at hidden efforts to maintain it.",
+          "entry_id": "scene_6_perfect_lawn_e001"
+        },
+        {
+          "content": "Ask for their tips for coping with the heat.",
+          "entry_id": "scene_10_veiled_threat_s10e009"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e016": {
+      "entry_id": "scene_5_evasive_neighbor_e016",
+      "content": "You ask if they\\'ve noticed anyone else acting strangely in the neighborhood. The neighbor seems taken aback by the question, their eyes widening slightly, and they glance nervously towards their meticulously maintained lawn. They pause, then lower their voice, \"Now that you mention it, I did see a car I didn\\'t recognize parked down the street yesterday afternoon. Dark blue saloon, tinted windows. It was there for a good hour.\"",
+      "choices": [
+        {
+          "content": "Press them for more details, asking them to describe the car\\'s occupants.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Thank them for their time and return to your garden, sensing that they are not being entirely truthful.",
+          "entry_id": "scene_5_evasive_neighbor_e005"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e006": {
+      "entry_id": "scene_8_tarnished_key_s8e006",
+      "content": "Even while examining the key in your hand, you can still hear the buzzing, insistent and strange, emanating from the paving. It\u2019s becoming hard to ignore, a persistent thrumming underfoot. You also notice a faint smell of ozone, like after lightning, mixed with the dry, dusty scent of the heated stone.",
+      "choices": [
+        {
+          "content": "Listen to the buzzing more closely, trying to isolate its source near the seam.",
+          "entry_id": "scene_8_tarnished_key_s8e007"
+        },
+        {
+          "content": "Look at the paving seam again, wondering if it's connected to the buzzing.",
+          "entry_id": "scene_8_tarnished_key_s8e003"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e906": {
+      "entry_id": "scene_9_unseen_insects_e906",
+      "content": "Stepping back from the bush, the buzzing is still intense but perhaps a fraction less overwhelming. You focus on the cracked paving at the base of the bush. The fragmentation is extreme here, a web of fissures radiating outwards. The cracks nearest the bush are filled with a dark, almost black, moss that seems to absorb the light.",
+      "choices": [
+        {
+          "content": "Examine the cracked paving stones immediately around the bush, looking for anything unusual in the dark moss.",
+          "entry_id": "scene_9_unseen_insects_e907"
+        },
+        {
+          "content": "Step away from the bush and consider the tarnished key again, wondering if it has any connection to the bush or the paving.",
+          "entry_id": "scene_9_unseen_insects_e909"
+        },
+        {
+          "content": "Push through the hedge to the neighbour\ns garden from here, hoping for a different perspective.",
+          "entry_id": "scene_11_artificial_garden_e1101"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e017": {
+      "entry_id": "scene_5_evasive_neighbor_e017",
+      "content": "You ask if they have ever had any gnomes in their garden. The neighbor\n\nS face tightens, a strange expression like they\n\nYou\n\ne2\n\nt\nve smelled something foul. They say that gnomes are cheap and crass, a blight on any decent garden, not to mention what the neighbourhood association thinks. The heat seems to amplify their disdain. You note the buzzing seems much quieter near them.",
+      "choices": [
+        {
+          "content": "Accuse them of taking Kevin.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Change the subject abruptly, asking about the perfection of their immaculate lawn.",
+          "entry_id": "scene_5_evasive_neighbor_e009"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e021": {
+      "entry_id": "scene_12_unlocking_cracks_e021",
+      "content": "The tarnished key is cold against your skin, a shock compared to the sun-baked paving. The seam is narrow, barely noticeable amongst the web of cracks. The buzzing is intense, like a swarm trapped beneath the stones. You wonder what could be hidden, and whether you really want to know.",
+      "choices": [
+        {
+          "content": "Try the key in the seam now, see if it fits.",
+          "entry_id": "scene_12_unlocking_cracks_e022"
+        },
+        {
+          "content": "Pause. The neighbor could be watching. Abandon the idea and return to your garden.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e022": {
+      "entry_id": "scene_12_unlocking_cracks_e022",
+      "content": "You slide the key into the seam. It slides in smoothly, a surprising, perfect fit. A faint click echoes as it seats. The metal feels strangely slick. A shiver runs down your spine despite the heat, and the buzzing intensifies, becoming almost deafening.",
+      "choices": [
+        {
+          "content": "Carefully turn the key in the seam, unlocking whatever lies beneath.",
+          "entry_id": "scene_12_unlocking_cracks_e023"
+        },
+        {
+          "content": "Stop. This feels wrong. Withdraw the key before it's too late.",
+          "entry_id": "scene_12_unlocking_cracks_e021"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e023": {
+      "entry_id": "scene_12_unlocking_cracks_e023",
+      "content": "With a slow, deliberate turn, the key rotates. You hear a soft grinding sound from beneath the paving. It's like stone on stone. A puff of hot, still air rises from the seam. The buzzing vibrates through your teeth.",
+      "choices": [
+        {
+          "content": "Lift the paving stone, now that the key seems to have worked and the lock is open.",
+          "entry_id": "scene_12_unlocking_cracks_e024"
+        },
+        {
+          "content": "Pause. You are not sure about this. Listen carefully before proceeding, checking to see if anyone is there.",
+          "entry_id": "scene_12_unlocking_cracks_e022"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e024": {
+      "entry_id": "scene_12_unlocking_cracks_e024",
+      "content": "You grip the edge of the paving stone. It's rough against your skin, radiating heat. You heave upwards. The stone shifts with a groan, and a dark gap appears beneath. A smell of damp earth rises from the opening, cloying and heavy.",
+      "choices": [
+        {
+          "content": "Lift the paving stone completely to see what\u2019s hidden underneath.",
+          "entry_id": "scene_12_unlocking_cracks_e025"
+        },
+        {
+          "content": "Carefully replace the stone. Decide against opening it \u2013 for now.",
+          "entry_id": "scene_12_unlocking_cracks_e022"
+        }
+      ],
+      "end": null
+    },
+    "scene_5_evasive_neighbor_e020": {
+      "entry_id": "scene_5_evasive_neighbor_e020",
+      "content": "You ask them if they have lost anything recently. The neighbor looks momentarily confused, then says they cannot recall ever losing anything. They pause, then add, \"Though I do sometimes misplace my gardening trowel. But I always find it again.\"",
+      "choices": [
+        {
+          "content": "Ask if they have ever lost a garden gnome, like Kevin.",
+          "entry_id": "scene_5_evasive_neighbor_e006"
+        },
+        {
+          "content": "Change the subject and ask about their impeccably kept lawn.",
+          "entry_id": "scene_5_evasive_neighbor_e009"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e030": {
+      "entry_id": "scene_12_unlocking_cracks_e030",
+      "content": "You approach the hedge. The air changes \nYou\nit\u2019s too clean, too still, almost artificial. The neighbor is down on one knee, using tiny scissors to trim the artificial lawn, each snip precise and unsettling. They are so focused that they do not notice you.",
+      "choices": [
+        {
+          "content": "Accuse the neighbor directly of taking Kevin the gnome.",
+          "entry_id": "scene_12_unlocking_cracks_e031"
+        },
+        {
+          "content": "Subtly inquire about the cracked paving in their garden.",
+          "entry_id": "scene_12_unlocking_cracks_e035"
+        },
+        {
+          "content": "Decide against confrontation, retreat back to your own garden.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e031": {
+      "entry_id": "scene_12_unlocking_cracks_e031",
+      "content": "\"Excuse me, Neighbor,\" you begin, your voice strained in the heat. \"Have you seen my garden gnome, Kevin? He's gone missing. I was wondering if you might have spotted anything.\" The neighbor turns slowly, their gaze unsettlingly calm, as if they've been expecting this. Their eyes don't quite meet yours.",
+      "choices": [
+        {
+          "content": "Press the accusation, demanding to know why they took the gnome.",
+          "entry_id": "scene_12_unlocking_cracks_e032"
+        },
+        {
+          "content": "Observe the neighbor's paving more closely as you speak to them.",
+          "entry_id": "scene_12_unlocking_cracks_e034"
+        },
+        {
+          "content": "Back down, feigning politeness and changing the subject.",
+          "entry_id": "scene_12_unlocking_cracks_e030"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e032": {
+      "entry_id": "scene_12_unlocking_cracks_e032",
+      "content": "A faint smile touches the neighbor's lips. \"The gnome? Yes, I removed it. I found its\nYou\nit's\nYou\ncrass cheerfulness\nYou\ndisruptive to the garden's harmony. It\nYou\ns under my paving now, safely contained.\" They gesture vaguely towards their immaculate garden, a flicker of something unreadable in their eyes.",
+      "choices": [
+        {
+          "content": "Accept the neighbor's explanation, even if it\nYou\ns strange.",
+          "entry_id": "scene_12_unlocking_cracks_e033"
+        },
+        {
+          "content": "Question the neighbor further about the paving.",
+          "entry_id": "scene_12_unlocking_cracks_e034"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e034": {
+      "entry_id": "scene_12_unlocking_cracks_e034",
+      "content": "While the neighbor speaks of \nYou\nharmony\nYou\n and \nYou\ncontainment\nYou\n, your eyes are drawn to their paving. It\nYou\ns cracked, but deliberately so, the lines sharp and clean, unlike the chaotic fissures in your own. You notice how the paving stones are porcelain, and the cracks are filled with a dark resin. While they are talking, you can examine the paving closely, considering the details of the cracking pattern, stepping back to consider the overall impression, or sensing a disturbing, threatening aspect to the paving pattern.",
+      "choices": [
+        {
+          "content": "Focus intently on the details of the cracking pattern, trying to decipher it.",
+          "entry_id": "scene_12_unlocking_cracks_e041"
+        },
+        {
+          "content": "Step back and consider the overall impression of the paving pattern.",
+          "entry_id": "scene_12_unlocking_cracks_e042"
+        },
+        {
+          "content": "Sense a disturbing, threatening aspect to the paving pattern.",
+          "entry_id": "scene_12_unlocking_cracks_e043"
+        },
+        {
+          "content": "Disengage from the neighbor, return to your own garden, pondering what you\nYou\nve learned.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e003": {
+      "entry_id": "scene_6_perfect_lawn_e003",
+      "content": "The neighbor\nYou feel a strong urge to retreat, to return to the relative chaos, and shade, of your own space.",
+      "choices": [
+        {
+          "content": "Return to the area near the bush where you found the key, feeling a pull back to the familiar.",
+          "entry_id": "scene_6_perfect_lawn_e006"
+        },
+        {
+          "content": "Decide to go back inside your house, overwhelmed by the neighbor\nThe neighbor\nThe unnatural perfection of the neighbor\nYou feel a strong urge to retreat, to return to the relative chaos, and shade, of your own space.",
+          "entry_id": "scene_6_perfect_lawn_e007"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e006": {
+      "entry_id": "scene_6_perfect_lawn_e006",
+      "content": "Back near the viburnum bush, the familiar buzzing returns, a low thrumming seemingly rising from the cracked paving. The air here, though hot, feels less sterile than next door. The scent of your tomato plants and sun-baked soil is almost a relief after the neighbour\nd\ns overly green garden.",
+      "choices": [
+        {
+          "content": "Take out the tarnished key and examine it near the cracked paving in your own garden.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Go inside the house, trying to shake off the unsettling feeling.",
+          "entry_id": "scene_6_perfect_lawn_e011"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e011": {
+      "entry_id": "scene_6_perfect_lawn_e011",
+      "content": "Inside, the relative coolness is a relief from the oppressive heat, but the image of the neighbor\ns perfect garden and the feeling of being watched lingers. You can\nt shake off the sense that something is deeply wrong.",
+      "choices": [
+        {
+          "content": "Remember the tarnished key you found and decide to examine it more closely, wondering if it has any connection to all this unease.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Try to distract yourself indoors, hoping the unsettling feeling will fade, but quickly realize it\ns no use and the lure of the garden is too strong.",
+          "entry_id": "scene_6_perfect_lawn_e013"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e013": {
+      "entry_id": "scene_6_perfect_lawn_e013",
+      "content": "Retreating from the neighbor\ns garden, the contrast with your own slightly overgrown space is stark. The buzzing from the cracked paving seems louder now, almost insistent, calling you back. The viburnum bush sways slightly in the breeze, the only movement in the still afternoon heat.",
+      "choices": [
+        {
+          "content": "Focus your attention on the tarnished key and the cracked paving, feeling a pull towards that specific area.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e050": {
+      "entry_id": "scene_12_unlocking_cracks_e050",
+      "content": "The heat is too much, the buzzing relentless, the mystery too overwhelming. You stumble back inside, retreating from the garden and the unsettling presence of the neighbor. The oppressive atmosphere clings to the shadows. The heatwave continues, and the cracked paving remains, a silent testament to secrets buried and truths avoided.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_6_perfect_lawn_e005": {
+      "entry_id": "scene_6_perfect_lawn_e005",
+      "content": "Observing from the edge, you notice the cracked paving more acutely. It\nest\nt\ns not random; the cracks form deliberate, almost geometric patterns like veins on a leaf. The silence is heavy, broken only by the distant drone of traffic, and the oppressive heat in your own garden seems far away. There\ns\nt\ns no sign of Kevin anywhere.",
+      "choices": [
+        {
+          "content": "Focus on the cracked paving bordering the neighbor\ns\nt\ns garden, noticing how the geometric patterns seem to subtly shift as you stare.",
+          "entry_id": "scene_6_perfect_lawn_e009"
+        },
+        {
+          "content": "Shift your gaze to the neighbor\ns\nt\ns house, wondering if anyone is watching from behind the dark, reflective glass.",
+          "entry_id": "scene_6_perfect_lawn_e010"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e010": {
+      "entry_id": "scene_6_perfect_lawn_e010",
+      "content": "You glance towards the neighbor\u2019s house, a prickle of unease on your skin. The windows are dark, reflecting the harsh sunlight back at you, making it impossible to see inside. But you have a distinct feeling of being watched \u2013 a sense of eyes on the back of your neck.",
+      "choices": [
+        {
+          "content": "Return your attention to the decorative paving, noticing how the intricate patterns in the cracks seem to echo the lines on the key you found.",
+          "entry_id": "scene_6_perfect_lawn_e009"
+        },
+        {
+          "content": "Take a step closer to the neighbor\u2019s house, trying to get a better look at the watcher in the window, shielding your eyes against the glare.",
+          "entry_id": "scene_6_perfect_lawn_e016"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e016": {
+      "entry_id": "scene_6_perfect_lawn_e016",
+      "content": "Taking a step closer to the house, the reflections in the window intensify, obscuring any view inside. The feeling of being watched grows stronger, a weight pressing down on you in the heat, making your breath feel shallow.",
+      "choices": [
+        {
+          "content": "Step back, feeling intimidated by the unseen watcher, and refocus on the decorative paving, seeking a distraction.",
+          "entry_id": "scene_6_perfect_lawn_e009"
+        },
+        {
+          "content": "Move right up to the edge of the neighbor\ns garden, stepping into their garden despite your growing fear.",
+          "entry_id": "scene_11_artificial_garden_e1101"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e009": {
+      "entry_id": "scene_6_perfect_lawn_e009",
+      "content": "You lean closer to the decorative paving. As you do, you catch movement in the neighbor\ns\nt\ns house. A figure is at the window, watching you. It\ns\nt\ns the neighbor, their face pale and still behind the glass, eyes fixed on you with unnerving intensity.",
+      "choices": [
+        {
+          "content": "Wave tentatively at the neighbor, trying to gauge their reaction, a knot forming in your stomach.",
+          "entry_id": "scene_6_perfect_lawn_e014"
+        },
+        {
+          "content": "Pretend to be examining the paving more closely, avoiding direct eye contact.",
+          "entry_id": "scene_6_perfect_lawn_e015"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e014": {
+      "entry_id": "scene_6_perfect_lawn_e014",
+      "content": "You wave a hesitant hand towards the neighbor at the window. They don\nt wave back, but their gaze remains fixed, unblinking. Their eyes are wide, almost manic, and a faint, unnatural smile stretches their lips. Their stillness is more unnerving than any overt hostility.",
+      "choices": [
+        {
+          "content": "Step closer to the hedge and enter the neighbor\ns garden, despite your unease.",
+          "entry_id": "scene_11_artificial_garden_e1101"
+        },
+        {
+          "content": "Drop your gaze and pretend you don\nt see them, focusing intently on the decorative paving.",
+          "entry_id": "scene_6_perfect_lawn_e015"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e007": {
+      "entry_id": "scene_6_perfect_lawn_e007",
+      "content": "It\ns stifling, but you can\nt shake the feeling that you\nre missing something vital. The neighbor\ns perfect lawn is a taunt, but you\nre still unsure what to do about it. The heat rises from the paving, baking your face as you stare, unsure.",
+      "choices": [
+        {
+          "content": "Despite your unease, the mystery of the neighbor\ns garden pulls you back to observe it again.",
+          "entry_id": "scene_6_perfect_lawn_e003"
+        },
+        {
+          "content": "Go inside, deciding to ignore the unsettling garden and focus on something else.",
+          "entry_id": "scene_6_perfect_lawn_e012"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e012": {
+      "entry_id": "scene_6_perfect_lawn_e012",
+      "content": "The air inside is little better, thick and still. You try to focus on something, anything, other than the image of the neighbor\ns unsettling garden, but Kevin\ns absence lingers, like a missing tooth. The silence feels heavier than usual.",
+      "choices": [
+        {
+          "content": "Give up on distraction and decide to confront the unease, heading back outside to your garden.",
+          "entry_id": "scene_6_perfect_lawn_e013"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e903": {
+      "entry_id": "scene_9_unseen_insects_e903",
+      "content": "The heat hits you like a wall as you step back outside. The buzzing is constant, but there\n0027s a strange stillness in the air. The viburnum bush offers a sliver of shade.",
+      "choices": [
+        {
+          "content": "Push through the bush towards the neighbour\nd019s garden.",
+          "entry_id": "scene_9_unseen_insects_e904"
+        },
+        {
+          "content": "Crouch down to examine the cracked paving beneath the bush more closely.",
+          "entry_id": "scene_9_unseen_insects_e910"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e910": {
+      "entry_id": "scene_9_unseen_insects_e910",
+      "content": "The cracks in the paving are spiderwebbed and chaotic near the bush. The stones are hot to the touch, almost burning. The buzzing is a physical presence now, thrumming through your fingers as you touch the ground.",
+      "choices": [
+        {
+          "content": "Look closer at the paving, searching for a seam or anything unusual.",
+          "entry_id": "scene_9_unseen_insects_e912"
+        },
+        {
+          "content": "Return to the unsettling stillness and buzzing within the bush itself.",
+          "entry_id": "scene_9_unseen_insects_e911"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e912": {
+      "entry_id": "scene_9_unseen_insects_e912",
+      "content": "You kneel to examine the paving. The seam is hairline thin, almost invisible, but definitely there. It runs across the corner of the paving stone, disappearing into the dirt-filled cracks. The buzzing seems to vibrate from this exact point. An earthy smell rises up to meet you.",
+      "choices": [
+        {
+          "content": "Step back. Look at the tarnished key. Does it unlock the seam?",
+          "entry_id": "scene_9_unseen_insects_e913"
+        },
+        {
+          "content": "Decide against it for now, and retreat to consider the key in relation to the paving.",
+          "entry_id": "scene_9_unseen_insects_e914"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e008": {
+      "entry_id": "scene_6_perfect_lawn_e008",
+      "content": "Looking around the neighbor\ns garden, the unnatural order is almost dizzying. Every plant is perfectly placed, every leaf seems dust-free. There\ns a complete absence of insects, no birdsong \n\n\nd just a sterile, silent tableau. The plastic lawn shimmers under the harsh sunlight, an unsettling imitation of nature.",
+      "choices": [
+        {
+          "content": "Reach out and touch the unnaturally perfect lawn, needing to confirm its artificiality.",
+          "entry_id": "scene_11_artificial_garden_e1101"
+        },
+        {
+          "content": "Step back towards your own garden, feeling a growing sense of unease and wanting to return to your own space.",
+          "entry_id": "scene_6_perfect_lawn_e013"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1102": {
+      "entry_id": "scene_11_artificial_garden_e1102",
+      "content": "The paving cracks aren't random. They're too precise, too clean. Each porcelain tile is cracked in an identical manner, forming a strange, repeating pattern across the patio. It feels less like age and more like a deliberate design choice. The silence here is almost deafening. A bead of sweat trickles down your neck in the still air.",
+      "choices": [
+        {
+          "content": "Study the cracks in detail.",
+          "entry_id": "scene_11_artificial_garden_e1104"
+        },
+        {
+          "content": "Step back and take in the whole scene again.",
+          "entry_id": "scene_11_artificial_garden_e1105"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1105": {
+      "entry_id": "scene_11_artificial_garden_e1105",
+      "content": "Stepping back, the perfect lawn stretches out, an unnatural green under the relentless sun. The still, silent flowers seem frozen in place. There\\\". The heat seems to press down even harder here.",
+      "choices": [
+        {
+          "content": "Glance towards the neighbor\nto see if they are watching.",
+          "entry_id": "scene_11_artificial_garden_e1108"
+        },
+        {
+          "content": "Ignore the paving pattern and focus on the still, silent flowers in the garden.",
+          "entry_id": "scene_11_artificial_garden_e1116"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1108": {
+      "entry_id": "scene_11_artificial_garden_e1108",
+      "content": "You glance at the neighbor\nto see if they are watching. Curtains twitch almost imperceptibly at a window. A chill runs down your spine despite the heat. The artificiality of the garden and the unseen watcher combine to create a deeply unsettling feeling. You can almost feel their gaze on you.",
+      "choices": [
+        {
+          "content": "Ignore the feeling of being watched and focus on the paving pattern again.",
+          "entry_id": "scene_11_artificial_garden_e1109"
+        },
+        {
+          "content": "The neighbor\nto see if they are watching is too unnerving. Leave the garden immediately.",
+          "entry_id": "scene_11_artificial_garden_e1112"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1109": {
+      "entry_id": "scene_11_artificial_garden_e1109",
+      "content": "The paving pattern is definitely intentional. It\". It\". The cracks seem to pulse in the heat.",
+      "choices": [
+        {
+          "content": "Try to decipher the pattern in the paving cracks.",
+          "entry_id": "scene_11_artificial_garden_e1110"
+        },
+        {
+          "content": "Focus on the still, silent flowers instead.",
+          "entry_id": "scene_11_artificial_garden_e1116"
+        }
+      ],
+      "end": null
+    },
+    "scene_6_perfect_lawn_e015": {
+      "entry_id": "scene_6_perfect_lawn_e015",
+      "content": "You avoid eye contact, pretending to be fascinated by the neighbor\nunmoving presence. The artificial lawn crunches underfoot. A thin sheen of sweat prickles your forehead. The silence from their garden is oppressive.",
+      "choices": [
+        {
+          "content": "Leave the neighbor\ntarnished key heavy in your pocket.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e907": {
+      "entry_id": "scene_9_unseen_insects_e907",
+      "content": "Crouching down, you run a hand over the cracked paving near the bush. The heat rises in waves, almost blurring your vision. It\nThe buzzing seems to be coming from\nhere.",
+      "choices": [
+        {
+          "content": "Touch the cracked paving again, pressing your ear closer to the ground to see if you can feel the buzzing more distinctly.",
+          "entry_id": "scene_9_unseen_insects_e908"
+        },
+        {
+          "content": "Look at the tarnished key in your hand again.",
+          "entry_id": "scene_9_unseen_insects_e909"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e908": {
+      "entry_id": "scene_9_unseen_insects_e908",
+      "content": "As your fingers linger on the paving, a faint vibration seems to resonate through the stones, almost in time with the buzzing. The heat rising from the cracks is stifling. You feel a growing sense of unease, a feeling that something is deeply wrong here.",
+      "choices": [
+        {
+          "content": "Look closely at the paving for any seams or unusual features that might be causing the buzzing.",
+          "entry_id": "scene_9_unseen_insects_e912"
+        },
+        {
+          "content": "Pull back from the paving and focus on the tarnished key once more.",
+          "entry_id": "scene_9_unseen_insects_e909"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e909": {
+      "entry_id": "scene_9_unseen_insects_e909",
+      "content": "You pull out the tarnished key, turning it over in your fingers. It\n0027s heavy and cold despite the heat. The buzzing persists, a constant, unsettling drone.",
+      "choices": [
+        {
+          "content": "Examine the tarnished key more closely, wondering if it has any connection to the buzzing.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Return to examining the cracked paving around the bush, the dark moss clinging to the edges of the fissures.",
+          "entry_id": "scene_9_unseen_insects_e910"
+        }
+      ],
+      "end": null
+    },
+    "scene_7_heatstroke_e701": {
+      "entry_id": "scene_7_heatstroke_e701",
+      "content": "The buzzing is almost unbearable as you continue to ignore the warning signs. The heat intensifies, blurring your vision, and a wave of dizziness washes over you. The cracked paving beneath your feet seems to ripple like water. You struggle to maintain your balance, the unsettling feeling growing stronger.",
+      "choices": [
+        {
+          "content": "Concentrate on the cracked paving directly under you, trying to figure out what's going on.",
+          "entry_id": "scene_7_heatstroke_e702"
+        },
+        {
+          "content": "Try to stand up straight and move away from the paving.",
+          "entry_id": "scene_7_heatstroke_e703"
+        }
+      ],
+      "end": null
+    },
+    "scene_7_heatstroke_e702": {
+      "entry_id": "scene_7_heatstroke_e702",
+      "content": "The paving stones seem to pulse with heat. The buzzing intensifies, resonating deep within your skull. The cracks in the paving deepen and widen, forming jagged lines that seem to shift and change before your eyes, like hieroglyphs in motion. You feel a growing sense of disorientation.",
+      "choices": [
+        {
+          "content": "Let the hallucinations wash over you; fight to focus your mind.",
+          "entry_id": "scene_7_heatstroke_e707"
+        }
+      ],
+      "end": null
+    },
+    "scene_7_heatstroke_e707": {
+      "entry_id": "scene_7_heatstroke_e707",
+      "content": "The world spins. Fragments of thought collide as the buzzing escalates into a deafening roar. You feel an overwhelming urge to succumb to the heat and the strange visions.",
+      "choices": [
+        {
+          "content": "Crawl towards the apparent shade of the bush, hoping for some relief.",
+          "entry_id": "scene_7_heatstroke_e704"
+        },
+        {
+          "content": "Keep staring at the cracked paving, mesmerised by its shifting patterns.",
+          "entry_id": "scene_7_heatstroke_e705"
+        }
+      ],
+      "end": null
+    },
+    "scene_7_heatstroke_e704": {
+      "entry_id": "scene_7_heatstroke_e704",
+      "content": "You drag yourself towards the bush, finding a sliver of shade against its base. The buzzing fades slightly, and your vision begins to clear. The paving beneath you appears still once more. The disquieting feeling from earlier returns.",
+      "choices": [
+        {
+          "content": "Try to recall the details of the garden, focusing on familiar landmarks.",
+          "entry_id": "scene_1_sunbaked_tomatoes_e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_7_heatstroke_e703": {
+      "entry_id": "scene_7_heatstroke_e703",
+      "content": "Sam tries to push themselves up, but their arms are weak and trembling. The heat presses down with immense force, and the buzzing is a physical pain. Standing feels impossible; the paving radiates heat directly into their skin. You taste bile at the back of your throat, and your vision darkens around the edges.",
+      "choices": [
+        {
+          "content": "The world spins; struggle to keep your balance.",
+          "entry_id": "scene_7_heatstroke_e708"
+        }
+      ],
+      "end": null
+    },
+    "scene_7_heatstroke_e708": {
+      "entry_id": "scene_7_heatstroke_e708",
+      "content": "The world spins violently. Despite the effort to keep your balance, your vision blurs further, and your body trembles with exhaustion. Each breath feels like inhaling fire. The buzzing is a swarm in your ears.",
+      "choices": [
+        {
+          "content": "Crawl towards the perceived shade of the bush.",
+          "entry_id": "scene_7_heatstroke_e704"
+        },
+        {
+          "content": "Give in to the overwhelming heat and collapse onto the paving.",
+          "entry_id": "scene_7_heatstroke_e706"
+        }
+      ],
+      "end": null
+    },
+    "scene_7_heatstroke_e706": {
+      "entry_id": "scene_7_heatstroke_e706",
+      "content": "You collapse onto the scorching paving. The heat sears into your skin, and the buzzing becomes a deafening roar. Your body is limp and unresponsive, overwhelmed by the heat. Darkness creeps in from the edges of your vision as the world fades away.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_7_heatstroke_e705": {
+      "entry_id": "scene_7_heatstroke_e705",
+      "content": "Your eyes are locked onto the cracked paving. The fissures seem to deepen, becoming chasms in the baked earth. The buzzing is all-consuming, a wall of sound that drowns out thought. The paving is no longer just stone; it is a living, breathing entity, and you are being drawn into its cracks. Consciousness fades as the heat and the buzzing take over completely.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_8_tarnished_key_s8e012": {
+      "entry_id": "scene_8_tarnished_key_s8e012",
+      "content": "Sam hesitates for a moment. The heat ripples off the paving, blurring the edges of everything. The gnome is gone, the buzzing is a constant torment, and the neighbor\u2019s unsettling calm feels like a challenge. The idea of disturbing something buried beneath the paving is deeply unsettling.",
+      "choices": [
+        {
+          "content": "Try the key anyway, driven by unease.",
+          "entry_id": "scene_8_tarnished_key_s8e015"
+        },
+        {
+          "content": "Focus on the buzzing and the seam, try to understand its source.",
+          "entry_id": "scene_8_tarnished_key_s8e007"
+        }
+      ],
+      "end": null
+    },
+    "scene_8_tarnished_key_s8e015": {
+      "entry_id": "scene_8_tarnished_key_s8e015",
+      "content": "There's no more delaying. The key is cool against your palm, the seam a dark line in the sun-baked paving. The buzzing vibrates through your teeth as you kneel. You feel a sense of inevitability, an end to the waiting. This key fits this seam.",
+      "choices": [
+        {
+          "content": "Use the key in the seam.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e035": {
+      "entry_id": "scene_12_unlocking_cracks_e035",
+      "content": "\"Your paving is, uh, very neat,\" you say, trying to sound casual, your voice cracking slightly. \"The cracks are so... deliberate.\" The neighbor stops trimming, their head slowly rising. A flicker of annoyance crosses their face before their polite smile returns.",
+      "choices": [
+        {
+          "content": "Be more direct, ask about the specific cracks and patterns in their paving.",
+          "entry_id": "scene_12_unlocking_cracks_e036"
+        },
+        {
+          "content": "Drop the subject, sensing the neighbor's growing unease.",
+          "entry_id": "scene_12_unlocking_cracks_e030"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e036": {
+      "entry_id": "scene_12_unlocking_cracks_e036",
+      "content": "\"Is there a reason for the way the paving is cracked? A pattern, perhaps?\" you ask. The neighbor's smile vanishes. Their eyes are cold.",
+      "choices": [
+        {
+          "content": "Ask directly if the paving pattern has any meaning or significance.",
+          "entry_id": "scene_12_unlocking_cracks_e037"
+        },
+        {
+          "content": "If the neighbor becomes hostile, try to de-escalate and retreat.",
+          "entry_id": "scene_12_unlocking_cracks_e038"
+        },
+        {
+          "content": "If the neighbor is dismissive, press them gently, trying to understand.",
+          "entry_id": "scene_12_unlocking_cracks_e039"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e037": {
+      "entry_id": "scene_12_unlocking_cracks_e037",
+      "content": "The neighbor sighs, a dry, rustling sound. \"The cracks\u2026 yes, they are intentional. A key, of sorts. A map.\"",
+      "choices": [],
+      "end": "win"
+    },
+    "scene_9_unseen_insects_e904": {
+      "entry_id": "scene_9_unseen_insects_e904",
+      "content": "Branches scratch at your arms as you push further into the viburnum, the buzzing a physical pressure against your eardrums. Through a gap in the leaves, you glimpse the unnaturally green lawn of the neighbour\u2019s garden, a perfect carpet of colour, stark and silent. The air shimmers above it.",
+      "choices": [
+        {
+          "content": "Push through the hedge into the neighbour to examine the unnaturally perfect garden.",
+          "entry_id": "scene_11_artificial_garden_e1101"
+        },
+        {
+          "content": "Back away slightly within the bush, unnerved by the silence from the other side.",
+          "entry_id": "scene_9_unseen_insects_e911"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1107": {
+      "entry_id": "scene_11_artificial_garden_e1107",
+      "content": "Stepping back into your own garden is like entering a different world. The tomato plants, though stressed by the heat, are alive and real. The buzzing sound, though still unsettling, is a familiar presence, like a pulse in the earth. It\ntho\nThe sun beats down without mercy, making the paving stones radiate heat.",
+      "choices": [
+        {
+          "content": "Examine your own cracked paving again to see if it matches anything.",
+          "entry_id": "scene_11_artificial_garden_e1114"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e911": {
+      "entry_id": "scene_9_unseen_insects_e911",
+      "content": "Returning to the edge of the bush, the unnatural stillness and the pervasive buzzing are even more unsettling now. The heat feels heavier, the air thick and stagnant. You feel a deep sense of unease, a prickling at the back of your neck.",
+      "choices": [
+        {
+          "content": "Decide to push through into the neighbour\nd019s garden.",
+          "entry_id": "scene_9_unseen_insects_e904"
+        },
+        {
+          "content": "Retreat fully from the bush area, feeling increasingly uneasy, and look at the key again, considering the paving and the buzzing.",
+          "entry_id": "scene_9_unseen_insects_e914"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e914": {
+      "entry_id": "scene_9_unseen_insects_e914",
+      "content": "Looking at the tarnished key again, you feel a growing certainty that it must have something to do with the seam in the paving, and the unsettling buzzing. The air itself seems to vibrate. The fragmented paving feels like a map.",
+      "choices": [
+        {
+          "content": "Go to the paving seam with the tarnished key, ready to try it.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        },
+        {
+          "content": "Decide to go inside for now, feeling too unsettled by the heat and buzzing.",
+          "entry_id": "scene_9_unseen_insects_e915"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e915": {
+      "entry_id": "scene_9_unseen_insects_e915",
+      "content": "The buzzing is inescapable, even thinking of going inside doesn't lessen the feeling of unease that has settled over you. The fragmented paving, the unseen insects, the oppressive heat, the tarnished key \u2013 everything is connected, pointing to something hidden beneath the surface. You feel compelled to investigate further.",
+      "choices": [
+        {
+          "content": "Despite your unease, the buzzing and mystery are too compelling to ignore. Return to the cracked paving to investigate further.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e011": {
+      "entry_id": "scene_10_veiled_threat_s10e011",
+      "content": "From the edge of your garden, the neighbor\nYou observe the neighbor\n\u2019s lawn stretching out, an unsettling green rectangle bisected by the low hedge. Their decorative paving borders it, each stone meticulously placed. You can almost feel the heat radiating from your own cracked paving, a stark contrast. An unnerving feeling washes over you.",
+      "choices": [
+        {
+          "content": "Step closer to the hedge. Try to see what might be beyond the lawn.",
+          "entry_id": "scene_6_perfect_lawn_e001"
+        },
+        {
+          "content": "Back away from the hedge, unnerved. The perfect lawn is too much.",
+          "entry_id": "scene_10_veiled_threat_s10e013b"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e013b": {
+      "entry_id": "scene_10_veiled_threat_s10e013b",
+      "content": "You break off the conversation, or end it politely, but either way, you retreat back into your own garden. The neighbor watches you go, their face unreadable. They don\nYou're left with the image of their perfect lawn and unnaturally clean paving stones. And you are deeply frustrated.",
+      "choices": [
+        {
+          "content": "Think it over. Maybe investigate later, when they are not around.",
+          "entry_id": "scene_6_perfect_lawn_e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1104": {
+      "entry_id": "scene_11_artificial_garden_e1104",
+      "content": "Looking closer, you can see that the cracks are too uniform, too precise. They form a deliberate pattern across the porcelain tiles. It's unsettling, but it's definitely not random. The air is still and silent. A strange symbol of some kind.",
+      "choices": [
+        {
+          "content": "Study the cracks. Trace the patterns with your finger.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e041": {
+      "entry_id": "scene_12_unlocking_cracks_e041",
+      "content": "You focus intently on the paving. It\u2019s definitely a pattern - an arrangement of precise lines and angles. Then it hits you. The empty space *between* the cracks...it's the same shape as the bit of the tarnished key. The key from your garden fits the cracks in the neighbor's garden exactly.",
+      "choices": [],
+      "end": "win"
+    },
+    "scene_10_veiled_threat_s10e010": {
+      "entry_id": "scene_10_veiled_threat_s10e010",
+      "content": "Back in your own garden, the buzzing is a faint memory. The neighbor\u2019s words hang in the heavy air. You glance towards their lawn, then at the cracked paving around your feet. A shiver runs down your spine, despite the oppressive heat.",
+      "choices": [
+        {
+          "content": "Walk to the edge of your garden. Look closely at the unnatural symmetry of the neighbor\u2019s garden.",
+          "entry_id": "scene_10_veiled_threat_s10e011"
+        },
+        {
+          "content": "Go back inside your house. Close the door behind you.",
+          "entry_id": "scene_10_veiled_threat_s10e013b"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e012": {
+      "entry_id": "scene_10_veiled_threat_s10e012",
+      "content": "You accuse them outright of taking Kevin. The neighbor\\\ns eyes widen slightly, a flicker of surprise \nYou accuse them outright of burying Kevin under their paving. The neighbor\nLooking closer, you can see that the cracks are too uniform, too precise. They form a deliberate pattern across the porcelain tiles. It\nYou try to make small talk, hoping to diffuse the tension, but the neighbor\ns unsettling presence and veiled threats make it impossible. The buzzing from your garden seems distant now, almost completely faded.",
+      "choices": [
+        {
+          "content": "Demand to see the paving in their garden up close, insisting on examining it yourself.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        },
+        {
+          "content": "Back down, apologizing for the accusation and trying to smooth things over, claiming you must be mistaken.",
+          "entry_id": "scene_10_veiled_threat_s10e013a"
+        }
+      ],
+      "end": null
+    },
+    "scene_10_veiled_threat_s10e013a": {
+      "entry_id": "scene_10_veiled_threat_s10e013a",
+      "content": "You decide to disengage from the conversation. The neighbor watches you go, their expression unreadable, though a subtle smirk plays on their lips. The heat of your own garden seems to intensify as you walk back towards it. You're left feeling deeply unnerved by them.",
+      "choices": [
+        {
+          "content": "Decide to investigate the neighbor\u2019s garden later, despite your apprehension.",
+          "entry_id": "scene_6_perfect_lawn_e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1106": {
+      "entry_id": "scene_11_artificial_garden_e1106",
+      "content": "The tarnished key feels cold and heavy in your hand, a stark contrast to the oppressive heat. It\ns clearly old, seemingly out of place in your modern suburban garden. You remember the seam in your cracked paving, near where you found the key. The buzzing sound returns, almost imperceptible, seemingly coming from that direction.",
+      "choices": [
+        {
+          "content": "Go back to your garden and examine the tarnished key against the paving, the buzzing growing stronger in your ears.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1110": {
+      "entry_id": "scene_11_artificial_garden_e1110",
+      "content": "Squinting, you trace the lines of the cracks with your finger. A distinct shape begins to emerge, repeating across several paving stones. It\u2019s a series of angles and curves, forming an intricate design. It reminds you of something... a key perhaps? A buzzing starts again, this time louder than before. It seems to emanate from the paving itself.",
+      "choices": [
+        {
+          "content": "Try to lift one of the cracked paving stones. See if anything is underneath.",
+          "entry_id": "scene_11_artificial_garden_e1111"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1111": {
+      "entry_id": "scene_11_artificial_garden_e1111",
+      "content": "You try to get a grip on the edge of the paving stone, but it\ns firmly embedded. It won\ns budge. The porcelain surface is smooth and offers no purchase. Too heavy to lift easily with bare hands. Sweat beads on your forehead, and drips onto the silent patio. The design seems to mock you. You think back to the key, and the seam in your own paving.",
+      "choices": [
+        {
+          "content": "Consider if anything in your own garden might help lift the paving stone.",
+          "entry_id": "scene_11_artificial_garden_e1115"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1112": {
+      "entry_id": "scene_11_artificial_garden_e1112",
+      "content": "Overwhelmed by the artificiality and the feeling of being watched, you turn and hurry back towards the low hedge separating the gardens. The silence of the neighbor\u2019s garden is broken only by the sound of your own retreating footsteps on the plastic lawn. You notice the perfect paving extends right to the boundary of the gardens.",
+      "choices": [
+        {
+          "content": "Return to your own garden. You need to get away from this unsettling place.",
+          "entry_id": "scene_11_artificial_garden_e1113"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1113": {
+      "entry_id": "scene_11_artificial_garden_e1113",
+      "content": "Back in your garden, the buzzing sound is immediately noticeable again, a strange comfort after the oppressive silence next door. The sun beats down on the familiar cracked paving. You notice how much more chaotic your garden looks compared to next door\ns sterile perfection. You feel sweat trickle down your back.",
+      "choices": [
+        {
+          "content": "Examine your own cracked paving. Compare it to the neighbor\ns perfect cracks.",
+          "entry_id": "scene_11_artificial_garden_e1114"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1116": {
+      "entry_id": "scene_11_artificial_garden_e1116",
+      "content": "The still flowers are unnerving. Each is perfect, rigidly upright, and devoid of the slightest blemish. Not a single insect buzzes or flits nearby. The air hangs heavy, thick with the oppressive heat, intensifying the sense of unnatural stillness. You feel a prickling sensation on the back of your neck.",
+      "choices": [
+        {
+          "content": "Steal a glance at the neighbor\nto see if they are watching.",
+          "entry_id": "scene_11_artificial_garden_e1108"
+        },
+        {
+          "content": "Return to the paving. It seemed significant.",
+          "entry_id": "scene_11_artificial_garden_e1109"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e025": {
+      "entry_id": "scene_12_unlocking_cracks_e025",
+      "content": "The space beneath the paving is a stark, cool contrast to the sun-baked world above. It\u2019s cramped, barely enough room for a small animal to nest. The earth is dry and dusty, and the air hangs heavy with the smell of mildew. The buzzing is almost unbearable here, a high-pitched whine that seems to vibrate in your skull. You have the distinct impression that you're not meant to be looking.",
+      "choices": [
+        {
+          "content": "Peer into the dark space beneath the paving.",
+          "entry_id": "scene_12_unlocking_cracks_e026"
+        },
+        {
+          "content": "Decide against looking, replace the stone and try a different approach.",
+          "entry_id": "scene_12_unlocking_cracks_e020"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e026": {
+      "entry_id": "scene_12_unlocking_cracks_e026",
+      "content": "You lean in closer. The darkness seems to shift and writhe. You think you can make out something down there, nestled in the dirt. It's rectangular, glinting faintly, perhaps metallic. Or maybe it\u2019s just a trick of the light, the shadows playing games in the heat. The buzzing intensifies, making your vision swim.",
+      "choices": [
+        {
+          "content": "Carefully reach into the space and try to feel what's there.",
+          "entry_id": "scene_12_unlocking_cracks_e027"
+        },
+        {
+          "content": "Just look closer, trying to discern shapes in the darkness.",
+          "entry_id": "scene_12_unlocking_cracks_e028"
+        },
+        {
+          "content": "Forcefully widen the gap to get a better view, regardless of the risk.",
+          "entry_id": "scene_12_unlocking_cracks_e029"
+        }
+      ],
+      "end": null
+    },
+    "scene_12_unlocking_cracks_e027": {
+      "entry_id": "scene_12_unlocking_cracks_e027",
+      "content": "Your fingertips brush against something smooth and cold. You grip it, pull it free. It's a small metal box, tarnished with age. You flip it open. Inside, resting on faded velvet, is a handful of dry, red soil. The smell is earthy, ancient. For a moment, everything seems to click into place: the gnome's disappearance, the neighbor's odd behavior, the oppressive heat, the buzzing, the soil. It all connects to something old. The buzzing fades, and a strange calm settles over you.",
+      "choices": [],
+      "end": "win"
+    },
+    "scene_12_unlocking_cracks_e028": {
+      "entry_id": "scene_12_unlocking_cracks_e028",
+      "content": "You peer closer, trying to pierce the gloom. The darkness seems to writhe, but not with movement. It's just the lack of light, the shadows playing tricks. But then, you notice it: the earth at the bottom of the hole isn't the same colour as the soil in your garden. It's red, a deep, rusty red, unlike anything you've seen on Laburnum Street. The buzzing intensifies, a frantic, insistent drone.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_12_unlocking_cracks_e029": {
+      "entry_id": "scene_12_unlocking_cracks_e029",
+      "content": "Driven by frustration, you jam your fingers into the crack and try to pry the paving wider. The key snaps. The stone stays put. The buzzing rises to a shriek in your ears. All you hold now is a useless piece of corroded metal. No answers.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_12_unlocking_cracks_e033": {
+      "entry_id": "scene_12_unlocking_cracks_e033",
+      "content": "You stare at the neighbor. \"Safely contained?\" The explanation hangs in the air, bizarre and unsettling. The heat intensifies, making your skin prickle. They stand calmly, a faint smile playing on their lips. You can't understand why they'd do this, but their chilling certainty is hard to dismiss. Kevin is under the paving. But the unease lingers, now mixed with disgust.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_12_unlocking_cracks_e038": {
+      "entry_id": "scene_12_unlocking_cracks_e038",
+      "content": "The neighbor's eyes harden. \"Enough questions. Some things are best left undisturbed. Curiosity can be\u2026 unhealthy in this heat.\" They step closer, their shadow falling over you. The tiny scissors glint in the sun, no longer trimming the lawn but held loosely in their hand. Their voice drops, becoming low and menacing. You feel a genuine threat radiating from them, a sense of being warned off. The artificial scent of the lawn fills your nostrils, and the buzzing suddenly seems much louder, closing in. You feel trapped and exposed under the relentless sun.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_12_unlocking_cracks_e039": {
+      "entry_id": "scene_12_unlocking_cracks_e039",
+      "content": "The neighbor waves a dismissive hand, the tiny scissors flashing in the sun. \"Just\u2026 decorative, dear. A modern touch. You\u2019re seeing patterns where there aren\u2019t any in this heat.\" They turn back to their lawn, resuming their unsettling trimming. You\u2019re left standing by the hedge, the buzzing in your ears suddenly louder. The air feels thick and heavy.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_12_unlocking_cracks_e042": {
+      "entry_id": "scene_12_unlocking_cracks_e042",
+      "content": "You step back from the neighbour's paving. The overall effect is unsettling. The cracks sprawl like a bizarre road map of somewhere you've never been, each line deliberate. It\u2019s too precise to be natural, too unsettling to be mere decoration. A creeping sense of wrongness crawls under your skin as you consider the bigger picture. The neighbour watches you, smiling thinly.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_12_unlocking_cracks_e043": {
+      "entry_id": "scene_12_unlocking_cracks_e043",
+      "content": "The neighbor is still talking, something about 'harmony' and 'containment', but you've stopped listening. You're focused on the paving. At first, you thought the cracks were just decorative, a stylish flourish. Now, looking at the sharp, jagged lines, a different impression begins to form. They aren't just cracks; they're like claw marks raking across the porcelain surface. The resin filling the cracks looks almost black in the harsh sunlight. The pattern feels deliberately unsettling, a silent threat etched into the very ground. A shiver runs down your spine despite the heat. It feels like a personal violation, a warning, or a sign of something terrible. The loss of Kevin feels more profound now, more ominous.",
+      "choices": [],
+      "end": "lose"
+    },
+    "scene_3_neighbors_window_e005": {
+      "entry_id": "scene_3_neighbors_window_e005",
+      "content": "You shift your focus to the neighbour\n\n\n\n\n\n\ns garden, visible to the side of their house. Even through the shimmering heat, the unnatural perfection is obvious. The lawn is a single, impossible shade of green, and the flowerbeds are unnaturally straight and still. It\n\n\n\n\n\n\ns completely different from your slightly overgrown vegetable garden. The heat seems to bend around the edges of their pristine space, distorting the view.",
+      "choices": [
+        {
+          "content": "Take a closer look at the neighbor\n\n\n\n\n\n\ns lawn and flowerbeds.",
+          "entry_id": "scene_3_neighbors_window_e006"
+        },
+        {
+          "content": "Examine the cracked paving that borders the neighbor\n\n\n\n\n\n\ns garden, looking for any differences from your own.",
+          "entry_id": "scene_3_neighbors_window_e008"
+        },
+        {
+          "content": "Look back at the neighbor\n\n\n\n\n\n\ns window again, despite the unsettling feeling and heat haze.",
+          "entry_id": "scene_3_neighbors_window_e002"
+        },
+        {
+          "content": "Look for any other details of the neighbor\n\n\n\n\n\n\ns house.",
+          "entry_id": "scene_3_neighbors_window_e013"
+        }
+      ],
+      "end": null
+    },
+    "scene_9_unseen_insects_e913": {
+      "entry_id": "scene_9_unseen_insects_e913",
+      "content": "Sam hesitates, hand hovering over the seam. Using the key feels like a commitment. The buzzing is a constant drone, the heat stifling. You\nYou draw back your hand.",
+      "choices": [
+        {
+          "content": "Step back. Look at the tarnished key. You feel a growing certainty that it must have something to do with the seam.",
+          "entry_id": "scene_9_unseen_insects_e914"
+        },
+        {
+          "content": "Ignore the seam for now. You feel overwhelmed. Look at the key again.",
+          "entry_id": "scene_9_unseen_insects_e914"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1103": {
+      "entry_id": "scene_11_artificial_garden_e1103",
+      "content": "A wave of unease washes over you. The artificiality is suffocating. It's a relief to be out of there already. But a nagging feeling remains - what was the point of going in there? Was something missed? The image of the tarnished key in the oppressive heat replays in your mind.",
+      "choices": [
+        {
+          "content": "Reach into your pocket and fiddle with the tarnished key. Maybe it's important.",
+          "entry_id": "scene_11_artificial_garden_e1106"
+        },
+        {
+          "content": "Quickly return to your own garden. It's a relief, even with the heat.",
+          "entry_id": "scene_11_artificial_garden_e1107"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1114": {
+      "entry_id": "scene_11_artificial_garden_e1114",
+      "content": "Sam\ns eyes fall on their own cracked paving. Here, the cracks are random, organic, filled with moss and dirt. But near the bush, there was that seam\nthe one near where the key was found. The decorative paving next door comes to mind. The cracks were deliberate, the porcelain spotless. Could there be a connection? You think back to the heat radiating from the paving in your own garden.",
+      "choices": [
+        {
+          "content": "Focus on the key. Could it be relevant to the paving in either garden?",
+          "entry_id": "scene_11_artificial_garden_e1115"
+        }
+      ],
+      "end": null
+    },
+    "scene_11_artificial_garden_e1115": {
+      "entry_id": "scene_11_artificial_garden_e1115",
+      "content": "The artificial garden and the deliberate paving patterns are deeply unsettling. The silence there was unnatural, almost hostile. You remember the heat radiating from the paving in your own garden. Thinking back to the key, and the seam in your own paving... it feels like the key is the next step, the link to understanding what\ns going on.",
+      "choices": [
+        {
+          "content": "Go and examine the tarnished key against the paving. It must be important to investigate further.",
+          "entry_id": "scene_8_tarnished_key_s8e001"
+        }
+      ],
+      "end": null
+    }
+  },
+  "title": "Cracked Paving",
+  "description": "Strange things happen whilst tending to your tomato plants during a heatwave.",
+  "date": "2025-02-26",
+  "order": 999,
+  "tags": [
+    "gemini/gemini-2.0-flash",
+    "heatwave",
+    "garden"
+  ],
+  "layout": "layouts/game.njk",
+  "prompt": "N/A"
+}
