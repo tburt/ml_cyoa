@@ -5,12 +5,28 @@
 	
 	<link href="https://example.com/ml_cyoa/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2025-02-26T00:00:00Z</updated>
+	<updated>2025-03-09T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Thep Burt</name>
 		<email>na@na.com</email>
 	</author>
+	
+	<entry>
+		<title>Monday Morning</title>
+		<link href="https://example.com/ml_cyoa/games/the_spreadsheet_d541/"/>
+		<updated>2025-03-09T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/the_spreadsheet_d541/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Sweet and Sour</title>
+		<link href="https://example.com/ml_cyoa/games/sweet_and_sour_b11e/"/>
+		<updated>2025-03-09T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/sweet_and_sour_b11e/</id>
+		<content type="html"></content>
+	</entry>
 	
 	<entry>
 		<title>Cracked Paving</title>

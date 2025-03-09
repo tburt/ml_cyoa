@@ -157,12 +157,32 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/tags/leeds/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/chinese-restaurant/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/tags/slice-of-life/</loc>
     <lastmod>2025-02-25</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/ml_cyoa/tags/bus_stop/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/work/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/mistake/</loc>
     <lastmod>2025-02-25</lastmod>
   </url>
   
@@ -204,5 +224,15 @@
   <url>
     <loc>https://example.com/ml_cyoa/games/tomato_heatwave_5070/</loc>
     <lastmod>2025-02-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/sweet_and_sour_b11e/</loc>
+    <lastmod>2025-03-09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/the_spreadsheet_d541/</loc>
+    <lastmod>2025-03-09</lastmod>
   </url>
 </urlset>

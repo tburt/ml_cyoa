@@ -10,6 +10,18 @@
     "url": "https://theoburt.com"
   },
   "items": [{
+      "id": "https://example.com/ml_cyoa/games/the_spreadsheet_d541/",
+      "url": "https://example.com/ml_cyoa/games/the_spreadsheet_d541/",
+      "title": "Monday Morning",
+      "content_html": "",
+      "date_published": "2025-03-09T00:00:00Z"
+    },{
+      "id": "https://example.com/ml_cyoa/games/sweet_and_sour_b11e/",
+      "url": "https://example.com/ml_cyoa/games/sweet_and_sour_b11e/",
+      "title": "Sweet and Sour",
+      "content_html": "",
+      "date_published": "2025-03-09T00:00:00Z"
+    },{
       "id": "https://example.com/ml_cyoa/games/tomato_heatwave_5070/",
       "url": "https://example.com/ml_cyoa/games/tomato_heatwave_5070/",
       "title": "Cracked Paving",
