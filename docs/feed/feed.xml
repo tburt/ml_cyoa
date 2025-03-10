@@ -5,12 +5,20 @@
 	
 	<link href="https://example.com/ml_cyoa/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2025-03-09T00:00:00Z</updated>
+	<updated>2025-03-10T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Thep Burt</name>
 		<email>na@na.com</email>
 	</author>
+	
+	<entry>
+		<title>The Kettle</title>
+		<link href="https://example.com/ml_cyoa/games/the_kettle_9c25/"/>
+		<updated>2025-03-10T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/the_kettle_9c25/</id>
+		<content type="html"></content>
+	</entry>
 	
 	<entry>
 		<title>Monday Morning</title>

@@ -1,0 +1,2811 @@
+{
+  "start_entry_id": "morning_routine_entry_1",
+  "entries": {
+    "morning_routine_entry_1": {
+      "entry_id": "morning_routine_entry_1",
+      "content": "The kitchen greets you with the quiet hum of the refrigerator. Sunlight slants through the window, catching the dust motes suspended in the air. Last night's dishes form a precarious tower in the sink. A crumpled newspaper lies abandoned on the countertop, its headlines unseen. On the counter, the kettle waits. The promise of coffee hangs in the air.",
+      "choices": [
+        {
+          "content": "See what's happening outside.",
+          "entry_id": "e2c8d"
+        },
+        {
+          "content": "Take a look at the news.",
+          "entry_id": "ef497"
+        }
+      ],
+      "end": null
+    },
+    "flickering_frustration_entry_3c": {
+      "entry_id": "flickering_frustration_entry_3c",
+      "content": "A shiver runs down your spine. You look around the kitchen. The stainless steel sink gleams dully. The ceramic hob reflects the flickering light, distorting the clean lines. Everything appears normal, yet a sense of unease settles in. The kettle sits silently, a dark shape on the counter. The light above pulses irregularly.",
+      "choices": [
+        {
+          "content": "Listen carefully for the source of that hum.",
+          "entry_id": "e05cc"
+        },
+        {
+          "content": "Ignore the hum and focus on the flickering light.",
+          "entry_id": "e3caf"
+        }
+      ],
+      "end": null
+    },
+    "e05cc": {
+      "entry_id": "e05cc",
+      "content": "You close your eyes, focusing. The hum is faint, almost imperceptible, but it's there. The lights flicker, and then dim. The kettle remains stubbornly silent. You realise the power is out. You take a deep breath, frustration mounting. You decide to try boiling water in a pan.",
+      "choices": [
+        {
+          "content": "Curse the power cut for being so inconvenient.",
+          "entry_id": "ea224"
+        },
+        {
+          "content": "Resist the urge to kick the silent kettle.",
+          "entry_id": "e6592"
+        }
+      ],
+      "end": null
+    },
+    "ea224": {
+      "entry_id": "ea224",
+      "content": "You mutter, \"Useless piece of junk.\" The words hang in the air, doing nothing to improve the situation. The kettle remains stubbornly inert. You take a deep breath, resolve hardening. Coffee is needed. You grab a pan from the rack above the stove and turn to the tap, ready to fill it. As you twist the handle, a thin, grey trickle emerges, spitting and sputtering. The pan remains dry.",
+      "choices": [
+        {
+          "content": "Turn the tap on and off, again and again.",
+          "entry_id": "taps_trickle_entry_2c"
+        },
+        {
+          "content": "Jiggle the handle, hoping for a better flow.",
+          "entry_id": "edd71"
+        },
+        {
+          "content": "Wonder if the pipes have frozen.",
+          "entry_id": "e4314"
+        }
+      ],
+      "end": null
+    },
+    "taps_trickle_entry_2c": {
+      "entry_id": "taps_trickle_entry_2c",
+      "content": "You repeatedly turn the tap, on then off, on then off, each time expecting a surge of water. Only the same pathetic trickle answers. The metal of the tap is cold beneath your fingers. The pan sits empty in the sink.",
+      "choices": [
+        {
+          "content": "Jiggle the handle with increasing force.",
+          "entry_id": "edd71"
+        },
+        {
+          "content": "Consider the possibility of frozen pipes.",
+          "entry_id": "e4314"
+        }
+      ],
+      "end": null
+    },
+    "edd71": {
+      "entry_id": "edd71",
+      "content": "You jiggle the tap handle, first gently, then with more force. Nothing. The trickle persists, a thin, grey stream that barely wets the bottom of the sink. Switching to the hot tap yields the same result: a disappointing trickle of discolored water. As the meager stream fills the sink, you notice the water's unsettling tinge more clearly: a pale, sickly grey.",
+      "choices": [
+        {
+          "content": "Lean closer, trying to get a better look at the grey water.",
+          "entry_id": "e9ae9"
+        },
+        {
+          "content": "Pour some of the water into a pan, then sniff it cautiously, checking for a strange odour.",
+          "entry_id": "ea34d"
+        }
+      ],
+      "end": null
+    },
+    "e9ae9": {
+      "entry_id": "e9ae9",
+      "content": "You lean closer, squinting at the water in the sink. The grey seems to deepen, swirling slightly in the bottom. The light from the flickering bulb above casts strange shadows, making it difficult to be sure. It's definitely not right. You stand there, staring at the unsettling water, a growing unease settling in. Perhaps bottled water is available.",
+      "choices": [
+        {
+          "content": "Consider whether the water company is performing maintenance.",
+          "entry_id": "cold_cupboard_entry_1b"
+        },
+        {
+          "content": "Stare at the grey water again, trying to understand its nature.",
+          "entry_id": "cold_cupboard_entry_1a"
+        }
+      ],
+      "end": null
+    },
+    "cold_cupboard_entry_1b": {
+      "entry_id": "cold_cupboard_entry_1b",
+      "content": "The thought crosses your mind: water main break? Scheduled maintenance? It would explain the low pressure and the discolored water. You briefly consider checking your phone for updates from the water company, or perhaps a neighbour might know.",
+      "choices": [
+        {
+          "content": "Check your phone for water company updates and alerts.",
+          "entry_id": "e0dec"
+        },
+        {
+          "content": "Consider abandoning coffee altogether and making tea instead.",
+          "entry_id": "e327e"
+        }
+      ],
+      "end": null
+    },
+    "cold_cupboard_entry_1a": {
+      "entry_id": "cold_cupboard_entry_1a",
+      "content": "The grey water flows. Its unnatural shade is more obvious now, a pale colour against the sink. Or is it just the light? Frustration grows. You glance towards the dark cupboard.",
+      "choices": [
+        {
+          "content": "Sniff the water.",
+          "entry_id": "e3d6d"
+        },
+        {
+          "content": "Try to remember if the water was this colour yesterday and open the cupboard.",
+          "entry_id": "eb838"
+        }
+      ],
+      "end": null
+    },
+    "e3d6d": {
+      "entry_id": "e3d6d",
+      "content": "You lean in. You sniff the grey water. It smells of nothing. No chlorine. No chemicals. Just nothing. The empty smell is unsettling.\n\nYou pull the cupboard door open. Cold air rushes out. The temperature drops. The air shimmers. Cleaning supplies are gone. Bottled water is gone. The cupboard is deeper than it should be. It disappears into shadow.",
+      "choices": [
+        {
+          "content": "Reach into the cupboard, needing water.",
+          "entry_id": "cold_cupboard_entry_2b"
+        },
+        {
+          "content": "Shiver from the cold.",
+          "entry_id": "cold_cupboard_entry_2a"
+        }
+      ],
+      "end": null
+    },
+    "cold_cupboard_entry_2b": {
+      "entry_id": "cold_cupboard_entry_2b",
+      "content": "You reach into the cupboard. You need water. The cold shocks you. It's like ice. You pull your hand back. You gasp.",
+      "choices": [
+        {
+          "content": "Wonder if the cold is affecting the kettle.",
+          "entry_id": "e02d4"
+        },
+        {
+          "content": "Feel the tingling in your fingers.",
+          "entry_id": "e9e99"
+        }
+      ],
+      "end": null
+    },
+    "e02d4": {
+      "entry_id": "e02d4",
+      "content": "Could the cold be affecting the kettle? The idea is strange. But the situation is strange.\n\nYou look into the cupboard. It is dark. Your eyes adjust. Something glints. It's metal. Or a strange shape. It doesn't belong. The space feels wrong. It's deep and cold. A void. You shiver. You step back.",
+      "choices": [
+        {
+          "content": "Decide coffee is not worth it. Leave the kitchen.",
+          "entry_id": "retreating_steps_entry_retreat_01"
+        },
+        {
+          "content": "Step back. Listen to the kitchen.",
+          "entry_id": "shifting_sounds_entry_1"
+        }
+      ],
+      "end": null
+    },
+    "retreating_steps_entry_retreat_01": {
+      "entry_id": "retreating_steps_entry_retreat_01",
+      "content": "You step back from the cupboard. The cold unnerves you. The glint of metal offers no comfort. Making coffee is not worth this.",
+      "choices": [
+        {
+          "content": "Shiver. Brace yourself against the cold.",
+          "entry_id": "retreating_steps_entry_retreat_01b"
+        },
+        {
+          "content": "Look into the darkness one last time.",
+          "entry_id": "retreating_steps_entry_retreat_01a"
+        }
+      ],
+      "end": null
+    },
+    "retreating_steps_entry_retreat_01b": {
+      "entry_id": "retreating_steps_entry_retreat_01b",
+      "content": "You shiver. The cold air intensifies. The cupboard seems to want to chill you. You consider slamming the door. But you hesitate.",
+      "choices": [
+        {
+          "content": "Imagine what might be inside.",
+          "entry_id": "ecb49"
+        },
+        {
+          "content": "Weigh the risks of closing the cupboard versus leaving it open.",
+          "entry_id": "efa0d"
+        }
+      ],
+      "end": null
+    },
+    "ecb49": {
+      "entry_id": "ecb49",
+      "content": "You imagine what is in the cupboard. Monstrous shapes? Forgotten objects? Or nothing at all? The kettle whispers. It is louder.\n\nYou look back. You strain your eyes. You see only darkness. You think you can see the glint of metal.",
+      "choices": [
+        {
+          "content": "Speculate on what the darkness is hiding.",
+          "entry_id": "ee673"
+        },
+        {
+          "content": "Notice the strange breeze from the cupboard. You feel a tingle in your nostrils.",
+          "entry_id": "efec9"
+        }
+      ],
+      "end": null
+    },
+    "e03c5": {
+      "entry_id": "e03c5",
+      "content": "You rub your arms. It doesn't help. The cold is too deep. It's in your bones. The kitchen feels larger now. The silence is heavy. The chill is louder than any sound.\n\nYou peer into the cupboard. It's dark. You can see something glinting. A metallic flash. A strange angle. It's wrong. It doesn't belong. The space is wrong. Too deep. Too cold. A void. You shiver. You step back.",
+      "choices": [
+        {
+          "content": "Give up on coffee. Leave the kitchen.",
+          "entry_id": "retreating_steps_entry_retreat_01"
+        },
+        {
+          "content": "Step back and listen to the kitchen.",
+          "entry_id": "shifting_sounds_entry_1"
+        }
+      ],
+      "end": null
+    },
+    "shifting_sounds_entry_1": {
+      "entry_id": "shifting_sounds_entry_1",
+      "content": "You step back. The cold air stings your face. The kitchen sounds are faint. The house is holding its breath.",
+      "choices": [
+        {
+          "content": "Look back into the dark cupboard.",
+          "entry_id": "shifting_sounds_entry_1b"
+        },
+        {
+          "content": "Listen closely for other sounds.",
+          "entry_id": "shifting_sounds_entry_1a"
+        }
+      ],
+      "end": null
+    },
+    "shifting_sounds_entry_1b": {
+      "entry_id": "shifting_sounds_entry_1b",
+      "content": "You glance back. The glint of metal catches your eye. The cupboard is deeper than it should be. It's a void in your kitchen.",
+      "choices": [
+        {
+          "content": "Reach into the cupboard, despite the unease.",
+          "entry_id": "ee739"
+        },
+        {
+          "content": "Try to remember what you keep in there.",
+          "entry_id": "e75ea"
+        }
+      ],
+      "end": null
+    },
+    "ee739": {
+      "entry_id": "ee739",
+      "content": "You reach into the cupboard. Your hand stretches into the darkness. You hesitate. Something is wrong. You pull back.\n\nYou hear a new sound. Faint clicking. Rhythmic. It's irregular. Unsettling. An insistent rhythm against the silence.",
+      "choices": [
+        {
+          "content": "Touch the kettle to feel for vibrations.",
+          "entry_id": "shifting_sounds_entry_2c"
+        },
+        {
+          "content": "Wonder if the clicking is just the need for coffee.",
+          "entry_id": "shifting_sounds_entry_2b"
+        },
+        {
+          "content": "Pinpoint the source of the clicking.",
+          "entry_id": "shifting_sounds_entry_2a"
+        }
+      ],
+      "end": null
+    },
+    "shifting_sounds_entry_2c": {
+      "entry_id": "shifting_sounds_entry_2c",
+      "content": "You touch the kettle. It's cold. But it hums. A latent energy.",
+      "choices": [
+        {
+          "content": "Pull your hand away quickly.",
+          "entry_id": "e4c59"
+        },
+        {
+          "content": "Feel for a faint vibration.",
+          "entry_id": "e1a59"
+        }
+      ],
+      "end": null
+    },
+    "e4c59": {
+      "entry_id": "e4c59",
+      "content": "You pull your hand away. Your fingertips tingle. A static charge. It lingers.\n\nThe clicking continues. The kitchen clock ticks. Slower now. Erratic. Seconds stretch. Time is unstable. The kitchen feels smaller.\n\nYou stand in the kitchen. Clicking. Erratic ticking. Unease. You focus on the kettle. The source.",
+      "choices": [
+        {
+          "content": "Try to ignore the sounds and calm down.",
+          "entry_id": "efd02"
+        },
+        {
+          "content": "Glance at the kitchen clock again.",
+          "entry_id": "eb6f5"
+        }
+      ],
+      "end": null
+    },
+    "retreating_steps_entry_retreat_01a": {
+      "entry_id": "retreating_steps_entry_retreat_01a",
+      "content": "You glance back at the dark cupboard, straining to see. The darkness is absolute. The glint of metal is still there, but it's just a suggestion, a fleeting shimmer at the edge of sight.",
+      "choices": [
+        {
+          "content": "Imagine what's hiding in the blackness.",
+          "entry_id": "ee673"
+        },
+        {
+          "content": "Feel the strange breeze drifting from the cupboard. Your nostrils tingle.",
+          "entry_id": "efec9"
+        }
+      ],
+      "end": null
+    },
+    "ee673": {
+      "entry_id": "ee673",
+      "content": "You try to imagine what's in the cupboard. A monster? Something broken? Or just empty space? It's hard to say. The kettle whispers, a little louder than before.\n\nYou decide to give up on the coffee. The cold from the cupboard is getting stronger. The glint of metal is more unsettling than interesting. You turn away from the cupboard.",
+      "choices": [
+        {
+          "content": "Listen for the kettle's whisper.",
+          "entry_id": "retreating_steps_entry_retreat_02b"
+        },
+        {
+          "content": "Give up on the kettle.",
+          "entry_id": "retreating_steps_entry_retreat_02a"
+        }
+      ],
+      "end": null
+    },
+    "retreating_steps_entry_retreat_02b": {
+      "entry_id": "retreating_steps_entry_retreat_02b",
+      "content": "The whisper from the kettle seems louder now. It's like it's mocking you. You try to ignore it. You focus on breathing. You try to stay calm.",
+      "choices": [
+        {
+          "content": "Leave the kitchen. Block out the whispering.",
+          "entry_id": "e41aa"
+        },
+        {
+          "content": "Give in to the feeling of dread.",
+          "entry_id": "eba59"
+        }
+      ],
+      "end": null
+    },
+    "e41aa": {
+      "entry_id": "e41aa",
+      "content": "You try to block out the whispering. You focus on leaving the kitchen. Each step is heavy. The kitchen feels like it's holding you back.\n\nYou decide to leave the kitchen. Every instinct tells you to get away. The whispering, the cold, the cupboard - it's too much. You walk towards the doorway.\n\nThe doorway looks wrong. The frame isn't square. The edges are blurred. The exit itself is being affected.",
+      "choices": [
+        {
+          "content": "Go through the doorway, despite your fear.",
+          "entry_id": "e7105"
+        },
+        {
+          "content": "Look closer at the warped doorframe.",
+          "entry_id": "e0f0b"
+        }
+      ],
+      "end": null
+    },
+    "e7105": {
+      "entry_id": "e7105",
+      "content": "You wonder if you're imagining the distortion. Is it a trick of the light? You blink and try to focus. The lines of the frame are still warped.\n\nThe warping is more obvious as you get closer. The frame seems twisted. The light from the hallway is dim. It casts long shadows into the kitchen. A faint whisper emanates from the kettle. The doorway is warping, making escape less certain. You move to the doorway.",
+      "choices": [
+        {
+          "content": "Glance back at the kettle. Listen for the whisper.",
+          "entry_id": "warped_doorway_entry_2c"
+        },
+        {
+          "content": "Move through the doorway.",
+          "entry_id": "e9c7c"
+        },
+        {
+          "content": "Check the kitchen clock.",
+          "entry_id": "e92b7"
+        }
+      ],
+      "end": null
+    },
+    "warped_doorway_entry_2c": {
+      "entry_id": "warped_doorway_entry_2c",
+      "content": "You glance back at the kettle. The whisper is louder. It's like a chorus of voices. You can't make out any words. The sound is too close. You move to the doorway.",
+      "choices": [
+        {
+          "content": "Move through the doorway.",
+          "entry_id": "e9c7c"
+        },
+        {
+          "content": "Check the kitchen clock.",
+          "entry_id": "e92b7"
+        }
+      ],
+      "end": null
+    },
+    "e9c7c": {
+      "entry_id": "e9c7c",
+      "content": "You try to focus on something in the hallway: a picture, a coat. Your vision blurs. You shake your head. The blurred edges stay.\n\nYou reach the doorway. You put out your hand. You feel unease. You need to leave.",
+      "choices": [
+        {
+          "content": "Take a deep breath to calm down before leaving.",
+          "entry_id": "warped_doorway_entry_3c"
+        },
+        {
+          "content": "Try the door handle.",
+          "entry_id": "e5f12"
+        },
+        {
+          "content": "Consider turning back into the kitchen.",
+          "entry_id": "eb190"
+        }
+      ],
+      "end": null
+    },
+    "retreating_steps_entry_retreat_02a": {
+      "entry_id": "retreating_steps_entry_retreat_02a",
+      "content": "The thought of the coffee returns, a faint craving amidst the growing unease. The kettle sits silently on the counter, a metallic glint in the dim light. It seems to mock your desire for a simple, normal morning. You dismiss the idea. The kitchen resists any attempt at normalcy.",
+      "choices": [
+        {
+          "content": "Remember when making coffee was simple.",
+          "entry_id": "e59d2"
+        },
+        {
+          "content": "Check the power outlets one last time.",
+          "entry_id": "e9568"
+        }
+      ],
+      "end": null
+    },
+    "e59d2": {
+      "entry_id": "e59d2",
+      "content": "You recall mornings when the kettle worked without complaint. The kitchen was just a kitchen. Coffee was a routine, a simple pleasure. The memory feels distant, like a faded photograph.\n\nThe instinct to leave becomes overwhelming. You need to put distance between yourself and the unsettling events unfolding here. The whispering, the cold radiating from the cupboard, the unsettling glint of something hidden within \u2013 it's too much.\n\nYou approach the kitchen doorway, ready to leave. The frame seems subtly distorted. The top left corner is pulled slightly inward, like a melting picture frame. The exit itself is being affected, a disturbing sign that escape may not be so easy.",
+      "choices": [
+        {
+          "content": "Go through the doorway, despite your fear.",
+          "entry_id": "e7105"
+        },
+        {
+          "content": "Take a closer look at the warped doorframe.",
+          "entry_id": "e0f0b"
+        }
+      ],
+      "end": null
+    },
+    "e0f0b": {
+      "entry_id": "e0f0b",
+      "content": "You hesitate, drawn to the anomaly. The doorframe shimmers, like heat haze above an asphalt road. The hallway beyond seems to waver, the colours slightly off. It is unsettling.\n\nThe warping is more pronounced up close. The wood grain of the frame seems to twist and writhe. The light from the hallway is muted, casting long, unnatural shadows back into the kitchen. A faint whisper emanates from the kettle. The doorway is changing, affected by the anomaly, making escape uncertain. You move to the doorway.",
+      "choices": [
+        {
+          "content": "Glance back at the kettle. Listen for the whispering.",
+          "entry_id": "warped_doorway_entry_2c"
+        },
+        {
+          "content": "Move through the doorway.",
+          "entry_id": "e9c7c"
+        },
+        {
+          "content": "Check the kitchen clock.",
+          "entry_id": "e92b7"
+        }
+      ],
+      "end": null
+    },
+    "e92b7": {
+      "entry_id": "e92b7",
+      "content": "The kitchen clock's second hand jerks forward, then pauses for an unnatural length of time. It seems to struggle against something, its ticking uneven and laboured. Time itself feels sluggish, as if the kitchen is caught in slow motion.\n\nYou reach the doorway. You extend a hand, expecting to pass through easily. A growing sense of unease washes over you. You need to leave.",
+      "choices": [
+        {
+          "content": "Take a deep breath to calm your nerves.",
+          "entry_id": "warped_doorway_entry_3c"
+        },
+        {
+          "content": "Try the door handle.",
+          "entry_id": "e5f12"
+        },
+        {
+          "content": "Turn back into the kitchen.",
+          "entry_id": "eb190"
+        }
+      ],
+      "end": null
+    },
+    "warped_doorway_entry_3c": {
+      "entry_id": "warped_doorway_entry_3c",
+      "content": "You inhale deeply, attempting to regain composure. But the air feels thick, almost viscous. It clings to your lungs, offering no sense of calm.",
+      "choices": [
+        {
+          "content": "Try the door handle.",
+          "entry_id": "e5f12"
+        },
+        {
+          "content": "Turn back into the kitchen.",
+          "entry_id": "eb190"
+        }
+      ],
+      "end": null
+    },
+    "e5f12": {
+      "entry_id": "e5f12",
+      "content": "You grasp the door handle, hoping for a simple escape. The metal is icy cold, leaching the warmth from your hand. The resistance to opening the door remains, a subtle but persistent pressure.\n\nYou stand before the doorway, a tangible distortion of reality. The air shimmers around the edges of the frame, as if the kitchen itself is trying to prevent your departure. The need to escape is overwhelming, yet hesitation lingers.",
+      "choices": [
+        {
+          "content": "Study the doorway.",
+          "entry_id": "e3609"
+        },
+        {
+          "content": "Listen, then throw your weight against the door.",
+          "entry_id": "ece76"
+        },
+        {
+          "content": "Prepare to push through the doorway.",
+          "entry_id": "e6911"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_0a": {
+      "entry_id": "escape_kitchen_entry_choice_0a",
+      "content": "You reach for the doorframe. Your fingers close around the wood. It's cold. Not just cool, but deeply, unnaturally cold. A slick dampness coats the surface. The warping is real, tangible beneath your hand. You feel a subtle vibration through the floor.",
+      "choices": [
+        {
+          "content": "Steal a glance back at the kitchen.",
+          "entry_id": "escape_kitchen_entry_choice_1b"
+        },
+        {
+          "content": "Focus on the light switch in the hallway.",
+          "entry_id": "e2cb7"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_1b": {
+      "entry_id": "escape_kitchen_entry_choice_1b",
+      "content": "You look back. The kettle. It sits on the counter, plugged in. The vibrations are more pronounced now, a low hum you can almost feel through the floor. The whispering is clearer, a chorus of voices just below the threshold of hearing. The doorway is twisting, the wood groaning softly.",
+      "choices": [
+        {
+          "content": "Tear your gaze away. Focus on the hallway.",
+          "entry_id": "e3af5"
+        },
+        {
+          "content": "Stare at the kettle, trying to decipher the whispers.",
+          "entry_id": "e996e"
+        }
+      ],
+      "end": null
+    },
+    "e3af5": {
+      "entry_id": "e3af5",
+      "content": "An urge. An insistent pull back towards the kitchen. You fight it. You force yourself to look away, towards the hallway. The feeling lessens, replaced by a tremor of fear.\n\nYou fixate on the light switch by the door. White plastic. Two screws visible. Ordinary.\n\nYou stumble into the hallway. It feels solid. Real. The doorway behind you frames the kitchen, a distorted painting of domestic chaos. The hallway is untouched.",
+      "choices": [
+        {
+          "content": "Consider the possibility that you were just imagining things.",
+          "entry_id": "escape_kitchen_entry_choice_3b"
+        },
+        {
+          "content": "Notice the familiar landscape print hanging on the wall.",
+          "entry_id": "escape_kitchen_entry_choice_3a"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_3b": {
+      "entry_id": "escape_kitchen_entry_choice_3b",
+      "content": "You stare at the kitchen doorway. From here, the warping isn't so obvious. Maybe it was just the light. Maybe it was the lack of coffee. Maybe you're imagining things.",
+      "choices": [
+        {
+          "content": "A strange compulsion makes you consider going back. Maybe you can understand what's happening.",
+          "entry_id": "escape_kitchen_entry_choice_2c"
+        },
+        {
+          "content": "Reach for your pockets, checking for your phone.",
+          "entry_id": "e19d1"
+        },
+        {
+          "content": "Lean against the cool plaster of the wall.",
+          "entry_id": "e8be2"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_2c": {
+      "entry_id": "escape_kitchen_entry_choice_2c",
+      "content": "A wave of compulsion washes over you. The kitchen calls to you, promising answers, demanding attention. But the thought of returning brings a sharp stab of anxiety.",
+      "choices": [
+        {
+          "content": "Ignore the feeling. It's just the stress.",
+          "entry_id": "escape_kitchen_entry_choice_2c1"
+        },
+        {
+          "content": "A shiver runs down your spine. The kitchen feels\u2026wrong.",
+          "entry_id": "escape_kitchen_entry_choice_2c2"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_2c1": {
+      "entry_id": "escape_kitchen_entry_choice_2c1",
+      "content": "You shake your head. No. Some things are better left alone. The coffee is forgotten. The only thing that matters is getting away.",
+      "choices": [
+        {
+          "content": "Reach for your pockets to check for your phone.",
+          "entry_id": "e19d1"
+        },
+        {
+          "content": "Lean against the wall, trying to calm your racing heart.",
+          "entry_id": "e8be2"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_0b": {
+      "entry_id": "escape_kitchen_entry_choice_0b",
+      "content": "You squeeze your eyes shut. The kitchen's unsettling visuals threaten to overwhelm. Nausea rises, amplified by the darkness. The whispering grows louder, a chorus of indistinct voices swirling in your head. The air is thick, heavy.",
+      "choices": [
+        {
+          "content": "Risk a glance back at the kitchen.",
+          "entry_id": "escape_kitchen_entry_choice_1b"
+        },
+        {
+          "content": "Focus on the light switch in the hallway to regain balance.",
+          "entry_id": "e2cb7"
+        }
+      ],
+      "end": null
+    },
+    "e2cb7": {
+      "entry_id": "e2cb7",
+      "content": "You focus on the light switch in the hallway. White plastic, a simple rectangle. Two small screws secure it to the wall. The disorientation slowly fades. Relief washes over you. The hallway feels solid. Real.\n\nYou stumble fully into the hallway, putting distance between yourself and the kitchen. The warped doorway is visible behind you, a strange frame around a chaotic scene. The hallway, in contrast, is utterly normal. A haven.",
+      "choices": [
+        {
+          "content": "Wonder if the warping doorway was just a hallucination.",
+          "entry_id": "escape_kitchen_entry_choice_3b"
+        },
+        {
+          "content": "Notice the familiar landscape print hanging on the wall.",
+          "entry_id": "escape_kitchen_entry_choice_3a"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_3a": {
+      "entry_id": "escape_kitchen_entry_choice_3a",
+      "content": "Your gaze settles on the landscape print. Rolling hills, a distant farmhouse, a clear blue sky. You've seen it a thousand times. Its familiarity is a small comfort, a reminder of the world outside the kitchen's strange influence. A framed print of normality.",
+      "choices": [
+        {
+          "content": "A strange compulsion makes you hesitate, wondering if you should go back to the kitchen.",
+          "entry_id": "escape_kitchen_entry_choice_2c"
+        },
+        {
+          "content": "Reach for your pockets, checking for your phone.",
+          "entry_id": "e19d1"
+        },
+        {
+          "content": "Lean against the wall.",
+          "entry_id": "e8be2"
+        }
+      ],
+      "end": null
+    },
+    "escape_kitchen_entry_choice_2c2": {
+      "entry_id": "escape_kitchen_entry_choice_2c2",
+      "content": "A chill runs down your spine. The thought of returning fills you with dread. The warping, the whispers, the feeling of wrongness. Enough. Escape is the only option. The coffee is utterly forgotten.",
+      "choices": [
+        {
+          "content": "Reach for your pockets to check for your phone.",
+          "entry_id": "e19d1"
+        },
+        {
+          "content": "Lean against the wall.",
+          "entry_id": "e8be2"
+        }
+      ],
+      "end": null
+    },
+    "e8be2": {
+      "entry_id": "e8be2",
+      "content": "You lean against the wall. The wallpaper is cool, textured. You take a deep breath. Dust, old wood, a faint floral scent. Familiar. Grounding.\n\nYou step further into the hallway. The unease begins to fade. Relief grows. You've escaped the kitchen. You are back in the relative normalcy of your home. The kettle, the coffee, all of it, is behind you.",
+      "choices": [],
+      "end": "win"
+    },
+    "escape_kitchen_entry_choice_0c": {
+      "entry_id": "escape_kitchen_entry_choice_0c",
+      "content": "You take a breath. The hallway. Faded floral wallpaper. The faint smell of furniture polish. Normal. The kitchen's wrongness clings to you, a film on your skin. You can still feel it, the subtle pull, the distorted echo of something not quite right. You feel a slight vibration through the floor. But the hallway is here, solid, ordinary.",
+      "choices": [
+        {
+          "content": "Look back at the kitchen doorway.",
+          "entry_id": "escape_kitchen_entry_choice_1b"
+        },
+        {
+          "content": "Focus on the light switch in the hallway, try to shake off the feeling.",
+          "entry_id": "e2cb7"
+        }
+      ],
+      "end": null
+    },
+    "e996e": {
+      "entry_id": "e996e",
+      "content": "You stare at the kettle. Stainless steel, reflecting the distorted light of the kitchen. A flicker. A rush of colour \u2013 impossible blues and greens swirling into shapes that defy geometry. It's gone in a heartbeat. The whispering intensifies, a high-pitched whine overlaid on the low hum. Your head swims. You blink, and the image is replaced by the mundane normality of the hallway. The wallpaper. The skirting board. The coathooks. Focus.",
+      "choices": [
+        {
+          "content": "Turn away, wondering if it was all in your mind.",
+          "entry_id": "escape_kitchen_entry_choice_3b"
+        },
+        {
+          "content": "Notice the familiar landscape print on the wall.",
+          "entry_id": "escape_kitchen_entry_choice_3a"
+        }
+      ],
+      "end": null
+    },
+    "shifting_sounds_entry_1a": {
+      "entry_id": "shifting_sounds_entry_1a",
+      "content": "You focus, trying to hear past the refrigerator's hum. The silence feels deliberate, a held breath. Is it real, or just your imagination amplifying the quiet? The house is still.",
+      "choices": [
+        {
+          "content": "Listen at the wall for neighbors.",
+          "entry_id": "e020f"
+        },
+        {
+          "content": "Check the windows; is something wrong outside?",
+          "entry_id": "ef9e0"
+        }
+      ],
+      "end": null
+    },
+    "e020f": {
+      "entry_id": "e020f",
+      "content": "No sounds bleed through the walls. No distant music, no raised voices, no muffled thumps. Just the oppressive silence. Then, a new sound cuts through: a faint, rhythmic clicking. It\u2019s irregular. Unsettling. An insistent pulse in the quiet.",
+      "choices": [
+        {
+          "content": "Touch the kettle; feel for vibrations.",
+          "entry_id": "shifting_sounds_entry_2c"
+        },
+        {
+          "content": "Wonder if the clicking is just the need for coffee.",
+          "entry_id": "shifting_sounds_entry_2b"
+        },
+        {
+          "content": "Try to pinpoint the source of the clicks.",
+          "entry_id": "shifting_sounds_entry_2a"
+        }
+      ],
+      "end": null
+    },
+    "shifting_sounds_entry_2b": {
+      "entry_id": "shifting_sounds_entry_2b",
+      "content": "The clicking. Is it real? Or is it just the lack of coffee playing tricks? Stress and caffeine withdrawal mixing in your head? The thought is unsettling. A layer of self-doubt creeps in, on top of the strangeness.",
+      "choices": [
+        {
+          "content": "Perhaps it's all imagined, the need for caffeine.",
+          "entry_id": "ee65d"
+        },
+        {
+          "content": "Shake your head; clear your thoughts.",
+          "entry_id": "e5536"
+        }
+      ],
+      "end": null
+    },
+    "ee65d": {
+      "entry_id": "ee65d",
+      "content": "You wonder if the caffeine cravings are making you imagine the clicking. A phantom sound, born of need. But it feels too real. Too insistent to be a mere trick of the mind.\n\nThe kitchen clock ticks. Or tries to. The second hand stutters, hesitates. Seconds stretch, then compress. Time itself feels unstable. The clock is analogue, and you watch the black second hand's erratic dance. The kitchen feels smaller.\n\nYou stand in the kitchen. Strange clicks from the walls. A stuttering clock. Unease settles deep. You focus on the kettle. The source. The beginning of this odd morning.",
+      "choices": [
+        {
+          "content": "Try to ignore the sounds; calm down.",
+          "entry_id": "efd02"
+        },
+        {
+          "content": "Glance at the kitchen clock again.",
+          "entry_id": "eb6f5"
+        }
+      ],
+      "end": null
+    },
+    "efd02": {
+      "entry_id": "efd02",
+      "content": "You breathe deeply, trying to block out the clicking. But the rhythm echoes inside you, amplifying your anxiety. The kitchen feels smaller, the walls subtly closer. A creeping claustrophobia.\n\nThe kettle seems to resonate with it, as if the kettle is drawing the strange energy into itself.",
+      "choices": [
+        {
+          "content": "Open a window; let fresh air in.",
+          "entry_id": "e25b1"
+        },
+        {
+          "content": "Look for a shimmer in the air.",
+          "entry_id": "e4d3f"
+        },
+        {
+          "content": "Check the outlets again for the source of the clicking; are they working?",
+          "entry_id": "e6a65"
+        }
+      ],
+      "end": null
+    },
+    "e25b1": {
+      "entry_id": "e25b1",
+      "content": "The thought of fresh air is appealing. But leaving the kettle feels wrong. The outside world seems distant, unreachable, as if the kitchen is now its own contained space. \n\nYou lean closer to the kettle. The hum is louder now. And beneath it, a whisper. Faint, almost subliminal. Unintelligible. Like background noise, but undeniably there. The kettle vibrates subtly. A low tremor in your bones. It's the source. The focal point. The whisper is new.",
+      "choices": [
+        {
+          "content": "Check the kettle.",
+          "entry_id": "eb75d"
+        },
+        {
+          "content": "Try to understand the whisper.",
+          "entry_id": "e4072"
+        },
+        {
+          "content": "Touch the kettle. What will happen?",
+          "entry_id": "ea050"
+        }
+      ],
+      "end": null
+    },
+    "shifting_sounds_entry_2a": {
+      "entry_id": "shifting_sounds_entry_2a",
+      "content": "The clicking seems to be everywhere and nowhere. Your eyes dart around the kitchen, trying to isolate the source. It's a frustrating task. The sound is pervasive, as if the kitchen itself is clicking. The sound seems to be almost subsonic, making it difficult to pinpoint exactly.",
+      "choices": [
+        {
+          "content": "Look up at the ceiling.",
+          "entry_id": "e9a6b"
+        },
+        {
+          "content": "Check behind the fridge.",
+          "entry_id": "ea051"
+        }
+      ],
+      "end": null
+    },
+    "e9a6b": {
+      "entry_id": "e9a6b",
+      "content": "You look up. The ceiling is smooth, white plaster. No obvious source there. The clicking continues. The kitchen clock catches your eye. Its ticking is slow. Erratic. The second hand stutters. Time feels unstable. A stretched second, then a compressed one. This is an effect of the anomaly. The kitchen feels smaller.\n\nYou stand in the kitchen. Clicks from the walls. The erratic clock. A growing unease. You turn back to the kettle. The source of the initial problem. Maybe the explanation lies there.",
+      "choices": [
+        {
+          "content": "Try to ignore the sounds and calm down.",
+          "entry_id": "efd02"
+        },
+        {
+          "content": "Glance at the kitchen clock again.",
+          "entry_id": "eb6f5"
+        }
+      ],
+      "end": null
+    },
+    "eb6f5": {
+      "entry_id": "eb6f5",
+      "content": "You glance at the kitchen clock again. The ticking is almost imperceptible, then suddenly loud. A stark ticking then a pause. Time itself feels wrong. You fight the urge to check your watch. Introducing another time source might make things worse. The clicking continues. It seems to be coming from the walls. But maybe also the kettle. A low hum. You feel it in your chest. And something else, a faint resonance. The clicking resonates with the kettle's hum. As if the kettle is resonating with the kitchen's unsettling energy.",
+      "choices": [
+        {
+          "content": "Consider opening a window for fresh air.",
+          "entry_id": "e25b1"
+        },
+        {
+          "content": "Look for a shimmer in the air near the kettle.",
+          "entry_id": "e4d3f"
+        },
+        {
+          "content": "Check the power outlets again for the source of the clicking.",
+          "entry_id": "e6a65"
+        }
+      ],
+      "end": null
+    },
+    "e4d3f": {
+      "entry_id": "e4d3f",
+      "content": "You scan the air near the kettle. A faint shimmer. Like heat haze. It distorts the light. Barely perceptible. A fleeting glimpse at the edge of your vision. A shift in reality near the appliance. You put your ear close to the kettle. A hum. And beneath it, a whisper. Faint. Subliminal. Unintelligible. Like background noise. But undeniably there. The kettle vibrates. A low tremor. You feel it in your bones. The kettle is the source. The whispered secrets. The focal point.",
+      "choices": [
+        {
+          "content": "Check the kettle.",
+          "entry_id": "eb75d"
+        },
+        {
+          "content": "Try to understand the whispering.",
+          "entry_id": "e4072"
+        },
+        {
+          "content": "Touch the kettle. Are you sure?",
+          "entry_id": "ea050"
+        }
+      ],
+      "end": null
+    },
+    "e4072": {
+      "entry_id": "e4072",
+      "content": "The whispers pull. A draw. You resist. But want to know. A language. Garbled voices. Not human. They promise things. Knowledge. Insanity. The kettle is close. You listen. Intrigued. Afraid. The whispers are a clue. The kettle is doing something.",
+      "choices": [
+        {
+          "content": "Move closer. Lift the kettle's lid.",
+          "entry_id": "kettles_truth_entry_1"
+        },
+        {
+          "content": "Give up. Order takeout coffee.",
+          "entry_id": "order_takeout_entry_takeout_01"
+        }
+      ],
+      "end": null
+    },
+    "kettles_truth_entry_1": {
+      "entry_id": "kettles_truth_entry_1",
+      "content": "The whispering pulls you closer. A siren song of the strange. Intrigued and disturbed, you reach out. The metal is slick. Surprisingly so. The lid lifts with a soft click. Easier than before. A plume of distortion rises. Almost visible. You peer inside. The whispering intensifies. Clawing at the edge of your hearing.",
+      "choices": [
+        {
+          "content": "Ignore the kettle's interior and check the kitchen clock again.",
+          "entry_id": "kettles_truth_entry_1a"
+        },
+        {
+          "content": "Try the tap again; maybe the water's returned.",
+          "entry_id": "kettles_truth_entry_1b"
+        }
+      ],
+      "end": null
+    },
+    "kettles_truth_entry_1a": {
+      "entry_id": "kettles_truth_entry_1a",
+      "content": "The kettle whispers. Unsettling. You need a distraction. You glance around the kitchen. The kitchen clock. The ticking catches your attention. A sudden urge. You need to know the time. A desperate attempt to find something normal.",
+      "choices": [
+        {
+          "content": "Focus on the clock and read the time.",
+          "entry_id": "e72b4"
+        },
+        {
+          "content": "Examine the clock face closely.",
+          "entry_id": "e6b49"
+        }
+      ],
+      "end": null
+    },
+    "order_takeout_entry_takeout_01": {
+      "entry_id": "order_takeout_entry_takeout_01",
+      "content": "The kettle whispers. A constant drone. Enough. The kitchen fights you. A simple coffee is impossible. Takeout it is. You stand near the kettle. The whispers persist. A reminder.",
+      "choices": [
+        {
+          "content": "Order coffee. Question the cafe's existence.",
+          "entry_id": "order_takeout_entry_takeout_01b"
+        },
+        {
+          "content": "Consider destroying the kettle.",
+          "entry_id": "order_takeout_entry_takeout_01a"
+        }
+      ],
+      "end": null
+    },
+    "order_takeout_entry_takeout_01b": {
+      "entry_id": "order_takeout_entry_takeout_01b",
+      "content": "A worrying thought creeps in: is the local cafe even real? Or just another hallucination conjured by this bizarre kitchen? You dismiss the thought, but the seed of doubt is planted. Real or not, you need coffee. You decide to order anyway, grasping at the hope that *something* remains normal.",
+      "choices": [
+        {
+          "content": "Check your bank balance, just in case.",
+          "entry_id": "e3097"
+        },
+        {
+          "content": "Try to remember the last time you saw another person.",
+          "entry_id": "ed3e2"
+        }
+      ],
+      "end": null
+    },
+    "e3097": {
+      "entry_id": "e3097",
+      "content": "The cost of daily takeout crosses your mind. Especially if the kitchen's strangeness continues. You check your bank balance on your phone. Relief. You can still afford it\u2026 for now.\n\nYou grab your phone. The outside world has to be normal. You open the takeout app and order from the local cafe. You hope a simple cup of coffee can cut through this nightmare.",
+      "choices": [
+        {
+          "content": "Skip the pastry.",
+          "entry_id": "order_takeout_entry_takeout_02c"
+        },
+        {
+          "content": "Try to describe the kitchen to the person on the phone.",
+          "entry_id": "order_takeout_entry_takeout_02b"
+        },
+        {
+          "content": "Tap 'Place Order' despite the flickering screen.",
+          "entry_id": "order_takeout_entry_takeout_02a"
+        }
+      ],
+      "end": null
+    },
+    "order_takeout_entry_takeout_02c": {
+      "entry_id": "order_takeout_entry_takeout_02c",
+      "content": "You consider a pastry. A croissant. A danish. But the thought fades. You don't trust the kitchen to deliver a pastry safely. Who knows what might happen to it before it arrives?",
+      "choices": [
+        {
+          "content": "Think about making toast instead, then dismiss the thought.",
+          "entry_id": "e2ffe"
+        },
+        {
+          "content": "Check the front door is unlocked. Expecting someone.",
+          "entry_id": "ed3b1"
+        }
+      ],
+      "end": null
+    },
+    "e2ffe": {
+      "entry_id": "e2ffe",
+      "content": "Toast crosses your mind. Simple comfort. The thought is fleeting. Making toast feels like an insurmountable challenge in this kitchen.\n\nYou put down your phone. A knot of anxiety. You hope the coffee arrives soon. A moment of normalcy. You stand in silence, listening to the kettle's whispers. Waiting for a taste of the outside world.\n\nA car pulls up. The delivery person approaches.",
+      "choices": [
+        {
+          "content": "Glance at the kitchen clock again. Has time slowed?",
+          "entry_id": "normal_coffee_entry_check_clock"
+        },
+        {
+          "content": "Look out of the kitchen window. See what's coming.",
+          "entry_id": "normal_coffee_entry_peer_out_window"
+        }
+      ],
+      "end": null
+    },
+    "normal_coffee_entry_check_clock": {
+      "entry_id": "normal_coffee_entry_check_clock",
+      "content": "You glance at the clock. Slower. The seconds stretch. Time feels wrong.",
+      "choices": [
+        {
+          "content": "Stare at the clock. Focus on the second hand.",
+          "entry_id": "e3bf7"
+        },
+        {
+          "content": "Ignore the clock. Blame it on stress.",
+          "entry_id": "e18f5"
+        }
+      ],
+      "end": null
+    },
+    "e3bf7": {
+      "entry_id": "e3bf7",
+      "content": "You watch the second hand. It stops. Starts. Moves in jerks. The clock? Or you? Either way, unsettling.\n\nThe delivery person arrives. Coffee in a cardboard holder. Normal. They smile. Unaware. The outside works.",
+      "choices": [
+        {
+          "content": "Examine the coffee cup. Something seems off.",
+          "entry_id": "normal_coffee_entry_examine_cup"
+        },
+        {
+          "content": "Pretend everything is normal. Make small talk.",
+          "entry_id": "normal_coffee_entry_small_talk"
+        },
+        {
+          "content": "Notice the newspaper on the counter.",
+          "entry_id": "normal_coffee_entry_notice_newspaper"
+        }
+      ],
+      "end": null
+    },
+    "order_takeout_entry_takeout_01a": {
+      "entry_id": "order_takeout_entry_takeout_01a",
+      "content": "Your fist clenches. The kettle sits. Whispering. You imagine the smash. Relief. But something stops you. Fear? Curiosity? The whispers grow. Daring you.",
+      "choices": [
+        {
+          "content": "Smell the air. Is that burning?",
+          "entry_id": "ece7b"
+        },
+        {
+          "content": "Check the kitchen clock.",
+          "entry_id": "e5658"
+        }
+      ],
+      "end": null
+    },
+    "ece7b": {
+      "entry_id": "ece7b",
+      "content": "A smell. Burnt coffee. But the kettle hasn't boiled. The acrid scent fills the air. Wrong. Impossible. You grab your phone. The outside world has to be normal. You open the takeout app. The local cafe. A coffee. You hope it can fix this.",
+      "choices": [
+        {
+          "content": "Skip the pastry.",
+          "entry_id": "order_takeout_entry_takeout_02c"
+        },
+        {
+          "content": "Try to describe the kitchen to the cafe.",
+          "entry_id": "order_takeout_entry_takeout_02b"
+        },
+        {
+          "content": "Tap 'Place Order'.",
+          "entry_id": "order_takeout_entry_takeout_02a"
+        }
+      ],
+      "end": null
+    },
+    "order_takeout_entry_takeout_02b": {
+      "entry_id": "order_takeout_entry_takeout_02b",
+      "content": "You try to explain. Flickering lights. Grey water. Whispering kettle. The words tumble out. The phone clicks. Silence. They hung up. You sigh. You try again. Just coffee this time.",
+      "choices": [
+        {
+          "content": "Glance at the cupboard.",
+          "entry_id": "e8d46"
+        },
+        {
+          "content": "Consider a different cafe.",
+          "entry_id": "eabb4"
+        }
+      ],
+      "end": null
+    },
+    "e8d46": {
+      "entry_id": "e8d46",
+      "content": "The cupboard. Dark. Pulsing. The clicking is louder there. You look away. You placed the order. You put down the phone. A knot in your stomach. The coffee. It needs to arrive. Silence. The kettle whispers. Waiting. A car pulls up outside. The delivery person approaches.",
+      "choices": [
+        {
+          "content": "Check the clock. Is time behaving strangely?",
+          "entry_id": "normal_coffee_entry_check_clock"
+        },
+        {
+          "content": "Peer out the window.",
+          "entry_id": "normal_coffee_entry_peer_out_window"
+        }
+      ],
+      "end": null
+    },
+    "normal_coffee_entry_peer_out_window": {
+      "entry_id": "normal_coffee_entry_peer_out_window",
+      "content": "You look out. The street. Normal. Cars pass. A dog barks. The postman walks. It jars. A contrast.",
+      "choices": [
+        {
+          "content": "Listen closely. Hear sounds from the street.",
+          "entry_id": "efaa3"
+        },
+        {
+          "content": "Watch the neighbor's house.",
+          "entry_id": "e393e"
+        }
+      ],
+      "end": null
+    },
+    "efaa3": {
+      "entry_id": "efaa3",
+      "content": "A siren. Distant. The normal world. Still there. The delivery person. At the door. A coffee cup. Cardboard carrier. Both normal. Untouched. A polite smile. Unaware. It's still working outside.",
+      "choices": [
+        {
+          "content": "Examine the cup. Something feels wrong.",
+          "entry_id": "normal_coffee_entry_examine_cup"
+        },
+        {
+          "content": "Make small talk.",
+          "entry_id": "normal_coffee_entry_small_talk"
+        },
+        {
+          "content": "Notice the newspaper on the counter.",
+          "entry_id": "normal_coffee_entry_notice_newspaper"
+        }
+      ],
+      "end": null
+    },
+    "normal_coffee_entry_examine_cup": {
+      "entry_id": "normal_coffee_entry_examine_cup",
+      "content": "You check the cup. Standard takeout. Plastic lid. Nothing obvious. But something feels off.",
+      "choices": [
+        {
+          "content": "Watch the steam rising from the cup.",
+          "entry_id": "efce1"
+        },
+        {
+          "content": "Check that the lid is securely fastened.",
+          "entry_id": "e3696"
+        }
+      ],
+      "end": null
+    },
+    "order_takeout_entry_takeout_02a": {
+      "entry_id": "order_takeout_entry_takeout_02a",
+      "content": "You tap 'Place Order'. The screen flickers. Static. Quick. Then normal. The kitchen affects it? You ignore it. Coffee on its way.",
+      "choices": [
+        {
+          "content": "Will the coffee actually arrive?",
+          "entry_id": "e11ac"
+        },
+        {
+          "content": "Think about more caffeine.",
+          "entry_id": "e8fe1"
+        }
+      ],
+      "end": null
+    },
+    "e11ac": {
+      "entry_id": "e11ac",
+      "content": "A fresh worry: will the delivery person find the house? The street looks normal from the window. But what if the address is wrong here? You put down the phone. Wait. The kettle whispers. A car stops outside. Its engine ticks. Footsteps approach.",
+      "choices": [
+        {
+          "content": "Check the clock. Is time passing strangely?",
+          "entry_id": "normal_coffee_entry_check_clock"
+        },
+        {
+          "content": "Look out of the window. Confirm reality.",
+          "entry_id": "normal_coffee_entry_peer_out_window"
+        }
+      ],
+      "end": null
+    },
+    "e18f5": {
+      "entry_id": "e18f5",
+      "content": "You dismiss the clock. Stress. The delivery person is at the door. They hold a cup in a cardboard carrier. Normal. Untouched. The delivery person smiles. 'Strange day,' they say, mentioning the weak sunshine. Business as usual.",
+      "choices": [
+        {
+          "content": "Examine the cup closely. Something feels off.",
+          "entry_id": "normal_coffee_entry_examine_cup"
+        },
+        {
+          "content": "Make small talk. Pretend you're not concerned.",
+          "entry_id": "normal_coffee_entry_small_talk"
+        },
+        {
+          "content": "Notice the newspaper on the counter. Again.",
+          "entry_id": "normal_coffee_entry_notice_newspaper"
+        }
+      ],
+      "end": null
+    },
+    "normal_coffee_entry_small_talk": {
+      "entry_id": "normal_coffee_entry_small_talk",
+      "content": "The delivery person comments on the 'unsettled weather'. They shiver despite the sunshine, but their eyes betray no sign of the oddity in the kitchen. They seem focused on the transaction, the mundane.",
+      "choices": [
+        {
+          "content": "Tip generously. A reward for bringing the outside in.",
+          "entry_id": "e8391"
+        },
+        {
+          "content": "Quick exchange. Shut the door quickly.",
+          "entry_id": "edbd1"
+        }
+      ],
+      "end": null
+    },
+    "e8391": {
+      "entry_id": "e8391",
+      "content": "You tip well. The delivery person seems surprised. You take the coffee. The cardboard feels real. Solid. You close the door. The kitchen hums. The kettle quietly rumbles. The coffee steams. One normal thing.",
+      "choices": [
+        {
+          "content": "Study the kitchen clock. Is it still taunting you?",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1b"
+        },
+        {
+          "content": "Ignore the strangeness. Focus on the coffee's warmth.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1a"
+        }
+      ],
+      "end": null
+    },
+    "peaceful_sip_entry_peaceful_sip_1b": {
+      "entry_id": "peaceful_sip_entry_peaceful_sip_1b",
+      "content": "You glance at the clock. The second hand jerks. Stops. Starts again. Time falters. Is it broken? Or is something affecting it? The kettle whispers. You ignore it.",
+      "choices": [
+        {
+          "content": "Try to remember when the battery was last changed.",
+          "entry_id": "e39aa"
+        },
+        {
+          "content": "Does the clock have something to do with the kettle?",
+          "entry_id": "ec8be"
+        }
+      ],
+      "end": null
+    },
+    "e39aa": {
+      "entry_id": "e39aa",
+      "content": "The last battery change? A blur. Weeks ago? Months? You can't recall. The kettle vibrates. A low thrum. You look away. The coffee is warm in your hand. You focus on that. Not the kettle. Not the clock.",
+      "choices": [
+        {
+          "content": "Close your eyes. Feel the heat through the cup.",
+          "entry_id": "e6770"
+        },
+        {
+          "content": "Take a deep breath. Enjoy the aroma of the coffee.",
+          "entry_id": "e4515"
+        }
+      ],
+      "end": null
+    },
+    "normal_coffee_entry_notice_newspaper": {
+      "entry_id": "normal_coffee_entry_notice_newspaper",
+      "content": "The delivery person waits for payment. You glance at the newspaper on the counter. The date reads yesterday's date, Tuesday the 14th. You are certain you threw it away this morning. You don't mention it. The delivery person is still smiling. Unsettling.",
+      "choices": [
+        {
+          "content": "Pay and ignore the newspaper. Coffee first.",
+          "entry_id": "e7828"
+        },
+        {
+          "content": "Look closely at the date. Confirm the impossible.",
+          "entry_id": "e036d"
+        }
+      ],
+      "end": null
+    },
+    "e7828": {
+      "entry_id": "e7828",
+      "content": "You pay. You take the coffee. The cardboard carrier feels normal. The delivery person leaves, unaffected. You are alone in the kitchen. At least the coffee looks normal. Steam rises from the paper lid. The kitchen hums. A low sound, almost felt more than heard. The kettle clicks.",
+      "choices": [
+        {
+          "content": "Watch the clock. Confirm that time is still broken.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1b"
+        },
+        {
+          "content": "Ignore the strangeness. Sip the coffee.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1a"
+        }
+      ],
+      "end": null
+    },
+    "peaceful_sip_entry_peaceful_sip_1a": {
+      "entry_id": "peaceful_sip_entry_peaceful_sip_1a",
+      "content": "You glance at the kettle. It vibrates slightly. The metal surface trembles. A faint whispering seems to emanate from it. You turn away. The coffee. Focus on the coffee.",
+      "choices": [
+        {
+          "content": "Close your eyes. Feel the cup's heat.",
+          "entry_id": "e6770"
+        },
+        {
+          "content": "Take a slow breath. Try to stay calm and enjoy the coffee.",
+          "entry_id": "e4515"
+        }
+      ],
+      "end": null
+    },
+    "e6770": {
+      "entry_id": "e6770",
+      "content": "You close your eyes. The warmth spreads through your hands. The kitchen noises fade. You sip the coffee. The taste is normal. Familiar. Comforting. The outside world. A moment of escape.",
+      "choices": [
+        {
+          "content": "Open your eyes.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_2a"
+        },
+        {
+          "content": "Consider calling someone for help with the strange things happening.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_2b"
+        }
+      ],
+      "end": null
+    },
+    "peaceful_sip_entry_peaceful_sip_2a": {
+      "entry_id": "peaceful_sip_entry_peaceful_sip_2a",
+      "content": "You open your eyes. The walls seem subtly warped. The light is a faint grey. The coffee helps. But the strangeness remains. Just below the surface.",
+      "choices": [
+        {
+          "content": "Stare at the counter. Fix your gaze.",
+          "entry_id": "eeced"
+        },
+        {
+          "content": "Wonder if anyone else has seen this.",
+          "entry_id": "e71ff"
+        }
+      ],
+      "end": null
+    },
+    "eeced": {
+      "entry_id": "eeced",
+      "content": "You focus on a spot on the counter. A small scratch. A coffee stain. Normal. The coffee's warmth spreads. Relief. The clicking fades. The grey light dims. For a moment, just the coffee.",
+      "choices": [
+        {
+          "content": "Ignore the shimmer around the kettle.",
+          "entry_id": "ed607"
+        },
+        {
+          "content": "Ignore the fact the clock is ticking backwards.",
+          "entry_id": "e2726"
+        }
+      ],
+      "end": null
+    },
+    "ed607": {
+      "entry_id": "ed607",
+      "content": "You glance at the kettle. A shimmering distortion in the air around it. Like heat rising from asphalt on a summer day. You look away. Coffee. Only the coffee matters.",
+      "choices": [
+        {
+          "content": "Head to the coffee shop.",
+          "entry_id": "e8b61"
+        },
+        {
+          "content": "Focus on the coffee's aroma.",
+          "entry_id": "ea416"
+        },
+        {
+          "content": "Think of a pleasant memory.",
+          "entry_id": "ee693"
+        }
+      ],
+      "end": null
+    },
+    "peaceful_sip_entry_peaceful_sip_2b": {
+      "entry_id": "peaceful_sip_entry_peaceful_sip_2b",
+      "content": "The thought of calling someone flickers through your mind. A repair person for the kettle? But the grey water trickling from the tap... the unsettling cold emanating from under the sink... this is beyond their expertise. You dismiss the idea, at least for now.",
+      "choices": [
+        {
+          "content": "Later, search online for answers.",
+          "entry_id": "efd1d"
+        },
+        {
+          "content": "Ignore it all. Enjoy the coffee.",
+          "entry_id": "ef016"
+        }
+      ],
+      "end": null
+    },
+    "efd1d": {
+      "entry_id": "efd1d",
+      "content": "You decide to search online later, for any mention of kettles causing reality distortions. The coffee's warmth spreads, bringing a momentary wave of relief. The clicking sounds and greyish light seem to recede, replaced by the simple pleasure of the drink. The kitchen remains subtly altered, however. A shimmer around the kettle, a clock ticking backwards...",
+      "choices": [
+        {
+          "content": "Ignore the shimmering around the kettle.",
+          "entry_id": "ed607"
+        },
+        {
+          "content": "Ignore the backwards ticking clock.",
+          "entry_id": "e2726"
+        }
+      ],
+      "end": null
+    },
+    "e2726": {
+      "entry_id": "e2726",
+      "content": "You glance at the kitchen clock. Its second hand sweeps counter-clockwise. Time is flowing backwards in this kitchen. You decide it's a problem for later. Coffee first.",
+      "choices": [
+        {
+          "content": "Go to the coffee shop.",
+          "entry_id": "e8b61"
+        },
+        {
+          "content": "Focus on the rich aroma.",
+          "entry_id": "ea416"
+        },
+        {
+          "content": "Recall a calming memory.",
+          "entry_id": "ee693"
+        }
+      ],
+      "end": null
+    },
+    "e8b61": {
+      "entry_id": "e8b61",
+      "content": "Did the barista at the coffee shop notice anything odd? The grey water when filling the machine? The faint whispers? You doubt it. The coffee tastes normal. The strangeness is contained here, in this kitchen. You raise the cup to your lips.",
+      "choices": [
+        {
+          "content": "Remember a normal morning.",
+          "entry_id": "e044e"
+        },
+        {
+          "content": "Open your eyes and sigh.",
+          "entry_id": "ignore_strangeness_entry_ignore_end_choice_3"
+        },
+        {
+          "content": "Close your eyes, savor the moment.",
+          "entry_id": "e7375"
+        }
+      ],
+      "end": null
+    },
+    "ignore_strangeness_entry_ignore_end_choice_3": {
+      "entry_id": "ignore_strangeness_entry_ignore_end_choice_3",
+      "content": "You open your eyes. The grey light is a little stronger. A little more pervasive. You sigh. It isn't going away. You sip the coffee. A small comfort in the familiar.",
+      "choices": [
+        {
+          "content": "Remember a normal morning.",
+          "entry_id": "e044e"
+        },
+        {
+          "content": "Close your eyes, savor the moment.",
+          "entry_id": "e7375"
+        }
+      ],
+      "end": null
+    },
+    "e044e": {
+      "entry_id": "e044e",
+      "content": "You think back to the morning before the coffee craving, before the kettle's refusal. Normal sounds. Normal light. The normal feel of the kitchen. A brief escape, provided by the takeout cup.",
+      "choices": [],
+      "end": "win"
+    },
+    "kettles_truth_entry_1b": {
+      "entry_id": "kettles_truth_entry_1b",
+      "content": "You ignore the whispering from the kettle's dark opening. A faint hope pulls you back to the tap. Maybe the water is running clear now. You turn the handle. Grey water trickles out. The same slow, dispiriting trickle.",
+      "choices": [
+        {
+          "content": "Sniff the trickling water.",
+          "entry_id": "e3ef4"
+        },
+        {
+          "content": "Consider drinking the grey water.",
+          "entry_id": "e19ee"
+        }
+      ],
+      "end": null
+    },
+    "e3ef4": {
+      "entry_id": "e3ef4",
+      "content": "The grey trickle continues. You lean in to smell it. A metallic tang rises from the sink. Something is wrong with the water. You look back at the kettle. The whispering is louder. The air around it shimmers. The grey water seems darker now, almost black. You remember seeing coffee grounds in the cupboard earlier.",
+      "choices": [
+        {
+          "content": "Try to understand the whispers.",
+          "entry_id": "kettles_truth_entry_2a"
+        },
+        {
+          "content": "Check the kettle's power cord for damage.",
+          "entry_id": "kettles_truth_entry_2c"
+        },
+        {
+          "content": "Step away from the kettle.",
+          "entry_id": "kettles_truth_entry_2b"
+        }
+      ],
+      "end": null
+    },
+    "kettles_truth_entry_2a": {
+      "entry_id": "kettles_truth_entry_2a",
+      "content": "You focus on the whispers. You block out the grey water and the shimmering air. You need to understand the voices. You remember seeing coffee grounds in the cupboard earlier.",
+      "choices": [
+        {
+          "content": "Listen more intently.",
+          "entry_id": "eae14"
+        },
+        {
+          "content": "Focus all your energy on understanding.",
+          "entry_id": "e6983"
+        }
+      ],
+      "end": null
+    },
+    "eae14": {
+      "entry_id": "eae14",
+      "content": "The whispers almost form words. You are close to understanding. But they remain just out of reach. An alien language. A shiver runs down your spine. The whispers grow louder. Distorted images flash in your mind. Impossible shapes. Shifting landscapes. Familiar, yet alien faces. Voices echo around you. You don't understand the language. The kettle is not just broken. It's a nexus. A point where reality is fractured.",
+      "choices": [
+        {
+          "content": "Search your dreams for clues.",
+          "entry_id": "eefe7"
+        },
+        {
+          "content": "Examine the newspaper.",
+          "entry_id": "e8393"
+        }
+      ],
+      "end": null
+    },
+    "edd3c": {
+      "entry_id": "edd3c",
+      "content": "You think about opening the window. The glass is opaque. Something presses against it from the outside. You don't open it.\n\nThe 'coffee' is ready. It's a murky liquid. It shimmers with colours. It smells of ozone and burnt sugar. It is coffee. You take a sip. The taste is strange. Metallic. Sweet. Something else lingers. You feel satisfied. You have made coffee. (Recurring Encounter: Reality Anomaly)",
+      "choices": [],
+      "end": "win"
+    },
+    "kettles_truth_entry_2b": {
+      "entry_id": "kettles_truth_entry_2b",
+      "content": "You step back. The strangeness is overwhelming. Dizziness hits. You reach for the countertop. It's cold. You look at the kettle. A distorted reflection stares back. It's your face. But not quite.",
+      "choices": [
+        {
+          "content": "Peer closer at your reflection.",
+          "entry_id": "e9ba0"
+        },
+        {
+          "content": "Study how the kitchen looks in the reflection.",
+          "entry_id": "e5448"
+        }
+      ],
+      "end": null
+    },
+    "e9ba0": {
+      "entry_id": "e9ba0",
+      "content": "For a second, another face replaces yours. Gaunt. Pale. Sad eyes. Then it's gone. Imagined? The whispering rises. A sensory overload hits. Flashes of images. Impossible shapes. Shifting places. Familiar and alien faces mixed together. Voices echo. A language unknown. The kettle is a nexus. Reality is fractured here. \n\nA normal approach won't work. You must embrace the kitchen's new logic. Make coffee by its strange rules.",
+      "choices": [
+        {
+          "content": "Search your dreams for clues.",
+          "entry_id": "eefe7"
+        },
+        {
+          "content": "Look for answers in the newspaper.",
+          "entry_id": "e8393"
+        }
+      ],
+      "end": null
+    },
+    "e8393": {
+      "entry_id": "e8393",
+      "content": "You look at the newspaper. Hoping for something real. The headlines are symbols. Unreadable. The photos are grotesque. Faces twisted and wrong. No help here. You throw it down.\n\nYou fill a cup with grey water. (Recurring Encounter: Grey Water) The coffee jar now has coffee grounds. (First Time Encounter: Coffee Grounds) On impulse, you consider the cold cupboard.",
+      "choices": [
+        {
+          "content": "Try ordering takeout coffee.",
+          "entry_id": "e4fda"
+        },
+        {
+          "content": "Ignore the clock moving backwards.",
+          "entry_id": "e4ed6"
+        },
+        {
+          "content": "Consider tasting the grey water from the tap.",
+          "entry_id": "e4ee5"
+        }
+      ],
+      "end": null
+    },
+    "strange_brew_entry_strange_brew_3c": {
+      "entry_id": "strange_brew_entry_strange_brew_3c",
+      "content": "A faint scratching comes from the walls. Tiny claws on plaster. Hard to hear. The sound shifts as you try to locate it. Real or imagined? A faint tingling begins in your hand.",
+      "choices": [
+        {
+          "content": "Think about opening the window.",
+          "entry_id": "edd3c"
+        },
+        {
+          "content": "Focus on the tingling in your hand.",
+          "entry_id": "e97f1"
+        }
+      ],
+      "end": null
+    },
+    "e97f1": {
+      "entry_id": "e97f1",
+      "content": "You touch the kettle. A tingling spreads through your hand. Up your arm. Not painful. But there. The kitchen's strangeness made real. The kettle warms.\n\nThe 'coffee' is ready. Murky. Shimmering colours swirl. It smells of ozone and burnt sugar. It's coffee. You sip. The taste is bizarre. Metallic. Sweet. Something else. You feel satisfied. You made coffee.",
+      "choices": [],
+      "end": "win"
+    },
+    "kettles_truth_entry_2c": {
+      "entry_id": "kettles_truth_entry_2c",
+      "content": "Logic. That's what you need. You ignore the whispering (Recurring Encounter: Whispering Sounds) and grasp the kettle's (Recurring Encounter: Kettle) cord. Your fingers trace its length. No nicks. No fraying. Just a plain white cord. You knew it wouldn't be this simple. Electricity isn't the problem, is it?",
+      "choices": [
+        {
+          "content": "Follow the cord to the wall.",
+          "entry_id": "eacab"
+        },
+        {
+          "content": "Grip the kettle's plug tightly.",
+          "entry_id": "e943b"
+        }
+      ],
+      "end": null
+    },
+    "ef497": {
+      "entry_id": "ef497",
+      "content": "The newspaper is open to yesterday's date. Bold headlines announce little of interest. A half-finished crossword sits beside a coffee stain blooming around an article about local budget cuts. You turn the page, but nothing catches your eye.\n\nYou check the coffee jar on the counter. It's full of dark, fragrant grounds.",
+      "choices": [
+        {
+          "content": "Open a kitchen cupboard at random.",
+          "entry_id": "ec28a"
+        },
+        {
+          "content": "Go to the kettle.",
+          "entry_id": "e202e"
+        }
+      ],
+      "end": null
+    },
+    "ec28a": {
+      "entry_id": "ec28a",
+      "content": "You open a cupboard. Plates and bowls are stacked neatly inside. White china, blue rims. Everything is as it should be.\n\nYou place the kettle on its base. The power light glows red. But nothing happens. The kettle remains silent. The water sits still.",
+      "choices": [
+        {
+          "content": "Check the power outlet behind the kettle.",
+          "entry_id": "eb563"
+        },
+        {
+          "content": "Lean in close to the kettle and listen.",
+          "entry_id": "e082f"
+        }
+      ],
+      "end": null
+    },
+    "eb563": {
+      "entry_id": "eb563",
+      "content": "The outlet switch is on. The kettle cable is pushed firmly into the socket.\n\nThe kettle sits silently. You check the water level. You watch, waiting. Nothing happens.",
+      "choices": [
+        {
+          "content": "Check the water level inside the kettle.",
+          "entry_id": "e96e3"
+        },
+        {
+          "content": "Examine the kettle's surface for damage.",
+          "entry_id": "efac7"
+        }
+      ],
+      "end": null
+    },
+    "e96e3": {
+      "entry_id": "e96e3",
+      "content": "The water level is correct. It sits just above the minimum line, well below the maximum. The kettle is filled properly.\n\nYou run your hand along the kettle's cool metal surface. There's a faint scratch near the base, barely visible. You try the switch again. Still nothing. The kitchen light flickers overhead.",
+      "choices": [
+        {
+          "content": "Check the kettle's plug and fuse.",
+          "entry_id": "e9272"
+        },
+        {
+          "content": "Plug in the toaster to test the outlet.",
+          "entry_id": "e8940"
+        }
+      ],
+      "end": null
+    },
+    "e9272": {
+      "entry_id": "e9272",
+      "content": "You unscrew the kettle's plug. The fuse is intact, the thin wire unbroken inside the glass. The fuse isn't the problem.\n\nYou try the switch again. The light flickers more noticeably. You sense a growing unease.",
+      "choices": [
+        {
+          "content": "Look around the kitchen for anything strange.",
+          "entry_id": "flickering_frustration_entry_3c"
+        },
+        {
+          "content": "Listen carefully, trying to pinpoint any source of unusual sounds.",
+          "entry_id": "e05cc"
+        },
+        {
+          "content": "Ignore the general unease and focus on the flickering light above.",
+          "entry_id": "e3caf"
+        }
+      ],
+      "end": null
+    },
+    "e3caf": {
+      "entry_id": "e3caf",
+      "content": "You dismiss the hum. It could be anything. You watch the flickering light. It pulses erratically, especially when you touch the kettle switch.\n\nThe kettle remains silent. You realise with dismay that you forgot to fill it with water. You decide to try boiling water in a pan.",
+      "choices": [
+        {
+          "content": "Curse your forgetfulness.",
+          "entry_id": "ea224"
+        },
+        {
+          "content": "Resist the urge to kick the kettle.",
+          "entry_id": "e6592"
+        }
+      ],
+      "end": null
+    },
+    "e6592": {
+      "entry_id": "e6592",
+      "content": "You resist the urge to kick the kettle. It wouldn't help. The kettle sits there, mocking you.\n\nYou grab a pan from the rack and turn to the tap. You turn the handle. A trickle of grey water emerges, spitting and sputtering. Not the clear stream you expected.",
+      "choices": [
+        {
+          "content": "Turn the tap on and off repeatedly, hoping to clear it.",
+          "entry_id": "taps_trickle_entry_2c"
+        },
+        {
+          "content": "Jiggle the handle up and down.",
+          "entry_id": "edd71"
+        },
+        {
+          "content": "Wonder if the pipes have frozen, despite the weather.",
+          "entry_id": "e4314"
+        }
+      ],
+      "end": null
+    },
+    "e2c8d": {
+      "entry_id": "e2c8d",
+      "content": "You glance out the window. The sky is a uniform grey, the trees still. An ordinary day unfolds outside, oblivious to your need for coffee. \n\nYou check the coffee jar. It's full of dark, fragrant grounds.",
+      "choices": [
+        {
+          "content": "Open a random cupboard.",
+          "entry_id": "ec28a"
+        },
+        {
+          "content": "Go to the kettle.",
+          "entry_id": "e202e"
+        }
+      ],
+      "end": null
+    },
+    "e202e": {
+      "entry_id": "e202e",
+      "content": "The coffee jar is full. Dark, fragrant grounds promise a strong brew. The familiar smell is reassuring. \n\nYou place the filled kettle on its base. The power light comes on. Then nothing more. The kettle remains silent. The water remains still.",
+      "choices": [
+        {
+          "content": "Check the power outlet behind the kettle.",
+          "entry_id": "eb563"
+        },
+        {
+          "content": "Lean in close and listen. Is there any sound at all?",
+          "entry_id": "e082f"
+        }
+      ],
+      "end": null
+    },
+    "e082f": {
+      "entry_id": "e082f",
+      "content": "You lean closer. A faint hum emanates from the direction of the kettle. It's barely audible, easily mistaken for background noise. But it's there. \n\nThe kettle sits silently. A sense of unease grows. You check the power supply, visually inspecting the kettle.",
+      "choices": [
+        {
+          "content": "Check the water level. Perhaps it's too low?",
+          "entry_id": "e96e3"
+        },
+        {
+          "content": "Examine the kettle for signs of damage.",
+          "entry_id": "efac7"
+        }
+      ],
+      "end": null
+    },
+    "efac7": {
+      "entry_id": "efac7",
+      "content": "You run your hand over the kettle's surface. It's smooth and cool. A small scratch mars the base, almost invisible. You don't remember seeing that before. The kitchen light flickers briefly.\n\nImpatient, you check the power outlet. The kettle is plugged in. You try a different outlet, just in case. Still nothing. The kettle stubbornly refuses to heat.",
+      "choices": [
+        {
+          "content": "Check the kettle's plug and fuse. Is it the fuse?",
+          "entry_id": "e9272"
+        },
+        {
+          "content": "Plug in the toaster to test the outlet. See if it's a power issue.",
+          "entry_id": "e8940"
+        }
+      ],
+      "end": null
+    },
+    "e8940": {
+      "entry_id": "e8940",
+      "content": "You plug in the toaster. The coils glow red. The outlet works. The problem is the kettle, or something affecting it. \n\nThe kitchen light flickers again, more noticeably. A distant electrical buzz adds to the unease.",
+      "choices": [
+        {
+          "content": "Look around the kitchen. Has anything else changed?",
+          "entry_id": "flickering_frustration_entry_3c"
+        },
+        {
+          "content": "Listen carefully. Can you pinpoint the source of the electrical buzz?",
+          "entry_id": "e05cc"
+        },
+        {
+          "content": "Ignore the buzz and focus on the flickering light. What's causing it?",
+          "entry_id": "e3caf"
+        }
+      ],
+      "end": null
+    },
+    "e4314": {
+      "entry_id": "e4314",
+      "content": "Frozen pipes? In summer? The thought is absurd, yet here you are, watching a pathetic trickle emerge from the tap.\n\nYou try both the hot and cold taps, alternating quickly. The trickle remains, weak and insufficient. As the water dribbles into the pan, you notice something unsettling: a faint, grey tinge.",
+      "choices": [
+        {
+          "content": "Lean closer. Is the water really that grey?",
+          "entry_id": "e9ae9"
+        },
+        {
+          "content": "Cautiously sniff the water in the pan. Does it smell normal?",
+          "entry_id": "ea34d"
+        }
+      ],
+      "end": null
+    },
+    "eb838": {
+      "entry_id": "eb838",
+      "content": "You try to remember yesterday. Coffee. The news. You can't recall the water's colour. The tap dripped, as usual. But grey? You can't be sure.\n\nYou pull the cupboard door open. Cold air rushes out. It's sharp. Your breath clouds. The familiar bottles and cleaning sprays are gone. The space is dark and deep. It seems to stretch further back than it should.",
+      "choices": [
+        {
+          "content": "Reach into the dark space, needing water, despite the sudden chill.",
+          "entry_id": "cold_cupboard_entry_2b"
+        },
+        {
+          "content": "Gasp at the sudden chill.",
+          "entry_id": "cold_cupboard_entry_2a"
+        }
+      ],
+      "end": null
+    },
+    "e9e99": {
+      "entry_id": "e9e99",
+      "content": "Your fingers tingle. The cold bites. It's an electric shock. You want to shake your hand.\n\nYou stare into the cupboard. The darkness is complete. But there, deep inside, a glint of metal. Or is it a strange shape? It's wrong. This isn't a normal cupboard. The space is too deep. You step back. A shiver runs down your spine.",
+      "choices": [
+        {
+          "content": "Decide coffee isn't worth this strangeness. Leave the kitchen.",
+          "entry_id": "retreating_steps_entry_retreat_01"
+        },
+        {
+          "content": "Step back and listen. Is the kitchen quiet?",
+          "entry_id": "shifting_sounds_entry_1"
+        }
+      ],
+      "end": null
+    },
+    "efa0d": {
+      "entry_id": "efa0d",
+      "content": "Close the cupboard? Leave it open? Both feel wrong. The kitchen logic is broken.\n\nYou glance back into the darkness. Nothing. Just blackness. The kettle whispers from behind you. You think you see a glint in the darkness.",
+      "choices": [
+        {
+          "content": "What could be hiding in that impenetrable darkness?",
+          "entry_id": "ee673"
+        },
+        {
+          "content": "Feel the strange breeze drifting from the cupboard. Your nostrils tingle.",
+          "entry_id": "efec9"
+        }
+      ],
+      "end": null
+    },
+    "e0dec": {
+      "entry_id": "e0dec",
+      "content": "You grab your phone. The screen lights up, displaying the usual notifications. News headlines. Social media updates. You search for information about water maintenance. Nothing. No alerts. No warnings. The mystery deepens.\n\nYou look back at the tap. The grey water continues to trickle. The unnatural colour seems more pronounced against the steel sink. Is it really that grey? Or is it just your imagination? You glance towards the dark cupboard.",
+      "choices": [
+        {
+          "content": "Get a closer look. Sniff the water.",
+          "entry_id": "e3d6d"
+        },
+        {
+          "content": "Try to remember if the water looked normal yesterday and open the cupboard.",
+          "entry_id": "eb838"
+        }
+      ],
+      "end": null
+    },
+    "ecb19": {
+      "entry_id": "ecb19",
+      "content": "You scan the kitchen. Everything looks normal, just a little muted. The cold is strongest near the cupboard. It's definitely coming from there. The air shimmers near the opening.\n\nYou peer into the darkness. It takes a moment for your eyes to adjust. Something glints deep inside. A metallic flash. A strange angle. It doesn't belong. The space feels wrong. Too deep. Too cold. A void. You shiver and step back.",
+      "choices": [
+        {
+          "content": "Decide this coffee isn't worth it. Leave the kitchen.",
+          "entry_id": "retreating_steps_entry_retreat_01"
+        },
+        {
+          "content": "Step back and listen to the kitchen.",
+          "entry_id": "shifting_sounds_entry_1"
+        }
+      ],
+      "end": null
+    },
+    "e327e": {
+      "entry_id": "e327e",
+      "content": "You sigh. Coffee seems determined to elude you this morning. Tea is the obvious alternative, requiring only boiled water and a bag. Less fuss. A part of you, however, rebels. You want coffee. You *need* coffee. Another source of water, then. You must find one.\n\nYou glance back at the trickle from the tap. The grey tinge seems more pronounced now, like diluted ink swirling in the pan. Or is the grim colour simply a trick of the light? You glance towards the dark cupboard.",
+      "choices": [
+        {
+          "content": "Get a closer look and sniff the strange water.",
+          "entry_id": "e3d6d"
+        },
+        {
+          "content": "Strain your memory. Was the water this colour yesterday and open the cupboard?",
+          "entry_id": "eb838"
+        }
+      ],
+      "end": null
+    },
+    "efec9": {
+      "entry_id": "efec9",
+      "content": "A slight breeze drifts from the cupboard. There's no window open. No fan. It smells like metal. Your nostrils tingle. Something is wrong.\n\nYou abandon the coffee. The cold air is stronger. The glint of metal is more unsettling than interesting. You turn away from the cupboard. You listen to the kitchen.",
+      "choices": [
+        {
+          "content": "Listen for the kettle's whisper.",
+          "entry_id": "retreating_steps_entry_retreat_02b"
+        },
+        {
+          "content": "Give up on the kettle.",
+          "entry_id": "retreating_steps_entry_retreat_02a"
+        }
+      ],
+      "end": null
+    },
+    "eba59": {
+      "entry_id": "eba59",
+      "content": "You shiver. A wave of dread washes over you. The whispering from the kettle seems to seep into your head. A primal fear. The kitchen feels hostile.\n\nYou decide to leave. Your instincts scream at you to get away from the kitchen. The whispering. The cold. The impossible space in the cupboard. It's too much. You head for the doorway, hoping to find some sanity beyond.\n\nYou reach the doorway. It seems distorted. The frame isn't square. The edges blur. The exit itself is changing. It's not easily escaped.",
+      "choices": [
+        {
+          "content": "Go through the doorway, despite your fear.",
+          "entry_id": "e7105"
+        },
+        {
+          "content": "Look closely at the warped doorframe.",
+          "entry_id": "e0f0b"
+        }
+      ],
+      "end": null
+    },
+    "ece76": {
+      "entry_id": "ece76",
+      "content": "A whisper, thin as smoke, drifts from the kettle. It seems to plead, a half-formed sound. The desire to escape fights with a strange sense of duty. You ignore it. \n\nYou throw your weight against the warped doorway. It yields slightly, then resists. A thick, cloying pressure builds, like pushing through cold dough. You must get out.",
+      "choices": [
+        {
+          "content": "Try to conjure an image of the doorway as it was before all this.",
+          "entry_id": "e1c25"
+        },
+        {
+          "content": "Plant your feet and push, denying the kitchen's influence.",
+          "entry_id": "edc0a"
+        },
+        {
+          "content": "Note the shifting colours of the kitchen.",
+          "entry_id": "edcbf"
+        }
+      ],
+      "end": null
+    },
+    "e1c25": {
+      "entry_id": "e1c25",
+      "content": "The doorway's past eludes you. The image blurs. The kitchen resists being remembered. Unease settles in.\n\nYou throw your weight against the frame. The wood groans. The doorway strains against the warping, threatening to close. You brace yourself and push through.",
+      "choices": [
+        {
+          "content": "Consider if the hallway might also be unsafe.",
+          "entry_id": "eb5b1"
+        },
+        {
+          "content": "Risk a look at the hallway.",
+          "entry_id": "e1e6c"
+        },
+        {
+          "content": "Ignore the feeling of wrongness and push through.",
+          "entry_id": "eb005"
+        }
+      ],
+      "end": null
+    },
+    "e6911": {
+      "entry_id": "e6911",
+      "content": "You breathe deeply, preparing for the hallway. Foreboding mixes with resolve. You refuse to be trapped. You will leave the kitchen.\n\nYou throw your weight against the warped doorway. The resistance is strong, like pushing through jelly. It is a viscous, unwelcome pressure. Escape is the only option.",
+      "choices": [
+        {
+          "content": "Try to picture the doorway as it was before.",
+          "entry_id": "e1c25"
+        },
+        {
+          "content": "Refuse to let the kitchen win.",
+          "entry_id": "edc0a"
+        },
+        {
+          "content": "Note the shifting colours of the room.",
+          "entry_id": "edcbf"
+        }
+      ],
+      "end": null
+    },
+    "edc0a": {
+      "entry_id": "edc0a",
+      "content": "You clench your fists. Defiance surges. The kitchen will not win. You will not be trapped in this nightmare. The doorway will yield.\n\nYou throw your weight against the frame. The wood groans. The warping intensifies, threatening to seal the doorway. You brace yourself and push through.",
+      "choices": [
+        {
+          "content": "Wonder if the hallway is also affected.",
+          "entry_id": "eb5b1"
+        },
+        {
+          "content": "Look into the hallway.",
+          "entry_id": "e1e6c"
+        },
+        {
+          "content": "Ignore the feeling of wrongness. Push through.",
+          "entry_id": "eb005"
+        }
+      ],
+      "end": null
+    },
+    "edcbf": {
+      "entry_id": "edcbf",
+      "content": "The yellow of the cabinets deepens, shifting towards ochre. The stainless steel sink gleams with a sickly, green tinge. Even your own hands seem to have taken on a greyish pallor.\n\nYou push against the warped frame. The wood groans. It is a solid, unyielding pressure. The doorway strains against your effort. You brace yourself and push through.",
+      "choices": [
+        {
+          "content": "Wonder if the hallway is also changing.",
+          "entry_id": "eb5b1"
+        },
+        {
+          "content": "Look at the hallway.",
+          "entry_id": "e1e6c"
+        },
+        {
+          "content": "Ignore the feeling of wrongness. Push through.",
+          "entry_id": "eb005"
+        }
+      ],
+      "end": null
+    },
+    "eb005": {
+      "entry_id": "eb005",
+      "content": "A jolt of pain shoots behind your eyes. The pressure is intense. Your vision swims with black spots, but you refuse to stop.\n\nYou are halfway through the doorway. The air feels thick, heavy. The kitchen clings to you, a cold, damp presence. The hallway seems distant, unreachable. The distorted frame grinds against your shoulders. The hallway light flickers.",
+      "choices": [
+        {
+          "content": "Close your eyes.",
+          "entry_id": "escape_kitchen_entry_choice_0b"
+        },
+        {
+          "content": "Focus on the hallway's light.",
+          "entry_id": "escape_kitchen_entry_choice_0c"
+        },
+        {
+          "content": "Reach out for support.",
+          "entry_id": "escape_kitchen_entry_choice_0a"
+        }
+      ],
+      "end": null
+    },
+    "ef9e0": {
+      "entry_id": "ef9e0",
+      "content": "You look out of the window. The street is still. Trees stand motionless. No one passes by. Inside, the silence persists. A new sound begins: faint clicks. Rhythmic, but uneven.\n\nThe clicks are irregular. Unsettling. They are a counterpoint to the silence.",
+      "choices": [
+        {
+          "content": "Place a hand on the kettle. Feel for anything.",
+          "entry_id": "shifting_sounds_entry_2c"
+        },
+        {
+          "content": "Consider the possibility that the clicking is just the need for coffee.",
+          "entry_id": "shifting_sounds_entry_2b"
+        },
+        {
+          "content": "Try to find the origin of the clicking sound.",
+          "entry_id": "shifting_sounds_entry_2a"
+        }
+      ],
+      "end": null
+    },
+    "e1a59": {
+      "entry_id": "e1a59",
+      "content": "A vibration. Faint. Through the kettle. Real, or imagined? The clicking continues. \n\nThe kitchen clock ticks. Slower than normal? Erratic. Seconds stretch, then shrink. Time feels unstable. Unease fills the room. The kitchen feels smaller. You look at the kettle. Return to it, hoping for an explanation.",
+      "choices": [
+        {
+          "content": "Try to ignore the sounds. Calm down.",
+          "entry_id": "efd02"
+        },
+        {
+          "content": "Glance at the unreliable clock again.",
+          "entry_id": "eb6f5"
+        }
+      ],
+      "end": null
+    },
+    "e6a65": {
+      "entry_id": "e6a65",
+      "content": "Check the outlets again? You already did. Maybe the power fluctuates. Affecting the kettle. Affecting the kitchen. A desperate thought.\n\nYou put your ear to the kettle. A hum. And something else. A faint whisper. Subliminal. Indistinct. Background noise. But present. The kettle vibrates. A low tremor in your bones. The source.",
+      "choices": [
+        {
+          "content": "Check the kettle.",
+          "entry_id": "eb75d"
+        },
+        {
+          "content": "Try to understand the whispers.",
+          "entry_id": "e4072"
+        },
+        {
+          "content": "Touch the kettle. What do you feel?",
+          "entry_id": "ea050"
+        }
+      ],
+      "end": null
+    },
+    "e75ea": {
+      "entry_id": "e75ea",
+      "content": "You try to picture the cupboard's usual contents. Bleach. Sponges. A stack of bottled water. The image wavers, indistinct. It's like trying to recall a dream. Something isn't right.\n\nA faint clicking begins. It's slow, rhythmic. The clicking persists, irregular and unsettling. It's a counterpoint to the silence.",
+      "choices": [
+        {
+          "content": "Lay a hand on the kettle. Feel for any sign of life.",
+          "entry_id": "shifting_sounds_entry_2c"
+        },
+        {
+          "content": "Wonder if the clicking is just the need for coffee.",
+          "entry_id": "shifting_sounds_entry_2b"
+        },
+        {
+          "content": "Try to pinpoint the source of the clicking. Scan the room.",
+          "entry_id": "shifting_sounds_entry_2a"
+        }
+      ],
+      "end": null
+    },
+    "e5536": {
+      "entry_id": "e5536",
+      "content": "You shake your head. The clicking persists. It's a constant pulse. Something is wrong.\n\nThe kitchen clock ticks. It slows. Then speeds up. The rhythm is broken. Seconds stretch, then contract. Time feels unstable here. The clock's hands jitter, then stop for a moment, before continuing their broken routine.\n\nYou stand in the kitchen, listening to the clicking from the walls and the erratic clock. The air feels heavy. The kitchen feels subtly smaller. You focus on the kettle. It started with the kettle.",
+      "choices": [
+        {
+          "content": "Try to ignore the sounds. Take a slow, deep breath.",
+          "entry_id": "efd02"
+        },
+        {
+          "content": "Look at the kitchen clock again. Check the time.",
+          "entry_id": "eb6f5"
+        }
+      ],
+      "end": null
+    },
+    "ea050": {
+      "entry_id": "ea050",
+      "content": "You touch the kettle. Cool metal against your fingertips. A tremor runs through it. More intense than expected. The vibration travels up your arm. A tingling sensation. The clicking in the walls seems to amplify. The kitchen's unsettling energy increases.\n\nThe whispering sound is constant, a background hum that is both intriguing and disturbing.",
+      "choices": [
+        {
+          "content": "Lift the lid and peer inside the kettle.",
+          "entry_id": "kettles_truth_entry_1"
+        },
+        {
+          "content": "Give up on making coffee. Order takeout instead.",
+          "entry_id": "order_takeout_entry_takeout_01"
+        }
+      ],
+      "end": null
+    },
+    "e72b4": {
+      "entry_id": "e72b4",
+      "content": "You focus on the clock. The hands spin. A blur of motion. Then, abrupt stillness. They stop at a nonsensical time. Disorientation hits you. The world tilts. Briefly.\n\nYou look back at the kettle. The whispering intensifies. Unintelligible voices swirl. The kitchen warps. The grey tinge of the tap water seems almost black now. You remember seeing coffee grounds in the cupboard earlier.",
+      "choices": [
+        {
+          "content": "Focus on the whispers and try to understand them.",
+          "entry_id": "kettles_truth_entry_2a"
+        },
+        {
+          "content": "Check the kettle's power cord, it might be causing these strange events.",
+          "entry_id": "kettles_truth_entry_2c"
+        },
+        {
+          "content": "Step back from the kettle.",
+          "entry_id": "kettles_truth_entry_2b"
+        }
+      ],
+      "end": null
+    },
+    "e5658": {
+      "entry_id": "e5658",
+      "content": "You look away. The clock. The second hand jerks. Slides back. More. Time rewinds. Just in here.\n\nYou grab your phone. The outside. Untouched? The screen is cold. You open the app. Local cafe. Black coffee. Please arrive.",
+      "choices": [
+        {
+          "content": "Skip the pastry. Too sweet.",
+          "entry_id": "order_takeout_entry_takeout_02c"
+        },
+        {
+          "content": "Try to describe the kitchen's state. If they ask.",
+          "entry_id": "order_takeout_entry_takeout_02b"
+        },
+        {
+          "content": "Tap 'Place Order' despite the screen's sudden brightness.",
+          "entry_id": "order_takeout_entry_takeout_02a"
+        }
+      ],
+      "end": null
+    },
+    "ed3b1": {
+      "entry_id": "ed3b1",
+      "content": "You check the front door. Unlocked. You want this to be quick. In and out. Minimize contact. Keep *it* contained.\n\nYou put your phone down. Wait. The kettle whispers. A low, constant drone. You picture the coffee. Hot. Normal. A way out. Maybe.\n\nA car stops outside. Footsteps approach the door. A knock.",
+      "choices": [
+        {
+          "content": "Glance at the kitchen clock again. Is time moving slower?",
+          "entry_id": "normal_coffee_entry_check_clock"
+        },
+        {
+          "content": "Look through the kitchen window. See what's outside.",
+          "entry_id": "normal_coffee_entry_peer_out_window"
+        }
+      ],
+      "end": null
+    },
+    "e393e": {
+      "entry_id": "e393e",
+      "content": "Across the street, your neighbor waves. Watering their petunias. Smiling. Oblivious. Should you wave back?\n\nBack inside, the delivery person stands on the porch. Coffee in a cardboard holder. Untouched. Normal. They smile. \"Morning.\"",
+      "choices": [
+        {
+          "content": "Examine the paper coffee cup closely. Something seems wrong.",
+          "entry_id": "normal_coffee_entry_examine_cup"
+        },
+        {
+          "content": "Make small talk.",
+          "entry_id": "normal_coffee_entry_small_talk"
+        },
+        {
+          "content": "Notice the headlines on the abandoned newspaper.",
+          "entry_id": "normal_coffee_entry_notice_newspaper"
+        }
+      ],
+      "end": null
+    },
+    "ed3e2": {
+      "entry_id": "ed3e2",
+      "content": "Loneliness washes over you. When did you last see someone? This kitchen feels cut off. A bubble. You try to remember a conversation. A face. Memories are hazy. You grab your phone. You hope the outside world is normal. Fingers tremble. You open the app. You order coffee. The hope is a simple cup can break this. A surreal nightmare.",
+      "choices": [
+        {
+          "content": "Skip the pastry.",
+          "entry_id": "order_takeout_entry_takeout_02c"
+        },
+        {
+          "content": "Try to describe the weirdness. To the cafe.",
+          "entry_id": "order_takeout_entry_takeout_02b"
+        },
+        {
+          "content": "Tap 'Place Order' despite the phone's flicker.",
+          "entry_id": "order_takeout_entry_takeout_02a"
+        }
+      ],
+      "end": null
+    },
+    "eabb4": {
+      "entry_id": "eabb4",
+      "content": "Another cafe? It might be worse. New weirdness. Unpredictable. You dismiss it. The order is placed. You put down the phone. A knot in your stomach. You hope the coffee comes soon. A moment of normal. Silence. The kettle whispers. You wait. A taste of the outside. A car pulls up.",
+      "choices": [
+        {
+          "content": "Check the kitchen clock. Again. Time?",
+          "entry_id": "normal_coffee_entry_check_clock"
+        },
+        {
+          "content": "Peer through the window. At the street.",
+          "entry_id": "normal_coffee_entry_peer_out_window"
+        }
+      ],
+      "end": null
+    },
+    "efce1": {
+      "entry_id": "efce1",
+      "content": "Steam rises. The smell of coffee. Normal. Comforting. You pay. You take the cup. You cradle it. Like something fragile. From another world. You stand in the kitchen. Normal coffee. Maybe one thing is. You stand. Steam curls. The kitchen hums. Low. Almost nothing. The kettle whirs quietly. You will take a sip. You hope for respite.",
+      "choices": [
+        {
+          "content": "Study the clock's ticking. Still erratic.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1b"
+        },
+        {
+          "content": "Ignore the strangeness. Focus on the coffee.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1a"
+        }
+      ],
+      "end": null
+    },
+    "e4515": {
+      "entry_id": "e4515",
+      "content": "You inhale deeply. The rich, dark aroma of the takeout coffee fills your lungs. A momentary distraction from the creeping unease. A fragile, fleeting sense of control. You take a small sip. The taste is familiar, reassuring. A dark roast with a hint of chocolate. It's surprisingly normal. A comforting counterpoint to the strangeness seeping into your kitchen.",
+      "choices": [
+        {
+          "content": "Open your eyes. Survey the warped kitchen.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_2a"
+        },
+        {
+          "content": "Consider calling a repair person. For... all the strangeness in the kitchen?",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_2b"
+        }
+      ],
+      "end": null
+    },
+    "e71ff": {
+      "entry_id": "e71ff",
+      "content": "Has anyone else felt this? A kitchen subtly twisting? Unlikely. It's isolating. But also strangely compelling. The warmth of the coffee spreads through you, a welcome distraction. For a moment, the faint clicking from the kettle and the dim, greyish light recede. Replaced by the simple pleasure of the warm cup in your hands. The kitchen, however, remains subtly altered. The humming of the refrigerator seems louder, more insistent.",
+      "choices": [
+        {
+          "content": "Ignore the shimmering haze around the kettle. Dangerous to look too closely.",
+          "entry_id": "ed607"
+        },
+        {
+          "content": "Ignore the kitchen clock ticking backwards. Some things are better left unseen.",
+          "entry_id": "e2726"
+        }
+      ],
+      "end": null
+    },
+    "ea416": {
+      "entry_id": "ea416",
+      "content": "You close your eyes. Focus on the coffee's aroma. Rich, dark, and slightly nutty. It helps to drown out the almost imperceptible whispering. Each sip brings a wave of calm. The kitchen might be descending into some bizarre state, but the coffee is undeniably normal. A small anchor in a sea of strangeness. You accept the weirdness as background noise, concentrating on the coffee's warmth. You take another sip.",
+      "choices": [
+        {
+          "content": "Imagine a normal morning. Before...",
+          "entry_id": "e044e"
+        },
+        {
+          "content": "Open your eyes, sigh. The strangeness remains.",
+          "entry_id": "ignore_strangeness_entry_ignore_end_choice_3"
+        },
+        {
+          "content": "Close your eyes. Savor the coffee's comforting warmth.",
+          "entry_id": "e7375"
+        }
+      ],
+      "end": null
+    },
+    "ec8be": {
+      "entry_id": "ec8be",
+      "content": "A chill prickles your skin. The clock's oddness linked to the kettle? The thought clings. You glance at the kettle. A tremor runs through its surface. A faint whisper, almost there. You look away. The coffee steams. Normalcy beckons.",
+      "choices": [
+        {
+          "content": "Close your eyes. Feel the cup's warmth.",
+          "entry_id": "e6770"
+        },
+        {
+          "content": "Deep breath. Steady yourself and enjoy the coffee.",
+          "entry_id": "e4515"
+        }
+      ],
+      "end": null
+    },
+    "ef016": {
+      "entry_id": "ef016",
+      "content": "Ignore it all. Just the coffee. A temporary fix. The warmth spreads. Relief washes over you. The clicking fades. The light, less grey. A warm drink. That's all.",
+      "choices": [
+        {
+          "content": "Ignore the kettle's shimmer.",
+          "entry_id": "ed607"
+        },
+        {
+          "content": "Clock ticking backwards. Ignore it.",
+          "entry_id": "e2726"
+        }
+      ],
+      "end": null
+    },
+    "ee693": {
+      "entry_id": "ee693",
+      "content": "A memory. Beach. Sun. Laughter. Anything but this kitchen. Each sip brings calm. The coffee's normal. Enough. You accept the weirdness. Background noise. You take another sip.",
+      "choices": [
+        {
+          "content": "Normal routine. Think of one.",
+          "entry_id": "e044e"
+        },
+        {
+          "content": "Open eyes. Sigh.",
+          "entry_id": "ignore_strangeness_entry_ignore_end_choice_3"
+        },
+        {
+          "content": "Close eyes. Savor the coffee.",
+          "entry_id": "e7375"
+        }
+      ],
+      "end": null
+    },
+    "e6b49": {
+      "entry_id": "e6b49",
+      "content": "You stare at the clock. Its ticking is off. Irregular. The numbers seem wrong. The '3' leans too far to the right. The '7' curls back on itself. It's a subtle shift. You look away, then back. Still wrong. You turn to the kettle. The whispering is louder now. A constant drone. You glance at the tap. The grey water looks darker. Almost black. You remember seeing coffee grounds in the cupboard earlier.",
+      "choices": [
+        {
+          "content": "Listen to the kettle's whispers.",
+          "entry_id": "kettles_truth_entry_2a"
+        },
+        {
+          "content": "Check the kettle's power cord, maybe it's faulty.",
+          "entry_id": "kettles_truth_entry_2c"
+        },
+        {
+          "content": "Step back from the kettle.",
+          "entry_id": "kettles_truth_entry_2b"
+        }
+      ],
+      "end": null
+    },
+    "e6983": {
+      "entry_id": "e6983",
+      "content": "You focus. The whispers become a pressure. A weight in your head. They push. They pry. A sharp pain behind your eyes. Then images flood your mind. A kaleidoscope of shapes. Jagged angles. Impossible buildings. Faces flicker. Familiar, yet alien. The whispers turn to voices. A language unknown. The kettle is more than broken. It's a doorway. A fractured reality. The kettle hums. The kitchen waits.",
+      "choices": [
+        {
+          "content": "Search your dreams for clues.",
+          "entry_id": "eefe7"
+        },
+        {
+          "content": "Read the newspaper.",
+          "entry_id": "e8393"
+        }
+      ],
+      "end": null
+    },
+    "e19ee": {
+      "entry_id": "e19ee",
+      "content": "The grey water hangs in the tap's mouth. A disturbing question forms. Is it drinkable? The need for coffee wars with instinct. You feel a wave of nausea. You peer back into the kettle. The whispering rises. Unintelligible voices swirl. The kitchen warps. The grey of the tap water now seems almost black. You remember seeing coffee grounds in the cupboard earlier.",
+      "choices": [
+        {
+          "content": "Listen intently to the kettle's whispers.",
+          "entry_id": "kettles_truth_entry_2a"
+        },
+        {
+          "content": "Check the kettle's power cord for damage; maybe the electricity supply is the issue.",
+          "entry_id": "kettles_truth_entry_2c"
+        },
+        {
+          "content": "Step back.",
+          "entry_id": "kettles_truth_entry_2b"
+        }
+      ],
+      "end": null
+    },
+    "e943b": {
+      "entry_id": "e943b",
+      "content": "You touch the kettle's plug. It's warm, almost hot. The kettle isn't on. A tingle runs up your arm. Something is wrong. The whispering crescendos. Distorted images flash. Impossible shapes. Shifting landscapes. Familiar, alien faces. Voices echo, unintelligible. The kettle isn't broken. It's a nexus. A fracture.",
+      "choices": [
+        {
+          "content": "Search your dreams for clues.",
+          "entry_id": "eefe7"
+        },
+        {
+          "content": "Examine the newspaper for answers.",
+          "entry_id": "e8393"
+        }
+      ],
+      "end": null
+    },
+    "ea34d": {
+      "entry_id": "ea34d",
+      "content": "You bring the trickle of water closer, inhaling gently. It smells of nothing. Or perhaps a faint metallic tang, like licking a battery. It's unsettling. The grey water barely covers the bottom of the pan. The kettle sits on the counter, silent and inert.\n\nThe trickle continues. Maybe the pipes are blocked, or the water company is working on the mains. A creeping unease settles in. You need water. You usually keep bottled water in the cupboard under the sink.",
+      "choices": [
+        {
+          "content": "Consider calling the water company to check for maintenance.",
+          "entry_id": "cold_cupboard_entry_1b"
+        },
+        {
+          "content": "Stare at the grey water again, trying to understand what's wrong.",
+          "entry_id": "cold_cupboard_entry_1a"
+        }
+      ],
+      "end": null
+    },
+    "e9568": {
+      "entry_id": "e9568",
+      "content": "You glance at the power outlets. They look normal. Two dark holes in the wall. The kettle sits, inert. It's not the power. It's something else. \n\nA wave of unease washes over you. You want to leave. Now. The whispering from the kettle is louder. The cold from the cupboard is closer. This kitchen is wrong.\n\nYou turn toward the doorway. It seems different. The edges blur. The frame is not square. The exit is changing.",
+      "choices": [
+        {
+          "content": "Go through the doorway, despite your fear.",
+          "entry_id": "e7105"
+        },
+        {
+          "content": "Examine the warped doorframe.",
+          "entry_id": "e0f0b"
+        }
+      ],
+      "end": null
+    },
+    "eb190": {
+      "entry_id": "eb190",
+      "content": "Turning back feels impossible. A deep dread settles in your stomach. The kitchen wants you to stay. The thought is unwelcome. You need to get out. \n\nThe doorway wavers. The wood grain twists. It's like looking through water. The hallway beyond is a muted, distant dream. You want to escape. You need to escape. \n\nYou stand before the doorway. Hesitation lingers. Leaving is the only option.",
+      "choices": [
+        {
+          "content": "Study the warped wood.",
+          "entry_id": "e3609"
+        },
+        {
+          "content": "Listen for whispers, then throw your weight against the door.",
+          "entry_id": "ece76"
+        },
+        {
+          "content": "Throw your weight against the door.",
+          "entry_id": "e6911"
+        }
+      ],
+      "end": null
+    },
+    "ea051": {
+      "entry_id": "ea051",
+      "content": "You ease the fridge forward. A tight space. Dust motes swirl in the weak light. Cobwebs cling to the back. Nothing clicks here. Just the hum of the motor, louder now it's been moved. The sound persists.\n\nYou glance at the kitchen clock. Analogue. Black hands on a white face. The ticking is uneven. A pause, then two quick ticks. Another pause. Time falters. The kettle sits silent on the counter, a low hum emanating from it. Its chrome surface reflects the distorted ticking. The kitchen feels subtly smaller.",
+      "choices": [
+        {
+          "content": "Try to ignore the sounds. Focus.",
+          "entry_id": "efd02"
+        },
+        {
+          "content": "Look at the kitchen clock again. Check the time.",
+          "entry_id": "eb6f5"
+        }
+      ],
+      "end": null
+    },
+    "e8fe1": {
+      "entry_id": "e8fe1",
+      "content": "You think about doubling the espresso. A jolt to cut through the unease. But your pulse is already thrumming. Regular coffee it is. Hope it's enough.\n\nYou set the phone down. Wait. Your stomach tightens. The coffee should be here. A moment of normal. A break from the kitchen. The kettle whispers. Constant. Low. You wait for the delivery.\n\nA car stops outside.",
+      "choices": [
+        {
+          "content": "Check the clock again. Is time still warped?",
+          "entry_id": "normal_coffee_entry_check_clock"
+        },
+        {
+          "content": "Look through the window. See if the street looks normal.",
+          "entry_id": "normal_coffee_entry_peer_out_window"
+        }
+      ],
+      "end": null
+    },
+    "e3696": {
+      "entry_id": "e3696",
+      "content": "You press the lid. Firmly. A click. Secure. Something solid in all this. You pay for the coffee. Take the cup. Hold it carefully. Like it's precious.\n\nYou stand in the kitchen. Coffee in hand. Steam rises. The kitchen hums. A low thrum. The kettle clicks and groans. You lift the cup. Take a sip. Hoping for a moment of peace.",
+      "choices": [
+        {
+          "content": "Glance at the clock. Is it still showing erratic ticks?",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1b"
+        },
+        {
+          "content": "Focus on the coffee. Ignore the strangeness.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1a"
+        }
+      ],
+      "end": null
+    },
+    "edbd1": {
+      "entry_id": "edbd1",
+      "content": "Eager to shut out the normality of the outside world, you complete the transaction quickly. The delivery person barely has time to register before you've paid and closed the door. The coffee cup feels warm in your hands, a small island of order in the kitchen's growing chaos. Steam rises, carrying the faint, familiar scent. The kettle behind you begins to whisper.",
+      "choices": [
+        {
+          "content": "Listen to the clock's stuttering rhythm.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1b"
+        },
+        {
+          "content": "Savour the coffee's aroma, ignoring everything else.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1a"
+        }
+      ],
+      "end": null
+    },
+    "e036d": {
+      "entry_id": "e036d",
+      "content": "You stare at the newspaper again. The date: Tuesday the 14th. Yesterday. Impossible. The ink is sharp, the paper crisp. No trick of the light here. The kitchen is mocking you. Or worse.\n\nYou pay the delivery person and turn, cradling the coffee. The cardboard feels strangely solid, reassuring. You stand in the kitchen, holding a normal cup of takeout coffee. Steam rises, a familiar scent in the distorted air.\n\nThe steam curls from the lid. The kitchen light flickers. A low hum vibrates through the floor. The kettle behind you begins to whisper. You're poised to sip, hoping for a moment of sanity.",
+      "choices": [
+        {
+          "content": "Listen to the off-kilter ticking of the kitchen clock.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1b"
+        },
+        {
+          "content": "Ignore everything and taste the coffee.",
+          "entry_id": "peaceful_sip_entry_peaceful_sip_1a"
+        }
+      ],
+      "end": null
+    },
+    "e5448": {
+      "entry_id": "e5448",
+      "content": "The kettle's curved surface throws back an image of the kitchen. But something is wrong. The countertop seems longer. The cabinets are a shade darker. Your own face is gaunt, unfamiliar. A shiver runs down your spine.\n\nThe whispering swells. A cacophony of voices. Too many to count. The air vibrates. Images flash behind your eyelids. Jagged angles. Impossible architecture. Faces swirl, some human, some not. You feel a presence. Cold. Vast. The kettle hums.\n\nThe world tips. You understand. The kettle is more than broken. It's a doorway. The kitchen is changing. You can't make coffee the normal way. Not anymore.",
+      "choices": [
+        {
+          "content": "Try to recall if you saw anything strange in the newspaper.",
+          "entry_id": "e8393"
+        },
+        {
+          "content": "Focus on a childhood memory to help you find your bearings.",
+          "entry_id": "eefe7"
+        }
+      ],
+      "end": null
+    },
+    "e3609": {
+      "entry_id": "e3609",
+      "content": "You study the doorway. The warping isn't static. It pulses, a slow, rhythmic distortion like the rise and fall of a breath. The hallway light beyond flickers, casting fractured shadows that dance on the kitchen wall. The wood grain swirls into crude, engraved symbols.\n\nYou throw your weight against the warped frame. A strange resistance meets you. Not a solid barrier, but something viscous, like pushing your hand through cold honey. Escape is still the only option.",
+      "choices": [
+        {
+          "content": "Try to picture the doorway as it was before.",
+          "entry_id": "e1c25"
+        },
+        {
+          "content": "Dig your heels in, refusing to be defeated by this place.",
+          "entry_id": "edc0a"
+        },
+        {
+          "content": "Note the changing colours of the familiar kitchen.",
+          "entry_id": "edcbf"
+        }
+      ],
+      "end": null
+    },
+    "eb5b1": {
+      "entry_id": "eb5b1",
+      "content": "A cold thought grips you. What if the hallway isn't safe either? What if the strangeness has already seeped beyond the kitchen? A knot of doubt tightens in your stomach. \n\nYou're halfway through the doorway, caught between two realities. The kitchen's distorted space clings to you, but the hallway offers a glimpse of normalcy. The warped frame presses against you, a tangible resistance to your escape. The hallway light flickers dimly, promising a reality that might not exist anymore.",
+      "choices": [
+        {
+          "content": "Shut your eyes.",
+          "entry_id": "escape_kitchen_entry_choice_0b"
+        },
+        {
+          "content": "Focus on a familiar object in the hallway.",
+          "entry_id": "escape_kitchen_entry_choice_0c"
+        },
+        {
+          "content": "Grip the warped doorframe to keep your balance.",
+          "entry_id": "escape_kitchen_entry_choice_0a"
+        }
+      ],
+      "end": null
+    },
+    "eb75d": {
+      "entry_id": "eb75d",
+      "content": "The kettle's switch is off. You flick it anyway. Nothing. The kettle is cold. Pointless. You knew this. But a sliver of hope. Perhaps the switch was the problem. It isn't. The whispering persists. A low hum vibrates through the countertop. \n\nThe sound is coming from the kettle. The surface is smooth and cool. You listen. The whispers are faint, like voices just beyond hearing. They are insistent. The air around the kettle shimmers.",
+      "choices": [
+        {
+          "content": "Lift the lid and lean in. Try to see what's causing the shimmer.",
+          "entry_id": "kettles_truth_entry_1"
+        },
+        {
+          "content": "Give up. Order takeout coffee instead.",
+          "entry_id": "order_takeout_entry_takeout_01"
+        }
+      ],
+      "end": null
+    },
+    "e7375": {
+      "entry_id": "e7375",
+      "content": "You close your eyes. The coffee is hot, strong, and real. The kitchen fades. The clicking, the grey light, the whispers from the kettle \u2013 all distant now. Just the taste of the coffee. A small space of normal. It's enough.",
+      "choices": [],
+      "end": "win"
+    },
+    "eefe7": {
+      "entry_id": "eefe7",
+      "content": "Dreams slip away. Fragments remain. A distorted face. A shifting room. No answers here. You open the grey tap. A slow trickle. It fills the cup. The coffee jar, empty moments ago, now holds grounds. Dark, oily. (First Time Encounter: Coffee Grounds) An urge takes you. Unexplained. You consider the cold cupboard under the sink.",
+      "choices": [
+        {
+          "content": "Order takeout coffee.",
+          "entry_id": "e4fda"
+        },
+        {
+          "content": "Ignore the clock and try to make coffee anyway.",
+          "entry_id": "e4ed6"
+        },
+        {
+          "content": "Consider tasting the grey water.",
+          "entry_id": "e4ee5"
+        }
+      ],
+      "end": null
+    },
+    "e1e6c": {
+      "entry_id": "e1e6c",
+      "content": "A glimpse of the hallway. A figure stands there, familiar yet distorted. It's a face you know, stretched and blurred like a reflection in disturbed water. Recognition flickers, then fades, leaving a chill of uncertainty. \n\nYou're halfway through the doorway. The kitchen's strange pull fights the ordinary light of the hall. The doorframe presses against you, a solid resistance. The linoleum pattern of the hallway floor seems almost impossibly normal. Escape is close, but the kitchen isn't letting go.",
+      "choices": [
+        {
+          "content": "Shut your eyes tight.",
+          "entry_id": "escape_kitchen_entry_choice_0b"
+        },
+        {
+          "content": "Focus on the unchanging pattern of the hallway floor.",
+          "entry_id": "escape_kitchen_entry_choice_0c"
+        },
+        {
+          "content": "Grip the warped doorframe, seeking stability.",
+          "entry_id": "escape_kitchen_entry_choice_0a"
+        }
+      ],
+      "end": null
+    },
+    "cold_cupboard_entry_2a": {
+      "entry_id": "cold_cupboard_entry_2a",
+      "content": "You shiver. The cold bites. It radiates from the open cupboard. Your breath plumes in front of you. Goosebumps prickle your skin. The air itself seems to crackle with an unseen energy. You want to close the door, but something keeps you rooted to the spot.",
+      "choices": [
+        {
+          "content": "Rub your arms for warmth.",
+          "entry_id": "e03c5"
+        },
+        {
+          "content": "Scan the kitchen for the source of the cold.",
+          "entry_id": "ecb19"
+        }
+      ],
+      "end": null
+    },
+    "e4ee5": {
+      "entry_id": "e4ee5",
+      "content": "The grey water. You hesitate. A metallic tang hangs in the air. You resist the urge to taste it. The coffee grounds sit damp in the cold cupboard. You retrieve them. They feel slick. The kettle waits. (Recurring Encounter: Kettle) You pour in the grey water. (Recurring Encounter: Grey Water) The kettle is cool to the touch. An alien coolness. You place your hand on the metal. The water inside begins to stir. Not from the element. A resonance. (Recurring Encounter: Reality Anomaly) A faint tingling begins in your hand. ",
+      "choices": [
+        {
+          "content": "Think about opening the kitchen window.",
+          "entry_id": "edd3c"
+        },
+        {
+          "content": "Focus on the tingling in your hand.",
+          "entry_id": "e97f1"
+        },
+        {
+          "content": "Listen for the scratching sound.",
+          "entry_id": "strange_brew_entry_strange_brew_3c"
+        }
+      ],
+      "end": null
+    },
+    "e4fda": {
+      "entry_id": "e4fda",
+      "content": "Takeout coffee. The idea surfaces, then sinks. A surrender. You won't give in. \n\nYou retrieve the coffee grounds. They're cold, damp. A chill emanates from them. You pour the grey water into the kettle. (Recurring Encounter: Grey Water) The metal feels cool to the touch. A faint tingling sensation begins in your hand. The water inside warms slowly. Not from the element. As if by touch.",
+      "choices": [
+        {
+          "content": "Think about looking out the window for an escape.",
+          "entry_id": "edd3c"
+        },
+        {
+          "content": "Feel the tingling more closely.",
+          "entry_id": "e97f1"
+        },
+        {
+          "content": "Listen for that scratching sound.",
+          "entry_id": "strange_brew_entry_strange_brew_3c"
+        }
+      ],
+      "end": null
+    },
+    "e4ed6": {
+      "entry_id": "e4ed6",
+      "content": "The kitchen clock's hands whirl backwards. A dizzying sight. You force yourself to ignore it. Focus on the coffee. The coffee grounds, retrieved from the cupboard, are damp. They emit a faint, cold air. You pour grey water (Recurring Encounter: Grey Water) from the tap into the kettle (Recurring Encounter: Kettle). A sense of wrongness. You place your hand on the kettle. The metal is cool. Yet, the water inside warms. Not from the element. A sympathetic heat. A strange resonance. Reality Anomaly (Recurring Encounter: Reality Anomaly).",
+      "choices": [
+        {
+          "content": "Think about opening the window, hoping for fresh air.",
+          "entry_id": "edd3c"
+        },
+        {
+          "content": "Try to understand the tingling sensation.",
+          "entry_id": "e97f1"
+        },
+        {
+          "content": "Strain to hear the scratching sound.",
+          "entry_id": "strange_brew_entry_strange_brew_3c"
+        }
+      ],
+      "end": null
+    },
+    "eacab": {
+      "entry_id": "eacab",
+      "content": "You follow the kettle's white cord to the wall. Where the plug meets the socket, the wall shimmers. A ripple, like heat rising from asphalt. You blink. Did you imagine that? The whispering rises, a chorus of voices too fast to understand. Then, a jolt. Images flash behind your eyes. Geometries that shouldn't exist. Landscapes that shift and melt. Faces both familiar and alien, all at once. The voices intensify, speaking in a language unknown to you, yet somehow understood. In that moment, you know. The kettle isn't just broken. It's a doorway. A nexus point where reality frays.",
+      "choices": [
+        {
+          "content": "Search your memory; maybe a dream holds a clue to this strangeness.",
+          "entry_id": "eefe7"
+        },
+        {
+          "content": "Check the newspaper for any sign of the changes.",
+          "entry_id": "e8393"
+        }
+      ],
+      "end": null
+    },
+    "e19d1": {
+      "entry_id": "e19d1",
+      "content": "You reach into your pocket. Your fingers brush against something cool and smooth. It's your phone. A familiar rectangle in your hand. The screen is dark. You take a step back from the kitchen doorway. Then another. The hallway carpet feels normal under your feet. The air is still. No whispers. The feeling of wrongness fades with each step.",
+      "choices": [],
+      "end": "win"
+    }
+  },
+  "title": "The Kettle",
+  "description": "A simple morning routine turns into an escalating series of frustrations.",
+  "date": "2025-03-10",
+  "order": 999,
+  "tags": [
+    "gemini/gemini-2.0-flash",
+    "mundane",
+    "frustration",
+    "absurd"
+  ],
+  "layout": "layouts/game.njk",
+  "prompt": "N/A"
+}

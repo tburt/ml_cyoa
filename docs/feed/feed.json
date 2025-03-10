@@ -10,6 +10,12 @@
     "url": "https://theoburt.com"
   },
   "items": [{
+      "id": "https://example.com/ml_cyoa/games/the_kettle_9c25/",
+      "url": "https://example.com/ml_cyoa/games/the_kettle_9c25/",
+      "title": "The Kettle",
+      "content_html": "",
+      "date_published": "2025-03-10T00:00:00Z"
+    },{
       "id": "https://example.com/ml_cyoa/games/the_spreadsheet_d541/",
       "url": "https://example.com/ml_cyoa/games/the_spreadsheet_d541/",
       "title": "Monday Morning",
