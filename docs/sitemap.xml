@@ -242,6 +242,26 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/tags/dreams/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/memory/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/1980s/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/bockton/</loc>
+    <lastmod>2025-02-25</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/games/flying_home_0fff/</loc>
     <lastmod>2025-02-26</lastmod>
   </url>
@@ -283,6 +303,11 @@
   
   <url>
     <loc>https://example.com/ml_cyoa/games/richie_retrieval_0714/</loc>
+    <lastmod>2025-03-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/under_bockton_bd49/</loc>
     <lastmod>2025-03-11</lastmod>
   </url>
 </urlset>
