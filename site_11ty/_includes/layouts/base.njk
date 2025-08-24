@@ -7,7 +7,6 @@
     <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/game_player.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
@@ -22,6 +21,7 @@
     </script> #}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="{{ '/js/game_player.js' | url }}"></script>
+    <script src="{{ '/js/cyoa-player-b.js' | url }}"></script>
   </head>
   <body>
     <header>

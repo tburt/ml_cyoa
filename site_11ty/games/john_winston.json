@@ -1,0 +1,642 @@
+{
+    "title": "John Winston's Time Machine",
+    "description": "You inherit John Winston’s cluttered workshop and the half-finished machine that obsessed him. Your objective: complete the device, mend a fracture in history, and decide what kind of traveler you are.",
+    "date": "2025-08-25",
+    "tags": [
+        "gpt-5",
+        "b-format",
+        "time travel"
+    ],
+    "layout": "layouts/gameb.njk",
+    "prompt": "N/A",
+    "game": {
+        "title": "John Winston's Time Machine",
+        "description": "You inherit John Winston’s cluttered workshop and the half-finished machine that obsessed him. Your objective: complete the device, mend a fracture in history, and decide what kind of traveler you are.",
+        "tags": [
+            "gpt-5",
+            "b-format",
+            "time travel"
+        ],
+        "start_entry_id": "workshop_intro",
+        "entries": {
+            "workshop_intro": {
+                "title": "The Workshop on Gilt Street",
+                "content": "Dust hangs in the slanted afternoon light. Brass gears sleep in trays; a chalkboard diagram shows a chair inside a copper cage labeled ‘Temporal Frame’. A note pinned to the board in a careful hand reads: “Three anchors stabilize the weave: coil, disk, cell. —J.W.”\n\nObjective: assemble the **stabilizer coil**, **calibration disk**, and **power cell**, then repair the machine and decide how to set history right.\n\n{% if flags.got_goggles %}Your temporal goggles rest light and cool against your brow, faint glyphs gliding across the lenses.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Read John’s notebooks and loose papers",
+                        "entry_id": "desk_notes",
+                        "if_none": [
+                            "got_dossier"
+                        ]
+                    },
+                    {
+                        "content": "Rattle the dented lockers against the wall",
+                        "entry_id": "locker_key",
+                        "if_none": [
+                            "got_key"
+                        ]
+                    },
+                    {
+                        "content": "Inspect the copper cage and its consoles",
+                        "entry_id": "machine_bay"
+                    }
+                ]
+            },
+            "desk_notes": {
+                "title": "A Life in the Margins",
+                "content": "You skim notebooks packed with diagrams and letters in tidy envelopes. One sealed folder bears your name. Inside: a lineage letter proving your connection to John Winston and a stamped museum letter inviting ‘the bearer’ to consult with future archivists. A pocket note reads: “If I don’t return, take my place and finish kindly.” You fold the papers and keep them.",
+                "choices": [
+                    {
+                        "content": "Return to the workshop floor",
+                        "entry_id": "workshop_intro"
+                    }
+                ],
+                "set_flags": [
+                    "got_dossier"
+                ]
+            },
+            "locker_key": {
+                "title": "Cold Steel, Warm Luck",
+                "content": "The bottom locker coughs up a small **brass key** on a string. On the tag: ‘Mentor’s safe, Lambeth, 1895’.",
+                "choices": [
+                    {
+                        "content": "Pocket the key and step back",
+                        "entry_id": "workshop_intro"
+                    }
+                ],
+                "set_flags": [
+                    "got_key"
+                ]
+            },
+            "machine_bay": {
+                "title": "The Copper Cage",
+                "content": "You circle the capsule. Coils glimmer; dials wink like patient eyes.\n\nStatus — Coil: {% if flags.got_coil %}OK{% else %}missing{% endif %}; Disk: {% if flags.got_disk %}OK{% else %}missing{% endif %}; Cell: {% if flags.got_cell %}OK{% else %}missing{% endif %}.\n\nA rotary dial lists coordinates by era nickname: *Lambeth 1895*, *London 1941*, *Cape 1969*, *Museum 2042*, *Archive 2120*.\n\n{% if flags.got_goggles %}Through the lenses you see a faint lattice pulsing around the cage: the weave, waiting.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Enter the capsule and spin up the dial",
+                        "entry_id": "time_dial"
+                    },
+                    {
+                        "content": "Begin final assembly and calibration",
+                        "entry_id": "repair_plan",
+                        "if_all": [
+                            "got_coil",
+                            "got_disk",
+                            "got_cell"
+                        ]
+                    },
+                    {
+                        "content": "Step back into the workshop",
+                        "entry_id": "workshop_intro"
+                    }
+                ]
+            },
+            "time_dial": {
+                "title": "The Dial Hums",
+                "content": "The chair grips, belts click. The world narrows to a wheel of eras.\n\nYou currently hold: {% if flags.got_coil %}Stabilizer Coil{% else %}—{% endif %}, {% if flags.got_disk %}Calibration Disk{% else %}—{% endif %}, {% if flags.got_cell %}Power Cell{% else %}—{% endif %}.{% if flags.got_goggles %} Glyphs skate across your goggles, predicting safer paths.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Lambeth, 1895 — John’s mentor’s laboratory",
+                        "entry_id": "victorian_lab_intro"
+                    },
+                    {
+                        "content": "London, 1941 — The Blitzed street",
+                        "entry_id": "blitz_street"
+                    },
+                    {
+                        "content": "Cape Canaveral, 1969 — Guidance wing",
+                        "entry_id": "apollo_gate"
+                    },
+                    {
+                        "content": "Museum, 2042 — The Time Exhibit",
+                        "entry_id": "museum_floor"
+                    },
+                    {
+                        "content": "Grand Archive, 2120 — Requests and Returns",
+                        "entry_id": "archive_foyer"
+                    },
+                    {
+                        "content": "Return to the copper cage",
+                        "entry_id": "machine_bay"
+                    }
+                ]
+            },
+            "victorian_lab_intro": {
+                "title": "Lambeth, 1895",
+                "content": "Gaslight stains the windows amber. Inside, an orderly chaos of retorts and brass. Against the far wall: a stout safe etched ‘K. Harrow’. A polite card stand by the door invites visitors to leave a calling card.\n\n{% if flags.got_coil %}The safe’s aura feels hollow; whatever you needed here has already been taken.{% else %}If the coil exists anywhere, it will be here.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Use the brass key on the safe",
+                        "entry_id": "victorian_safe",
+                        "if_all": [
+                            "got_key"
+                        ],
+                        "if_none": [
+                            "got_coil"
+                        ]
+                    },
+                    {
+                        "content": "Pick the safe’s lock with improvised tools",
+                        "entry_id": "victorian_pick",
+                        "if_none": [
+                            "got_coil"
+                        ]
+                    },
+                    {
+                        "content": "Leave a calling card with a strange future address",
+                        "entry_id": "victorian_trace",
+                        "if_none": [
+                            "caused_paradox"
+                        ]
+                    },
+                    {
+                        "content": "Slip back to the capsule",
+                        "entry_id": "time_dial"
+                    }
+                ]
+            },
+            "victorian_safe": {
+                "title": "Gentle Click",
+                "content": "The key fits like a memory. Inside: a toroidal **stabilizer coil**, wrapped in varnished cloth and labeled ‘Experimental — returns promised.’ You take it and relock the safe, replacing the cloth exactly.",
+                "choices": [
+                    {
+                        "content": "Close the safe and depart",
+                        "entry_id": "victorian_leave"
+                    }
+                ],
+                "set_flags": [
+                    "got_coil",
+                    "left_no_trace"
+                ]
+            },
+            "victorian_pick": {
+                "title": "Scratch and Yield",
+                "content": "After tense minutes the tumblers give. The safe opens with a sigh. You take the **stabilizer coil** but the hurried work leaves a faint scratch along the face — a mark historians will puzzle over.",
+                "choices": [
+                    {
+                        "content": "Pocket the coil and go",
+                        "entry_id": "victorian_leave"
+                    }
+                ],
+                "set_flags": [
+                    "got_coil",
+                    "caused_paradox"
+                ]
+            },
+            "victorian_trace": {
+                "title": "A Card Out of Time",
+                "content": "You ink your name and a future year on a stiff card. It looks elegant, and disastrously premature.",
+                "choices": [
+                    {
+                        "content": "Think better of it and depart",
+                        "entry_id": "victorian_leave"
+                    }
+                ],
+                "set_flags": [
+                    "caused_paradox"
+                ]
+            },
+            "victorian_leave": {
+                "title": "Gaslight Fades",
+                "content": "You step out as the lab door clicks shut. Somewhere, a clock insists the present is only a habit.",
+                "choices": [
+                    {
+                        "content": "Return to the eras wheel",
+                        "entry_id": "time_dial"
+                    }
+                ]
+            },
+            "blitz_street": {
+                "title": "London, 1941",
+                "content": "Sirens yowl. Smoke rolls low. An overturned pram lies by a doorway; the street is a chessboard of light and ruin.\n\n{% if flags.rescued_child %}You remember the weight of a small hand in yours and the sudden hush when a shelter door closed.{% else %}Somewhere close, a child cries once, high and thin.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Find the crying child and lead them to shelter",
+                        "entry_id": "blitz_rescue",
+                        "if_none": [
+                            "rescued_child"
+                        ]
+                    },
+                    {
+                        "content": "Move carefully, leaving no trace of your presence",
+                        "entry_id": "blitz_hide",
+                        "if_all": [
+                            "got_goggles"
+                        ],
+                        "if_none": [
+                            "left_no_trace"
+                        ]
+                    },
+                    {
+                        "content": "Wedge a modern coin in the brickwork as a ‘message’",
+                        "entry_id": "blitz_trace",
+                        "if_none": [
+                            "caused_paradox"
+                        ]
+                    },
+                    {
+                        "content": "Withdraw before the next wave",
+                        "entry_id": "blitz_exit"
+                    }
+                ]
+            },
+            "blitz_rescue": {
+                "title": "Down to the Shelter",
+                "content": "You find the child and a dazed parent. Together you run, smoke biting your lungs. The shelter door thunders shut as dust falls like snow. The family’s thanks is brief but absolute.",
+                "choices": [
+                    {
+                        "content": "Back to the street while you still can",
+                        "entry_id": "blitz_exit"
+                    }
+                ],
+                "set_flags": [
+                    "rescued_child"
+                ]
+            },
+            "blitz_hide": {
+                "title": "Ghost Through Ruin",
+                "content": "With the goggles whispering trajectories, you pick a path that intersects no glances, touches no surfaces long enough to matter. When you pause, even the smoke seems to forget you were there.",
+                "choices": [
+                    {
+                        "content": "Slip away from the sirens",
+                        "entry_id": "blitz_exit"
+                    }
+                ],
+                "set_flags": [
+                    "left_no_trace"
+                ]
+            },
+            "blitz_trace": {
+                "title": "A Shiny Coin in a Broken Wall",
+                "content": "You force a present-day coin into a mortar seam. It gleams obscenely in the firelight — an anachronism with your fingerprints inside it.",
+                "choices": [
+                    {
+                        "content": "Hurry away, pulse racing",
+                        "entry_id": "blitz_exit"
+                    }
+                ],
+                "set_flags": [
+                    "caused_paradox"
+                ]
+            },
+            "blitz_exit": {
+                "title": "All Clear (Eventually)",
+                "content": "The siren’s moan levels out. Somewhere, a kettle is set on a stubborn stove. You exhale and step back toward the waiting capsule.",
+                "choices": [
+                    {
+                        "content": "Return to the eras wheel",
+                        "entry_id": "time_dial"
+                    }
+                ]
+            },
+            "apollo_gate": {
+                "title": "Cape Canaveral, 1969",
+                "content": "Fluorescent corridors hum. A badge reader watches with a glass eye. You need the **calibration disk** — a thin pack of code and constants used to align guidance. On a side door: ‘Press & Visitors’. Down a service hall: ‘Auxiliary Guidance’.",
+                "choices": [
+                    {
+                        "content": "Bluff the Press Office with John’s letters",
+                        "entry_id": "apollo_press",
+                        "if_any": [
+                            "got_dossier"
+                        ],
+                        "if_none": [
+                            "got_disk"
+                        ]
+                    },
+                    {
+                        "content": "Sneak via auxiliary service corridors",
+                        "entry_id": "apollo_service",
+                        "if_none": [
+                            "got_disk"
+                        ]
+                    },
+                    {
+                        "content": "Back away before anyone asks questions",
+                        "entry_id": "apollo_exit"
+                    }
+                ]
+            },
+            "apollo_press": {
+                "title": "Official Enough",
+                "content": "You present your folder. The clerk frowns, then warms: ‘Oh, Mr. Winston’s protege. Brief look only.’ You’re escorted past desks and coffee into a cool room of tape reels and caddies.",
+                "choices": [
+                    {
+                        "content": "Receive a labeled calibration disk on loan",
+                        "entry_id": "apollo_disk_legit"
+                    }
+                ]
+            },
+            "apollo_service": {
+                "title": "Between Vending Machines and History",
+                "content": "You slip past a humming door and tiptoe along cable trays. A tech’s footsteps fade. In a bin: spare **calibration disks** waiting for labeling.",
+                "choices": [
+                    {
+                        "content": "Pocket an unlabeled disk and ghost out",
+                        "entry_id": "apollo_disk_sneak"
+                    }
+                ]
+            },
+            "apollo_disk_legit": {
+                "title": "Stamped and Logged",
+                "content": "The clerk hands you a slim disk and notes the ledger: ‘External consultation’. You sign with a careful, period-appropriate hand and are seen out with a smile.",
+                "choices": [
+                    {
+                        "content": "Leave before questions grow",
+                        "entry_id": "apollo_exit"
+                    }
+                ],
+                "set_flags": [
+                    "got_disk",
+                    "left_no_trace"
+                ]
+            },
+            "apollo_disk_sneak": {
+                "title": "Taken in Silence",
+                "content": "You slide the disk under your jacket. A camera blinks. Later, someone will replay the tape and wonder what went missing.",
+                "choices": [
+                    {
+                        "content": "Slip back to the capsule",
+                        "entry_id": "apollo_exit"
+                    }
+                ],
+                "set_flags": [
+                    "got_disk",
+                    "caused_paradox"
+                ]
+            },
+            "apollo_exit": {
+                "title": "Blue Sky, White Plume",
+                "content": "Outside, heat shimmers. Somewhere, a countdown rehearses its myth. You turn the dial with steady hands.",
+                "choices": [
+                    {
+                        "content": "Return to the eras wheel",
+                        "entry_id": "time_dial"
+                    }
+                ]
+            },
+            "museum_floor": {
+                "title": "Museum of Applied Temporality, 2042",
+                "content": "Bright glass, soft carpet, a gift shop orbiting a central exhibit: John Winston’s chair.\n\nA docent greets you with the cadence of someone who has memorized history for a living.",
+                "choices": [
+                    {
+                        "content": "Join the docent’s tour and accept a loaner pair of temporal goggles",
+                        "entry_id": "museum_tour",
+                        "if_none": [
+                            "got_goggles"
+                        ]
+                    },
+                    {
+                        "content": "Lift a pair of goggles from the gift shop display",
+                        "entry_id": "museum_gift",
+                        "if_none": [
+                            "got_goggles"
+                        ]
+                    },
+                    {
+                        "content": "Leave before you become your own exhibit",
+                        "entry_id": "museum_leave"
+                    }
+                ]
+            },
+            "museum_tour": {
+                "title": "On the Record",
+                "content": "You sign a ledger acknowledging responsible use. The docent’s smile is small but real. The **temporal goggles** fit perfectly, and a quiet voice in your ear says: ‘Welcome, recognized researcher.’",
+                "choices": [
+                    {
+                        "content": "Thank the docent and step away",
+                        "entry_id": "museum_leave"
+                    }
+                ],
+                "set_flags": [
+                    "got_goggles",
+                    "met_agent",
+                    "left_no_trace"
+                ]
+            },
+            "museum_gift": {
+                "title": "Off the Record",
+                "content": "You palm a boxed pair while a hologram explains ethics to an empty room. No one shouts. Somewhere, a loss-prevention algorithm blinks awake two decades late.",
+                "choices": [
+                    {
+                        "content": "Leave with your prize",
+                        "entry_id": "museum_leave"
+                    }
+                ],
+                "set_flags": [
+                    "got_goggles",
+                    "caused_paradox"
+                ]
+            },
+            "museum_leave": {
+                "title": "Back Through Glass",
+                "content": "The museum’s automatic doors breathe you out into the slow bright future. You twist the dial.",
+                "choices": [
+                    {
+                        "content": "Return to the eras wheel",
+                        "entry_id": "time_dial"
+                    }
+                ]
+            },
+            "archive_foyer": {
+                "title": "Grand Archive, 2120",
+                "content": "An atrium like a cathedral of data. Requests are made at pillars that listen. You need a **power cell** rated for temporal discharge.",
+                "choices": [
+                    {
+                        "content": "Present John’s dossier and request a research power cell",
+                        "entry_id": "archive_request",
+                        "if_all": [
+                            "got_dossier"
+                        ],
+                        "if_none": [
+                            "got_cell"
+                        ]
+                    },
+                    {
+                        "content": "Invoke your visitor status from the Museum tour",
+                        "entry_id": "archive_agent_request",
+                        "if_all": [
+                            "met_agent"
+                        ],
+                        "if_none": [
+                            "got_cell"
+                        ]
+                    },
+                    {
+                        "content": "Slip past the pillars and find the service vaults",
+                        "entry_id": "archive_breakin",
+                        "if_none": [
+                            "got_cell"
+                        ]
+                    },
+                    {
+                        "content": "Leave before the pillars ask your name",
+                        "entry_id": "archive_exit"
+                    }
+                ]
+            },
+            "archive_request": {
+                "title": "Proper Channels",
+                "content": "You submit the dossier. The pillar whispers, validates, and dispenses a compact **power cell** along with an **Archivist’s badge** encoded to your biometrics. ‘Do not cross-charge outside a protected frame,’ it advises.",
+                "choices": [
+                    {
+                        "content": "Clip the badge and step away",
+                        "entry_id": "archive_exit"
+                    }
+                ],
+                "set_flags": [
+                    "got_cell",
+                    "got_badge",
+                    "left_no_trace"
+                ]
+            },
+            "archive_agent_request": {
+                "title": "Recognized by the System",
+                "content": "Your museum ledger pings the Archive. ‘Provisional collaborator,’ the pillar intones, dispensing a **power cell** with a time-limited seal.",
+                "choices": [
+                    {
+                        "content": "Nod to the empty air and depart",
+                        "entry_id": "archive_exit"
+                    }
+                ],
+                "set_flags": [
+                    "got_cell",
+                    "left_no_trace"
+                ]
+            },
+            "archive_breakin": {
+                "title": "Behind the Panels",
+                "content": "You move between whispering ducts. A maintenance drawer yields a sealed **power cell**. A ceiling node follows your heat trail and writes your presence into logs that will never forget.",
+                "choices": [
+                    {
+                        "content": "Bolt before the Temporal Authority triangulates you",
+                        "entry_id": "archive_exit"
+                    },
+                    {
+                        "content": "Freeze as blue light spills and surrender",
+                        "entry_id": "time_cops_lose"
+                    }
+                ],
+                "set_flags": [
+                    "got_cell",
+                    "caused_paradox"
+                ]
+            },
+            "archive_exit": {
+                "title": "Out of the Aisles of Time",
+                "content": "You step back through air that smells faintly of ozone and lemon. The wheel is ready.",
+                "choices": [
+                    {
+                        "content": "Return to the eras wheel",
+                        "entry_id": "time_dial"
+                    }
+                ]
+            },
+            "repair_plan": {
+                "title": "Final Assembly",
+                "content": "You nest the coil, slide the disk into its slot, and seat the power cell with a satisfying click. The frame thrums.\n\nHow will you stitch the tear?\n\n{% if flags.caused_paradox %}Warning: traces of anachronism detected in the weave.{% else %}Weave stable; minimal ripples predicted.{% endif %}{% if flags.rescued_child %}\nA kindness wants to be kept.{% endif %}{% if flags.met_agent %}\nThe Agency is aware of you and watching with interest.{% endif %}{% if flags.got_goggles %}\nYour goggles can mask your signature… if you want to disappear.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Calibrate for minimum ripple (quiet, canonical repair)",
+                        "entry_id": "quiet_victory_win",
+                        "if_none": [
+                            "caused_paradox"
+                        ]
+                    },
+                    {
+                        "content": "Weave around the saved lives (accept a kinder variant)",
+                        "entry_id": "kindness_branch_win",
+                        "if_all": [
+                            "rescued_child"
+                        ]
+                    },
+                    {
+                        "content": "Signal the Time Agency to witness and endorse the fix",
+                        "entry_id": "agency_recruit_win",
+                        "if_all": [
+                            "met_agent"
+                        ]
+                    },
+                    {
+                        "content": "Mask your signature and step off the map",
+                        "entry_id": "rogue_curator_win",
+                        "if_all": [
+                            "got_goggles"
+                        ]
+                    },
+                    {
+                        "content": "Force a brute-force reweave (dangerous)",
+                        "entry_id": "collapse_lose"
+                    }
+                ]
+            },
+            "quiet_victory_win": {
+                "title": "A Stitch So Fine No One Sees It",
+                "content": "You tune the field until the lattice sings. The repair lands like a feather. Newspapers remain printed; songs remain sung; only a few scholars feel a draft pass and smile, uncertain why. You step out of the cage into the same dusty light, and it feels exactly right.",
+                "choices": [],
+                "set_flags": [
+                    "repaired_machine"
+                ],
+                "end": "win"
+            },
+            "kindness_branch_win": {
+                "title": "A Better Echo",
+                "content": "You bias the weave around the shelter door and the hands you guided there. History warms by a fraction. A name that once ended early now threads on, unnoticed except where it matters. Technically, the map has changed. Practically, the world just got gentler.",
+                "choices": [],
+                "set_flags": [
+                    "repaired_machine"
+                ],
+                "end": "win"
+            },
+            "agency_recruit_win": {
+                "title": "Signed, Witnessed, Filed",
+                "content": "You open a channel. The cage floods with pale glyphs. A voice says, ‘Nicely done. If you’re willing, there’s more careful work to do.’ You step out with an **Archivist’s badge** blinking softly and a calendar that now includes centuries.",
+                "choices": [],
+                "set_flags": [
+                    "repaired_machine"
+                ],
+                "end": "win"
+            },
+            "rogue_curator_win": {
+                "title": "Vanishing Point",
+                "content": "You slide the goggles down and fold yourself into the seam between moments. The machine’s hum falls behind you like harbor bells. Somewhere, a monk will find a page you left and smile. Somewhere, a child will grow into their own quiet legend. And you? You’ll keep the shelves tidy where no catalog reaches.",
+                "choices": [],
+                "set_flags": [
+                    "repaired_machine"
+                ],
+                "end": "win"
+            },
+            "collapse_lose": {
+                "title": "Overpull",
+                "content": "You force the field to obey. It does — for one brilliant, crystalline second — and then the lattice snaps across too many places at once. The cage is suddenly full of snow and summer grass and the smell of charcoal. When it clears, there is only the workshop, ordinary and empty, as if John Winston never finished anything and neither did you.",
+                "choices": [],
+                "set_flags": [
+                    "repaired_machine"
+                ],
+                "end": "lose"
+            },
+            "time_cops_lose": {
+                "title": "Held in Blue Light",
+                "content": "‘Thank you for preserving the evidence,’ says a bored voice as the field collapses around you. The badge they pin on your chest is heavy with rules you’ve already broken. They’ll fix the tear without you.",
+                "choices": [],
+                "end": "lose"
+            }
+        },
+        "done_flags": {
+            "rescued_child": "Guided a family to a Blitz shelter.",
+            "left_no_trace": "Worked cleanly, leaving no anachronistic trace.",
+            "met_agent": "Registered with the Museum/Agency ledger.",
+            "caused_paradox": "Left a detectable anachronism in history.",
+            "repaired_machine": "Completed the repair of the time machine."
+        },
+        "inventory_flags": {
+            "got_dossier": "Winston dossier & lineage letter.",
+            "got_key": "Brass key tagged ‘Lambeth, 1895’.",
+            "got_coil": "Experimental stabilizer coil.",
+            "got_disk": "Guidance calibration disk.",
+            "got_cell": "Temporal-grade power cell.",
+            "got_goggles": "Temporal goggles (ledgered or… not).",
+            "got_badge": "Archivist’s badge from 2120."
+        }
+    }
+}

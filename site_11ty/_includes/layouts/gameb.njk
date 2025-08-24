@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<link rel="stylesheet" href="{{ '/css/game_player.css' | url }}">
+<link rel="stylesheet" href="{{ '/css/cyoa-player-b.css' | url }}">
 <h1>{{ title }}</h1>
 
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
@@ -11,21 +11,13 @@ templateClass: tmpl-post
 <a href="{{ tagUrl | url }}" class="post-tag animated-rainbow-hover">{{ tag }}</a>
 {%- endfor %}
 
-<p class="prompt_text"><b>Prompt: </b>{{ prompt }}</p>
-
 {{ content | safe }}
 
 <div id="game-content"></div>
 <script>
-    game = new CYOAPlayer($("#game-content"), '{{choices_prompt}}' == 'hide');
-   {% if raw_output %}
-        game.set_game(parse_text_game('{{ raw_output | safe }}'));
-    {% else %}
-        game.set_game({
-          "entries": {{ entries | dump | safe }},
-          "start_entry_id": "{{ start_entry_id }}"
-        });
-    {% endif %}
+  const gameData = {{ game | dump | safe }}; // serialized to JSON
+  const player = new CYOAPlayerB(document.getElementById('game-content'));
+  player.set_game(gameData);
 </script>
 
 {%- if collections.posts %}
