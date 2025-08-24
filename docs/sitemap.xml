@@ -22,6 +22,81 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/posts/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/page-list/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/games/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/raw-experience/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/nihilism/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/gpt-3/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/unwinnable/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/infinite-loop/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/time-travel/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/geminigemini-2.0-flash/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/bus_stop/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/mystery/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/gpt-5/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/tags/b-format/</loc>
+    <lastmod>2022-08-11</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/games/chasing_apples/</loc>
     <lastmod>2022-08-12</lastmod>
   </url>
@@ -37,277 +112,17 @@
   </url>
   
   <url>
+    <loc>https://example.com/ml_cyoa/</loc>
+    <lastmod>2022-08-12</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/ml_cyoa/games/the_last_bus_0a19/</loc>
     <lastmod>2025-02-21</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/games/the_chimney_2848/</loc>
-    <lastmod>2025-02-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/the_washing_machine_1bf6/</loc>
-    <lastmod>2025-02-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/caravan_park/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/posts/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/page-list/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/games/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/raw-experience/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/nihilism/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/gpt-3/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/unwinnable/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/infinite-loop/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/time-travel/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/geminigemini-2.0-flash/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/forest/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/mystery/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/caravan_park/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/wales/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/airplane/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/garden-door/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/childhood-mystery/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/wolverhampton/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/music/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/vinyl/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/shopping_mall/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/liminal/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/leeds/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/chinese-restaurant/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/slice-of-life/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/mundane/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/frustration/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/absurd/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/bus_stop/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/work/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/mistake/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/washing_machine/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/domestic/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/heatwave/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/garden/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/dreams/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/memory/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/1980s/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/bockton/</loc>
-    <lastmod>2025-02-25</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/flying_home_0fff/</loc>
-    <lastmod>2025-02-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/garden_door_37b2/</loc>
-    <lastmod>2025-02-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/shopping_mall_471f/</loc>
-    <lastmod>2025-02-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/tomato_heatwave_5070/</loc>
-    <lastmod>2025-02-26</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/sweet_and_sour_b11e/</loc>
-    <lastmod>2025-03-09</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/the_spreadsheet_d541/</loc>
-    <lastmod>2025-03-09</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/the_kettle_9c25/</loc>
-    <lastmod>2025-03-10</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/blacktail_ridge_e27b/</loc>
-    <lastmod>2025-03-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/richie_retrieval_0714/</loc>
-    <lastmod>2025-03-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/games/under_bockton_bd49/</loc>
-    <lastmod>2025-03-11</lastmod>
+    <loc>https://example.com/ml_cyoa/games/john_winston/</loc>
+    <lastmod>2025-08-25</lastmod>
   </url>
 </urlset>

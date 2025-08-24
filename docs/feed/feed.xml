@@ -5,7 +5,7 @@
 	
 	<link href="https://example.com/ml_cyoa/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2025-03-11T00:00:00Z</updated>
+	<updated>2025-08-25T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Thep Burt</name>
@@ -13,106 +13,10 @@
 	</author>
 	
 	<entry>
-		<title>Under Bockton</title>
-		<link href="https://example.com/ml_cyoa/games/under_bockton_bd49/"/>
-		<updated>2025-03-11T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/under_bockton_bd49/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Richie Retrieval</title>
-		<link href="https://example.com/ml_cyoa/games/richie_retrieval_0714/"/>
-		<updated>2025-03-11T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/richie_retrieval_0714/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Blacktail Ridge</title>
-		<link href="https://example.com/ml_cyoa/games/blacktail_ridge_e27b/"/>
-		<updated>2025-03-11T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/blacktail_ridge_e27b/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>The Kettle</title>
-		<link href="https://example.com/ml_cyoa/games/the_kettle_9c25/"/>
-		<updated>2025-03-10T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/the_kettle_9c25/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Monday Morning</title>
-		<link href="https://example.com/ml_cyoa/games/the_spreadsheet_d541/"/>
-		<updated>2025-03-09T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/the_spreadsheet_d541/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Sweet and Sour</title>
-		<link href="https://example.com/ml_cyoa/games/sweet_and_sour_b11e/"/>
-		<updated>2025-03-09T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/sweet_and_sour_b11e/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Cracked Paving</title>
-		<link href="https://example.com/ml_cyoa/games/tomato_heatwave_5070/"/>
-		<updated>2025-02-26T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/tomato_heatwave_5070/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>The Last Shopper</title>
-		<link href="https://example.com/ml_cyoa/games/shopping_mall_471f/"/>
-		<updated>2025-02-26T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/shopping_mall_471f/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>The Garden Door</title>
-		<link href="https://example.com/ml_cyoa/games/garden_door_37b2/"/>
-		<updated>2025-02-26T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/garden_door_37b2/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Flying Home</title>
-		<link href="https://example.com/ml_cyoa/games/flying_home_0fff/"/>
-		<updated>2025-02-26T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/flying_home_0fff/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>Caravan Park</title>
-		<link href="https://example.com/ml_cyoa/games/caravan_park/"/>
-		<updated>2025-02-25T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/caravan_park/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>The Washing Machine</title>
-		<link href="https://example.com/ml_cyoa/games/the_washing_machine_1bf6/"/>
-		<updated>2025-02-23T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/the_washing_machine_1bf6/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
-		<title>The Chimney</title>
-		<link href="https://example.com/ml_cyoa/games/the_chimney_2848/"/>
-		<updated>2025-02-22T00:00:00Z</updated>
-		<id>https://example.com/ml_cyoa/games/the_chimney_2848/</id>
+		<title>John Winston&#39;s Time Machine</title>
+		<link href="https://example.com/ml_cyoa/games/john_winston/"/>
+		<updated>2025-08-25T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/john_winston/</id>
 		<content type="html"></content>
 	</entry>
 	

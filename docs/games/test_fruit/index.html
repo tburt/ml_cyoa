@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Fruit</title>
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
+    <meta name="description" content="Stranded at a bus stop, something is not quite right.">
+    <link rel="stylesheet" href="/ml_cyoa/css/index.css">
+    <link rel="stylesheet" href="/ml_cyoa/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.xml" type="application/atom+xml" title="AI Choose Your Own Adventure">
+    <link rel="alternate" href="/ml_cyoa/feed/feed.json" type="application/json" title="AI Choose Your Own Adventure">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/ml_cyoa/js/game_player.js"></script>
+    <script src="/ml_cyoa/js/cyoa-player-b.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/ml_cyoa/">AI Choose Your Own Adventure</a></h1>
+      <ul class="nav">
+        <li class="nav-item "><a href="/ml_cyoa/">Home</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/tags/">Tags</a></li>
+        <li class="nav-item "><a href="/ml_cyoa/about/">About</a></li>
+      </ul>
+    </header>
+
+    <main  class="tmpl-post">
+      <link rel="stylesheet" href="/ml_cyoa/css/cyoa-player-b.css">
+<h1>Test Fruit</h1>
+
+<time datetime="2025-02-21">21 Feb 2025</time><a href="/ml_cyoa/tags/games/" class="post-tag animated-rainbow-hover">games</a><a href="/ml_cyoa/tags/gpt-5/" class="post-tag animated-rainbow-hover">gpt-5</a><a href="/ml_cyoa/tags/fruit/" class="post-tag animated-rainbow-hover">fruit</a><a href="/ml_cyoa/tags/mystery/" class="post-tag animated-rainbow-hover">mystery</a>
+
+
+
+<div id="game-content"></div>
+<script>
+  const gameData = {"title":"Fruit Warehouse — Mini Demo","description":"3-entry demo showing flags, gating, and inventory/done maps.","tags":["demo","flags","nunjucks"],"start_entry_id":"intro_001","entries":{"intro_001":{"title":"Warehouse Entrance","content":"You are standing on the main warehouse floor.{% if flags.got_lamp %} Your lamp throws a steady cone of light.{% else %} It's gloomy; a light would help.{% endif %}","choices":[{"content":"Search the crates","entry_id":"take_lamp","if_none":["got_lamp"]},{"content":"Try the exit door","entry_id":"exit_win","if_all":["got_lamp"]}]},"take_lamp":{"title":"You Find a Lamp","content":"Rummaging under straw, you uncover a small brass lamp and pocket it. A faint glow answers a firm shake.","choices":[{"content":"Return to the warehouse floor","entry_id":"intro_001"}],"set_flags":["got_lamp"]},"exit_win":{"title":"Escape!","content":"With the glow of the lamp you see the latch and slip outside into cool dawn air. You made it.","choices":[],"set_flags":["escaped"],"end":"win"}},"done_flags":{"escaped":"Escaped the warehouse."},"inventory_flags":{"got_lamp":"A brass lamp."}}; // serialized to JSON
+  const player = new CYOAPlayerB(document.getElementById('game-content'));
+  player.set_game(gameData);
+</script>
+<hr>
+<div class="post-footer">
+  <div class="prev-post">&#9194; <a class="animated-rainbow-hover" href="/ml_cyoa/games/rock_balancing_1/">Rock Balancing I</a></div>
+  <div class="next-post"><a class="animated-rainbow-hover" href="/ml_cyoa/games/the_last_bus_0a19/">The Last Bus</a> &#9193;</div>
+</div>
+
+    </main>
+
+    <footer>
+      <div>AI Choose Your Own Adventure</div>
+      <div class="footer-text">
+        © 2022 AI Choose Your Own Adventure, All rights reserved
+      </div>
+                    
+    
+            
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,153 @@
+/* Palette + base */
+.cyoaB_container {
+  --accent: #A0ff00;
+  --text-strong: #cce;
+  --text-muted: #bbe;
+  --text-dim: #ddd;
+  --panel-bg: rgba(255,255,255,0.02);
+  --panel-border: rgba(255,255,255,0.08);
+  margin: 0;
+  color: var(--text-strong);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+  line-height: 1.5;
+}
+
+.cyoaB_header { margin: 0 0.75rem 0.25rem; }
+.cyoaB_title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  margin: 0.75rem 0 0.25rem;
+  color: var(--accent);
+}
+.cyoaB_meta {
+  font-size: .9rem;
+  color: var(--text-muted);
+}
+
+.cyoaB_entry {
+  margin: 0.5rem 0.75rem 0.25rem;
+}
+.cyoaB_entry_id {
+  display: inline-block;
+  font-size: .8rem;
+  color: var(--text-muted);
+  margin: 0.5rem 0.25rem 0 0;
+  opacity: 0.8;
+}
+.cyoaB_entry_title {
+  display: block;
+  margin: 0.25rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+.cyoaB_entry_content {
+  margin: 0.5rem;
+  letter-spacing: .02rem;
+  color: var(--text-strong);
+  position: relative;
+  min-height: 1.25rem; /* keep some height while typing */
+}
+
+/* Typewriter caret */
+.cyoaB_entry_content.is-typing::after {
+  content: "▌";
+  margin-left: 2px;
+  animation: cyoaB_blink 1s steps(1) infinite;
+  position: absolute;
+}
+@keyframes cyoaB_blink { 50% { opacity: 0; } }
+
+/* Choices */
+.cyoaB_choices { margin: 0.25rem 0.5rem 0.5rem; }
+.cyoaB_choice_link {
+  display: block;
+  margin: 0.6rem 0.8rem 0.6rem 1.2rem;
+  color: var(--text-dim);
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  outline: none;
+}
+.cyoaB_choice_link:hover,
+.cyoaB_choice_link:focus {
+  color: var(--accent);
+  cursor: pointer;
+  border-bottom-color: var(--accent);
+}
+.cyoaB_no_choices {
+  margin: 0.6rem 0.8rem 0.6rem 1.2rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* End of game */
+.cyoaB_end_of_game {
+  font-size: 1.35rem;
+  text-align: center;
+  width: 100%;
+  margin: 1rem 0 0.25rem;
+}
+.cyoaB_end_win { color: var(--accent); }
+.cyoaB_end_lose { color: #ff6b6b; }
+
+/* Status panels */
+.cyoaB_status {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 1rem 0.75rem 0.25rem;
+}
+.cyoaB_panel {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+.cyoaB_panel_title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.cyoaB_list {
+  margin: 0.25rem 0 0.25rem 1rem;
+  padding: 0;
+}
+.cyoaB_list li {
+  margin: 0.25rem 0;
+}
+
+/* Controls */
+.cyoaB_controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0.75rem 3rem;
+}
+.game_play_button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.05em;
+  padding: 0.1em 0.8em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  background-color: var(--accent);
+  border-radius: 0.35em;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.8;
+  border: none;
+}
+.game_play_button:hover { cursor: pointer; }
+
+/* Misc from your current theme */
+.prompt_text { color: #cce; }
+.entry_action { /* class preserved for continuity */
+  /* colors/spacing handled by .cyoaB_choice_link */
+}
+.entry_action:hover { color: var(--accent); cursor: pointer; }
