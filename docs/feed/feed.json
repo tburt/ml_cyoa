@@ -10,9 +10,15 @@
     "url": "https://theoburt.com"
   },
   "items": [{
+      "id": "https://example.com/ml_cyoa/games/the_kitchen_wall/",
+      "url": "https://example.com/ml_cyoa/games/the_kitchen_wall/",
+      "title": "",
+      "content_html": "",
+      "date_published": "2025-08-25T00:00:00Z"
+    },{
       "id": "https://example.com/ml_cyoa/games/john_winston/",
       "url": "https://example.com/ml_cyoa/games/john_winston/",
-      "title": "John Winston&#39;s Time Machine",
+      "title": "",
       "content_html": "",
       "date_published": "2025-08-25T00:00:00Z"
     },{

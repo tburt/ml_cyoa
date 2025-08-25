@@ -87,16 +87,6 @@
   </url>
   
   <url>
-    <loc>https://example.com/ml_cyoa/tags/gpt-5/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/ml_cyoa/tags/b-format/</loc>
-    <lastmod>2022-08-11</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/ml_cyoa/games/chasing_apples/</loc>
     <lastmod>2022-08-12</lastmod>
   </url>
@@ -123,6 +113,11 @@
   
   <url>
     <loc>https://example.com/ml_cyoa/games/john_winston/</loc>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/ml_cyoa/games/the_kitchen_wall/</loc>
     <lastmod>2025-08-25</lastmod>
   </url>
 </urlset>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or "Home" }}</title>
     <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico"/>
-    <meta name="description" content="{{ description or metadata.description }}">
+    <meta name="description" content="{{ description or metadata.description or game.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
@@ -25,11 +25,11 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title or metadata.game.title}}</a></h1>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+        <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title or entry.game.title }}</a></li>
       {%- endfor %}
       </ul>
     </header>

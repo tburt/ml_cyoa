@@ -13,6 +13,14 @@
 	</author>
 	
 	<entry>
+		<title>The Kitchen Wall</title>
+		<link href="https://example.com/ml_cyoa/games/the_kitchen_wall/"/>
+		<updated>2025-08-25T00:00:00Z</updated>
+		<id>https://example.com/ml_cyoa/games/the_kitchen_wall/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
 		<title>John Winston&#39;s Time Machine</title>
 		<link href="https://example.com/ml_cyoa/games/john_winston/"/>
 		<updated>2025-08-25T00:00:00Z</updated>

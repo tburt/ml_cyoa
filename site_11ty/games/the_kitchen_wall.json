@@ -1,0 +1,1164 @@
+{
+    "date": "2025-08-25",
+    "layout": "layouts/gameb.njk",
+    "game": {
+        "title": "The Kitchen Wall",
+        "description": "A rural haunting.",
+        "tags": [
+            "horror",
+            "investigation",
+            "family",
+            "j-horror",
+            "rural"
+        ],
+        "start_entry_id": "arrival_drive",
+        "entries": {
+            "arrival_drive": {
+                "title": "Lay-By and Larks",
+                "content": "A low stone wall guides the narrow lane to your parents’ new place. The countryside smells like wet hay and cut nettles. You kill the engine. The kitchen light is on, a warm square on the garden. Your phone buzzes — a text: “We’re in the kitchen! Door’s on the latch.”",
+                "choices": [
+                    {
+                        "content": "Knock and step inside.",
+                        "entry_id": "foyer_meet_parents"
+                    },
+                    {
+                        "content": "Circle the house first, just to look.",
+                        "entry_id": "house_exterior"
+                    },
+                    {
+                        "content": "Pop the boot and sort your things.",
+                        "entry_id": "unpack_boot"
+                    }
+                ]
+            },
+            "foyer_meet_parents": {
+                "title": "Hello, Love",
+                "content": "Mum wipes her hands on a tea towel; Dad lifts a box with a grunt. The kitchen is fresh paint and old tile, the sort of place that remembers hands. “Ignore any little noises,” Mum says. “Old houses settle.” A faint damp smell clings to the far wall.",
+                "choices": [
+                    {
+                        "content": "Help unpack in the kitchen.",
+                        "entry_id": "kitchen_first_look"
+                    },
+                    {
+                        "content": "Ask them about the ‘little noises’.",
+                        "entry_id": "ask_noises"
+                    },
+                    {
+                        "content": "Take your bag to the spare room.",
+                        "entry_id": "spare_room_unpack"
+                    }
+                ],
+                "set_flags": [
+                    "arrived",
+                    "met_parents"
+                ]
+            },
+            "house_exterior": {
+                "title": "Garden Edge",
+                "content": "Foxgloves nod along the boundary. Beyond the veg patch, a ring of waist-high stones darkens the grass. Strips of paper dangle in tatters from a twig stuck between two rocks. The back kitchen window shows your parents moving about.",
+                "choices": [
+                    {
+                        "content": "Examine the ash-smeared stones.",
+                        "entry_id": "find_shrine_token"
+                    },
+                    {
+                        "content": "Try the back door to the kitchen.",
+                        "entry_id": "kitchen_back_door"
+                    },
+                    {
+                        "content": "Go round to the front and knock.",
+                        "entry_id": "foyer_meet_parents"
+                    }
+                ]
+            },
+            "find_shrine_token": {
+                "title": "Boundary Token",
+                "content": "Between the stones, you find a weathered paper charm, string rotted to threads. The ash smell is stronger here, dry and sweet.",
+                "choices": [
+                    {
+                        "content": "Pocket the charm and head to the kitchen.",
+                        "entry_id": "kitchen_back_door"
+                    },
+                    {
+                        "content": "Go back to the front door.",
+                        "entry_id": "foyer_meet_parents"
+                    }
+                ],
+                "set_flags": [
+                    "found_shrine_site",
+                    "got_shrine_token"
+                ]
+            },
+            "kitchen_back_door": {
+                "title": "Back Door",
+                "content": "The back door is locked from inside. Through the window you see a freshly painted expanse of tile on the far wall, light pooling on its gloss.",
+                "choices": [
+                    {
+                        "content": "Peer through the window a little longer.",
+                        "entry_id": "kitchen_window_peek"
+                    },
+                    {
+                        "content": "Go to the front door.",
+                        "entry_id": "foyer_meet_parents"
+                    }
+                ]
+            },
+            "kitchen_window_peek": {
+                "title": "Through Glass",
+                "content": "Something about the paint isn’t uniform — a faint smear, like breath. Your reflection looks oddly flat in the pane, as if the kitchen is deeper than it should be.",
+                "choices": [
+                    {
+                        "content": "Head to the front door.",
+                        "entry_id": "foyer_meet_parents"
+                    }
+                ]
+            },
+            "unpack_boot": {
+                "title": "Boot Inventory",
+                "content": "Your overnight bag sits beside a little emergency kit from the glovebox.",
+                "choices": [
+                    {
+                        "content": "Take your phone and charger.",
+                        "entry_id": "take_phone",
+                        "if_none": [
+                            "got_phone"
+                        ]
+                    },
+                    {
+                        "content": "Grab your torch.",
+                        "entry_id": "take_torch",
+                        "if_none": [
+                            "got_torch"
+                        ]
+                    },
+                    {
+                        "content": "Take the utility knife and a packet of salt.",
+                        "entry_id": "take_knife_salt",
+                        "if_none": [
+                            "got_utility_knife",
+                            "got_salt"
+                        ]
+                    },
+                    {
+                        "content": "Go to the front door.",
+                        "entry_id": "foyer_meet_parents"
+                    }
+                ]
+            },
+            "take_phone": {
+                "title": "Phone in Pocket",
+                "content": "You slip your phone into your pocket, cable tangled around the plug.{% if flags.got_phone %} It buzzes briefly — battery healthy.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Keep unpacking.",
+                        "entry_id": "unpack_boot"
+                    }
+                ],
+                "set_flags": [
+                    "got_phone"
+                ]
+            },
+            "take_torch": {
+                "title": "Torch Taken",
+                "content": "A stubby torch, scuffed but reliable.",
+                "choices": [
+                    {
+                        "content": "Keep unpacking.",
+                        "entry_id": "unpack_boot"
+                    }
+                ],
+                "set_flags": [
+                    "got_torch"
+                ]
+            },
+            "take_knife_salt": {
+                "title": "Useful Bits",
+                "content": "The utility knife clicks open and shut. The salt is in a zip-top bag from a motorway café.",
+                "choices": [
+                    {
+                        "content": "Keep unpacking.",
+                        "entry_id": "unpack_boot"
+                    }
+                ],
+                "set_flags": [
+                    "got_utility_knife",
+                    "got_salt"
+                ]
+            },
+            "ask_noises": {
+                "title": "Don’t Start",
+                "content": "“Pipes and paint drying,” Dad says. Mum smiles too quickly. “It’s quieter than the city, that’s all.”",
+                "choices": [
+                    {
+                        "content": "Let it drop and go help in the kitchen.",
+                        "entry_id": "kitchen_first_look"
+                    },
+                    {
+                        "content": "Take your bag to the spare room.",
+                        "entry_id": "spare_room_unpack"
+                    }
+                ]
+            },
+            "spare_room_unpack": {
+                "title": "Spare Room",
+                "content": "A folded duvet, a chest of drawers, the smell of fresh plaster. On the dresser sit a spare key and a stationery box.",
+                "choices": [
+                    {
+                        "content": "Take the house key.",
+                        "entry_id": "take_key",
+                        "if_none": [
+                            "got_house_key"
+                        ]
+                    },
+                    {
+                        "content": "Look inside the stationery box.",
+                        "entry_id": "take_charcoal",
+                        "if_none": [
+                            "got_charcoal"
+                        ]
+                    },
+                    {
+                        "content": "Head back to the kitchen.",
+                        "entry_id": "kitchen_first_look"
+                    },
+                    {
+                        "content": "Lie down for a minute.",
+                        "entry_id": "evening_meal"
+                    }
+                ]
+            },
+            "take_key": {
+                "title": "Key on the Ring",
+                "content": "Cool metal, old teeth.",
+                "choices": [
+                    {
+                        "content": "Put it in your pocket and look around more.",
+                        "entry_id": "spare_room_unpack"
+                    }
+                ],
+                "set_flags": [
+                    "got_house_key"
+                ]
+            },
+            "take_charcoal": {
+                "title": "Charcoal and Paper",
+                "content": "Two sticks of sketch charcoal and a wad of cheap paper.",
+                "choices": [
+                    {
+                        "content": "Back to the spare room.",
+                        "entry_id": "spare_room_unpack"
+                    }
+                ],
+                "set_flags": [
+                    "got_charcoal"
+                ]
+            },
+            "kitchen_first_look": {
+                "title": "Bright New Kitchen",
+                "content": "Steam fogs the window. The far wall is a smooth sheet of pale paint over tile. {% if flags.got_wall_rubbing %}Your earlier rubbing rides your thoughts like a tune you can’t shake.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Touch the painted tile.",
+                        "entry_id": "touch_wall"
+                    },
+                    {
+                        "content": "Help chop and chat with your parents.",
+                        "entry_id": "domestic_chat"
+                    },
+                    {
+                        "content": "Study the faint pattern on the wall.",
+                        "entry_id": "charcoal_rubbing",
+                        "if_all": [
+                            "got_charcoal"
+                        ]
+                    },
+                    {
+                        "content": "Check the back door and window.",
+                        "entry_id": "rear_door_check"
+                    },
+                    {
+                        "content": "You don't have charcoal — find some.",
+                        "entry_id": "need_charcoal",
+                        "if_none": [
+                            "got_charcoal"
+                        ]
+                    }
+                ]
+            },
+            "domestic_chat": {
+                "title": "Knife, Board, Steam",
+                "content": "Between onions and kettle whistles you hear about the elderly seller who moved out fast, the ‘bargain’ price, and a neighbour called Mrs Wren who “has opinions.”",
+                "choices": [
+                    {
+                        "content": "Ask more about Mrs Wren.",
+                        "entry_id": "neighbor_plan"
+                    },
+                    {
+                        "content": "Call it good and get ready for dinner.",
+                        "entry_id": "evening_meal"
+                    }
+                ]
+            },
+            "neighbor_plan": {
+                "title": "Tomorrow’s Visit",
+                "content": "“She’s in the cottage with the blue door,” Mum says. “Best to catch her in daylight.”",
+                "choices": [
+                    {
+                        "content": "Finish up and eat.",
+                        "entry_id": "evening_meal"
+                    }
+                ]
+            },
+            "rear_door_check": {
+                "title": "Cold Draft",
+                "content": "A thread of air seeps along the skirting near the painted wall. Tap. Tap.",
+                "choices": [
+                    {
+                        "content": "Tap back on the tiles.",
+                        "entry_id": "touch_wall"
+                    },
+                    {
+                        "content": "Return to chopping.",
+                        "entry_id": "evening_meal"
+                    }
+                ]
+            },
+            "touch_wall": {
+                "title": "Contact",
+                "content": "The tile is colder than it should be. You press two knuckles, and something taps back from inside the wall — the rhythm a child uses to see if you’re playing.",
+                "choices": [
+                    {
+                        "content": "Keep it to yourself and eat.",
+                        "entry_id": "evening_meal"
+                    },
+                    {
+                        "content": "Try a charcoal rubbing of the pattern.",
+                        "entry_id": "charcoal_rubbing",
+                        "if_all": [
+                            "got_charcoal"
+                        ]
+                    },
+                    {
+                        "content": "You need supplies for a rubbing.",
+                        "entry_id": "need_charcoal",
+                        "if_none": [
+                            "got_charcoal"
+                        ]
+                    }
+                ],
+                "set_flags": [
+                    "heard_wall"
+                ]
+            },
+            "need_charcoal": {
+                "title": "Unprepared",
+                "content": "You’ll need charcoal and paper to lift anything from that wall.",
+                "choices": [
+                    {
+                        "content": "Check the spare room for art supplies.",
+                        "entry_id": "spare_room_unpack"
+                    },
+                    {
+                        "content": "Leave it and go eat.",
+                        "entry_id": "evening_meal"
+                    }
+                ]
+            },
+            "charcoal_rubbing": {
+                "title": "Lifted Pattern",
+                "content": "You press paper against tile and drag the charcoal lightly. A handprint emerges, not flat but reaching, ring finger smudged to a blur. A few strokes resemble characters you can’t read.",
+                "choices": [
+                    {
+                        "content": "Show your parents the rubbing.",
+                        "entry_id": "parents_brush_off"
+                    },
+                    {
+                        "content": "Pocket it and say nothing for now.",
+                        "entry_id": "evening_meal"
+                    }
+                ],
+                "set_flags": [
+                    "got_wall_rubbing",
+                    "made_wall_rubbing"
+                ]
+            },
+            "parents_brush_off": {
+                "title": "Not Tonight",
+                "content": "Dad squints at the rubbing. “Looks like paint.” Mum says, “We’re eating before it gets cold.”",
+                "choices": [
+                    {
+                        "content": "Drop it and eat.",
+                        "entry_id": "evening_meal"
+                    },
+                    {
+                        "content": "Ask to check the attic for old plans.",
+                        "entry_id": "attic_search"
+                    }
+                ]
+            },
+            "attic_search": {
+                "title": "Under the Eaves",
+                "content": "The attic smells of dust and old gloss. Boxes: SHOES, TAX 2000s, MISC PAINT. A tube of rolled plans leans by a beam.",
+                "choices": [
+                    {
+                        "content": "Open the paint-spattered shoebox.",
+                        "entry_id": "find_old_letter"
+                    },
+                    {
+                        "content": "Check the rolled plans.",
+                        "entry_id": "find_hidden_panel_hint"
+                    },
+                    {
+                        "content": "Head back down.",
+                        "entry_id": "evening_meal"
+                    }
+                ]
+            },
+            "find_old_letter": {
+                "title": "Letter in Brown Ink",
+                "content": "A folded letter in careful hand: “Aya— forgive me. I have sealed it as they asked, though I know the wall remembers.” A date: 1979.",
+                "choices": [
+                    {
+                        "content": "Pocket the letter.",
+                        "entry_id": "attic_search"
+                    },
+                    {
+                        "content": "Read a line aloud into the rafters.",
+                        "entry_id": "whisper_reacts"
+                    }
+                ],
+                "set_flags": [
+                    "got_old_letter",
+                    "name_aya",
+                    "year_1979"
+                ]
+            },
+            "find_hidden_panel_hint": {
+                "title": "Lines and Voids",
+                "content": "The plans show a pantry that no longer exists, and a shaded cavity behind the current kitchen wall.",
+                "choices": [
+                    {
+                        "content": "Back to the boxes.",
+                        "entry_id": "attic_search"
+                    },
+                    {
+                        "content": "Head down to dinner.",
+                        "entry_id": "evening_meal"
+                    }
+                ],
+                "set_flags": [
+                    "found_hidden_panel"
+                ]
+            },
+            "whisper_reacts": {
+                "title": "Something Hears",
+                "content": "Your breath fogs in the warm attic. Below, a cupboard door bumps once, politely.",
+                "choices": [
+                    {
+                        "content": "Go down to dinner.",
+                        "entry_id": "evening_meal"
+                    }
+                ]
+            },
+            "evening_meal": {
+                "title": "Steam and Spoons",
+                "content": "Curry and rice, the clink of cutlery. The far wall gleams. {% if flags.heard_wall %}You can’t unhear the answering tap.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Offer to wash up.",
+                        "entry_id": "washing_up"
+                    },
+                    {
+                        "content": "Step into the garden with a mug of tea.",
+                        "entry_id": "garden_evening"
+                    },
+                    {
+                        "content": "Call it a night.",
+                        "entry_id": "first_night"
+                    }
+                ]
+            },
+            "washing_up": {
+                "title": "Sink Water",
+                "content": "Warm water chills over your wrists. A palm-sized shape blooms through steam on the tile.",
+                "choices": [
+                    {
+                        "content": "Flee to the garden.",
+                        "entry_id": "garden_evening"
+                    },
+                    {
+                        "content": "Touch the tile again.",
+                        "entry_id": "see_hand"
+                    }
+                ]
+            },
+            "see_hand": {
+                "title": "Hand in Paint",
+                "content": "You touch the print and the wall flexes like a breath caught in a throat.",
+                "choices": [
+                    {
+                        "content": "Tell your parents now.",
+                        "entry_id": "parents_concerned"
+                    },
+                    {
+                        "content": "Say nothing and step outside.",
+                        "entry_id": "garden_evening"
+                    }
+                ],
+                "set_flags": [
+                    "saw_hand"
+                ]
+            },
+            "parents_concerned": {
+                "title": "Under Their Eyes",
+                "content": "They’re trying to be brave for you. The kitchen feels a fraction too narrow. “We’ve been sleeping badly,” Mum admits. “It’s louder at night.”",
+                "choices": [
+                    {
+                        "content": "Offer to stay up and keep watch.",
+                        "entry_id": "first_night"
+                    },
+                    {
+                        "content": "Search the house together.",
+                        "entry_id": "night_search"
+                    }
+                ]
+            },
+            "garden_evening": {
+                "title": "Night Air",
+                "content": "The neighbour’s porch light clicks on then off. The stones at the boundary are a darker dark.",
+                "choices": [
+                    {
+                        "content": "Knock on the neighbour’s door now.",
+                        "entry_id": "neighbor_visit_evening"
+                    },
+                    {
+                        "content": "Wait for morning; turn in.",
+                        "entry_id": "first_night"
+                    }
+                ]
+            },
+            "neighbor_visit_evening": {
+                "title": "Not Tonight",
+                "content": "Behind the blue door, a television mutters. No answer. A handwritten note by the bell says: “Mornings best.”",
+                "choices": [
+                    {
+                        "content": "Head back and sleep.",
+                        "entry_id": "first_night"
+                    }
+                ]
+            },
+            "first_night": {
+                "title": "3:13",
+                "content": "The house wakes you. From the kitchen: tap… tap-tap… tap. The fridge hum dies, lights dim and steady again.",
+                "choices": [
+                    {
+                        "content": "Use your torch and watch the wall.",
+                        "entry_id": "night_wall_watch",
+                        "if_all": [
+                            "got_torch"
+                        ]
+                    },
+                    {
+                        "content": "Sit still and listen.",
+                        "entry_id": "night_listen"
+                    },
+                    {
+                        "content": "Step out to the garden in your socks.",
+                        "entry_id": "night_garden"
+                    }
+                ],
+                "set_flags": [
+                    "first_night"
+                ]
+            },
+            "night_wall_watch": {
+                "title": "Beam on Tile",
+                "content": "Your torch picks up hairline crazing in the gloss. The wall pulses once, gently, as if something tested the skin between.",
+                "choices": [
+                    {
+                        "content": "Whisper the name from the attic letter.",
+                        "entry_id": "name_connection",
+                        "if_all": [
+                            "name_aya"
+                        ]
+                    },
+                    {
+                        "content": "Pour a thin salt line along the skirting.",
+                        "entry_id": "salt_line",
+                        "if_all": [
+                            "got_salt"
+                        ]
+                    },
+                    {
+                        "content": "Keep watching in silence.",
+                        "entry_id": "night_listen"
+                    }
+                ],
+                "set_flags": [
+                    "power_outage"
+                ]
+            },
+            "night_listen": {
+                "title": "Counting",
+                "content": "A child’s rhythm: one… two… three… pause… The house counts with you.",
+                "choices": [
+                    {
+                        "content": "Place your palm on the tile.",
+                        "entry_id": "see_hand"
+                    },
+                    {
+                        "content": "Wake your parents.",
+                        "entry_id": "parents_concerned"
+                    },
+                    {
+                        "content": "Retreat to the spare room and wait for dawn.",
+                        "entry_id": "sleep_spare"
+                    }
+                ]
+            },
+            "night_garden": {
+                "title": "Boundary in Darkness",
+                "content": "The stones breathe cold. Something like a lullaby moves the hedges.",
+                "choices": [
+                    {
+                        "content": "Follow the sound to the stones.",
+                        "entry_id": "night_stones_lose"
+                    },
+                    {
+                        "content": "Go back inside, quickly.",
+                        "entry_id": "night_listen"
+                    }
+                ]
+            },
+            "night_stones_lose": {
+                "title": "Out Past the Gate",
+                "content": "Grass slicks underfoot. The song is very close and very wrong. When your ankle turns you see, from the ground, how the kitchen window holds a second, darker room behind it.",
+                "choices": [],
+                "set_flags": [
+                    "lost_in_stones"
+                ],
+                "end": "lose"
+            },
+            "salt_line": {
+                "title": "Scratch of Grain",
+                "content": "Salt ticks along the skirting. The tapping withdraws, then resumes from further inside the wall.",
+                "choices": [
+                    {
+                        "content": "Try to lift a loose tile with your knife.",
+                        "entry_id": "pry_tile",
+                        "if_all": [
+                            "got_utility_knife"
+                        ]
+                    },
+                    {
+                        "content": "Wait out the night in the spare room.",
+                        "entry_id": "sleep_spare"
+                    }
+                ],
+                "set_flags": [
+                    "salt_circle_made"
+                ]
+            },
+            "pry_tile": {
+                "title": "Edge and Give",
+                "content": "Under the paint, a corner yields. Behind tile is old wood — not brick. Air sighs from a seam.",
+                "choices": [
+                    {
+                        "content": "Lever the panel wider.",
+                        "entry_id": "open_panel"
+                    },
+                    {
+                        "content": "Stop and try to sleep.",
+                        "entry_id": "sleep_spare"
+                    }
+                ],
+                "set_flags": [
+                    "found_hidden_panel"
+                ]
+            },
+            "open_panel": {
+                "title": "The Crawlspace",
+                "content": "A dark cavity lined with brittle bundles of paper charms. The air smells of damp cloth and old milk.",
+                "choices": [
+                    {
+                        "content": "Reach inside.",
+                        "entry_id": "reach_inside"
+                    },
+                    {
+                        "content": "Shine your torch and take a photo.",
+                        "entry_id": "photo_inside",
+                        "if_all": [
+                            "got_phone"
+                        ]
+                    },
+                    {
+                        "content": "Back away and sleep.",
+                        "entry_id": "sleep_spare"
+                    }
+                ],
+                "set_flags": [
+                    "opened_crawlspace"
+                ]
+            },
+            "reach_inside": {
+                "title": "Touch",
+                "content": "Cold wraps your fingers with a grip that is not pressure but need.",
+                "choices": [
+                    {
+                        "content": "Pull back and flee.",
+                        "entry_id": "sleep_spare"
+                    },
+                    {
+                        "content": "Hold still and speak the name softly.",
+                        "entry_id": "name_connection",
+                        "if_all": [
+                            "name_aya"
+                        ]
+                    },
+                    {
+                        "content": "Yank hard and scatter salt into the gap.",
+                        "entry_id": "angry_entity"
+                    }
+                ]
+            },
+            "angry_entity": {
+                "title": "The Wall Opens",
+                "content": "You tear free. The wall answers by taking a breath in. The kitchen becomes as small as a throat.",
+                "choices": [],
+                "set_flags": [
+                    "taken"
+                ],
+                "end": "lose"
+            },
+            "photo_inside": {
+                "title": "Evidence",
+                "content": "Your screen catches a pale coil of hair snared in paper, a smear the colour of old tea, and prints — hands, many, all the same size.",
+                "choices": [
+                    {
+                        "content": "Back away and sleep.",
+                        "entry_id": "sleep_spare"
+                    }
+                ],
+                "set_flags": [
+                    "evidence_photo"
+                ]
+            },
+            "sleep_spare": {
+                "title": "Dawn Grey",
+                "content": "Birds drag a thin thread of light across the curtains.",
+                "choices": [
+                    {
+                        "content": "Visit the neighbour in daylight.",
+                        "entry_id": "neighbor_visit_day"
+                    },
+                    {
+                        "content": "Go to the local library.",
+                        "entry_id": "library_visit"
+                    },
+                    {
+                        "content": "Walk to the boundary stones.",
+                        "entry_id": "stone_shrine_day"
+                    },
+                    {
+                        "content": "Make breakfast and check on your parents.",
+                        "entry_id": "parents_morning"
+                    }
+                ]
+            },
+            "parents_morning": {
+                "title": "Pale Tea",
+                "content": "Your parents look washed out. “Did you hear it?” Mum asks, trying to sound amused.",
+                "choices": [
+                    {
+                        "content": "Tell them you’re going to investigate today.",
+                        "entry_id": "plan_day"
+                    },
+                    {
+                        "content": "Ask about the house’s history.",
+                        "entry_id": "ask_history"
+                    }
+                ]
+            },
+            "ask_history": {
+                "title": "What They Know",
+                "content": "Bought cheap from a painter who left in a rush. “There used to be a pantry,” Dad says. “Got knocked through.”",
+                "choices": [
+                    {
+                        "content": "Head to the library.",
+                        "entry_id": "library_visit"
+                    },
+                    {
+                        "content": "Visit the neighbour.",
+                        "entry_id": "neighbor_visit_day"
+                    }
+                ]
+            },
+            "plan_day": {
+                "title": "Where First?",
+                "content": "You’ve got daylight and a list.",
+                "choices": [
+                    {
+                        "content": "Neighbour with the blue door.",
+                        "entry_id": "neighbor_visit_day"
+                    },
+                    {
+                        "content": "Town library.",
+                        "entry_id": "library_visit"
+                    },
+                    {
+                        "content": "Boundary stones.",
+                        "entry_id": "stone_shrine_day"
+                    }
+                ]
+            },
+            "neighbor_visit_day": {
+                "title": "Mrs Wren",
+                "content": "She makes strong tea and stronger statements. “Japanese couple, late seventies,” she says. “Aya, she was expecting. One winter they just— vanished. A priest did a service by your stones, then someone sealed that kitchen. Men and their solutions.”",
+                "choices": [
+                    {
+                        "content": "Ask about the priest or the stones.",
+                        "entry_id": "shrine_hint"
+                    },
+                    {
+                        "content": "Ask where to find records.",
+                        "entry_id": "library_visit"
+                    },
+                    {
+                        "content": "Head back and plan.",
+                        "entry_id": "plan_day"
+                    }
+                ],
+                "set_flags": [
+                    "neighbor_story",
+                    "name_aya",
+                    "year_1979"
+                ]
+            },
+            "shrine_hint": {
+                "title": "Old Ways",
+                "content": "“They used to tie little papers. Water offerings. No one keeps it up.” She points to the boundary. “It ought to be mended.”",
+                "choices": [
+                    {
+                        "content": "Go to the stones now.",
+                        "entry_id": "stone_shrine_day"
+                    },
+                    {
+                        "content": "Try the library for details.",
+                        "entry_id": "library_visit"
+                    }
+                ],
+                "set_flags": [
+                    "found_shrine_site"
+                ]
+            },
+            "library_visit": {
+                "title": "Stacks and Microfilm",
+                "content": "A brittle clipping: “Local Couple Missing in Snow — Police Seek Witnesses.” A handwritten note in the margin: “mizuko kuyo?” The librarian finds a pamphlet on memorial rites for lost children.",
+                "choices": [
+                    {
+                        "content": "Photocopy the ritual notes.",
+                        "entry_id": "take_ritual_pages",
+                        "if_none": [
+                            "got_diary_pages"
+                        ]
+                    },
+                    {
+                        "content": "Ask about house plans and deeds.",
+                        "entry_id": "deeds_hint"
+                    },
+                    {
+                        "content": "Return to plan your next move.",
+                        "entry_id": "plan_day"
+                    }
+                ],
+                "set_flags": [
+                    "library_story",
+                    "shrine_broken"
+                ]
+            },
+            "take_ritual_pages": {
+                "title": "Rite in Your Bag",
+                "content": "A simple outline: water, name, token, promise to remember. A note about repainting seals only with consent.",
+                "choices": [
+                    {
+                        "content": "Back to the stacks.",
+                        "entry_id": "library_visit"
+                    }
+                ],
+                "set_flags": [
+                    "got_diary_pages"
+                ]
+            },
+            "deeds_hint": {
+                "title": "Paper Lines",
+                "content": "Records show a pantry removed and a “temporary seal” applied to a void. No inspection ever signed off a fill.",
+                "choices": [
+                    {
+                        "content": "Head back and plan.",
+                        "entry_id": "plan_day"
+                    }
+                ],
+                "set_flags": [
+                    "found_hidden_panel"
+                ]
+            },
+            "stone_shrine_day": {
+                "title": "Boundary in Sun",
+                "content": "By daylight, the stones show shallow carvings. Someone burned offerings here long ago. A trickle of water seeps from the bank.",
+                "choices": [
+                    {
+                        "content": "Pick up a weathered charm.",
+                        "entry_id": "take_shrine_token",
+                        "if_none": [
+                            "got_shrine_token"
+                        ]
+                    },
+                    {
+                        "content": "Make a rubbing of the inscription.",
+                        "entry_id": "make_stone_rubbing",
+                        "if_none": [
+                            "got_stone_rubbing"
+                        ]
+                    },
+                    {
+                        "content": "Offer water and a quiet promise.",
+                        "entry_id": "appeasement_mark"
+                    },
+                    {
+                        "content": "Head back to plan the evening.",
+                        "entry_id": "plan_day"
+                    }
+                ],
+                "set_flags": [
+                    "found_shrine_site"
+                ]
+            },
+            "take_shrine_token": {
+                "title": "Charm in Hand",
+                "content": "The paper crackles. Ink lines still hold.",
+                "choices": [
+                    {
+                        "content": "Keep looking around the stones.",
+                        "entry_id": "stone_shrine_day"
+                    }
+                ],
+                "set_flags": [
+                    "got_shrine_token"
+                ]
+            },
+            "make_stone_rubbing": {
+                "title": "Boundary Text",
+                "content": "Your rubbing lifts a simple script for keeping a thing where it belongs and letting what should pass, pass.",
+                "choices": [
+                    {
+                        "content": "Finish up at the stones.",
+                        "entry_id": "stone_shrine_day"
+                    }
+                ],
+                "set_flags": [
+                    "got_stone_rubbing"
+                ]
+            },
+            "appeasement_mark": {
+                "title": "Small Promise",
+                "content": "You pour a little water, bow your head, and speak a promise to remember the name you know.",
+                "choices": [
+                    {
+                        "content": "Head back and plan the night.",
+                        "entry_id": "plan_day"
+                    }
+                ],
+                "set_flags": [
+                    "appease_path"
+                ]
+            },
+            "night_search": {
+                "title": "Midnight Rounds",
+                "content": "Every floorboard has a memory. The kitchen waits like a held breath.",
+                "choices": [
+                    {
+                        "content": "Go to the kitchen wall.",
+                        "entry_id": "night_wall_watch"
+                    },
+                    {
+                        "content": "Check the attic again.",
+                        "entry_id": "attic_search"
+                    },
+                    {
+                        "content": "Wait in the hall and listen.",
+                        "entry_id": "night_listen"
+                    }
+                ]
+            },
+            "name_connection": {
+                "title": "Answering",
+                "content": "“Aya.” The name goes into the wall. The next breath comes back warmer, almost relieved.",
+                "choices": [
+                    {
+                        "content": "Promise remembrance and offer the shrine charm.",
+                        "entry_id": "prepare_appeasement",
+                        "if_all": [
+                            "name_aya",
+                            "got_shrine_token"
+                        ]
+                    },
+                    {
+                        "content": "Promise remembrance using the boundary rubbing.",
+                        "entry_id": "prepare_appeasement",
+                        "if_all": [
+                            "name_aya",
+                            "got_stone_rubbing"
+                        ]
+                    },
+                    {
+                        "content": "Promise remembrance using the ritual notes.",
+                        "entry_id": "prepare_appeasement",
+                        "if_all": [
+                            "name_aya",
+                            "got_diary_pages"
+                        ]
+                    },
+                    {
+                        "content": "Bind with salt and repaint the seal marks from the notes.",
+                        "entry_id": "prepare_banishment",
+                        "if_all": [
+                            "name_aya",
+                            "got_salt",
+                            "got_utility_knife",
+                            "library_story"
+                        ]
+                    },
+                    {
+                        "content": "Say nothing more and step back.",
+                        "entry_id": "sleep_spare"
+                    }
+                ],
+                "set_flags": [
+                    "name_connection"
+                ]
+            },
+            "prepare_appeasement": {
+                "title": "Gathering Soft Things",
+                "content": "Water in a cup. A token in your palm. Words that don’t bruise. {% if flags.got_diary_pages %}You mark the phrases to speak.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Perform the appeasement rite now.",
+                        "entry_id": "appeasement_rite"
+                    },
+                    {
+                        "content": "Wait until night deepens.",
+                        "entry_id": "second_night"
+                    }
+                ],
+                "set_flags": [
+                    "ritual_prepared",
+                    "appease_path"
+                ]
+            },
+            "prepare_banishment": {
+                "title": "Hard Line",
+                "content": "Salt, paint, a knife to score old seams. {% if flags.got_wall_rubbing %}You study your rubbing to trace the seal precisely.{% endif %}",
+                "choices": [
+                    {
+                        "content": "Begin the binding now.",
+                        "entry_id": "banishment_rite"
+                    },
+                    {
+                        "content": "Wait for the right hour.",
+                        "entry_id": "second_night"
+                    }
+                ],
+                "set_flags": [
+                    "ritual_prepared",
+                    "banish_path"
+                ]
+            },
+            "second_night": {
+                "title": "The Right Hour",
+                "content": "3:13 again. The wall is awake and waiting. Your parents sleep on, thin under the duvet.",
+                "choices": [
+                    {
+                        "content": "Begin the appeasement rite.",
+                        "entry_id": "appeasement_rite",
+                        "if_all": [
+                            "ritual_prepared",
+                            "appease_path"
+                        ]
+                    },
+                    {
+                        "content": "Begin the binding rite.",
+                        "entry_id": "banishment_rite",
+                        "if_all": [
+                            "ritual_prepared",
+                            "banish_path"
+                        ]
+                    },
+                    {
+                        "content": "Stand and listen a moment longer.",
+                        "entry_id": "night_listen"
+                    }
+                ]
+            },
+            "appeasement_rite": {
+                "title": "Water on Tile",
+                "content": "You speak the name and the promise. Water beads on paint like caught breath, then slides into the seam and is gone. The wall sighs. Somewhere beyond, paper rustles like a gown. The tapping stops and does not start again.",
+                "choices": [],
+                "set_flags": [
+                    "performed_ritual",
+                    "laid_to_rest"
+                ],
+                "end": "win"
+            },
+            "banishment_rite": {
+                "title": "The Binding",
+                "content": "You score precisely where the old line runs and lay a new white edge over it, salt pressed into wet paint. The wall tightens, not with pain but with rules. The house expands a fraction, as if its lungs can finally decide to belong to themselves.",
+                "choices": [],
+                "set_flags": [
+                    "performed_ritual",
+                    "bound_in_wall"
+                ],
+                "end": "win"
+            }
+        },
+        "done_flags": {
+            "arrived": "Arrived at the house.",
+            "met_parents": "Caught up with Mum and Dad.",
+            "heard_wall": "The kitchen wall tapped back.",
+            "made_wall_rubbing": "Lifted a charcoal rubbing from the wall.",
+            "saw_hand": "Saw the hand in the paint.",
+            "found_hidden_panel": "Discovered there’s a void behind the wall.",
+            "opened_crawlspace": "Opened the crawlspace.",
+            "evidence_photo": "Photographed the inside of the wall.",
+            "first_night": "Stayed through the first night.",
+            "power_outage": "Noticed the power dip when the wall stirred.",
+            "neighbor_story": "Heard Mrs Wren’s account.",
+            "library_story": "Found records at the library.",
+            "year_1979": "Fixed the year of the old disappearance.",
+            "found_shrine_site": "Located the boundary stone shrine.",
+            "shrine_broken": "Learned the shrine fell out of use.",
+            "salt_circle_made": "Laid a salt line along the skirting.",
+            "name_aya": "Learned the name: Aya.",
+            "appease_path": "Chose a gentle way forward.",
+            "banish_path": "Prepared a binding.",
+            "ritual_prepared": "Made things ready for a rite.",
+            "performed_ritual": "Spoke and acted at the wall.",
+            "laid_to_rest": "Laid the haunting to rest.",
+            "bound_in_wall": "Bound the presence to its place.",
+            "lost_in_stones": "Went to the stones at night.",
+            "taken": "Angered what lives in the wall."
+        },
+        "inventory_flags": {
+            "got_phone": "Phone with a working camera.",
+            "got_torch": "Reliable little torch.",
+            "got_utility_knife": "Folding utility knife.",
+            "got_salt": "Packet of salt.",
+            "got_house_key": "Spare key to the house.",
+            "got_charcoal": "Charcoal sticks and rough paper.",
+            "got_old_letter": "Old letter mentioning the name ‘Aya’.",
+            "got_shrine_token": "Weathered paper charm from the boundary.",
+            "got_wall_rubbing": "Charcoal rubbing of the kitchen pattern.",
+            "got_stone_rubbing": "Rubbing of the boundary inscription.",
+            "got_diary_pages": "Photocopies of simple memorial rites."
+        }
+    }
+}

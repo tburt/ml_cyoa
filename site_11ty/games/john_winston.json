@@ -1,14 +1,6 @@
 {
-    "title": "John Winston's Time Machine",
-    "description": "You inherit John Winston’s cluttered workshop and the half-finished machine that obsessed him. Your objective: complete the device, mend a fracture in history, and decide what kind of traveler you are.",
     "date": "2025-08-25",
-    "tags": [
-        "gpt-5",
-        "b-format",
-        "time travel"
-    ],
     "layout": "layouts/gameb.njk",
-    "prompt": "N/A",
     "game": {
         "title": "John Winston's Time Machine",
         "description": "You inherit John Winston’s cluttered workshop and the half-finished machine that obsessed him. Your objective: complete the device, mend a fracture in history, and decide what kind of traveler you are.",
